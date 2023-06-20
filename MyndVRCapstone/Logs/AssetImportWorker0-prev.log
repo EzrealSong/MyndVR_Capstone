@@ -15,7 +15,7 @@ D:/Github/CPI441_Omniverse/MyndVR_Capstone/MyndVRCapstone
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55030
+62289
 Successfully changed project path to: D:/Github/CPI441_Omniverse/MyndVR_Capstone/MyndVRCapstone
 D:/Github/CPI441_Omniverse/MyndVR_Capstone/MyndVRCapstone
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ D:/Github/CPI441_Omniverse/MyndVR_Capstone/MyndVRCapstone
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [24840] Host "[IP] 192.168.0.209 [Port] 0 [Flags] 2 [Guid] 1533889548 [EditorId] 1533889548 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-T28UBDT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [21920] Host "[IP] 192.168.0.209 [Port] 0 [Flags] 2 [Guid] 3861817020 [EditorId] 3861817020 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-T28UBDT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [24840] Host "[IP] 192.168.0.209 [Port] 0 [Flags] 2 [Guid] 1533889548 [EditorId] 1533889548 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-T28UBDT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [21920] Host "[IP] 192.168.0.209 [Port] 0 [Flags] 2 [Guid] 3861817020 [EditorId] 3861817020 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-T28UBDT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 3.48 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 9.57 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.0f1 (fb119bb0b476)
 [Subsystems] Discovering subsystems at path F:/Unity/2022.3.0f1/Editor/Data/Resources/UnitySubsystems
@@ -69,46 +69,46 @@ Initialize mono
 Mono path[0] = 'F:/Unity/2022.3.0f1/Editor/Data/Managed'
 Mono path[1] = 'F:/Unity/2022.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'F:/Unity/2022.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56072
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56872
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: F:/Unity/2022.3.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: F:/Unity/2022.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004067 seconds.
-- Loaded All Assemblies, in  0.281 seconds
+Registered in 0.003523 seconds.
+- Loaded All Assemblies, in  0.251 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 193 ms
+Android Extension - Scanning For ADB Devices 172 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.450 seconds
-Domain Reload Profiling: 731ms
-	BeginReloadAssembly (84ms)
+- Finished resetting the current domain, in  0.418 seconds
+Domain Reload Profiling: 669ms
+	BeginReloadAssembly (69ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (41ms)
-	LoadAllAssembliesAndSetupDomain (119ms)
-		LoadAssemblies (83ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (107ms)
+		LoadAssemblies (69ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (116ms)
-			TypeCache.Refresh (115ms)
-				TypeCache.ScanAssembly (105ms)
+		AnalyzeDomain (104ms)
+			TypeCache.Refresh (104ms)
+				TypeCache.ScanAssembly (92ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (450ms)
+	FinalizeReload (418ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (403ms)
+		SetupLoadedEditorAssemblies (374ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (288ms)
+			InitializePlatformSupportModulesInManaged (256ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (76ms)
+			ProcessInitializeOnLoadAttributes (79ms)
 			ProcessInitializeOnLoadMethodAttributes (34ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
@@ -119,52 +119,62 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Github\CPI441_Omniverse\MyndVR_Capstone\MyndVRCapstone\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Github\CPI441_Omniverse\MyndVR_Capstone\MyndVRCapstone\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.582 seconds
-Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.561 seconds
+Refreshing native plugins compatible for Editor in 4.03 ms, found 9 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.382 seconds
-Domain Reload Profiling: 964ms
-	BeginReloadAssembly (121ms)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.465 seconds
+Domain Reload Profiling: 1026ms
+	BeginReloadAssembly (96ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (17ms)
-	RebuildCommonClasses (29ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (27ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (388ms)
-		LoadAssemblies (215ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (398ms)
+		LoadAssemblies (188ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (243ms)
-			TypeCache.Refresh (229ms)
-				TypeCache.ScanAssembly (218ms)
-			ScanForSourceGeneratedMonoScriptInfo (11ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (382ms)
+		AnalyzeDomain (262ms)
+			TypeCache.Refresh (243ms)
+				TypeCache.ScanAssembly (232ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (465ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (256ms)
+		SetupLoadedEditorAssemblies (342ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (17ms)
+			InitializePlatformSupportModulesInManaged (15ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (39ms)
-			ProcessInitializeOnLoadAttributes (180ms)
-			ProcessInitializeOnLoadMethodAttributes (15ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (240ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.82 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.05 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3066 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (56.3 KB). Loaded Objects now: 3533.
-Memory consumption went from 121.2 MB to 121.1 MB.
-Total: 4.614800 ms (FindLiveObjects: 0.316300 ms CreateObjectMapping: 0.251400 ms MarkObjects: 3.903500 ms  DeleteObjects: 0.141900 ms)
+Unloading 4258 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (70.2 KB). Loaded Objects now: 4727.
+Memory consumption went from 148.9 MB to 148.9 MB.
+Total: 2.771400 ms (FindLiveObjects: 0.314600 ms CreateObjectMapping: 0.159400 ms MarkObjects: 2.193900 ms  DeleteObjects: 0.101900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -179,23 +189,117 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 343110.472570 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ddaa70229b23db9a21504e749147d4d6') in 0.069557 seconds
+  Time since last request: 361911.235287 seconds.
+  path: Assets/Scenes/Game Menu.unity
+  artifactKey: Guid(5fb2b661ed07bc3418df5f10f18cc49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game Menu.unity using Guid(5fb2b661ed07bc3418df5f10f18cc49b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76689496875bdcab238a076d183fa383') in 0.001960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 190.694936 seconds.
+  path: Assets/XR/XRGeneralSettingsPerBuildTarget.asset
+  artifactKey: Guid(f4ebffef80508bb408e64038c9bd83a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/XRGeneralSettingsPerBuildTarget.asset using Guid(f4ebffef80508bb408e64038c9bd83a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd689dc60e6934b1ef72994cd64f960c0') in 0.016387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 5.873282 seconds.
+  path: Assets/XR
+  artifactKey: Guid(8ea118e8944c7864ca65578e31f8a542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR using Guid(8ea118e8944c7864ca65578e31f8a542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6996df8e90cf62c702572ab61bcd526') in 0.000332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.732221 seconds.
+  path: Assets/XRI
+  artifactKey: Guid(d88bc777f9bc2a94eb6508a1666d510d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI using Guid(d88bc777f9bc2a94eb6508a1666d510d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efcbadd0b2c1dee30fe5631c6d3ab822') in 0.000360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.751837 seconds.
+  path: Assets/XRI/Settings
+  artifactKey: Guid(f3f5d4289936e2f4b9c01dc552edf00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI/Settings using Guid(f3f5d4289936e2f4b9c01dc552edf00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2314362813aed661ce20e60a164aa297') in 0.000336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.075707 seconds.
+  path: Assets/XRI/Settings/XRInteractionEditorSettings.asset
+  artifactKey: Guid(85792e95f84a6c640a0c0db03f32ae52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI/Settings/XRInteractionEditorSettings.asset using Guid(85792e95f84a6c640a0c0db03f32ae52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4de304981422bdcab38321f6b2d43cf2') in 0.001693 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
+Received Import Request.
+  Time since last request: 1.450990 seconds.
+  path: Assets/XRI/Settings/Resources
+  artifactKey: Guid(1e6a90018e1a45f4ca0310541c84a484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI/Settings/Resources using Guid(1e6a90018e1a45f4ca0310541c84a484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dccc039925b1c56b2f594e7b88b3de7') in 0.000391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.060305 seconds.
+  path: Assets/XRI/Settings/Resources/InteractionLayerSettings.asset
+  artifactKey: Guid(fbc5148d780fa5e4682a2bc6ad47d59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI/Settings/Resources/InteractionLayerSettings.asset using Guid(fbc5148d780fa5e4682a2bc6ad47d59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aa14365461e8d7a0d85c22e6d6230c4') in 0.001055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 5.908441 seconds.
+  path: Assets/XR/Settings
+  artifactKey: Guid(6868301021563ee4aae5cce05d545a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Settings using Guid(6868301021563ee4aae5cce05d545a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c899799b9d46d2e54ba57fa040e0c1d') in 0.000389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.084572 seconds.
+  path: Assets/XR/Settings/OpenXR Editor Settings.asset
+  artifactKey: Guid(75c587ab9fcb0f64aa7fabee13ec6e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Settings/OpenXR Editor Settings.asset using Guid(75c587ab9fcb0f64aa7fabee13ec6e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebe5b7fa441d61f6ed3caa7de58af52c') in 0.001442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 8.426510 seconds.
+  path: Assets/Samples
+  artifactKey: Guid(7ed35f34ec6b81c41ae1ee220801d87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples using Guid(7ed35f34ec6b81c41ae1ee220801d87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75f40f04af2ecfd1759bd4c68bb6bc56') in 0.000442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.772454 seconds.
+  path: Assets/Samples/XR Interaction Toolkit
+  artifactKey: Guid(38ca918c7cb0d1644918effe941d640f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit using Guid(38ca918c7cb0d1644918effe941d640f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66e43b00c998486826aa6d9b1b38aaef') in 0.000302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.719164 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.3.2
+  artifactKey: Guid(ae51922b515f5fd44a6e10634b360036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.3.2 using Guid(ae51922b515f5fd44a6e10634b360036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fd9e414625c97ccbb007c6164373431') in 0.000391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Github\CPI441_Omniverse\MyndVR_Capstone\MyndVRCapstone\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Github\CPI441_Omniverse\MyndVR_Capstone\MyndVRCapstone\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.566 seconds
-Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.496 seconds
+Refreshing native plugins compatible for Editor in 4.02 ms, found 9 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
@@ -203,49 +307,46 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.564 seconds
-Domain Reload Profiling: 1130ms
-	BeginReloadAssembly (141ms)
+- Finished resetting the current domain, in  0.565 seconds
+Domain Reload Profiling: 1061ms
+	BeginReloadAssembly (113ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (42ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (363ms)
-		LoadAssemblies (203ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (335ms)
+		LoadAssemblies (172ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (223ms)
-			TypeCache.Refresh (217ms)
-				TypeCache.ScanAssembly (206ms)
-			ScanForSourceGeneratedMonoScriptInfo (3ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (564ms)
+		AnalyzeDomain (217ms)
+			TypeCache.Refresh (212ms)
+				TypeCache.ScanAssembly (200ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (565ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (282ms)
+		SetupLoadedEditorAssemblies (310ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (20ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (45ms)
-			ProcessInitializeOnLoadAttributes (191ms)
-			ProcessInitializeOnLoadMethodAttributes (19ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (202ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 1.43 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.96 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3140 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3620.
-Memory consumption went from 121.3 MB to 121.3 MB.
-Total: 2.192900 ms (FindLiveObjects: 0.246300 ms CreateObjectMapping: 0.108200 ms MarkObjects: 1.785100 ms  DeleteObjects: 0.052400 ms)
+Unloading 4243 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 48 unused Assets / (44.5 KB). Loaded Objects now: 4732.
+Memory consumption went from 146.3 MB to 146.2 MB.
+Total: 2.472200 ms (FindLiveObjects: 0.233800 ms CreateObjectMapping: 0.218900 ms MarkObjects: 1.954400 ms  DeleteObjects: 0.064200 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -255,7 +356,6 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
@@ -265,505 +365,1352 @@ Received Prepare
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Github\CPI441_Omniverse\MyndVR_Capstone\MyndVRCapstone\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Github\CPI441_Omniverse\MyndVR_Capstone\MyndVRCapstone\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  2.748 seconds
-Refreshing native plugins compatible for Editor in 4.21 ms, found 9 plugins.
+- Loaded All Assemblies, in  0.539 seconds
+Refreshing native plugins compatible for Editor in 4.57 ms, found 9 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.426 seconds
-Domain Reload Profiling: 3174ms
-	BeginReloadAssembly (139ms)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.583 seconds
+Domain Reload Profiling: 1122ms
+	BeginReloadAssembly (117ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (40ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (2546ms)
-		LoadAssemblies (2436ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (372ms)
+		LoadAssemblies (184ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (176ms)
-			TypeCache.Refresh (176ms)
-				TypeCache.ScanAssembly (166ms)
+		AnalyzeDomain (245ms)
+			TypeCache.Refresh (240ms)
+				TypeCache.ScanAssembly (226ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (427ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (583ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (179ms)
+		SetupLoadedEditorAssemblies (315ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (17ms)
+			InitializePlatformSupportModulesInManaged (16ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (50ms)
-			ProcessInitializeOnLoadAttributes (91ms)
-			ProcessInitializeOnLoadMethodAttributes (16ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (210ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 3.84 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 5.04 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3609 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 44 unused Assets / (44.1 KB). Loaded Objects now: 4064.
-Memory consumption went from 128.0 MB to 128.0 MB.
-Total: 2.862400 ms (FindLiveObjects: 0.436900 ms CreateObjectMapping: 0.247400 ms MarkObjects: 2.097300 ms  DeleteObjects: 0.079800 ms)
+Unloading 4244 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 48 unused Assets / (44.5 KB). Loaded Objects now: 4736.
+Memory consumption went from 146.5 MB to 146.5 MB.
+Total: 2.612700 ms (FindLiveObjects: 0.282900 ms CreateObjectMapping: 0.232000 ms MarkObjects: 2.011100 ms  DeleteObjects: 0.085300 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
-  custom:scripting/monoscript/fileName/InvertVector3Processor.cs: 26cd309c39f83c2c220d5ebd4cff9df8 -> 
-  custom:scripting/monoscript/fileName/IInputInteraction.cs: 904998db3f6a68004028b91c21d88b1a -> 
-  custom:scripting/monoscript/fileName/SetSamplingFrequencyCommand.cs: 47d086117c0acad03de65dbcce09e259 -> 
-  custom:scripting/monoscript/fileName/OpenXRFeatureSettingsEditor.cs: 46f7bc9b6667349416d592c92274a2cd -> 
-  custom:scripting/monoscript/fileName/VirtualMouseInput.cs: e3ef3ab161a243cb2a500a35a4caee75 -> 
-  custom:scripting/monoscript/fileName/InputActionAssetEditor.cs: 4adbf4cb8c26b8932ee3ffc274073efe -> 
-  custom:scripting/monoscript/fileName/WarpMousePositionCommand.cs: 01384d8ffa6a4ca8ee07bdccdac35b25 -> 
-  custom:scripting/monoscript/fileName/IInputActionCollection.cs: 48d624420401ff220daba7d5ae2b1364 -> 
-  custom:scripting/monoscript/fileName/InputActionInspector.cs: feb294aa54880b2096f97ebf1b199a15 -> 
-  custom:scripting/monoscript/fileName/RequestSyncCommand.cs: 77a116703141a2eb2b4f13048db47d70 -> 
-  custom:scripting/monoscript/fileName/InputStateBuffers.cs: 093dce8d3186118dd5042dafab7ae9e8 -> 
-  custom:scripting/monoscript/fileName/InputActionCodeGenerator.cs: fca5f00d4b3eb657093524f16bf7bf13 -> 
-  custom:scripting/monoscript/fileName/OnScreenButton.cs: 899b27e30b3465adcf27965c13bdc93c -> 
-  custom:scripting/monoscript/fileName/DpadControl.cs: cfb85ad133fb5cf56fdc4c985aa8f908 -> 
-  custom:scripting/monoscript/fileName/SwitchProControllerHID.cs: 78f82bd2c370087351de0e08672adca7 -> 
-  custom:scripting/monoscript/fileName/InputLayoutCodeGenerator.cs: 9639b5848dc57960c08578d20d665948 -> 
-  custom:scripting/monoscript/fileName/UnityRemoteSupport.cs: 982f96b2b3bcf7b6fe852779285ed35f -> 
-  custom:scripting/monoscript/fileName/TwoModifiersComposite.cs: eb122d12dc9485d1b7f97cc256726e8b -> 
-  custom:scripting/monoscript/fileName/InputActionState.cs: 0b37a93989f6e5de9afaeb4201ff9fd1 -> 
-  custom:scripting/monoscript/fileName/InternedString.cs: 95f1db197e52a5e6ea3f009cd95df5ed -> 
-  custom:scripting/monoscript/fileName/DisableDeviceCommand.cs: 0ad271a8bb040421b84ee6fbd5f9b9ad -> 
-  custom:scripting/monoscript/fileName/NormalizeVector3Processor.cs: a9fdcc08cb92f00cadc525b362b15ecf -> 
-  custom:scripting/monoscript/fileName/GenericXRDevice.cs: 31f8338285464e5a41cc62a6bcd45bcc -> 
-  custom:scripting/monoscript/fileName/GoogleVR.cs: 99c1f4b0215996dade99604b61c7ec12 -> 
-  custom:scripting/monoscript/fileName/AnimationPlayableAsset.cs: 009db08c97e92a2c69986ab256d074e2 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/OpenVR.cs: 77f0de6828ff8ecbd33f19acd04444f7 -> 
-  custom:scripting/monoscript/fileName/FastMouse.partial.cs: c1eb115b9947f2d7660b6624e6d2a006 -> 
-  custom:scripting/monoscript/fileName/UWPCoreWindowBuildHooks.cs: aa362e8f1dd27967a910dfe70bf12468 -> 
-  custom:scripting/precompiled-assembly-types:Unity.PlasticSCM.Editor: 1ef1cb9af7c7d64bd75bd621bba19cd7 -> 
-  custom:scripting/monoscript/fileName/iOSPostProcessBuild.cs: 9511a85ceb885fe21fc0fd0763de6cf3 -> 
-  custom:scripting/monoscript/fileName/InputControlPicker.cs: 6b00d000a225762ecd654d2e2099bede -> 
-  custom:scripting/monoscript/fileName/IHaptics.cs: 5c70e747929f1a71eccdc11041ef53fe -> 
-  custom:scripting/monoscript/fileName/DownloadableSample.cs: 89120054f688b631c9ee6f5097128d97 -> 
-  custom:scripting/monoscript/fileName/TouchControl.cs: bc4be08888a45c76e7675bb7d2381412 -> 
-  custom:scripting/monoscript/fileName/InputSettingsProvider.cs: aad247d3909e557ebafce3429de6662a -> 
-  custom:scripting/monoscript/fileName/Keyboard.cs: 7ecd46b364aabed617ca2aa518d013e5 -> 
-  custom:scripting/monoscript/fileName/InputDevice.cs: 5d904dd2c22e502aeeaf9ca9e6633e24 -> 
-  custom:scripting/precompiled-assembly-types:Unity.Performance.Profile-Analyzer.Editor: e1bfc0e7188f9eeca54cb211a0aba1bc -> 
-  custom:scripting/monoscript/fileName/Oculus.cs: 2edcd533dd4b371bb248051a8fa77761 -> 
-  custom:scripting/precompiled-assembly-types:Unity.InputSystem.TestFramework: 7ec75b260a40a57aeffe570e5787571b -> 
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.Core: 9504fcd568c5d1da9d310196ecf766c4 -> 
-  custom:scripting/monoscript/fileName/AnimationTrack.cs: 579258c150686ede8cacf1f75da21715 -> 
-  custom:scripting/monoscript/fileName/InputActionDebuggerWindow.cs: 872825097bc1ef1faa83af3d2b00a7e1 -> 
-  custom:scripting/monoscript/fileName/AssemblyInfo.cs: 53d0e8986685ee279f50bdc53646eeb9 -> 
-  custom:scripting/monoscript/fileName/IEventPreProcessor.cs: 7295c10dcae8814a8292aa0ee947599f -> 
-  custom:scripting/monoscript/fileName/IntegerControl.cs: 888315a91a2577ba62858fefb74b01da -> 
-  custom:scripting/monoscript/fileName/AxisComposite.cs: 1a3b07803006c7cd98260293e041921c -> 
-  custom:scripting/monoscript/fileName/QueryUserIdCommand.cs: a01aca235669f681cb2e5d6ae8addaa9 -> 
-  custom:scripting/monoscript/fileName/NormalizeProcessor.cs: 3de4423bc603683c7ace908ef059b016 -> 
-  custom:scripting/monoscript/fileName/InputDeviceDebuggerWindow.cs: d5d7f249a0c7e26b5c99aed83ca56ee7 -> 
-  custom:scripting/monoscript/fileName/MetaQuestFeatureEditor.cs: fff340053bb2e94334d0d5989f2eb349 -> 
-  custom:scripting/monoscript/fileName/InputMetrics.cs: a5c225dbed9a189ed621c2052e3e4812 -> 
-  custom:scripting/monoscript/fileName/XInputControllerWindows.cs: ccd364aacdd4c07fc90a580603986127 -> 
-  custom:scripting/monoscript/fileName/TouchHistory.cs: 0bd5153c399a7814148eb0529881c327 -> 
-  custom:scripting/monoscript/fileName/TouchscreenControlPickerLayout.cs: 2125296fdeb3923857d26aa69c1c47f2 -> 
-  custom:scripting/monoscript/fileName/InputUserSettings.cs: 916cc29923c01ad422d1a009d6775681 -> 
-  custom:scripting/monoscript/fileName/IInputRuntime.cs: 683baa8e477b4ccf74f0b797af7a5130 -> 
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.State.Editor: bfd19d10497364660dabdb7b0dffedf3 -> 
-  custom:scripting/monoscript/fileName/HIDSupport.cs: 099f7abf8a3ee4aa9bd36bc75ccbfefb -> 
-  custom:scripting/monoscript/fileName/ButtonWithOneModifier.cs: 68f005a2616c543c53a81e953d2b1c97 -> 
-  custom:scripting/monoscript/fileName/QuaternionControl.cs: a9008c1888de55a3e771c5cf20b7f3d9 -> 
-  custom:scripting/monoscript/fileName/InputDiagnostics.cs: 33a0d887634ac60a4b86fe7315969c5c -> 
-  custom:scripting/precompiled-assembly-types:Unity.XR.Management.Editor: fe28088511f2b9a408ee32089af33792 -> 
-  custom:scripting/monoscript/fileName/InputActionTrace.cs: 004f24f75c0a176ffc4990497785b33c -> 
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.State: a1b84a027925ee482b6dab13e9d110f3 -> 
-  custom:scripting/precompiled-assembly-types:Unity.XR.OpenXR.Editor: 739ab4ab08ca4d9b89f3b3542d998904 -> 
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.SettingsProvider.Editor: 260304d2d8b32cf9aa9c89f0a7e44d64 -> 
-  custom:scripting/monoscript/fileName/SelectManyObservable.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
-  custom:scripting/monoscript/fileName/XInputSupport.cs: f0d85607abbb4b1149b4034019ff04ed -> 
-  custom:scripting/monoscript/fileName/OpenXRRuntime.cs: c3a00f9ce6a0283dcb391b83637adf44 -> 
-  custom:scripting/monoscript/fileName/InputControlDropdownItem.cs: 6f4145f10df4a32e4db357c913eda67a -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:scripting/monoscript/fileName/MemoryHelpers.cs: 53156631467fa40859bc9c1f8f88bb12 -> 
-  custom:scripting/monoscript/fileName/MetaQuestTouchProControllerProfile.cs: 9fffae235d4c14901711127c7daeb86c -> 
-  custom:scripting/monoscript/fileName/CallbackDataSource.cs: 6f704c385b696082180aa49bed32c026 -> 
-  custom:scripting/monoscript/fileName/AdvancedDropdownDataSource.cs: 428d52d44c12b04eddf300f83f94fb9c -> 
-  custom:scripting/monoscript/fileName/IInputEventTypeInfo.cs: a163e0b33b0ef6de42962a548c982415 -> 
-  custom:scripting/monoscript/fileName/OpenXRConstants.cs: f878d042bd3999b796b9387b0c8a1032 -> 
-  custom:scripting/monoscript/fileName/InputEventTreeView.cs: 70ebb846b08feb061018e0fc806019c8 -> 
-  custom:scripting/monoscript/fileName/Pointer.cs: ce2152e3a144dadf27b6b7be62c47f0a -> 
-  custom:scripting/monoscript/fileName/InputSystemUIInputModuleEditor.cs: 8bd0e6628d94b95bc4e7082bdd62e28e -> 
-  custom:scripting/monoscript/fileName/ParameterListView.cs: 018e8161ec06df153608ce9adba55c3f -> 
-  custom:scripting/precompiled-assembly-types:UnityEngine.SpatialTracking: fe8bd671b41f1462276b731bbb32d826 -> 
-  custom:scripting/monoscript/fileName/IInputStateChangeMonitor.cs: 9b99017561e3533bdb65e893153fafea -> 
-  custom:scripting/monoscript/fileName/OpenXRFeatureUICommon.cs: 45f7a59cd9c5cd84e28e0f7a429879c2 -> 
-  custom:scripting/monoscript/fileName/PressInteraction.cs: 752c473143499f0f1beaacb15f400a1d -> 
-  custom:scripting/precompiled-assembly-types:Unity.XR.OpenXR.Features.OculusQuestSupport.Editor: a119d79592f461136e8f343e24ab7dff -> 
-  custom:scripting/monoscript/fileName/Comparers.cs: a4fd4e4518e16b985ebc608a7fca9c48 -> 
-  custom:scripting/monoscript/fileName/DualShockSupport.cs: 58ad10689626ffbc27e9ff5e35a0fe94 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/PrimitiveValue.cs: 2da19b19a1bc3da68e1b06314cd109da -> 
-  custom:scripting/monoscript/fileName/OpenXRLoaderUI.cs: ebd8d704d5e26f054d43886c272cd005 -> 
-  custom:scripting/monoscript/fileName/Pen.cs: 6eab9170261bbd85df09d1ffe39eb3e1 -> 
-  custom:scripting/monoscript/fileName/StringHelpers.cs: 091725760b03f79e734c77418a754009 -> 
-  custom:scripting/monoscript/fileName/JsonParser.cs: 4ca9a1eed6af4d53f2778a8abb3703e2 -> 
-  custom:scripting/monoscript/fileName/FourCC.cs: 718ad77a73db081c260cd8ce625d1d12 -> 
-  custom:scripting/monoscript/fileName/Finger.cs: 47c63a23d4568c72c9e2be18ba728ebd -> 
-  custom:scripting/monoscript/fileName/ClampProcessor.cs: 799e07eb15a017e9ba829d3f4ca99111 -> 
-  custom:scripting/monoscript/fileName/WaitForRestartFinish.cs: 0e76bf389cf347a5d8d6432ec661895f -> 
-  custom:scripting/monoscript/fileName/InputDeviceMatcher.cs: 934062a53f2d14192d3094d9f09442b6 -> 
-  custom:scripting/precompiled-assembly-types:Unity.TestTools.CodeCoverage.Editor.OpenCover.Model: 392eba37ada58ebddffce0d6be5344c8 -> 
-  custom:scripting/monoscript/fileName/OpenXRFeatureSettings.cs: 90647cc400823b41df847a6cbfc29026 -> 
-  custom:scripting/monoscript/fileName/OpenXRBuildProcessor.cs: 48dc0e114f75799c0d74bafe70808189 -> 
-  custom:scripting/monoscript/fileName/KHRSimpleControllerProfile.cs: bcdcb81587b2075f7af2f75706b9e69a -> 
-  custom:scripting/monoscript/fileName/OpenXRFeatureInternal.cs: 90647cc400823b41df847a6cbfc29026 -> 
-  custom:scripting/monoscript/fileName/InitiateUserAccountPairingCommand.cs: 1a666a76197a03f8f7bce4a17141341c -> 
-  custom:scripting/monoscript/fileName/InputControlPathDrawer.cs: f9c7ec3ba894b22b094bce7cea9d36c7 -> 
-  custom:scripting/precompiled-assembly-types:Unity.XR.OpenXR.Features.RuntimeDebugger.Editor: f7107f3a380b24cdb9402458b35c35d8 -> 
-  custom:scripting/monoscript/fileName/SlowTapInteraction.cs: d4d7eb3e402f2cf763b711b8aca21716 -> 
-  custom:scripting/monoscript/fileName/QuerySamplingFrequencyCommand.cs: ffe0bdcb4ec1816ad7a20032df8affbd -> 
-  custom:scripting/monoscript/fileName/InputBindingComposite.cs: 8acdccf814316320ed20f4ab536c63c4 -> 
-  custom:scripting/monoscript/fileName/ConformanceAutomationFeature.cs: 97112e825fad9ed87f6a9c7acc231c0b -> 
-  custom:scripting/monoscript/fileName/InlinedArray.cs: e42627bc0cc64469ebb2649b4749f607 -> 
-  custom:scripting/monoscript/fileName/CallbackArray.cs: 90647cc400823b41df847a6cbfc29026 -> 
-  custom:scripting/monoscript/fileName/OSXGameController.cs: a3f684cd3d6af3701e16c8699ba556c0 -> 
-  custom:scripting/monoscript/fileName/TextMeshPro.cs: 0cfab9de2f927cf0a5e3dc6276498acd -> 
-  custom:scripting/monoscript/fileName/Observable.cs: 622d3d50ef7faf6ec60105d4626f5ceb -> 
-  custom:scripting/monoscript/fileName/ScaleVector3Processor.cs: 4f21bb4fa41fc96799edb532f6172693 -> 
-  custom:scripting/monoscript/fileName/InvertVector2Processor.cs: 774a3487189aea92da637db92d9118d5 -> 
-  custom:scripting/monoscript/fileName/StandaloneInputModuleEditor.cs: 0c1eaef25625ade10d4aab2e84b9d672 -> 
-  custom:scripting/monoscript/fileName/FastTouchscreen.cs: 9057cd167dd3d29f3b1283a395a3a33e -> 
-  custom:scripting/monoscript/fileName/Sensor.cs: 419cc8c616c869ad06dd0244620146f3 -> 
-  custom:scripting/monoscript/fileName/OpenXRLoaderInternal.cs: 90647cc400823b41df847a6cbfc29026 -> 
-  custom:scripting/monoscript/fileName/NamedValue.cs: 8376b4dcd097f8e75b2f3411208254ef -> 
-  custom:scripting/monoscript/fileName/InputBinding.cs: f6fa0e7ca1620e125824ad7aa87dde6a -> 
-  custom:scripting/monoscript/fileName/OnInputSystemEventAnalyser.cs: 5000030ea589a42dacb479a2f3766fbd -> 
-  custom:scripting/monoscript/fileName/PlayerInputManager.cs: d78a6a69863acf031e5348de2108e605 -> 
-  custom:scripting/monoscript/fileName/BufferedRumble.cs: 6a480de6b1fe2251e7ff08c4ce4c02ea -> 
-  custom:scripting/monoscript/fileName/PointerModel.cs: 71a6371a8f201bacb2e5db4acfc37d66 -> 
-  custom:scripting/monoscript/fileName/DelegateHelpers.cs: d5bb425af0b5b02d6700aaef05db5f95 -> 
-  custom:scripting/monoscript/fileName/AnyKeyControl.cs: 6f6956b0876c685790984c2ec0fb11df -> 
-  custom:scripting/precompiled-assembly-types:Unity.TestTools.CodeCoverage.Editor: 5e2f5a09ae9956d5f2ba8667cf64daf5 -> 
-  custom:scripting/monoscript/fileName/XRLayoutBuilder.cs: 21ffc1832cbfeb6035611a9800913395 -> 
-  custom:scripting/monoscript/fileName/SDLDeviceBuilder.cs: 00cc39ba5b1705d465f85acb258f3546 -> 
-  custom:scripting/precompiled-assembly-types:Unity.CollabProxy.Editor: 9fe11a58ab4efabc40e3993980369fc4 -> 
-  custom:scripting/monoscript/fileName/EnhancedTouchSupport.cs: 60dfbeffc3a1db5c7c0f9d4fab51a6e1 -> 
-  custom:scripting/monoscript/fileName/FeatureHelpers.cs: 0e8d07707daeed1da30b1605e903226b -> 
-  custom:scripting/monoscript/fileName/InputManager.cs: dea24e3da8b083e8a28641430520c9c0 -> 
-  custom:scripting/monoscript/fileName/InputSystemPlugin.cs: 10a580f1db4a8ef14ffb6c3b099a0564 -> 
-  custom:scripting/monoscript/fileName/DebuggerState.cs: 41070b7a08cc178a9ea51324cdaf5b81 -> 
-  custom:scripting/monoscript/fileName/Vector2Composite.cs: 3c222e4e378dcfe52075de72b9663f60 -> 
-  custom:scripting/monoscript/fileName/GetCurrentHapticStateCommand.cs: 4cd4b9a65647c18ded8aa1c4b2b9796f -> 
-  custom:scripting/monoscript/fileName/InputExtensions.cs: 8f6f56ef37e3f054a7a7409cdb252c10 -> 
-  custom:scripting/precompiled-assembly-types:Unity.XR.OpenXR.Features.MetaQuestSupport.Editor: 982cb9438f48cebfacd185afe1c70bb6 -> 
-  custom:scripting/precompiled-assembly-types:Unity.XR.OpenXR.Features.OculusQuestSupport: d5b4ca5b0866ec0fd6ee69b80320cf8a -> 
-  custom:scripting/precompiled-assembly-types:Unity.Timeline.Editor: 82acd9e255d8f0022f3ef736c3c6eb89 -> 
-  custom:scripting/monoscript/fileName/SerializedPropertyHelpers.cs: 54656cf4b888a0555d305d3172f6ef93 -> 
-  custom:scripting/monoscript/fileName/OpenXRHmd.cs: 1624687aa096b40d58d149d9c6304cca -> 
-  custom:scripting/monoscript/fileName/InputActionProperty.cs: 1cef8e3bac8177c58bdf00b89999ee70 -> 
-  custom:scripting/monoscript/fileName/InputActionImporter.cs: 19c89ffe8a0f97b5dd3ac2a40ca07edb -> 
-  custom:scripting/monoscript/fileName/InputEventListener.cs: 752a4fdcf8e5a1b2edb0fe714eecfe1e -> 
-  custom:scripting/monoscript/fileName/TypeHelpers.cs: 9fde05372a5fe2745109df4672477f7b -> 
-  custom:scripting/monoscript/fileName/InputStateBlock.cs: 979e1ff106f0ac030ea1ea8df905fcdf -> 
-  custom:scripting/monoscript/fileName/OpenXRMangementSettings.cs: 5a013b6c45b1e1d06085cb1496493b86 -> 
-  custom:scripting/monoscript/fileName/OculusTouchControllerProfile.cs: 03df51b5c781d1980f509408bae72bc8 -> 
-  custom:scripting/precompiled-assembly-types:Unity.XR.Management: d2c73419a402f326215288c4e1611bce -> 
-  custom:scripting/monoscript/fileName/PredictiveParser.cs: 11761c981acd9ecbcb551be590127cd5 -> 
-  custom:scripting/monoscript/fileName/Touch.cs: aed080cad24aa0b4153e8dc9948b58a5 -> 
-  custom:scripting/monoscript/fileName/InputControlPathEditor.cs: c4e4855b2fc09dc4e9adcd9ef893d58e -> 
-  custom:scripting/monoscript/fileName/IDualMotorRumble.cs: 5f6a1c243251c71316be36f60e2edc96 -> 
-  custom:scripting/monoscript/fileName/OpenXRNativeTypes.cs: 91cde5f962ea5dcb75652e72bac8769f -> 
-  custom:scripting/monoscript/fileName/DefaultInputActions.cs: 6d325dce06864e239959fec06a7bcb34 -> 
-  custom:scripting/monoscript/fileName/SwitchSupportHID.cs: e50c2efa89a2ad634027df9d84b4e3e0 -> 
-  custom:scripting/precompiled-assembly-types:Unity.EditorCoroutines.Editor: 939c1390cec4719064bc8982808f80e1 -> 
-  custom:scripting/monoscript/fileName/UseWindowsGamingInputCommand.cs: 61fcd09208b8fa2432a7bcd2cc77affa -> 
-  custom:scripting/monoscript/fileName/NormalizeVector2Processor.cs: 8bd7d17d8d184d12ee67e83355ec3df6 -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:scripting/monoscript/fileName/KnownFeatureSets.cs: 2cf391597f07a52473981e9cc2b41b67 -> 
-  custom:scripting/monoscript/fileName/OneModifierComposite.cs: 2396a536ac3012f9b195d576a48ca0bd -> 
-  custom:scripting/monoscript/fileName/XRSupport.cs: ac3cee8b33cb0b849f0005496405c94d -> 
-  custom:scripting/precompiled-assembly-types:Unity.XR.OpenXR.Features.MockRuntime: dd5515344599c5ef03f161894dd67ca4 -> 
-  custom:scripting/monoscript/fileName/InputActionMapDrawer.cs: 116fd0e890ca81f92874fad325884eac -> 
-  custom:scripting/monoscript/fileName/InputAction.cs: ac64462c0fc3595515f03f36d4efcbd2 -> 
-  custom:scripting/monoscript/fileName/DeviceConfigurationEvent.cs: 510c7dba8b40726e797345201b3fa470 -> 
-  custom:scripting/monoscript/fileName/InputActionAssetManager.cs: ea530132c4d1b5020dd6e476a2a38fb4 -> 
-  custom:scripting/monoscript/fileName/IDualShockHaptics.cs: 3802c2cf67d004ba5d74496df2179836 -> 
-  custom:scripting/monoscript/fileName/InputSettings.cs: d7ef7947692727d78270eb2592402c03 -> 
-  custom:scripting/monoscript/fileName/TouchPhaseControl.cs: 7512f1f8335d9b1be74dcd0ea47c1e22 -> 
-  custom:scripting/monoscript/fileName/Touchscreen.cs: ffc84b9850e1122be8bdcca9b037294c -> 
-  custom:scripting/monoscript/fileName/OpenXRProjectValidationRulesSetup.cs: 288b53a36080ddbf7ce3529e4d861664 -> 
-  custom:scripting/monoscript/fileName/WhereObservable.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
-  custom:scripting/monoscript/fileName/RequestResetCommand.cs: 5a881eceedbc23163d3feb8f09a28034 -> 
-  custom:scripting/monoscript/fileName/InvertProcessor.cs: 8fef723b3e8cbb132d922876d3097cdd -> 
-  custom:scripting/monoscript/fileName/UISupport.cs: 4aef61197fdf43dacd2c65403caf85ae -> 
-  custom:scripting/monoscript/fileName/InputControlTreeView.cs: 1bdd4cb4dbef8eaf9ad8e2bac2f52d92 -> 
-  custom:scripting/monoscript/fileName/InputControlList.cs: 849ed7f5b11c9db237ef61b01c5a5104 -> 
-  custom:scripting/monoscript/fileName/SetIMECursorPositionCommand.cs: e9aeee9dfc1e3895d4b1fdbc699ffd99 -> 
-  custom:scripting/monoscript/fileName/StickDeadzoneProcessor.cs: 6d6058c9ef1ff49292708e93df0f6950 -> 
-  custom:scripting/monoscript/fileName/MicrosoftHandInteraction.cs: dac920740153b0163dda0f7e56920e40 -> 
-  custom:scripting/monoscript/fileName/InputRemoting.cs: f8614d7aef4c39466e146a472122fec7 -> 
-  custom:scripting/monoscript/fileName/DualShockGamepad.cs: f5f4051139b2f1a41a8085b7526eb7be -> 
-  custom:scripting/monoscript/fileName/TrackedDeviceRaycaster.cs: b8a6378867816e80ed0f3d9fe60f3bbe -> 
-  custom:scripting/monoscript/fileName/Substring.cs: 155bc9f3de23b8c08e135b802ded7331 -> 
-  custom:scripting/monoscript/fileName/OnScreenControl.cs: 82f54ae925b6933f7962f7d2cbe60763 -> 
-  custom:scripting/monoscript/fileName/InputControlPickerState.cs: 5f9b5cb8afce48007728175c3eb057e8 -> 
-  custom:scripting/monoscript/fileName/RuntimeDebuggerWindow.cs: 0bc1d5ee7ce2553d42d62861471f3c44 -> 
-  custom:scripting/monoscript/fileName/TrackedDevice.cs: c0a523d9ef4d6df623781ab9912266ea -> 
-  custom:scripting/monoscript/fileName/InputUser.cs: 36260a9ec48499f72e73f9eafc0552cb -> 
-  custom:scripting/precompiled-assembly-types:UnityEditor.UI: 6bae215471362000d6dbd3e0ee304a50 -> 
-  custom:scripting/monoscript/fileName/MiscHelpers.cs: d6cca883f594dee23f0feba018b6d615 -> 
-  custom:scripting/monoscript/fileName/ExceptionHelpers.cs: efe275f28a8e9b2b00af109efb2e0ab3 -> 
-  custom:scripting/monoscript/fileName/NativeInputRuntime.cs: 1afac435db3687569cb35bb179fea323 -> 
-  custom:scripting/monoscript/fileName/PackageSettingsEditor.cs: 6212fddebb8f67c4da0f50592230839b -> 
-  custom:scripting/monoscript/fileName/OpenXRFeature.cs: acc85e9ee19694a3b824048be72ad0db -> 
-  custom:scripting/monoscript/fileName/WebGLSupport.cs: 654530562f42308f2719cc6498dc6cd4 -> 
-  custom:scripting/monoscript/fileName/TimelineAssetViewModel.cs: 18a79fa063972d49f8538ad72ae7e75c -> 
-  custom:scripting/monoscript/fileName/StickControl.cs: a26eebfd1e1a58f0392d28dd3a767141 -> 
-  custom:scripting/monoscript/fileName/AndroidSupport.cs: 9ab785defff34023abc57840edf3d952 -> 
-  custom:scripting/monoscript/fileName/IInputDeviceCommandInfo.cs: 9dd42f14ac828da16c6ba30310467251 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:scripting/precompiled-assembly-types:Unity.XR.OpenXR: 76ca54683b21d8220c89a66b6d83c9a6 -> 
-  custom:scripting/monoscript/fileName/OpenXRLoader.cs: 18020e98a4b26e822e0c5684b0251e04 -> 
-  custom:scripting/monoscript/fileName/InputTestRuntime.cs: d5127b47e25b8c5088abf4e0deaa8d86 -> 
-  custom:scripting/monoscript/fileName/ExtendedAxisEventData.cs: 4c1bfc702ee844fc30595587145d523b -> 
-  custom:scripting/precompiled-assembly-types:UnityEditor.XR.LegacyInputHelpers: 52acfc53051faf8d3716fd452f740f78 -> 
-  custom:scripting/monoscript/fileName/AxisDeadzoneProcessor.cs: 4ce0869e85b18c3815fae1e784e9f914 -> 
-  custom:scripting/monoscript/fileName/EnableDeviceCommand.cs: 03f13a346a45c1316cc4c74086075cbf -> 
-  custom:scripting/monoscript/fileName/DualMotorRumbleCommand.cs: fe0683f0fffd14959bf3d500e2cc8956 -> 
-  custom:scripting/monoscript/fileName/BaseInputOverride.cs: a912c8e7729c202e46ac536346090423 -> 
-  custom:scripting/monoscript/fileName/InputActionDrawerBase.cs: 7678ae39aaf45b1e79da3f1a0f035552 -> 
-  custom:scripting/monoscript/fileName/ValveIndexControllerProfile.cs: f923b1771c835a70375d3505e818878d -> 
-  custom:scripting/monoscript/fileName/HoldInteraction.cs: d489b50bc685e46cac1f3a9378268f4e -> 
-  custom:scripting/monoscript/fileName/OculusQuestFeatureEditor.cs: af70b82209b4cf6ce20a2da2892dfc5f -> 
-  custom:scripting/monoscript/fileName/AndroidGameController.cs: 983c50cb29c719445cd8ec25f85ff5c0 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:scripting/monoscript/fileName/HIDDescriptorWindow.cs: 6aaa5f652db1e6353aacd01ef4c18854 -> 
-  custom:scripting/monoscript/fileName/LinuxSupport.cs: 25480eb3c0fe95eb4511ca50e34150d8 -> 
-  custom:scripting/monoscript/fileName/OpenXRChooseRuntimeLibraries.cs: 3923c2f1337a35d737ad0192eb46b432 -> 
-  custom:scripting/precompiled-assembly-types:Unity.Timeline: b058d380530d91aefff3cf869316d3f0 -> 
-  custom:scripting/monoscript/fileName/OculusQuestFeature.cs: 041c3418dd65b8e99ca410c708996814 -> 
-  custom:scripting/monoscript/fileName/OpenXRFeatureSetManager.cs: 4f340a53d115a7e1888d00ddc4cd614b -> 
-  custom:scripting/monoscript/fileName/Vector3Composite.cs: 03fb54f1caeff9fd76135a6140243511 -> 
-  custom:scripting/monoscript/fileName/InputSettingsiOSProvider.cs: 740a15f6b71b62d4d0ab469224856ce4 -> 
-  custom:scripting/monoscript/fileName/Vector3Control.cs: e9a096b3ccdb308c7a9d4b5889021b7a -> 
-  custom:scripting/monoscript/fileName/iOSSupport.cs: 7d32c4cb2d69af779288f2a9cd8deac0 -> 
-  custom:scripting/monoscript/fileName/InputActionTreeViewItems.cs: 60a054e7e783d32e6aa767531543afa7 -> 
-  custom:scripting/monoscript/fileName/QueryKeyNameCommand.cs: 37e2ae06bb378bdc7d63674123948cdc -> 
-  custom:scripting/monoscript/fileName/TapInteraction.cs: 596bdc6ff1cd547c8cdd5f2cc72ee25a -> 
-  custom:scripting/precompiled-assembly-types:Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection: 0065f084a5e0ee2eda32260040c06f1b -> 
-  custom:scripting/monoscript/fileName/InputActionSerializationHelpers.cs: 9b5c83021d7fdf16fa02001c66bf5d6f -> 
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.Shared.Editor: b1bd646cbd56acfef4597dda0faf849f -> 
-  custom:scripting/monoscript/fileName/InputDebuggerWindow.cs: 1dae732b971e79e790411dffde0dc007 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:scripting/monoscript/fileName/ReadOnlyArray.cs: 3483e6d7d8ddcc3c4be5ef7b099dae36 -> 
-  custom:scripting/monoscript/fileName/HID.cs: 14ac29e61424a85a621280935b74e9d3 -> 
-  custom:scripting/monoscript/fileName/InputActionSetupExtensions.cs: 9f825161e7326e1030e07355fbc72851 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/MockRuntime.cs: 8e970d93da4762c7d57e9c9dd2b36dbb -> 
-  custom:scripting/monoscript/fileName/MultiLevelDataSource.cs: f2b2576c0243f129ea7ce41b871724db -> 
-  custom:scripting/monoscript/fileName/OpenXRDevice.cs: 1b3be9b024fb29351711164fb0577202 -> 
-  custom:scripting/monoscript/fileName/PlayerInput.cs: 1cee85eeeadffae2bed639a188980b07 -> 
-  custom:scripting/monoscript/fileName/InputProcessor.cs: 3ec0d2c772ab1a7b95e1616ff5397755 -> 
-  custom:scripting/monoscript/fileName/SendBufferedHapticsCommand.cs: 3de60d0072c8966f3fa67e7e06b3de82 -> 
-  custom:scripting/monoscript/fileName/InputInteractionContext.cs: e9b9207c5a457e9ba1ed5b963caa1c29 -> 
-  custom:scripting/monoscript/fileName/InputActionReference.cs: fbc849277b28f1d12c10638fd6cc5e30 -> 
-  custom:scripting/monoscript/fileName/ITextInputReceiver.cs: 8b2979455c8552da770df1cfa8183102 -> 
-  custom:scripting/monoscript/fileName/HTCViveControllerProfile.cs: 575b921c71649e99576a05f0add9cf5d -> 
-  custom:scripting/monoscript/fileName/QueryEditorWindowCoordinatesCommand.cs: 0c7e5370fa30be3b2697197e96ebdac1 -> 
-  custom:scripting/monoscript/fileName/ScaleProcessor.cs: ea599d555a5ed7276ea05d57b45e43df -> 
-  custom:scripting/monoscript/fileName/InputControlScheme.cs: 54ecc2e6b48d0a96beee21c6444842e2 -> 
-  custom:scripting/monoscript/fileName/InputDeviceBuilder.cs: c6e7fb09ff8d2cc0d492291cffb5dd90 -> 
-  custom:scripting/monoscript/fileName/InputUpdateType.cs: abf5b4d2515f610113412cbf99b0e951 -> 
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.Core.Editor: d204d28cd103c830c5d0fadd0affaa78 -> 
-  custom:scripting/monoscript/fileName/EditorWindowSpaceProcessor.cs: 972d1caf54a44d4a9cecbaa9bedec5ca -> 
-  custom:scripting/monoscript/fileName/InputEditorUserSettings.cs: a0a69ad77f1e5a40ed7ef9025a06e030 -> 
-  custom:scripting/monoscript/fileName/InputActionAsset.cs: 235856b3baea8efeb679f57b86b2e78b -> 
-  custom:scripting/monoscript/fileName/InputFeatureNames.cs: 1a316c2d23c80d5649d91f21104b1196 -> 
-  custom:scripting/monoscript/fileName/Gamepad.cs: 266a4361e17cc18fb7776706f865b6cc -> 
-  custom:scripting/monoscript/fileName/Vector2Control.cs: ad75cbde8c4029137f073e4f44bb18d0 -> 
-  custom:scripting/monoscript/fileName/TrackedPoseDriver.cs: 7d012d674d51cf40089b73bf035e633b -> 7c652bf9e4ac4ec3dd58bf53ae85a810
-  custom:scripting/monoscript/fileName/InputControl.cs: beed85fe9b3431d0b1ba03e15cb33fe6 -> 
-  custom:scripting/monoscript/fileName/TextMeshProUGUI.cs: b783d06a82b0620f102e3253b4b9fc9b -> 
-  custom:scripting/precompiled-assembly-types:UnityEngine.TestRunner: f5758234275f5346968d00e3b1a1c0e4 -> 
-  custom:scripting/monoscript/fileName/OnScreenStick.cs: 9c42f0c502d32edf782a820c693d1a78 -> 
-  custom:scripting/monoscript/fileName/NavigationModel.cs: 1c263830c18aeaed6a5f098797d42577 -> 
-  custom:scripting/precompiled-assembly-types:Unity.Settings.Editor: beb7650f4acfb920369c4b53d5d1d8a0 -> 
-  custom:scripting/monoscript/fileName/ScaleVector2Processor.cs: ffa977729ad018813fd2604f3961d4a6 -> 
-  custom:scripting/monoscript/fileName/OnScreenSupport.cs: 49400ba586ee250d59e551f6447ee71e -> 
-  custom:scripting/precompiled-assembly-types:Unity.XR.OpenXR.Features.RuntimeDebugger: 0b6b2c8aeed7bc6e10f28b1f87432a8e -> 
-  custom:scripting/monoscript/fileName/InputStateWindow.cs: 07ffe9d19da59cd790dac73385b44113 -> 
-  custom:scripting/monoscript/fileName/InputDeviceDescription.cs: b7fafe849135bccdd4576f0a348eb655 -> 
-  custom:scripting/monoscript/fileName/OpenXRRenderSettings.cs: 90647cc400823b41df847a6cbfc29026 -> 
-  custom:scripting/monoscript/fileName/EyeGazeInteraction.cs: dc1f12620c8656649cfc16f13969f5fa -> 
-  custom:scripting/monoscript/fileName/WinUserInput.cs: 56506de120dd826b17622d0065c9f5bb -> 
-  custom:scripting/monoscript/fileName/OpenXRAnalytics.cs: 67d5de80ae8e3ee46bb1b4907783d54c -> 
-  custom:scripting/monoscript/fileName/ActionEvent.cs: b3ea1ccaeb8c8f45c6b4115a47e7e07f -> 
-  custom:scripting/monoscript/fileName/InputControlPickerDropdown.cs: 42f29cccd66ea903b2ff08e0668e70b3 -> 
-  custom:scripting/monoscript/fileName/MicrosoftMotionControllerProfile.cs: 6dcaa2067404bed7771687f2f9dfa057 -> 
-  custom:scripting/monoscript/fileName/TouchSimulation.cs: feb611e04b376a0121f4ebc0bc2c56ac -> 
-  custom:scripting/monoscript/fileName/OpenXRRestarter.cs: c236f3f43c026f409512d203b81e6184 -> 
-  custom:scripting/monoscript/fileName/Observer.cs: 90647cc400823b41df847a6cbfc29026 -> 
-  custom:scripting/monoscript/fileName/QueryCanRunInBackground.cs: 0430278e077d59b82dbda0fc3b6d50dd -> 
-  custom:scripting/monoscript/fileName/TakeNObservable.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
-  custom:scripting/monoscript/fileName/TouchPressControl.cs: 32da007e297b36a2fe817f63e5f6bbb5 -> 
-  custom:scripting/monoscript/fileName/QueryEnabledStateCommand.cs: 87c8e7655c4949e0535eb54544eb97da -> 
-  custom:scripting/monoscript/fileName/InputEvent.cs: fd054d2072bcad44e3a253005347289b -> 
-  custom:scripting/monoscript/fileName/OpenXRFeatureAttribute.cs: cb6dde4b346c754b123a290cdf928c65 -> 
-  custom:scripting/monoscript/fileName/InputActionRebindingExtensions.cs: 800aebbd7a30c1f9ff7fb1fa8ee640fa -> 
-  custom:scripting/monoscript/fileName/ForDeviceEventObservable.cs: f39d5cdafde47df1f2a834a038b823b7 -> 
-  custom:scripting/monoscript/fileName/InputUserAccountHandle.cs: a5f9751051223c483aa2839401cb39cd -> 
-  custom:scripting/monoscript/fileName/OpenXRLoaderNoPreInit.cs: 8f7a064e1e0bb6e17b9f5d171fe53dfc -> 
-  custom:scripting/monoscript/fileName/IEventMerger.cs: 1b166203b9c6da6368d80320ec7c9961 -> 
-  custom:scripting/precompiled-assembly-types:Unity.XR.OpenXR.Features.ConformanceAutomation: 4595caf0829918a429fb9e2b053b45c4 -> 
-  custom:scripting/monoscript/fileName/InputEventStream.cs: ea6c76443cc84b1345bb202bc3c6e172 -> 
-  custom:scripting/monoscript/fileName/InputActionMap.cs: 7796e3225f536783e555cebebc915987 -> 
-  custom:scripting/monoscript/fileName/ButtonWithTwoModifiers.cs: 8fbe9bb2a05d6d8ae165c4af2a58f87a -> 
-  custom:scripting/monoscript/fileName/OpenXRDiagnosticReport.cs: f43e8307d90025ed39c346ed63d1208d -> 
-  custom:scripting/monoscript/fileName/DefaultInputControlPickerLayout.cs: 0d39d096b1a242cb2404a05c8ab9b9dc -> 
-  custom:scripting/monoscript/fileName/IOSGameController.cs: dd4dd0e526e0233e35c4166a4e15be3b -> 
-  custom:scripting/monoscript/fileName/RuntimeDebuggerOpenXRFeatureEditor.cs: 26a9be57964b520d3a47d8c20db877e9 -> 
-  custom:scripting/monoscript/fileName/InputControlLayout.cs: 14cb813b35120ffd242f99d5c15bb438 -> 
-  custom:scripting/monoscript/fileName/GetHapticCapabilitiesCommand.cs: cae75b99f8d3e9c6ddab6313911969e6 -> 
-  custom:scripting/monoscript/fileName/KeyControl.cs: 8c245292417dc646748409be61bb7b1e -> 
-  custom:scripting/monoscript/fileName/InputParameterEditor.cs: 431a7292e136429730776139ea5efe7c -> 
-  custom:scripting/monoscript/fileName/PoseControl.cs: 4ff0d325328ef40fb1693e34ac3358bf -> 
-  custom:scripting/monoscript/fileName/OpenXRFeatureBuildHooks.cs: da31756dd3c74e69bcd7ed1a1983ed53 -> 
-  custom:scripting/monoscript/fileName/InputSystem.cs: 2d04686e597c23245a49375e1fb3215d -> 
-  custom:scripting/monoscript/fileName/OnInputSystemEvent.cs: e171c6b3cddc0b66f4aceeb7d12168cd -> 
-  custom:scripting/monoscript/fileName/PlayerInputEditor.cs: d2b3afdcbb77e18a055744ba3890b2dc -> 
-  custom:scripting/precompiled-assembly-types:UnityEditor.SpatialTracking: dd1905b8a8246178a3248fba44980e0b -> 
-  custom:scripting/monoscript/fileName/FastMouse.cs: c1eb115b9947f2d7660b6624e6d2a006 -> 
-  custom:scripting/precompiled-assembly-types:Unity.InputSystem: 00edf6a04208f73b918befbc98ffc894 -> 
-  custom:scripting/monoscript/fileName/MultiplayerEventSystem.cs: 05b50b616573877ef9101c0539ee4f31 -> 
-  custom:scripting/monoscript/fileName/InputBindingCompositeContext.cs: d2a9f79b307a55dd2196a058ec520c90 -> 
-  custom:scripting/monoscript/fileName/CSharpCodeHelpers.cs: d0cc2f7c294cb0d1437e3101c51f7d3e -> 
-  custom:scripting/monoscript/fileName/SelectObservable.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
-  custom:scripting/monoscript/fileName/ICustomDeviceReset.cs: 3b447b167c25000b29105ece94677719 -> 
-  custom:scripting/monoscript/fileName/AndroidSensors.cs: 86b1397c0edde5f4948c6f927e39ac2a -> 
-  custom:scripting/monoscript/fileName/NumberHelpers.cs: 322df6125e7a7f4f0d1f63844c1365d8 -> 
-  custom:scripting/monoscript/fileName/XInputController.cs: 3c93688e4b8cb689f66843b8c8f16884 -> 
-  custom:scripting/monoscript/fileName/InputEventPtr.cs: a12d6ebfcf9beb317d1aba534bdcb661 -> 
-  custom:scripting/monoscript/fileName/DeltaStateEvent.cs: af7845327b744d1496e77475c17d3b0d -> 
-  custom:scripting/monoscript/fileName/InputControlExtensions.cs: ae0219bac3a6c7734d164606a5ed0820 -> 
-  custom:scripting/monoscript/fileName/ExtendedPointerEventData.cs: f800ca056555c185c05f28019e4b9518 -> 
-  custom:scripting/monoscript/fileName/OneOrMore.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
-  custom:scripting/monoscript/fileName/EditorHelpers.cs: eda3dee24631ee2d7037d1e0dd169286 -> 
-  custom:scripting/monoscript/fileName/AxisControl.cs: 68b436317dff8e5185c81d8673960fc4 -> 
-  custom:scripting/monoscript/fileName/SavedState.cs: 56a12a9cddf9ae7c17f0f2e9ce84e15c -> 
-  custom:scripting/monoscript/fileName/iOSStepCounter.cs: 2c61d0bc46d04bce2f6762804671c954 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:scripting/monoscript/fileName/InputControlLayoutAttribute.cs: 8a00dd4a575a7b549eada1a6489a8652 -> 
-  custom:scripting/monoscript/fileName/IInputStateTypeInfo.cs: cea8b54e443ea633a8182d334b401856 -> 
-  custom:scripting/monoscript/fileName/IInputUpdateCallbackReceiver.cs: ba48e6e35145b7f1ac3afdd775575522 -> 
-  custom:scripting/monoscript/fileName/TextEvent.cs: 76acc414d4175dd733571757e9b97806 -> 
-  custom:scripting/monoscript/fileName/InputActionPropertiesView.cs: 87bb23a03865ebab6df4302eab03f8f8 -> 
-  custom:scripting/precompiled-assembly-types:Unity.VSCode.Editor: ce0f8be6c84057ddac8877610b9e6a0a -> 
-  custom:scripting/monoscript/fileName/QueryPairedUserAccountCommand.cs: 7c1bc8fc23b5eb9e494267177f02f139 -> 
-  custom:scripting/monoscript/fileName/InputActionDrawer.cs: 9b483107b0ea7770f76a7cdd6ff316d0 -> 
-  custom:scripting/monoscript/fileName/InputSystemWidget.cs: 8f101911900fd5c78c807da3e1c794a8 -> 
-  custom:scripting/monoscript/fileName/EditorPlayerSettingHelpers.cs: e9960188ed6c5b949b993e59ce59ce87 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/CommonUsages.cs: 18408d7225731f5f7bf0e3a3ad47e27f -> 
-  custom:scripting/precompiled-assembly-types:Unity.XR.OpenXR.Features.MetaQuestSupport: 81fc653d7e57adeb05b2e0e1597d4ee2 -> 
-  custom:scripting/monoscript/fileName/InputActionEditorWindow.cs: e72d7d7ff1055479629b55015dfaf76d -> 
-  custom:scripting/monoscript/fileName/InputAnalytics.cs: 70269303ff292b656bbef56a407380bd -> 
-  custom:scripting/monoscript/fileName/TypeTable.cs: a6a17e2e95c02f50895f3adeb936d7ed -> 
-  custom:scripting/monoscript/fileName/LinkFileGenerator.cs: 2ed47bf5d52f4c1c29dec48f52ce1e5a -> 
-  custom:scripting/monoscript/fileName/AdvancedDropdownGUI.cs: 207e6d663a15858e0a112d6acb1b7040 -> 
-  custom:scripting/monoscript/fileName/MultiTapInteraction.cs: 84287a69790c19af273393c4356ab542 -> 
-  custom:scripting/monoscript/fileName/InputControlAttribute.cs: b5a64d55a813f6d1227b56436c59c015 -> 
-  custom:scripting/monoscript/fileName/AdvancedDropdownItem.cs: e6f1b87cfdf3b7e725137f6813d17509 -> 
-  custom:scripting/monoscript/fileName/InputDeviceCommand.cs: d588e191d7cda05d4a0288a8ee1147ba -> 
-  custom:scripting/monoscript/fileName/DualShockGamepadHID.cs: 3c5ed97f9b3e5e626f6f09a9f7393581 -> 
-  custom:scripting/monoscript/fileName/DisplayStringFormatAttribute.cs: c3a032e117cd328db2f0cf4598514a4e -> 
-  custom:scripting/precompiled-assembly-types:UnityEngine.XR.LegacyInputHelpers: da96c0e3ee4a99cfbe3f49c08ef62202 -> 
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.Flow: 051f017e0284fd495693eebc4c757586 -> 
-  custom:scripting/monoscript/fileName/IInputControlPickerLayout.cs: be294e73c659279f0b3a534655ea4322 -> 
-  custom:scripting/monoscript/fileName/OpenXRPackageSettings.cs: 4f4aaba453bf105fb1c3c3d64247142d -> 
-  custom:scripting/monoscript/fileName/HIDParser.cs: 5e6b09e173e9593382d5e79e226d6494 -> 
-  custom:scripting/monoscript/fileName/ModifyAndroidManifestMeta.cs: 34dcdc8caf38cab5b904cd9f02c879b2 -> 
-  custom:scripting/monoscript/fileName/OpenXRFeatureSetAttribute.cs: 9e20f05fe0a3688af8836175869f0bb7 -> 
-  custom:scripting/monoscript/fileName/InputActionTreeView.cs: f3d84e564140a344e0a57a9232bf0ccb -> 
-  custom:scripting/monoscript/fileName/HapticControl.cs: d7a5389cafde2a1337c58e2f0d91a837 -> 
-  custom:scripting/monoscript/fileName/MetaQuestFeature.cs: b9c317336250afc5bb5fa2c2df269ea6 -> 
-  custom:scripting/monoscript/fileName/WindowsMR.cs: 1bb4de47cfd939e21ec4f06c3d56a563 -> 
-  custom:scripting/monoscript/fileName/NameAndParameterListView.cs: 95bddb736514603e46d742676b9fb05f -> 
-  custom:scripting/monoscript/fileName/SpriteUtilities.cs: 5c000e635950e4b0a960602df9fe8ffb -> 
-  custom:scripting/monoscript/fileName/InputEventBuffer.cs: 33cbaee6508a09a49b071c485ac9102d -> 
-  custom:scripting/precompiled-assembly-types:UnityEngine.UI: f762135bac905e34e2b540c872c48817 -> 
-  custom:scripting/monoscript/fileName/OpenXRRuntimeSelector.cs: 976a19637455f3c9d6af12ad00b783e3 -> 
-  custom:scripting/monoscript/fileName/InputSystemObject.cs: 9663811dbe13b672cf3c5764a9482504 -> 
-  custom:scripting/monoscript/fileName/StateEvent.cs: ecd22adce780bc400b70e46370003b20 -> 
-  custom:scripting/monoscript/fileName/EditorInputControlLayoutCache.cs: aa10f55e68ca82913364b6b44aa7f461 -> 
-  custom:scripting/monoscript/fileName/InputActionImporterEditor.cs: 0050b2eb2bc3d87733c8c96c41de610b -> 
-  custom:scripting/monoscript/fileName/OpenXRFeatureEditor.cs: 01dd3fecc4e9c7ce9fb6af5d0948ba2a -> 
-  custom:scripting/monoscript/fileName/InputEventTrace.cs: 6b04dbd582208bc1f6bf78a5481b91e2 -> 
-  custom:scripting/monoscript/fileName/DualMotorRumble.cs: a5c6abaf1032f7b942e62506711d90ba -> 
-  custom:scripting/monoscript/fileName/WebGLJoystick.cs: a371b63b19b599ea436e51a8622ae305 -> 
-  custom:scripting/monoscript/fileName/BuildHelperUtils.cs: 619773c3d1b7f3f0ca7461f5c27242a8 -> 
-  custom:scripting/monoscript/fileName/InputActionPropertyDrawer.cs: 19280eef7f6d2b681e448dc21fd2c314 -> 
-  custom:scripting/monoscript/fileName/ButtonControl.cs: 5be55aef70c0999215c87b2ebada03bb -> 
-  custom:scripting/monoscript/fileName/RemoteInputPlayerConnection.cs: 959b7c9f720d36172770da64f623d8a3 -> 
-  custom:scripting/monoscript/fileName/InputTestFixture.cs: 11f95b08f956d0e0534e403aaea3e0cf -> 
-  custom:scripting/monoscript/fileName/TimelineAsset.cs: 922c4504d3900c9d0f1009b93072bf15 -> 
-  custom:scripting/monoscript/fileName/Joystick.cs: 1a1d9a9cba7940fed9939f7306abee3f -> 
-  custom:scripting/monoscript/fileName/AdvancedDropdownState.cs: f58f4f7e4985491ab3d781ef1400a71e -> 
-  custom:scripting/monoscript/fileName/EnableIMECompositionCommand.cs: 442c712f29199433589d44a5aa77b265 -> 
-  custom:scripting/monoscript/fileName/IXboxOneRumble.cs: 1ff76612acedabce48adac10ccc4ff22 -> 
-  custom:scripting/precompiled-assembly-types:Unity.TextMeshPro.Editor: 46ffe279a7239cd1fb74eb9c5ab5b5d8 -> 
-  custom:scripting/monoscript/fileName/InputSettingsBuildProvider.cs: 5d0bda9b4dc3704476fdb73c6130f785 -> 
-  custom:scripting/monoscript/fileName/Mouse.cs: 51f1aeae346f8ba35ce1eae4cd718ea3 -> 
-  custom:scripting/monoscript/fileName/IMECompositionEvent.cs: 17f069477bc4d20ba49d87cb5179ba0d -> 
-  custom:scripting/monoscript/fileName/NameAndParameters.cs: 2a9078e35e9bfc491ba2ffb3455b3236 -> 
-  custom:scripting/precompiled-assembly-types:Unity.VisualStudio.Editor: d3eec9932ca66612a81e6a5c47e2f17f -> 
-  custom:scripting/monoscript/fileName/AdvancedDropdown.cs: fa69d35a411c6393fda2fd8d798192e5 -> 
-  custom:scripting/monoscript/fileName/AdvancedDropdownWindow.cs: 235b2f05f0f17c166eb77c8d57102337 -> 
-  custom:scripting/monoscript/fileName/DeltaControl.cs: 6b397435e9b765e741337a7982e0568f -> 
-  custom:scripting/monoscript/fileName/ModifyAndroidManifestOculus.cs: 1d09740e7edd66fffc5895aae9e385d3 -> 
-  custom:scripting/monoscript/fileName/InputSettingsiOS.cs: eec21a0f4c50ceb1dd70fcff7ed2d8ce -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/PropertiesViewBase.cs: ab4a9abc2367374ef408b77c20b6af94 -> 
-  custom:scripting/monoscript/fileName/GUIHelpers.cs: 60ae23a9fa510a6b46396be7f79ede40 -> 
-  custom:scripting/monoscript/fileName/RuntimeDebuggerOpenXRFeature.cs: 8b269b64ad1c99e85d7f28185c15f7bb -> 
-  custom:scripting/monoscript/fileName/DiscreteButtonControl.cs: dfa90d972c30096c4f7b7c1be2abf41d -> 
-  custom:scripting/monoscript/fileName/QueryDimensionsCommand.cs: 9dede612b2efbec178dc9289429b384b -> 
-  custom:scripting/monoscript/fileName/DoubleControl.cs: 0e8ba0ca87f759d63baeef89535dfd87 -> 
-  custom:scripting/monoscript/fileName/QueryKeyboardLayoutCommand.cs: 202a87fda801e4aee6e91befbd89e701 -> 
-  custom:scripting/monoscript/fileName/InputStateHistory.cs: 9771bbe5c5afd534a9dc0f8e8f60ae99 -> 
-  custom:scripting/monoscript/fileName/TreeViewHelpers.cs: cf522364eff518ecfcf0cf468392474e -> 
-  custom:scripting/monoscript/fileName/TrackAsset.cs: 05c366eb01e12385210cbb2c784bc95b -> 
-  custom:scripting/monoscript/fileName/InputValue.cs: 5e873095f1f8f449ce71f7ae265ebfc7 -> 
-  custom:scripting/monoscript/fileName/InputActionParameters.cs: 8ec6cd02063bce29fc5f16aa6f97020d -> 
-  custom:scripting/monoscript/fileName/InputActionEditorToolbar.cs: 862861ded96be9597dde3c6213c9500e -> 
-  custom:scripting/monoscript/fileName/InputSystemUIInputModule.cs: 7c711937d8f4dbfd5b13401c6051fc58 -> 
-  custom:scripting/monoscript/fileName/IInputDiagnostics.cs: ea6330d075ac249db017e93904b1906b -> 
-  custom:scripting/monoscript/fileName/ArrayHelpers.cs: 7478d3b887e0c3afe312a1585d7ab77d -> 
-  custom:scripting/monoscript/fileName/InputControlPath.cs: bc2fac94a36cbab9b49a74e253baa4f5 -> 
-  custom:scripting/monoscript/fileName/DynamicBitfield.cs: 340e19ce1cb6f81a8185cbb2bbc79160 -> 
-  custom:scripting/monoscript/fileName/CompensateDirectionProcessor.cs: 8b43e411f5b52e59e2993a5277f0d2e2 -> 
-  custom:scripting/precompiled-assembly-types:UnityEditor.TestRunner: 1b08a5e3d69264f3b8177a3e839577fe -> 
-  custom:scripting/monoscript/fileName/DeviceRemoveEvent.cs: 33979af4133f057c53fed833232d5335 -> 
-  custom:scripting/precompiled-assembly-types:Unity.TextMeshPro: 59230975e8163396a463bd906828ec67 -> 
-  custom:scripting/monoscript/fileName/FastKeyboard.cs: 517b983862044be24636f4f20b4c6b8c -> 
-  custom:scripting/monoscript/fileName/OSXSupport.cs: 63316ac61e481390e31b5b83b851ef9a -> 
-  custom:scripting/monoscript/fileName/TimelineWindow.cs: 1ecae22b1c6d42e0f96084d9a8d5699a -> 
-  custom:scripting/monoscript/fileName/SendHapticImpulseCommand.cs: f861e3878e1b38fdc5e7357d87264e9e -> 
-  custom:scripting/monoscript/fileName/CompensateRotationProcessor.cs: d5a3722c29051a4adb0efee7e4989a0c -> 
-  custom:scripting/monoscript/fileName/InputAction_DirectConverter.cs: 10397d04d305c6e7d90b09edbb081ce9 -> 
-  custom:scripting/monoscript/fileName/OpenXRInput.cs: b351db87f98ee399e568b78e0ed353e3 -> 
-  custom:scripting/monoscript/fileName/DeviceResetEvent.cs: 7e1e07844ad3da9d24238e0ee1f42c17 -> 
-  custom:scripting/precompiled-assembly-types:Unity.Rider.Editor: e16338d156ee865d32182e85a4ba9f4e -> 
-  custom:scripting/monoscript/fileName/IInputStateCallbackReceiver.cs: 186de0ed698901e9bd4fe43876d2eb6b -> 
-  custom:scripting/monoscript/fileName/OpenXRInteractionFeature.cs: a60484418ad6b497996467bb6f98db73 -> 
-  custom:scripting/monoscript/fileName/InputBindingResolver.cs: 5c7308cba04403c2ec02473a20595c74 -> 
-  custom:scripting/monoscript/fileName/PlayerInputManagerEditor.cs: 373859aaf721662fa2d3a5008109e828 -> 
-  custom:scripting/monoscript/fileName/WebGLGamepad.cs: 38d4094cfcfa00e7b8f84db2e77d746c -> 
-  custom:scripting/monoscript/fileName/InputManagerStateMonitors.cs: dea24e3da8b083e8a28641430520c9c0 -> 
-  custom:scripting/monoscript/fileName/OpenXRSettings.cs: f8ff4c7422697fc56884f260233aaf86 -> 
-  custom:scripting/monoscript/fileName/InputBindingPropertiesView.cs: c3a43f9e3c4cf814c7eae92d616bfbaf -> 
-  custom:scripting/monoscript/fileName/InputState.cs: aac8577aed515a34370fbda6b0c1e20e -> 
-  custom:scripting/monoscript/fileName/OpenXREditorSettings.cs: 321e3a8126bc4b0248cbcecf63892f31 -> 
-  custom:scripting/precompiled-assembly-types:Unity.VisualScripting.Flow.Editor: b0e96813f2d2157e48db4a04dd2883c1 -> 
-  custom:scripting/monoscript/fileName/OpenXRProjectValidation.cs: 181508e149a91a64c6dfdc447b97c322 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2281.208656 seconds.
+  path: Assets/FutureAgeGameUI_Free/Description picture.png
+  artifactKey: Guid(ff40823e7519a0a48824b174ce05199c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Description picture.png using Guid(ff40823e7519a0a48824b174ce05199c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22542c3c216c2f667c390766285ba420') in 0.059177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 439.683633 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites
+  artifactKey: Guid(2cf136a05c46ab445bbd34cc149c41f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites using Guid(2cf136a05c46ab445bbd34cc149c41f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a7677ebf0856af5dd453ed30c5d3376') in 0.000596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.391101 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/buttons
+  artifactKey: Guid(4efad3f4ce95b74429ef787d38d3f401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/buttons using Guid(4efad3f4ce95b74429ef787d38d3f401) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6301caaadd7fc208a8e59e0a037ccd9') in 0.000356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.090707 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/buttons/BlueBtn.png
+  artifactKey: Guid(38fdf8260ca65724ebc7f56db5b51fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/buttons/BlueBtn.png using Guid(38fdf8260ca65724ebc7f56db5b51fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c00f1cb61480c338dd418f9793b43e39') in 0.014720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.022321 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/buttons/IndigoBtn.png
+  artifactKey: Guid(a67cd543361b9854792aafff4ec7296d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/buttons/IndigoBtn.png using Guid(a67cd543361b9854792aafff4ec7296d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee855cd61e2198789fffca2a471874fb') in 0.010282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/buttons/YellowBtn.PNG
+  artifactKey: Guid(26e0f3e701171b541b82e23222b62e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/buttons/YellowBtn.PNG using Guid(26e0f3e701171b541b82e23222b62e10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7150d19ce35374d8fcceba613e727454') in 0.010708 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/buttons/OrangeBtn.PNG
+  artifactKey: Guid(7f296e100784c0a449a7bb0301af7127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/buttons/OrangeBtn.PNG using Guid(7f296e100784c0a449a7bb0301af7127) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6876b03226f48fb3b2f7e179726c0ea') in 0.011007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/buttons/PurpleBtn.png
+  artifactKey: Guid(225bdf7ad950c9349a6c3e52c50523b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/buttons/PurpleBtn.png using Guid(225bdf7ad950c9349a6c3e52c50523b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f01045d2cfe817ceab962feb62af0482') in 0.010361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.773659 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons
+  artifactKey: Guid(1753ff2c884bc90428d228422e8a8a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons using Guid(1753ff2c884bc90428d228422e8a8a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edfb29805717fbc6f73724eb8997c16f') in 0.000421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.059482 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/BlueBtn_01_icon.png
+  artifactKey: Guid(4a0a2b0c3e1c9c54388b8af25ae47c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/BlueBtn_01_icon.png using Guid(4a0a2b0c3e1c9c54388b8af25ae47c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0445203cd571e9de69ae266641d766db') in 0.011739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/BlueBtn_04_icon.png
+  artifactKey: Guid(2c7e429de55b55b41b3bc84b8e028517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/BlueBtn_04_icon.png using Guid(2c7e429de55b55b41b3bc84b8e028517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c22158da5311be5ea6033d746dade67') in 0.010187 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/BlueBtn_03_icon.png
+  artifactKey: Guid(424afce440f4d1d4891c6b57cd67cce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/BlueBtn_03_icon.png using Guid(424afce440f4d1d4891c6b57cd67cce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '912e1005967ecf1301c709efb971eb40') in 0.010622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/BlueBtn_10_icon.png
+  artifactKey: Guid(09256fee957da6045829c6013121872e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/BlueBtn_10_icon.png using Guid(09256fee957da6045829c6013121872e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19ef91b0cd2bfa10dc5d61a356c5d0e5') in 0.009538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.007218 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/BlueBtn_12_icon.png
+  artifactKey: Guid(67f73ca66d8aafd40a0b94e4c05a6d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/BlueBtn_12_icon.png using Guid(67f73ca66d8aafd40a0b94e4c05a6d72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bdd3810fbd39ab7db61b04630470a42') in 0.010663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/BlueBtn_14_icon.png
+  artifactKey: Guid(35877b4c72b7fea4387e162fc799a510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/BlueBtn_14_icon.png using Guid(35877b4c72b7fea4387e162fc799a510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '432d7b35060efec6ec8eb2e74e35e169') in 0.010386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/BlueBtn_17_icon.png
+  artifactKey: Guid(43c7d4f8611402f45b8eacef1d375fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/BlueBtn_17_icon.png using Guid(43c7d4f8611402f45b8eacef1d375fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15c1f0493399b3b3e5faf60f94741ccf') in 0.010982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/BlueBtn_20_icon.png
+  artifactKey: Guid(9e5619857f1705640a2b1f003840111d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/BlueBtn_20_icon.png using Guid(9e5619857f1705640a2b1f003840111d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a45e18c2cc6e3e6be95ed2481441af9') in 0.009873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/BlueBtn_23_icon.png
+  artifactKey: Guid(37496fb49c032954b95ad94bf5ef4a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/BlueBtn_23_icon.png using Guid(37496fb49c032954b95ad94bf5ef4a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35f6e5aea24321e2b5a1b5704b3a99bc') in 0.009680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/BlueBtn_22_icon.png
+  artifactKey: Guid(57685165c1f5df24bbf8d472c247d925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/BlueBtn_22_icon.png using Guid(57685165c1f5df24bbf8d472c247d925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26001befdcdc40caa3aca1a931f152c4') in 0.009324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_03_icon.png
+  artifactKey: Guid(f9a07b5390c59e741bfdeb3110dada10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_03_icon.png using Guid(f9a07b5390c59e741bfdeb3110dada10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1769c45b48bfd402f417121b5eff31e') in 0.008829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_05_icon.png
+  artifactKey: Guid(a7fb86f8a9a01314fabffb8cf69364d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_05_icon.png using Guid(a7fb86f8a9a01314fabffb8cf69364d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0afe9fa92421158e002fc8c59510eb87') in 0.009237 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_06_icon.png
+  artifactKey: Guid(83dcc88d2d7110e4a93a8aecba9b0094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_06_icon.png using Guid(83dcc88d2d7110e4a93a8aecba9b0094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4145c94a29bb14ce07454a5be0ac716f') in 0.009091 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_10_icon.png
+  artifactKey: Guid(e8bb37a6731b80946ba35966ac3872f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_10_icon.png using Guid(e8bb37a6731b80946ba35966ac3872f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a0c94d599d7b3963ae56bd6216a1fb') in 0.009178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_14_icon.png
+  artifactKey: Guid(3a6260af73b81eb448b49a7e42a09e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_14_icon.png using Guid(3a6260af73b81eb448b49a7e42a09e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a7a2d96b57026509e9bc837a78eacd3') in 0.008763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_16_icon.png
+  artifactKey: Guid(90bf3b6cc6fc7e847bb8487bbd0bd593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_16_icon.png using Guid(90bf3b6cc6fc7e847bb8487bbd0bd593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03bddf992f97c390d8161e26b98cb578') in 0.009647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_19_icon.png
+  artifactKey: Guid(d087342ecbb32f0469b78e5a5d19bd3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_19_icon.png using Guid(d087342ecbb32f0469b78e5a5d19bd3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9de13a436f267fc728c9912fc13e330') in 0.009229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_23_icon.png
+  artifactKey: Guid(40eaf01ff69e52741b7720324cfe9e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_23_icon.png using Guid(40eaf01ff69e52741b7720324cfe9e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '157e7155e36b757e7443138a503578da') in 0.008895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_24_icon.png
+  artifactKey: Guid(8b087eafa50db614aa7ec7cdfef80abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_24_icon.png using Guid(8b087eafa50db614aa7ec7cdfef80abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e656c777b3d0662d0864a4e9b75efca8') in 0.009106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_03_icon.png
+  artifactKey: Guid(72279fd84e41de8438ee79db94f92cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_03_icon.png using Guid(72279fd84e41de8438ee79db94f92cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3050d4a7641affe7195239d7af75a1bc') in 0.009594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_25_icon.png
+  artifactKey: Guid(d8c1b4f8d7cae3d43b1e3c6fcce77aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_25_icon.png using Guid(d8c1b4f8d7cae3d43b1e3c6fcce77aa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d6b6b98c6b888b87f05e8bed8649a44') in 0.008931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_06_icon.png
+  artifactKey: Guid(70602b135a0bc06469b4914534a89ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_06_icon.png using Guid(70602b135a0bc06469b4914534a89ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a12074f28e94759e48790f0d70519ea') in 0.009153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_10_icon.png
+  artifactKey: Guid(366d5d6e913111346b1e486c841206aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_10_icon.png using Guid(366d5d6e913111346b1e486c841206aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43bed58f14b6a8c8fef7bcbd7f43af74') in 0.009176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_13_icon.png
+  artifactKey: Guid(9feb1cf01ed7def42bd561acf8c6ce3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_13_icon.png using Guid(9feb1cf01ed7def42bd561acf8c6ce3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e5cee3fa849cf1160a1aa4001b00e07') in 0.009227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_16_icon.png
+  artifactKey: Guid(4acdf06b2f9989b408e4f32cc163c5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_16_icon.png using Guid(4acdf06b2f9989b408e4f32cc163c5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ec25eddba7687e1d65e7bfd3a435fff') in 0.009466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_18_icon.png
+  artifactKey: Guid(dcd85450286be2d488bea032c482646d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_18_icon.png using Guid(dcd85450286be2d488bea032c482646d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d53bc92cf74e38776fcc56c8e4ff461') in 0.009224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_21_icon.png
+  artifactKey: Guid(6ab990bacce642a46b09a8ec72fde4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_21_icon.png using Guid(6ab990bacce642a46b09a8ec72fde4c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbc00e17c7fb12482698947b55f005b7') in 0.009555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_22_icon.png
+  artifactKey: Guid(1fd4c22707c82844a9f3a244896648ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_22_icon.png using Guid(1fd4c22707c82844a9f3a244896648ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79618cfe821932da6b82dc2f4e6d1bfc') in 0.009571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_25_icon.png
+  artifactKey: Guid(7e17ff8a475dded4493dbf6a8ea6c5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_25_icon.png using Guid(7e17ff8a475dded4493dbf6a8ea6c5db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4c08dabd89ce53c73146008fe318012') in 0.009578 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/OrangeBtn_03_icon.png
+  artifactKey: Guid(9c4576a01d5267346b855d680766f0b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/OrangeBtn_03_icon.png using Guid(9c4576a01d5267346b855d680766f0b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a6ef32dcf1a5c20262417d097bf5d0') in 0.010372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/OrangeBtn_06_icon.png
+  artifactKey: Guid(73a85141879096e4aadc251195c046f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/OrangeBtn_06_icon.png using Guid(73a85141879096e4aadc251195c046f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e49a5eaf72248111013725265feb652') in 0.010790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/OrangeBtn_05_icon.png
+  artifactKey: Guid(daeb6664b856ddc41af171ab7ab7390e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/OrangeBtn_05_icon.png using Guid(daeb6664b856ddc41af171ab7ab7390e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fbbc9bca7b838dfcd91220675d3f270') in 0.011059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_05_icon.png
+  artifactKey: Guid(934e3d9fec5113143973c3fc1785f616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_05_icon.png using Guid(934e3d9fec5113143973c3fc1785f616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3657ae0d922b55f8ae1af7b7b18c556a') in 0.009439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_07_icon.png
+  artifactKey: Guid(4e41e3869081d1a4a82e94b6dcdf846d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_07_icon.png using Guid(4e41e3869081d1a4a82e94b6dcdf846d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63222f52a8fc705bcabe8c3161e9fd06') in 0.010001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_02_icon.png
+  artifactKey: Guid(e2fb66b6b9ce33b4cab1c5108e9e535b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_02_icon.png using Guid(e2fb66b6b9ce33b4cab1c5108e9e535b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a54c5684d868f6df18f0bbd681e75229') in 0.009641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_21_icon.png
+  artifactKey: Guid(fbacd4a9815545d409130a9ef3a3cdc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_21_icon.png using Guid(fbacd4a9815545d409130a9ef3a3cdc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8544c6a9a164e9ba4185a2ecfd50512a') in 0.009708 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/BlueBtn_18_icon.png
+  artifactKey: Guid(6249504fa50caf8419beae77d978e868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/BlueBtn_18_icon.png using Guid(6249504fa50caf8419beae77d978e868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa853c6365b57fa5bcc335a87bdd173') in 0.009685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/BlueBtn_11_icon.png
+  artifactKey: Guid(e7eec221156224f45b695dfdab3d76cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/BlueBtn_11_icon.png using Guid(e7eec221156224f45b695dfdab3d76cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd13c675552d2643910e786bf7b7e4e57') in 0.009796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/BlueBtn_08_icon.png
+  artifactKey: Guid(cace326bff368e2488dc40ecdaa6e727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/BlueBtn_08_icon.png using Guid(cace326bff368e2488dc40ecdaa6e727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac734a3b80c6529b7fd76ecf00c3da1d') in 0.009458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_15_icon.png
+  artifactKey: Guid(14087e412da851443a413bb60a5a8bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_15_icon.png using Guid(14087e412da851443a413bb60a5a8bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b6bca8e89076a38718043944fe3010') in 0.010281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.414883 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/OrangeBtn_07_icon.png
+  artifactKey: Guid(35dc87f045324c547b5689c4190d4769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/OrangeBtn_07_icon.png using Guid(35dc87f045324c547b5689c4190d4769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5bbaf546562a4adbc8fe9f68e9279b1') in 0.009495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/OrangeBtn_09_icon.png
+  artifactKey: Guid(c86bb33e55ed161409639ccdb25fd431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/OrangeBtn_09_icon.png using Guid(c86bb33e55ed161409639ccdb25fd431) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00f1ccfb77ceee09d9b78870da5e27bd') in 0.011191 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/OrangeBtn_11_icon.png
+  artifactKey: Guid(42480efd78c21d34d809daa5ce9e0355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/OrangeBtn_11_icon.png using Guid(42480efd78c21d34d809daa5ce9e0355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e7cf1838071fe532035088929545e1d') in 0.009987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/OrangeBtn_14_icon.png
+  artifactKey: Guid(73d9aa1fdcea80e4b9a077954451f40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/OrangeBtn_14_icon.png using Guid(73d9aa1fdcea80e4b9a077954451f40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e34d53e5bd48b455a0fc094815a2e9f6') in 0.009876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/OrangeBtn_17_icon.png
+  artifactKey: Guid(6a03634d2f631ca4e962c7e2b78d8537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/OrangeBtn_17_icon.png using Guid(6a03634d2f631ca4e962c7e2b78d8537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf1676abc3f07b883c4fa24ba4f24fa') in 0.009761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/OrangeBtn_21_icon.png
+  artifactKey: Guid(12d84eb0e4177da4492eca4ba561b7be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/OrangeBtn_21_icon.png using Guid(12d84eb0e4177da4492eca4ba561b7be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '353ff6d8adc60bd641313bb20d677bee') in 0.010756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/OrangeBtn_20_icon.png
+  artifactKey: Guid(f1e15e756497f4f409f3015a797c18e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/OrangeBtn_20_icon.png using Guid(f1e15e756497f4f409f3015a797c18e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54f5e39f7405c1800b4276fce2c5fef9') in 0.009776 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/OrangeBtn_16_icon.png
+  artifactKey: Guid(e4ad0c0f8d21e48408e9eae7e6533e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/OrangeBtn_16_icon.png using Guid(e4ad0c0f8d21e48408e9eae7e6533e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ebbd7b8e51a6553d85e0a15f7595f48') in 0.010241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.148384 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/OrangeBtn_23_icon.png
+  artifactKey: Guid(739eb964308227d45b002adef104ebd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/OrangeBtn_23_icon.png using Guid(739eb964308227d45b002adef104ebd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee26e25eb50e8ad8228e7f06d33b8a2') in 0.010252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/OrangeBtn_25_icon.png
+  artifactKey: Guid(d29f83f5888b2aa49a8e6026022d530e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/OrangeBtn_25_icon.png using Guid(d29f83f5888b2aa49a8e6026022d530e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '702e1e186ecf199eab0f0cf461304571') in 0.009643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/PurpleBtn_02_icon.png
+  artifactKey: Guid(a0bd29c715033ad419d3cf74782c2eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/PurpleBtn_02_icon.png using Guid(a0bd29c715033ad419d3cf74782c2eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4e61fd59802940f77df4ee931a4fbe8') in 0.010134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/PurpleBtn_06_icon.png
+  artifactKey: Guid(f53a05ae7997fde4f93ff08a183b4291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/PurpleBtn_06_icon.png using Guid(f53a05ae7997fde4f93ff08a183b4291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a47c468976febc55d57b6850b860bef4') in 0.010128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/PurpleBtn_08_icon.png
+  artifactKey: Guid(545d934e14ae1fe469cd611559d5e9b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/PurpleBtn_08_icon.png using Guid(545d934e14ae1fe469cd611559d5e9b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55bc3f1a6b97183562af609c6c156e6d') in 0.008846 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/PurpleBtn_10_icon.png
+  artifactKey: Guid(41dad88104691f2449d9145c11467cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/PurpleBtn_10_icon.png using Guid(41dad88104691f2449d9145c11467cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4904b1599a941b04b181cb9a3679e97c') in 0.009699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/PurpleBtn_13_icon.png
+  artifactKey: Guid(5162c81fc4ef62f4a8f264f336fdb0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/PurpleBtn_13_icon.png using Guid(5162c81fc4ef62f4a8f264f336fdb0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1abac05c9adf5152c2f0e56221edc11a') in 0.010238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/PurpleBtn_09_icon.png
+  artifactKey: Guid(1c4425e10673c0c4e8adfb37e8aa1785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/PurpleBtn_09_icon.png using Guid(1c4425e10673c0c4e8adfb37e8aa1785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0720f21df78535b0b540db1ffaa6227') in 0.010534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/PurpleBtn_07_icon.png
+  artifactKey: Guid(c80c76a1842475442b7436fafa922ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/PurpleBtn_07_icon.png using Guid(c80c76a1842475442b7436fafa922ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6934869d578f4d1fdc381a876d54e1d') in 0.011011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.740975 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/PurpleBtn_14_icon.png
+  artifactKey: Guid(a949d95f81a9361458e964f454def2fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/PurpleBtn_14_icon.png using Guid(a949d95f81a9361458e964f454def2fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '923aa850698cf620ba72242cef0b006c') in 0.010884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/PurpleBtn_16_icon.png
+  artifactKey: Guid(f7c699f5b2a24b846a10c63a49b6c5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/PurpleBtn_16_icon.png using Guid(f7c699f5b2a24b846a10c63a49b6c5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6781041f433713f1f9be5f626ed01a20') in 0.010878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/PurpleBtn_17_icon.png
+  artifactKey: Guid(8d1c501c79fd4944484e87c8964f654c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/PurpleBtn_17_icon.png using Guid(8d1c501c79fd4944484e87c8964f654c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b36ecaf708f7b40dc75cdf04f83baf0') in 0.010216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/PurpleBtn_22_icon.png
+  artifactKey: Guid(37f56d4d77b670c46aa3daffc8335390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/PurpleBtn_22_icon.png using Guid(37f56d4d77b670c46aa3daffc8335390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9e1aab972d464b5786b58811c9c07eb') in 0.011492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/PurpleBtn_24_icon.png
+  artifactKey: Guid(c82f71a048cf65d48ba8a041aace5a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/PurpleBtn_24_icon.png using Guid(c82f71a048cf65d48ba8a041aace5a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f24a4db4603a910f080b07a6b599618b') in 0.009946 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_02_icon.png
+  artifactKey: Guid(65adb47937f0759478c87e3d05cd52ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_02_icon.png using Guid(65adb47937f0759478c87e3d05cd52ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72cbda02842c5fa00b57d45f90df36c0') in 0.010750 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_03_icon.png
+  artifactKey: Guid(d85a573679ff9e6458e5262c2dcc9f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_03_icon.png using Guid(d85a573679ff9e6458e5262c2dcc9f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3efcb25810aef7a8bcbd0947fb65bc1') in 0.010744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_01_icon.PNG
+  artifactKey: Guid(dbfa69b022dc5ad4f85cb221452f07d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_01_icon.PNG using Guid(dbfa69b022dc5ad4f85cb221452f07d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1085f794addec45cca50f6bab2e1283') in 0.009692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_07_icon.png
+  artifactKey: Guid(a932d2eeae40b8e45be3c747e5a2df8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_07_icon.png using Guid(a932d2eeae40b8e45be3c747e5a2df8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68cd8e163f74c5b339def5fa59b46210') in 0.009447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_12_icon.png
+  artifactKey: Guid(af0938e590306f4478db3fb507a55621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_12_icon.png using Guid(af0938e590306f4478db3fb507a55621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '357fdac27b83d7c3ab89ca54fd0c8d8e') in 0.010324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_14_icon.png
+  artifactKey: Guid(055d8010757f930479f8602033a073d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_14_icon.png using Guid(055d8010757f930479f8602033a073d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36aa75bfe2a093f34d32222797355d30') in 0.009889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_17_icon.png
+  artifactKey: Guid(88d1239da28f59c41b0cea53a59f98ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_17_icon.png using Guid(88d1239da28f59c41b0cea53a59f98ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c48175145e21d2a3a23db9a8edd53ba3') in 0.010302 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_18_icon.png
+  artifactKey: Guid(ba1ac4ef231c0c9498ea6f8e32cb2ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_18_icon.png using Guid(ba1ac4ef231c0c9498ea6f8e32cb2ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fea867f23c0b8525aa0479519f33ddf') in 0.009973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_23_icon.png
+  artifactKey: Guid(8600c170b3b79e046844e9746d51ddac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_23_icon.png using Guid(8600c170b3b79e046844e9746d51ddac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d242fa9b987084f3176c66e3f3bf8be') in 0.009885 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_25_icon.png
+  artifactKey: Guid(2b1129fedb597b84189c7b386b0e92a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_25_icon.png using Guid(2b1129fedb597b84189c7b386b0e92a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e6fcc564129e0c9772aee0585f448b') in 0.009541 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/YellowBtn_04_icon.PNG
+  artifactKey: Guid(353293299f604484caca183c4140ca9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/YellowBtn_04_icon.PNG using Guid(353293299f604484caca183c4140ca9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '562422f56758c5c1b22d5a7cbe384155') in 0.009508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/YellowBtn_06_icon.PNG
+  artifactKey: Guid(4cac081e7d4b2744999e8dfaeeff0289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/YellowBtn_06_icon.PNG using Guid(4cac081e7d4b2744999e8dfaeeff0289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7d03850cd8c33a69ab147f2fa83217e') in 0.009896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/YellowBtn_09_icon.PNG
+  artifactKey: Guid(cdac9cf175780cb49a0d5e5674da14e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/YellowBtn_09_icon.PNG using Guid(cdac9cf175780cb49a0d5e5674da14e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd466fcc78de5a28bf416887652f6cd29') in 0.009376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/YellowBtn_12_icon.PNG
+  artifactKey: Guid(745b0ee09b3702143991acaad1f055a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/YellowBtn_12_icon.PNG using Guid(745b0ee09b3702143991acaad1f055a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a50ce92c94fd83920037b1e6d69340') in 0.009391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/YellowBtn_13_icon.PNG
+  artifactKey: Guid(3d402426027c5604ca93b9be64850951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/YellowBtn_13_icon.PNG using Guid(3d402426027c5604ca93b9be64850951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d74bb000a850c62f24cc749a3461d00') in 0.009343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/YellowBtn_17_icon.PNG
+  artifactKey: Guid(c736256ac71c04c4f86c504b8660c9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/YellowBtn_17_icon.PNG using Guid(c736256ac71c04c4f86c504b8660c9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '907d2768a9cc878fdb1ebe329d14392b') in 0.008840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/YellowBtn_18_icon.PNG
+  artifactKey: Guid(f43e9db314fb883439b6a6f49f034e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/YellowBtn_18_icon.PNG using Guid(f43e9db314fb883439b6a6f49f034e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c761785bd3f5fd0965b144b997dc644') in 0.008507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/YellowBtn_21_icon.png
+  artifactKey: Guid(8471d274fd083724dbd011c33f156c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/YellowBtn_21_icon.png using Guid(8471d274fd083724dbd011c33f156c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95c77632c53183bd6ab5e35d6cca3e99') in 0.009037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/YellowBtn_23_icon.png
+  artifactKey: Guid(3f3be17c6649a6648bbd0706a2d37beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/YellowBtn_23_icon.png using Guid(3f3be17c6649a6648bbd0706a2d37beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3afeac3dcd8c70ee7434e5c4425bb8fa') in 0.010989 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_11_icon.png
+  artifactKey: Guid(f95e3aac701618a448f7c0957ca13bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_11_icon.png using Guid(f95e3aac701618a448f7c0957ca13bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab01ec6b286eb3bce42510e55c72f82d') in 0.009661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/YellowBtn_08_icon.PNG
+  artifactKey: Guid(fa290cb2954cf4f478e1699011716cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/YellowBtn_08_icon.PNG using Guid(fa290cb2954cf4f478e1699011716cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21f16d27d8d306443fde05de91e38f9a') in 0.009806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_09_icon.png
+  artifactKey: Guid(ca699a1d27ce2c541b29bd71a9f35f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_09_icon.png using Guid(ca699a1d27ce2c541b29bd71a9f35f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb2f4136db82ba528e0efbbd9b09a220') in 0.010061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_06_icon.png
+  artifactKey: Guid(864509e96e2ab36458bce1640cf6ff4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_06_icon.png using Guid(864509e96e2ab36458bce1640cf6ff4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ebde154095fb5fd32dd92fbe87d96d3') in 0.010170 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/YellowBtn_02_icon.png
+  artifactKey: Guid(c81c65090d8e4614a92160531600a990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/YellowBtn_02_icon.png using Guid(c81c65090d8e4614a92160531600a990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c7a15b6b02816d9e997df962ab3da28') in 0.009578 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/YellowBtn_10_icon.PNG
+  artifactKey: Guid(27fcacad1a64b224dbe6dbe51c9d4243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/YellowBtn_10_icon.PNG using Guid(27fcacad1a64b224dbe6dbe51c9d4243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcf898ab751e1480a6fa94fe930ace7f') in 0.010283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_20_icon.png
+  artifactKey: Guid(e29f210c6bdeab741abd6e9ac187fa53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_20_icon.png using Guid(e29f210c6bdeab741abd6e9ac187fa53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cae61984e05a78e11c79ea0bc393e9ae') in 0.010432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 10.726050 seconds.
+  path: Assets/Dark UI/Free/32.png
+  artifactKey: Guid(dcdc43f7a0ad67b4ab3e3db38233dfae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Free/32.png using Guid(dcdc43f7a0ad67b4ab3e3db38233dfae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc6ae2b6752a056f06ef13dc358d646a') in 0.012978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Dark UI/Free/64.png
+  artifactKey: Guid(701e7ed4dde1bf949b30e33741547ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Free/64.png using Guid(701e7ed4dde1bf949b30e33741547ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70743bfb2d354a21c26bab9f52799192') in 0.011136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Dark UI/Free/128.png
+  artifactKey: Guid(87ea2079a91b3e74f84b5cb700abb4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Free/128.png using Guid(87ea2079a91b3e74f84b5cb700abb4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec8a6e28add8e92a9dbf0b7e4d7f2375') in 0.009679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Dark UI/Free/128 Light 2.png
+  artifactKey: Guid(4c5a0d6878b96be4f9f82216b59eca51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Free/128 Light 2.png using Guid(4c5a0d6878b96be4f9f82216b59eca51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db3f000b40dc8fd0c71a290fade1420c') in 0.010023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Dark UI/Free/Bell.png
+  artifactKey: Guid(f004d321f2825c44d929e3d0f5844b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Free/Bell.png using Guid(f004d321f2825c44d929e3d0f5844b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31998947da3dcd4623fdff6310b2b54e') in 0.009792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Dark UI/Free/BTN_A2.png
+  artifactKey: Guid(0d6987b955d79574a92ef79c006ad418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Free/BTN_A2.png using Guid(0d6987b955d79574a92ef79c006ad418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e60e2a42d5d4d767aab7216dcd152dd') in 0.010604 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Dark UI/Free/Button_Large_A.png
+  artifactKey: Guid(fee7cb0981897184ca8e254670a1d84f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Free/Button_Large_A.png using Guid(fee7cb0981897184ca8e254670a1d84f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6429956a5b5228abfa50b9ec48a3a86') in 0.010935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Dark UI/Free/Button_Small_A.png
+  artifactKey: Guid(5ed7b78422faa044695989e1108c5d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Free/Button_Small_A.png using Guid(5ed7b78422faa044695989e1108c5d63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '788ffa4a9cd20bd5686d1325c582cbed') in 0.010286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Dark UI/Free/Add Icon.png
+  artifactKey: Guid(25534d7e0c9de5646aee54d576a28388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Free/Add Icon.png using Guid(25534d7e0c9de5646aee54d576a28388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1affa8ef1cde82dfbbf667703b6e93f') in 0.010088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Dark UI/Free/CIRCLE2PXSMALL.png
+  artifactKey: Guid(9e64140fa412af443b31a21fedffc096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Free/CIRCLE2PXSMALL.png using Guid(9e64140fa412af443b31a21fedffc096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb22fed5c45aeed7758279b415a77b76') in 0.010458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Dark UI/Free/CIRCLE2PXMED.png
+  artifactKey: Guid(67d26aedff211d940a0a479f8a01fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Free/CIRCLE2PXMED.png using Guid(67d26aedff211d940a0a479f8a01fdc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e76f04c9fb87dbe2e8c7a4247265dd63') in 0.009993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Dark UI/Free/D.png
+  artifactKey: Guid(bfdc84f127b8607479e3fe35cd51157a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Free/D.png using Guid(bfdc84f127b8607479e3fe35cd51157a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '635fd414f24a283ee9b6044a811a8f59') in 0.009605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Dark UI/Free/ButtonSmallRound.png
+  artifactKey: Guid(04c64e19d8f8f0140837c8a6b21c358d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Free/ButtonSmallRound.png using Guid(04c64e19d8f8f0140837c8a6b21c358d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47b4e3194989066282491c8bcc3385f1') in 0.024882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Dark UI/Free/Facebook 2.png
+  artifactKey: Guid(741fdffd863c9784990792a90548e1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Free/Facebook 2.png using Guid(741fdffd863c9784990792a90548e1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d469de1e8f401dedca7b005fcd97e9a') in 0.010133 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Dark UI/Free/Close BTN.png
+  artifactKey: Guid(a11d716ada219fe4683e6147d610043e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Free/Close BTN.png using Guid(a11d716ada219fe4683e6147d610043e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f7363488ef0114f954fd847b97d4a11') in 0.010363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Dark UI/Free/Inventory.png
+  artifactKey: Guid(a551bf3edbe49704a99e4114483bcdbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Free/Inventory.png using Guid(a551bf3edbe49704a99e4114483bcdbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4e45df75c7724ea3784a06f4d4bef3d') in 0.010112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Dark UI/Free/Left BTN.png
+  artifactKey: Guid(2f5621ced47967649819ed28fc802c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Free/Left BTN.png using Guid(2f5621ced47967649819ed28fc802c35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62abd669494ce8c5c51709d8fc49f105') in 0.011816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Dark UI/Free/Music.png
+  artifactKey: Guid(f5f3ad8f35c709e4dabc990b16fd52e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Free/Music.png using Guid(f5f3ad8f35c709e4dabc990b16fd52e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49f2496c69f87261dfeff94dedfb98be') in 0.012712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Dark UI/Free/Shop.png
+  artifactKey: Guid(18faf426d460ece49970252ef5e8a56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Free/Shop.png using Guid(18faf426d460ece49970252ef5e8a56d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5671ff0356f9de86e70584dc180e267') in 0.012469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Dark UI/Free/Right Arrow.png
+  artifactKey: Guid(7cf2f46063edb3445a4b32cbd687b51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Free/Right Arrow.png using Guid(7cf2f46063edb3445a4b32cbd687b51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98279e6b9713c6a317ced0921eff1c1c') in 0.010392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Dark UI/Free/ButtonMediumRound.png
+  artifactKey: Guid(9c3fb1e6eb7fc9745b3bba559360321f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Free/ButtonMediumRound.png using Guid(9c3fb1e6eb7fc9745b3bba559360321f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '229d33f8b78a64a14f32021fcdc46f4e') in 0.010783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Dark UI/Free/E.png
+  artifactKey: Guid(8199e973785f2184594e575e5967e818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Free/E.png using Guid(8199e973785f2184594e575e5967e818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36e071ce637a2ec1d5d438e3f4397282') in 0.009788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Dark UI/Free/CIRCLE4PXLAR.png
+  artifactKey: Guid(1d02c027313a6514a849aa45aed65be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Free/CIRCLE4PXLAR.png using Guid(1d02c027313a6514a849aa45aed65be6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663e6f8ba5b9ad45212983f182d5fff8') in 0.012424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Dark UI/Free/Sound.png
+  artifactKey: Guid(a0993af277162934b9f02610f6f941f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Free/Sound.png using Guid(a0993af277162934b9f02610f6f941f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '015ef9f1f01316221bd530f4c40884fd') in 0.010278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Dark UI/Free/C.png
+  artifactKey: Guid(fe60e9801e85e2e47a31a90354f6add9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Free/C.png using Guid(fe60e9801e85e2e47a31a90354f6add9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3c5d02d81e69d157dc0a123f84b2d3e') in 0.012061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Dark UI/Free/Gem.png
+  artifactKey: Guid(4aa4dc909b586c14198e6883472062be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Free/Gem.png using Guid(4aa4dc909b586c14198e6883472062be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e9b3b92a88bab45a31d92bbe6054eb9') in 0.013925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Dark UI/Free/A.png
+  artifactKey: Guid(0f9aff9d1d5411d419a50a1f33efcf25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Free/A.png using Guid(0f9aff9d1d5411d419a50a1f33efcf25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '451cce0eecf73e355ab3ec80a4b7573d') in 0.012718 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Dark UI/Free/X.png
+  artifactKey: Guid(af19b810ad81d8741ba1583f72a9d93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Free/X.png using Guid(af19b810ad81d8741ba1583f72a9d93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d4f24ca9ac623f146fa57eb57ebbced') in 0.011142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Dark UI/Free/Settings.png
+  artifactKey: Guid(751a7b6d15a328547a14075f8adb0bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Free/Settings.png using Guid(751a7b6d15a328547a14075f8adb0bb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27283fde0b4db17ffe3341e0c0e74a68') in 0.010485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Dark UI/Free/B.png
+  artifactKey: Guid(0800cc9d4da0323489f4d25c65194aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Free/B.png using Guid(0800cc9d4da0323489f4d25c65194aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faf2a232792b879c1a9e932379c6b456') in 0.010261 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Dark UI/Free/Coin.png
+  artifactKey: Guid(2e43f0691f0d7404eae8d01381da65a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Free/Coin.png using Guid(2e43f0691f0d7404eae8d01381da65a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3252b3739644062520ea0ba7402849c0') in 0.009999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Dark UI/Free/Ranks.png
+  artifactKey: Guid(e8433df827a81cb48bac4ebc18d1e25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Free/Ranks.png using Guid(e8433df827a81cb48bac4ebc18d1e25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e146af0524116809d8a72c9ea85f21f4') in 0.037471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Dark UI/Free/Left Arrow.png
+  artifactKey: Guid(210e6a7b28c57aa4e9408866e861895c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Free/Left Arrow.png using Guid(210e6a7b28c57aa4e9408866e861895c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aa3acf56e7fe69d53479453d9034a68') in 0.011662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Dark UI/Free/BTN_A1.png
+  artifactKey: Guid(604d5ed6f532a5146bf48201437881ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Free/BTN_A1.png using Guid(604d5ed6f532a5146bf48201437881ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a10316469d16e91ad477d17c329f778b') in 0.010516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Dark UI/Free/32 Light 2.png
+  artifactKey: Guid(9c22439f7b2eadb41b70e5385d667660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Free/32 Light 2.png using Guid(9c22439f7b2eadb41b70e5385d667660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb379bf7393e063076d4e6a81cf728ac') in 0.011377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Dark UI/Free/CIRCLE4PXSMA.png
+  artifactKey: Guid(572955b2fc805584aaa343215e806606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Free/CIRCLE4PXSMA.png using Guid(572955b2fc805584aaa343215e806606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6d50e265663afd05c08bb245ae89c1c') in 0.010634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 5.587567 seconds.
+  path: Assets/Dark UI/Prefabs Buttons/Close Button.prefab
+  artifactKey: Guid(363f1e424d5e7fa40b7181fc5586a869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Prefabs Buttons/Close Button.prefab using Guid(363f1e424d5e7fa40b7181fc5586a869) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8775239cf82cdda1337a55ee21db4b3') in 0.010169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Dark UI/Prefabs Buttons/Facebook Button.prefab
+  artifactKey: Guid(fe1076d766d39e048a7910acb1181de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Prefabs Buttons/Facebook Button.prefab using Guid(fe1076d766d39e048a7910acb1181de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6d047e45deec7b2259b53c4675754d5') in 0.001519 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Dark UI/Prefabs Buttons/Info Button.prefab
+  artifactKey: Guid(54438c6f0e116ac4eb3b7f02368e4ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Prefabs Buttons/Info Button.prefab using Guid(54438c6f0e116ac4eb3b7f02368e4ccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e30814ccf89fab1253729e8a1067c24f') in 0.002162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Dark UI/Prefabs Buttons/Inventory Button.prefab
+  artifactKey: Guid(767d54a212d487e4b810ed9a97bdb865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Prefabs Buttons/Inventory Button.prefab using Guid(767d54a212d487e4b810ed9a97bdb865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83bdf834ba378b36493959ae81853f7b') in 0.001473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.002046 seconds.
+  path: Assets/Dark UI/Prefabs Buttons/Item List.prefab
+  artifactKey: Guid(a07de068baebd3d4284ee0c354168d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Prefabs Buttons/Item List.prefab using Guid(a07de068baebd3d4284ee0c354168d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e34d4ee94b8ebfa7069ca822f1f15544') in 0.006366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 158
+========================================================================
+Received Import Request.
+  Time since last request: 0.000707 seconds.
+  path: Assets/Dark UI/Prefabs Buttons/Missions Button.prefab
+  artifactKey: Guid(a6d2d0815e8bd9846afeb0205f0f5ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Prefabs Buttons/Missions Button.prefab using Guid(a6d2d0815e8bd9846afeb0205f0f5ea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '350762aee9d3f06895e006fcfb3f58c9') in 0.001708 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.001837 seconds.
+  path: Assets/Dark UI/Prefabs Buttons/Music.prefab
+  artifactKey: Guid(ab21d8b2955e7214da58a9623ed6830c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Prefabs Buttons/Music.prefab using Guid(ab21d8b2955e7214da58a9623ed6830c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5bc5162d775e55b882f41796d259694') in 0.002755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.000520 seconds.
+  path: Assets/Dark UI/Prefabs Buttons/Notification.prefab
+  artifactKey: Guid(9b93e0873a7ba034697ab5143e50d1c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Prefabs Buttons/Notification.prefab using Guid(9b93e0873a7ba034697ab5143e50d1c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4167558e7f30597d5735d554d6ba3282') in 0.002401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000893 seconds.
+  path: Assets/Dark UI/Prefabs Buttons/Play Button.prefab
+  artifactKey: Guid(d0329f7d2e9d3ff4c8a0abd462dd43da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Prefabs Buttons/Play Button.prefab using Guid(d0329f7d2e9d3ff4c8a0abd462dd43da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64ffecf3c4d071b6479ac25a55a58e4b') in 0.001332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.001881 seconds.
+  path: Assets/Dark UI/Prefabs Buttons/Ranking Button.prefab
+  artifactKey: Guid(7d456eabe338b954cad35537f8d6df48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Prefabs Buttons/Ranking Button.prefab using Guid(7d456eabe338b954cad35537f8d6df48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa1d653e37eded10377a6dcab9a1ef15') in 0.001713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.001914 seconds.
+  path: Assets/Dark UI/Prefabs Buttons/Send Hearts BTN.prefab
+  artifactKey: Guid(b8c0210eb1b69384582a552cf8f93406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Prefabs Buttons/Send Hearts BTN.prefab using Guid(b8c0210eb1b69384582a552cf8f93406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '814931163af76261ddb9ea3403681572') in 0.002931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000544 seconds.
+  path: Assets/Dark UI/Prefabs Buttons/Settings Button.prefab
+  artifactKey: Guid(c996fd272fe74104f85efe41552eb389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Prefabs Buttons/Settings Button.prefab using Guid(c996fd272fe74104f85efe41552eb389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c26ab554985b8a8026ce1abcfbfb204') in 0.001518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.001814 seconds.
+  path: Assets/Dark UI/Prefabs Buttons/Shop.prefab
+  artifactKey: Guid(8e718c86e1a7ee644bc43222ab08b2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Prefabs Buttons/Shop.prefab using Guid(8e718c86e1a7ee644bc43222ab08b2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c773855a4fa896b5aba2552107dda1a') in 0.001416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.001749 seconds.
+  path: Assets/Dark UI/Prefabs Buttons/Sound.prefab
+  artifactKey: Guid(d947ddc741aa3a6449282c7c95088032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Prefabs Buttons/Sound.prefab using Guid(d947ddc741aa3a6449282c7c95088032) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '850c6826f6cfec854a54b39e89716956') in 0.001826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 6.699647 seconds.
+  path: Assets/Dark UI/Prefabs Panel/Inventory Panel.prefab
+  artifactKey: Guid(7b9531949e32e694493f68b06afcf377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Prefabs Panel/Inventory Panel.prefab using Guid(7b9531949e32e694493f68b06afcf377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e0af858d4061ad1dec990300885194b') in 0.004706 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 239
+========================================================================
+Received Import Request.
+  Time since last request: 0.002392 seconds.
+  path: Assets/Dark UI/Prefabs Panel/Missions.prefab
+  artifactKey: Guid(88bfb9db2b5e692439d24a9c469a31b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Prefabs Panel/Missions.prefab using Guid(88bfb9db2b5e692439d24a9c469a31b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e19f8f79be022dd0632ecdff32461ab5') in 0.006144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 256
+========================================================================
+Received Import Request.
+  Time since last request: 0.000950 seconds.
+  path: Assets/Dark UI/Prefabs Panel/Panel.prefab
+  artifactKey: Guid(d9f1eab8509cab84c8deac6f16b2db0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Prefabs Panel/Panel.prefab using Guid(d9f1eab8509cab84c8deac6f16b2db0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f7804b3598dd061a7cf7c4cfbfe4b45') in 0.003511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 87
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Dark UI/Prefabs Panel/Ranking.prefab
+  artifactKey: Guid(eb6a70d5d0019934d9b19badc9144ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Prefabs Panel/Ranking.prefab using Guid(eb6a70d5d0019934d9b19badc9144ac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '297c28b411e6de8ce6787c389b52c36e') in 0.005696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 356
+========================================================================
+Received Import Request.
+  Time since last request: 0.004854 seconds.
+  path: Assets/Dark UI/Prefabs Panel/Win.prefab
+  artifactKey: Guid(0d8b9493ff4401d43bc6ea9f344235d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Prefabs Panel/Win.prefab using Guid(0d8b9493ff4401d43bc6ea9f344235d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c61bb439520abedcdb2ae77418543732') in 0.002974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 71
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Github\CPI441_Omniverse\MyndVR_Capstone\MyndVRCapstone\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Github\CPI441_Omniverse\MyndVR_Capstone\MyndVRCapstone\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.500 seconds
+Refreshing native plugins compatible for Editor in 4.25 ms, found 9 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.550 seconds
+Domain Reload Profiling: 1050ms
+	BeginReloadAssembly (119ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (330ms)
+		LoadAssemblies (181ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (206ms)
+			TypeCache.Refresh (197ms)
+				TypeCache.ScanAssembly (188ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (551ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (284ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (44ms)
+			ProcessInitializeOnLoadAttributes (194ms)
+			ProcessInitializeOnLoadMethodAttributes (26ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 3.86 ms, found 9 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4290 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 65 unused Assets / (0.7 MB). Loaded Objects now: 4822.
+Memory consumption went from 151.8 MB to 151.0 MB.
+Total: 2.434300 ms (FindLiveObjects: 0.200800 ms CreateObjectMapping: 0.101100 ms MarkObjects: 1.888900 ms  DeleteObjects: 0.242900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
