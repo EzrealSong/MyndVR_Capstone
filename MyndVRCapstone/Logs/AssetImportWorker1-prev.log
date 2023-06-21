@@ -15,7 +15,7 @@ D:/Github/CPI441_Omniverse/MyndVR_Capstone/MyndVRCapstone
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-62289
+52453
 Successfully changed project path to: D:/Github/CPI441_Omniverse/MyndVR_Capstone/MyndVRCapstone
 D:/Github/CPI441_Omniverse/MyndVR_Capstone/MyndVRCapstone
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ D:/Github/CPI441_Omniverse/MyndVR_Capstone/MyndVRCapstone
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [20952] Host "[IP] 192.168.0.209 [Port] 0 [Flags] 2 [Guid] 2215143600 [EditorId] 2215143600 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-T28UBDT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [27304] Host "[IP] 192.168.0.209 [Port] 0 [Flags] 2 [Guid] 4221787192 [EditorId] 4221787192 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-T28UBDT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [20952] Host "[IP] 192.168.0.209 [Port] 0 [Flags] 2 [Guid] 2215143600 [EditorId] 2215143600 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-T28UBDT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [27304] Host "[IP] 192.168.0.209 [Port] 0 [Flags] 2 [Guid] 4221787192 [EditorId] 4221787192 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-T28UBDT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 7.75 ms, found 9 plugins.
+Refreshing native plugins compatible for Editor in 9.29 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.0f1 (fb119bb0b476)
 [Subsystems] Discovering subsystems at path F:/Unity/2022.3.0f1/Editor/Data/Resources/UnitySubsystems
@@ -69,20 +69,20 @@ Initialize mono
 Mono path[0] = 'F:/Unity/2022.3.0f1/Editor/Data/Managed'
 Mono path[1] = 'F:/Unity/2022.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'F:/Unity/2022.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56824
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56148
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: F:/Unity/2022.3.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: F:/Unity/2022.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003663 seconds.
-- Loaded All Assemblies, in  0.246 seconds
+Registered in 0.004470 seconds.
+- Loaded All Assemblies, in  0.264 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 174 ms
+Android Extension - Scanning For ADB Devices 182 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.415 seconds
-Domain Reload Profiling: 660ms
-	BeginReloadAssembly (67ms)
+- Finished resetting the current domain, in  0.416 seconds
+Domain Reload Profiling: 680ms
+	BeginReloadAssembly (74ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
@@ -90,26 +90,26 @@ Domain Reload Profiling: 660ms
 		CreateAndSetChildDomain (1ms)
 	RebuildCommonClasses (25ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (108ms)
-		LoadAssemblies (67ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (113ms)
+		LoadAssemblies (74ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (105ms)
-			TypeCache.Refresh (104ms)
-				TypeCache.ScanAssembly (96ms)
+		AnalyzeDomain (110ms)
+			TypeCache.Refresh (109ms)
+				TypeCache.ScanAssembly (100ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (415ms)
+	FinalizeReload (417ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (372ms)
+		SetupLoadedEditorAssemblies (375ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (257ms)
+			InitializePlatformSupportModulesInManaged (263ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (78ms)
-			ProcessInitializeOnLoadMethodAttributes (32ms)
+			ProcessInitializeOnLoadAttributes (75ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -119,8 +119,8 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Github\CPI441_Omniverse\MyndVR_Capstone\MyndVRCapstone\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Github\CPI441_Omniverse\MyndVR_Capstone\MyndVRCapstone\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.551 seconds
-Refreshing native plugins compatible for Editor in 3.94 ms, found 9 plugins.
+- Loaded All Assemblies, in  0.549 seconds
+Refreshing native plugins compatible for Editor in 4.12 ms, found 9 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
@@ -134,202 +134,48 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.469 seconds
-Domain Reload Profiling: 1020ms
-	BeginReloadAssembly (100ms)
+- Finished resetting the current domain, in  0.452 seconds
+Domain Reload Profiling: 1001ms
+	BeginReloadAssembly (101ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (15ms)
-	RebuildCommonClasses (26ms)
+		CreateAndSetChildDomain (17ms)
+	RebuildCommonClasses (24ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (386ms)
-		LoadAssemblies (193ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (388ms)
+		LoadAssemblies (192ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (248ms)
-			TypeCache.Refresh (229ms)
-				TypeCache.ScanAssembly (219ms)
-			ScanForSourceGeneratedMonoScriptInfo (15ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (470ms)
+		AnalyzeDomain (251ms)
+			TypeCache.Refresh (226ms)
+				TypeCache.ScanAssembly (215ms)
+			ScanForSourceGeneratedMonoScriptInfo (20ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (452ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (344ms)
+		SetupLoadedEditorAssemblies (326ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (16ms)
-			SetLoadedEditorAssemblies (4ms)
+			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (53ms)
-			ProcessInitializeOnLoadAttributes (234ms)
-			ProcessInitializeOnLoadMethodAttributes (33ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 4.27 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4258 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 70 unused Assets / (70.2 KB). Loaded Objects now: 4727.
-Memory consumption went from 149.0 MB to 148.9 MB.
-Total: 2.300000 ms (FindLiveObjects: 0.203800 ms CreateObjectMapping: 0.101800 ms MarkObjects: 1.903800 ms  DeleteObjects: 0.090100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 362111.899968 seconds.
-  path: Assets/XRI/Settings/Resources/XRDeviceSimulatorSettings.asset
-  artifactKey: Guid(c39135256c3409841aca4900a05dcb47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XRI/Settings/Resources/XRDeviceSimulatorSettings.asset using Guid(c39135256c3409841aca4900a05dcb47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a00364be5e0bd383bf7a4579d44cccb') in 0.010508 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 5.983212 seconds.
-  path: Assets/XR/Settings/OpenXR Package Settings.asset
-  artifactKey: Guid(28c0081c40ed24b4a83ac6a17b02fdf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/Settings/OpenXR Package Settings.asset using Guid(28c0081c40ed24b4a83ac6a17b02fdf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e91c74d257c3d72e00c04b9ad9d9794') in 0.001961 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Github\CPI441_Omniverse\MyndVR_Capstone\MyndVRCapstone\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Github\CPI441_Omniverse\MyndVR_Capstone\MyndVRCapstone\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.484 seconds
-Refreshing native plugins compatible for Editor in 4.33 ms, found 9 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.571 seconds
-Domain Reload Profiling: 1055ms
-	BeginReloadAssembly (113ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (22ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (17ms)
-	LoadAllAssembliesAndSetupDomain (323ms)
-		LoadAssemblies (177ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (200ms)
-			TypeCache.Refresh (196ms)
-				TypeCache.ScanAssembly (187ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (572ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (305ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (15ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (49ms)
-			ProcessInitializeOnLoadAttributes (203ms)
-			ProcessInitializeOnLoadMethodAttributes (29ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (229ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 4.25 ms, found 9 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 3.88 ms, found 9 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4243 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 48 unused Assets / (44.5 KB). Loaded Objects now: 4732.
-Memory consumption went from 146.3 MB to 146.3 MB.
-Total: 2.529400 ms (FindLiveObjects: 0.225400 ms CreateObjectMapping: 0.124900 ms MarkObjects: 2.114300 ms  DeleteObjects: 0.064200 ms)
+Unloading 4305 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 70 unused Assets / (70.2 KB). Loaded Objects now: 4775.
+Memory consumption went from 153.8 MB to 153.7 MB.
+Total: 2.530800 ms (FindLiveObjects: 0.230300 ms CreateObjectMapping: 0.115000 ms MarkObjects: 2.042800 ms  DeleteObjects: 0.141900 ms)
 
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\Github\CPI441_Omniverse\MyndVR_Capstone\MyndVRCapstone\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\Github\CPI441_Omniverse\MyndVR_Capstone\MyndVRCapstone\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.530 seconds
-Refreshing native plugins compatible for Editor in 4.00 ms, found 9 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.600 seconds
-Domain Reload Profiling: 1130ms
-	BeginReloadAssembly (118ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (3ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (32ms)
-	RebuildCommonClasses (23ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (358ms)
-		LoadAssemblies (173ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (237ms)
-			TypeCache.Refresh (233ms)
-				TypeCache.ScanAssembly (222ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (601ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (331ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (19ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (49ms)
-			ProcessInitializeOnLoadAttributes (225ms)
-			ProcessInitializeOnLoadMethodAttributes (32ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 4.46 ms, found 9 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4244 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 48 unused Assets / (44.6 KB). Loaded Objects now: 4736.
-Memory consumption went from 146.6 MB to 146.5 MB.
-Total: 3.047500 ms (FindLiveObjects: 0.267000 ms CreateObjectMapping: 0.150300 ms MarkObjects: 2.574200 ms  DeleteObjects: 0.055100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -343,990 +189,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 2732.360054 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/buttons/GreenBtn.PNG
-  artifactKey: Guid(92196fd2f3623b446b16cf50f24998c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/buttons/GreenBtn.PNG using Guid(92196fd2f3623b446b16cf50f24998c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fde1f8e55162b6cf8d7cddee9d4172a') in 0.060492 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/buttons/RedBtn.PNG
-  artifactKey: Guid(626ae2dc0063ae842994983ad0232f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/buttons/RedBtn.PNG using Guid(626ae2dc0063ae842994983ad0232f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01e481b60ac5dfb3896cb6c3d267e522') in 0.010965 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 1.841173 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/BlueBtn_02_icon.png
-  artifactKey: Guid(f9ec01508ba386349ab464add507cb76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/BlueBtn_02_icon.png using Guid(f9ec01508ba386349ab464add507cb76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1f6bf44639c9a3f63b9a43407d087a2') in 0.011443 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/BlueBtn_05_icon.png
-  artifactKey: Guid(00f907a6cbac6dd478ff96096dd6fc7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/BlueBtn_05_icon.png using Guid(00f907a6cbac6dd478ff96096dd6fc7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '569328d8c4f1e738e5d6131d4b014864') in 0.010351 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/BlueBtn_07_icon.png
-  artifactKey: Guid(4f7ad0d93ee8bba41a7f4aac5dab76fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/BlueBtn_07_icon.png using Guid(4f7ad0d93ee8bba41a7f4aac5dab76fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76dab1447976bec09c6623e2fa4fa04c') in 0.010591 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/BlueBtn_09_icon.png
-  artifactKey: Guid(ded23a200c8a9da429b1d8fb89b60f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/BlueBtn_09_icon.png using Guid(ded23a200c8a9da429b1d8fb89b60f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0a0cd39e0a8093009cc6d7563dc5b7d') in 0.009694 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.003598 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/BlueBtn_13_icon.png
-  artifactKey: Guid(78844e6bfc7154b48a4d547f32b3202d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/BlueBtn_13_icon.png using Guid(78844e6bfc7154b48a4d547f32b3202d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd560d454c98e380554b57cf2d5cd06f') in 0.010533 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/BlueBtn_15_icon.png
-  artifactKey: Guid(880daf4104aa83240b36d43cb694ca7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/BlueBtn_15_icon.png using Guid(880daf4104aa83240b36d43cb694ca7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '048e5df4fc8f76e170a922936e4514bb') in 0.010546 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/BlueBtn_16_icon.png
-  artifactKey: Guid(085931211e4885e47b833f06d6ff3cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/BlueBtn_16_icon.png using Guid(085931211e4885e47b833f06d6ff3cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d6cf3cf3230bd1c76cb85f6b90d6ef1') in 0.010966 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/BlueBtn_21_icon.png
-  artifactKey: Guid(0c615da7053b7c949bccb3f07487286f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/BlueBtn_21_icon.png using Guid(0c615da7053b7c949bccb3f07487286f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b97fc268f427d735989bb4c081d7a43') in 0.009877 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/BlueBtn_19_icon.png
-  artifactKey: Guid(809d4039cd8205444a545c347c0dd593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/BlueBtn_19_icon.png using Guid(809d4039cd8205444a545c347c0dd593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d6ef5279e61595682ea81c3ae89418e') in 0.009657 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/BlueBtn_24_icon.png
-  artifactKey: Guid(5be296038e480ac41a36412e5146f8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/BlueBtn_24_icon.png using Guid(5be296038e480ac41a36412e5146f8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bb776eb77845df739826983bd3ebe42') in 0.009229 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/BlueBtn_25_icon.png
-  artifactKey: Guid(f97a5e5514c33c54a9146054f8fc8e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/BlueBtn_25_icon.png using Guid(f97a5e5514c33c54a9146054f8fc8e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f4af3c52de41f8ba2f551083b6c8efa') in 0.008923 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_01_icon.png
-  artifactKey: Guid(27127215dd9c4d443936f91e95651ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_01_icon.png using Guid(27127215dd9c4d443936f91e95651ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e63c3bd843b7e154cc543b988de0688f') in 0.009145 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_09_icon.png
-  artifactKey: Guid(30e1162b6bf9d954a878a80dcdafd7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_09_icon.png using Guid(30e1162b6bf9d954a878a80dcdafd7d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd960f9f847e0e698156dab24f81c9635') in 0.009178 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_12_icon.png
-  artifactKey: Guid(5d46e50c97ce389449971188a0bb5468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_12_icon.png using Guid(5d46e50c97ce389449971188a0bb5468) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7345707c28c1a728b009c1e058224da2') in 0.009264 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_13_icon.png
-  artifactKey: Guid(7b625f20a1114474e81e37b9f0535e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_13_icon.png using Guid(7b625f20a1114474e81e37b9f0535e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4293d388b109d1a769bc147a50f961d') in 0.008920 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_17_icon.png
-  artifactKey: Guid(18884b892f2c24b47bb5fd328d9ceccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_17_icon.png using Guid(18884b892f2c24b47bb5fd328d9ceccd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0355874689905aebca0b58393f6d753') in 0.009469 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_20_icon.png
-  artifactKey: Guid(ec6959b42dd118a4ab53f4816efad7fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_20_icon.png using Guid(ec6959b42dd118a4ab53f4816efad7fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48e53a36c1edc2a8f5c6fa6d714df512') in 0.009146 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_18_icon.png
-  artifactKey: Guid(76bcd1846ed6b0a4f9d48ba3a22345a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_18_icon.png using Guid(76bcd1846ed6b0a4f9d48ba3a22345a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '560c43a2a11d81bd36fac3df6330b9cb') in 0.009147 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_04_icon.png
-  artifactKey: Guid(013becff5a9e760438efef18d1305e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_04_icon.png using Guid(013becff5a9e760438efef18d1305e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aea0c94dbaeddf6163f12643b5d2c8b7') in 0.008967 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_01_icon.png
-  artifactKey: Guid(ea6536e74a1b2294da9699c51d0a12d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_01_icon.png using Guid(ea6536e74a1b2294da9699c51d0a12d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3496c0863deca9c5b87bd03b28ac6f77') in 0.009687 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_04_icon.png
-  artifactKey: Guid(8966a40241282b744ac973c106050dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_04_icon.png using Guid(8966a40241282b744ac973c106050dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18e0d1e8a4e95830aeb1a76b2f62e1b2') in 0.008844 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_08_icon.png
-  artifactKey: Guid(13b3092aeaff2cf48b3ae35c43526bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_08_icon.png using Guid(13b3092aeaff2cf48b3ae35c43526bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70ddce94a0621886b3d35d7cb3127412') in 0.009451 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_11_icon.png
-  artifactKey: Guid(43752907bbb8e094fa3d9ec5340f7249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_11_icon.png using Guid(43752907bbb8e094fa3d9ec5340f7249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3d09f742bdb07e5d2c603f759bb497b') in 0.009038 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_12_icon.png
-  artifactKey: Guid(70785bd2bd1c7bd44912ee5616e8a0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_12_icon.png using Guid(70785bd2bd1c7bd44912ee5616e8a0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '755dadfc4075ce1a1541cfbcb6df8ab6') in 0.009299 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_15_icon.png
-  artifactKey: Guid(abe4e19546f3cf046878a0d115876abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_15_icon.png using Guid(abe4e19546f3cf046878a0d115876abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94c196704571ff22be472b03e33573ad') in 0.009730 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_19_icon.png
-  artifactKey: Guid(1c2468293c1edf24fae80b37f9fe66f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_19_icon.png using Guid(1c2468293c1edf24fae80b37f9fe66f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdb6e4a0fa1ba64488d978df8c7e216e') in 0.009295 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_17_icon.png
-  artifactKey: Guid(00bf6634243c20e4d906da9a43e68dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_17_icon.png using Guid(00bf6634243c20e4d906da9a43e68dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c846ab1aed29f21517444bda80034476') in 0.009777 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_24_icon.png
-  artifactKey: Guid(cf24dc9e8da0cdb4481d857409e9cdf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_24_icon.png using Guid(cf24dc9e8da0cdb4481d857409e9cdf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '173f6d05cab274fca5468a68a359f132') in 0.009270 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_20_icon.png
-  artifactKey: Guid(3c7d37b76003e184ab9440643f786e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_20_icon.png using Guid(3c7d37b76003e184ab9440643f786e2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eadfd1870656990effeead61b50543a') in 0.009659 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/OrangeBtn_04_icon.png
-  artifactKey: Guid(e0f68e15c1c3fe5449ce3773d26a9f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/OrangeBtn_04_icon.png using Guid(e0f68e15c1c3fe5449ce3773d26a9f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13e0953a5875dcad2e69f9aac42cffb0') in 0.010507 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/OrangeBtn_02_icon.png
-  artifactKey: Guid(ceb8df935094ccf4b8dc3a621e9e54db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/OrangeBtn_02_icon.png using Guid(ceb8df935094ccf4b8dc3a621e9e54db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b5a40e2483e91997462c963f129734e') in 0.010698 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_14_icon.png
-  artifactKey: Guid(b1857cb04bed1b541b5bb9b4b44efaae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_14_icon.png using Guid(b1857cb04bed1b541b5bb9b4b44efaae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccf4386f147407ecd5920ed6089e8e16') in 0.010541 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/OrangeBtn_01_icon.png
-  artifactKey: Guid(8609d86f48b103e48970267e446dc09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/OrangeBtn_01_icon.png using Guid(8609d86f48b103e48970267e446dc09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c390d106f78799e2864a5fbc3347ba0f') in 0.009976 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/BlueBtn_06_icon.png
-  artifactKey: Guid(79bd9866ed9ad1e4397416dadd6dfc1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/BlueBtn_06_icon.png using Guid(79bd9866ed9ad1e4397416dadd6dfc1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e8a7e9db64961715e8f8d78aeffc04d') in 0.009914 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_11_icon.png
-  artifactKey: Guid(d1033b9ee92a4bc478243dcd61512d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_11_icon.png using Guid(d1033b9ee92a4bc478243dcd61512d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2d4c2c460af8e50f628baeb7a96baed') in 0.009737 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_22_icon.png
-  artifactKey: Guid(9d2255e298d80db4aa1cf78f0447639f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_22_icon.png using Guid(9d2255e298d80db4aa1cf78f0447639f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6c28ba7b5481b0cfdbd25997b68d401') in 0.009595 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_07_icon.png
-  artifactKey: Guid(cf5f57083bd359046a017e8458f507cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_07_icon.png using Guid(cf5f57083bd359046a017e8458f507cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12ebedd5a2eecdb9cfcbe7bc7f406f70') in 0.009810 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_02_icon.png
-  artifactKey: Guid(64d37049b2958204596321548b6b5602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_02_icon.png using Guid(64d37049b2958204596321548b6b5602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee20341fc57e56effb396c5c933f8c87') in 0.009693 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_09_icon.png
-  artifactKey: Guid(d3c0cb50cda4cca47a74dad7a2a948b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_09_icon.png using Guid(d3c0cb50cda4cca47a74dad7a2a948b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faf30c870390ee9d4a8c450ba9dc65f6') in 0.009381 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_08_icon.png
-  artifactKey: Guid(c9552c08f792aec418c890c316c1b5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_08_icon.png using Guid(c9552c08f792aec418c890c316c1b5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '423435a5834d449a07c8389832653071') in 0.010313 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_23_icon.png
-  artifactKey: Guid(2d37629576d93da4fb32bfafd94c8819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_23_icon.png using Guid(2d37629576d93da4fb32bfafd94c8819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f5334f1cc9ebe001be03467246664f') in 0.009571 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 3.408380 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/OrangeBtn_08_icon.png
-  artifactKey: Guid(e545538ff22a5eb44a5f805734d98355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/OrangeBtn_08_icon.png using Guid(e545538ff22a5eb44a5f805734d98355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c05c5b7e582fed0c83b98b8b49d740fb') in 0.009883 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/OrangeBtn_10_icon.png
-  artifactKey: Guid(ccb5c3be40b9fc349940189bb77f6b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/OrangeBtn_10_icon.png using Guid(ccb5c3be40b9fc349940189bb77f6b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d7b1a8e2ccae6b3a4e6f6a2e05348e0') in 0.010023 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/OrangeBtn_13_icon.png
-  artifactKey: Guid(24ab326baf5d4b744a20984a9465f6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/OrangeBtn_13_icon.png using Guid(24ab326baf5d4b744a20984a9465f6b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdf3c90aff852ee85a22caebd1ce0a3a') in 0.009603 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/OrangeBtn_15_icon.png
-  artifactKey: Guid(606bf536c6b7202449d2b875b7053fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/OrangeBtn_15_icon.png using Guid(606bf536c6b7202449d2b875b7053fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '525fd616b79df38118ba61bde55d1f0e') in 0.009810 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/OrangeBtn_18_icon.png
-  artifactKey: Guid(9923d942389413342a2b32cfaf0c6a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/OrangeBtn_18_icon.png using Guid(9923d942389413342a2b32cfaf0c6a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33396ac888270b08afa7b5d83e775685') in 0.008892 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/OrangeBtn_22_icon.png
-  artifactKey: Guid(6818d2672826707419fe16ab5d08c72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/OrangeBtn_22_icon.png using Guid(6818d2672826707419fe16ab5d08c72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db2794c3bbb0a680e7fbed93d78e62a8') in 0.009570 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/OrangeBtn_19_icon.png
-  artifactKey: Guid(31296e0490cef0b4e83cb2ad9ea3ba26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/OrangeBtn_19_icon.png using Guid(31296e0490cef0b4e83cb2ad9ea3ba26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d6e6088fff374932e85e144a1a70c44') in 0.009621 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000075 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/OrangeBtn_12_icon.png
-  artifactKey: Guid(f88bf682a917eb2468dfe27665e81dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/OrangeBtn_12_icon.png using Guid(f88bf682a917eb2468dfe27665e81dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff3280f278d0671b40c08ceda2eed8cd') in 0.010400 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.151939 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/OrangeBtn_24_icon.png
-  artifactKey: Guid(2c6954854496d5444a2f869ef77e94aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/OrangeBtn_24_icon.png using Guid(2c6954854496d5444a2f869ef77e94aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad2ed813c4b08181fed43867943c72b3') in 0.010149 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/PurpleBtn_01_icon.png
-  artifactKey: Guid(a1dbf9946b018f047bb7d48877b4e865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/PurpleBtn_01_icon.png using Guid(a1dbf9946b018f047bb7d48877b4e865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eadb619b18bf8953bff13025b06442d') in 0.009477 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/PurpleBtn_03_icon.png
-  artifactKey: Guid(2a758eb25b6c1c9498c4466a1dba7277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/PurpleBtn_03_icon.png using Guid(2a758eb25b6c1c9498c4466a1dba7277) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '916c1be0844910ccd71ba2b97ca7b726') in 0.010030 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/PurpleBtn_05_icon.png
-  artifactKey: Guid(d0cd823bc69e5df4da7e9a81b14a29c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/PurpleBtn_05_icon.png using Guid(d0cd823bc69e5df4da7e9a81b14a29c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12dfa5f9aa9aab45ac6a53677bd3cb9f') in 0.028685 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/PurpleBtn_12_icon.png
-  artifactKey: Guid(77d799d9e46f529428e2391723fe9936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/PurpleBtn_12_icon.png using Guid(77d799d9e46f529428e2391723fe9936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35a0bb8370f86ee784553b2b8a86be3a') in 0.010227 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/PurpleBtn_04_icon.png
-  artifactKey: Guid(e828f4c4fab2a854c9ad5815f1354135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/PurpleBtn_04_icon.png using Guid(e828f4c4fab2a854c9ad5815f1354135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90d61ed41e3331d434ed78fb2cdb7b5f') in 0.009997 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/PurpleBtn_11_icon.png
-  artifactKey: Guid(a40023d3447e9534cb4b93220da6b1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/PurpleBtn_11_icon.png using Guid(a40023d3447e9534cb4b93220da6b1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b73984587d4742566c32298c40fb4916') in 0.009212 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.745157 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/PurpleBtn_15_icon.png
-  artifactKey: Guid(842f3b6e2d6cf1343adeda0e7ce667e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/PurpleBtn_15_icon.png using Guid(842f3b6e2d6cf1343adeda0e7ce667e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a79211d3cd64a24aba3056c3489e5d56') in 0.012404 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/PurpleBtn_18_icon.png
-  artifactKey: Guid(31f8a20d4ccee6e4cb5e4413d88db694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/PurpleBtn_18_icon.png using Guid(31f8a20d4ccee6e4cb5e4413d88db694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16cf511947b1f06cd616d33c14f81147') in 0.010665 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/PurpleBtn_20_icon.png
-  artifactKey: Guid(cf5529142c3e3dd44920b7fbe86becb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/PurpleBtn_20_icon.png using Guid(cf5529142c3e3dd44920b7fbe86becb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee64d6b3a7011cc9b29224ce9f3c6871') in 0.011329 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/PurpleBtn_23_icon.png
-  artifactKey: Guid(6c9a245fe025e784b937bfb0191ebc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/PurpleBtn_23_icon.png using Guid(6c9a245fe025e784b937bfb0191ebc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dbf33596a82a1a49f7c55f030492532') in 0.009909 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/PurpleBtn_25_icon.png
-  artifactKey: Guid(d34d46de828ce024bbacca09ef6a2494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/PurpleBtn_25_icon.png using Guid(d34d46de828ce024bbacca09ef6a2494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60c108099dc56cee9b082e6a5208e29f') in 0.009877 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_04_icon.png
-  artifactKey: Guid(313d36dc42b8194428e7f38165ba2bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_04_icon.png using Guid(313d36dc42b8194428e7f38165ba2bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beee491eb3005310c8bd726fd2785170') in 0.011322 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_05_icon.png
-  artifactKey: Guid(6cdc95d70d412424b8c34f61365531fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_05_icon.png using Guid(6cdc95d70d412424b8c34f61365531fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e8058de410c90a8f0c83a370e4a026') in 0.010257 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_08_icon.png
-  artifactKey: Guid(99807a918a26533419851e596d8632c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_08_icon.png using Guid(99807a918a26533419851e596d8632c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b4910f3b7ac28ff2ad8ddaa7025f160') in 0.009477 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_10_icon.png
-  artifactKey: Guid(8fd9d5b902b13a24daf7557b4c3b1deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_10_icon.png using Guid(8fd9d5b902b13a24daf7557b4c3b1deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8356d2f6bf3d0f7daebf7e341704874') in 0.009652 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_13_icon.png
-  artifactKey: Guid(d210962c4cc7bd5469b8b5745ec74e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_13_icon.png using Guid(d210962c4cc7bd5469b8b5745ec74e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0f73e2040917f16346d79d580707194') in 0.010254 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_15_icon.png
-  artifactKey: Guid(c03a78ce12f098e40b3b48edba39a001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_15_icon.png using Guid(c03a78ce12f098e40b3b48edba39a001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '780d7f7b3fa4fd78574cfcf24864e33d') in 0.010109 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_19_icon.png
-  artifactKey: Guid(79eb34ee5e9f15b48ab93dbe7f550e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_19_icon.png using Guid(79eb34ee5e9f15b48ab93dbe7f550e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a45484318590ffc90db772ebe09532f') in 0.010574 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_22_icon.png
-  artifactKey: Guid(f1e3500a388d84a4bb0b795bbbe94b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_22_icon.png using Guid(f1e3500a388d84a4bb0b795bbbe94b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86bfd22cd8dfb5c74eab25806d6be1ee') in 0.010228 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_24_icon.png
-  artifactKey: Guid(afd3b343efb0f274da4743db8d6bdb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_24_icon.png using Guid(afd3b343efb0f274da4743db8d6bdb48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '994d4ae2f57e70a4a53a7de575d83836') in 0.010634 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/YellowBtn_03_icon.png
-  artifactKey: Guid(768ef523d04a5404bb911cdb16f628a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/YellowBtn_03_icon.png using Guid(768ef523d04a5404bb911cdb16f628a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9552e82b6627c7cbf8c0a183325ed05b') in 0.009477 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/YellowBtn_01_icon.png
-  artifactKey: Guid(c755fa405b3788e459c23539c3c30923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/YellowBtn_01_icon.png using Guid(c755fa405b3788e459c23539c3c30923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a97739191a47efd41f9bffc47c324a') in 0.009890 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/YellowBtn_05_icon.PNG
-  artifactKey: Guid(0b154a4caa93e5843b13ceb6ec92196c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/YellowBtn_05_icon.PNG using Guid(0b154a4caa93e5843b13ceb6ec92196c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bbb15c55d1d392c8ac26fe7bfda631f') in 0.009674 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/YellowBtn_11_icon.PNG
-  artifactKey: Guid(806bf7b80e3b49846adf5a2e6d0ee3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/YellowBtn_11_icon.PNG using Guid(806bf7b80e3b49846adf5a2e6d0ee3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3ffb6db89aa71ba063c25d0ad269ced') in 0.009926 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/YellowBtn_14_icon.PNG
-  artifactKey: Guid(bd03a0d8260f1b54894c11aa93850bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/YellowBtn_14_icon.PNG using Guid(bd03a0d8260f1b54894c11aa93850bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42646718927deda723645473beb85968') in 0.009800 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/YellowBtn_16_icon.PNG
-  artifactKey: Guid(5316919069947b14482b70a40f6cf72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/YellowBtn_16_icon.PNG using Guid(5316919069947b14482b70a40f6cf72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b7af5fea091bbb9bc48309129674526') in 0.009439 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/YellowBtn_19_icon.PNG
-  artifactKey: Guid(68495f19b24e34842ae24e275417b8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/YellowBtn_19_icon.PNG using Guid(68495f19b24e34842ae24e275417b8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56f833cc0c54d926f1d23a204551d4ef') in 0.009591 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/YellowBtn_20_icon.PNG
-  artifactKey: Guid(8da254cc18fba3c41a58b21c86bba293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/YellowBtn_20_icon.PNG using Guid(8da254cc18fba3c41a58b21c86bba293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb405ee2a5708cada01c24f4324b7434') in 0.009219 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/YellowBtn_24_icon.png
-  artifactKey: Guid(a660490853d3594419f7f466bf26d784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/YellowBtn_24_icon.png using Guid(a660490853d3594419f7f466bf26d784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca3086c564fb51d4996cbfd8c7e30d3f') in 0.011014 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/YellowBtn_22_icon.png
-  artifactKey: Guid(7d0657b4c565b024587d03cb756769cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/YellowBtn_22_icon.png using Guid(7d0657b4c565b024587d03cb756769cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '158a6b660aba6430093ab9b93927b1e2') in 0.009798 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_21_icon.png
-  artifactKey: Guid(5878936a2570d664a8d11c97c51c0518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_21_icon.png using Guid(5878936a2570d664a8d11c97c51c0518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0918f8ca36b5a64e2cd5c2aed212e230') in 0.009901 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/YellowBtn_15_icon.PNG
-  artifactKey: Guid(95138bce549278848b204c032f350f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/YellowBtn_15_icon.PNG using Guid(95138bce549278848b204c032f350f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f43f9f891271b418e0390ba508084003') in 0.010090 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/YellowBtn_25_icon.png
-  artifactKey: Guid(7005308bd0862db49a0d154a6dddd2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/YellowBtn_25_icon.png using Guid(7005308bd0862db49a0d154a6dddd2d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2355f10ac2961dbdc1e780e45c802537') in 0.010121 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/YellowBtn_07_icon.PNG
-  artifactKey: Guid(7074b2a7da2c3c0428fc7954d7c11a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/YellowBtn_07_icon.PNG using Guid(7074b2a7da2c3c0428fc7954d7c11a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78c1a7702605993b63a868d7135f5d01') in 0.009713 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/PurpleBtn_19_icon.png
-  artifactKey: Guid(61d86af2de8378e4f94201084652408c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/PurpleBtn_19_icon.png using Guid(61d86af2de8378e4f94201084652408c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0291e472e340ab6f70dcee3c5ce54f5') in 0.010266 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/PurpleBtn_21_icon.png
-  artifactKey: Guid(7b2c1d2370bc15143adf0a9bc3378068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/PurpleBtn_21_icon.png using Guid(7b2c1d2370bc15143adf0a9bc3378068) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cec7c8dceffaf91e6b7d26082cfffcfa') in 0.010140 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_16_icon.png
-  artifactKey: Guid(0546b648f23703d4fb811aeb72a5b306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_16_icon.png using Guid(0546b648f23703d4fb811aeb72a5b306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd957dfa7c7af436886261db353c91e19') in 0.009175 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 10.720573 seconds.
-  path: Assets/Dark UI/Free/32 Light.png
-  artifactKey: Guid(a689281f545979940b5cedad12ec31a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark UI/Free/32 Light.png using Guid(a689281f545979940b5cedad12ec31a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04d16ed1baa44f6f06d2174fd92c44cd') in 0.012684 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Dark UI/Free/64 Light.png
-  artifactKey: Guid(1bf101c8c2b8aab4484cd2ff08be047b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark UI/Free/64 Light.png using Guid(1bf101c8c2b8aab4484cd2ff08be047b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ccaf34b7ad20cb6ad5a0d7ac4f762c5') in 0.053028 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Dark UI/Free/Button_Medium_A.png
-  artifactKey: Guid(f9fa9ebfa2606f840a23f0bb0ac882af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark UI/Free/Button_Medium_A.png using Guid(f9fa9ebfa2606f840a23f0bb0ac882af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cfbc2ecb1148548af46b269a725685f') in 0.013779 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Dark UI/Free/128 Light.png
-  artifactKey: Guid(240ae01ad665c6d4798249cbec763ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark UI/Free/128 Light.png using Guid(240ae01ad665c6d4798249cbec763ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d390ce5f26e03c98c7d404e84bd2604') in 0.010508 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Dark UI/Free/CIRCLE2PXLAR.png
-  artifactKey: Guid(a05d49e5687fd3c4380912ac00e2db9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark UI/Free/CIRCLE2PXLAR.png using Guid(a05d49e5687fd3c4380912ac00e2db9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebe6dd9168f3ed5d59e006d01f188db9') in 0.011294 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Dark UI/Free/CIRCLE4PXMED.png
-  artifactKey: Guid(ec6eebcb88fa2314796ef9605c6a43e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark UI/Free/CIRCLE4PXMED.png using Guid(ec6eebcb88fa2314796ef9605c6a43e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5869b5571cf65cb079dd4fb4a6dd9f23') in 0.010422 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Dark UI/Free/BTN_Line_4PX_Medium.png
-  artifactKey: Guid(b631b747eaea1bb40a188fdced546dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark UI/Free/BTN_Line_4PX_Medium.png using Guid(b631b747eaea1bb40a188fdced546dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd04b215ad7f5b1e899e848edd8ba22c8') in 0.010432 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Dark UI/Free/Divider.png
-  artifactKey: Guid(3e33bda025a5e1d4eae51ae3933d9954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark UI/Free/Divider.png using Guid(3e33bda025a5e1d4eae51ae3933d9954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97605bb497881e8cd87dd8fbc2140d7b') in 0.009347 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Dark UI/Free/F.png
-  artifactKey: Guid(0fe7093e9bd11cb43b64578a75562ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark UI/Free/F.png using Guid(0fe7093e9bd11cb43b64578a75562ba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7a57615c3654cac3909c97add54648e') in 0.009945 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Dark UI/Free/Down BTN.png
-  artifactKey: Guid(adfae103208dcfb479b198bfb03f095e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark UI/Free/Down BTN.png using Guid(adfae103208dcfb479b198bfb03f095e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0102fda9995f59f1e9c30fb9d50f0401') in 0.009629 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Dark UI/Free/Facebook.png
-  artifactKey: Guid(b12df616c3582fd4faba65f7fac51968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark UI/Free/Facebook.png using Guid(b12df616c3582fd4faba65f7fac51968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65f5b07c8b9092cc88e5ed9fe8eadc7f') in 0.009485 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Dark UI/Free/64 Light 2.png
-  artifactKey: Guid(91db8970c28d4a344beff5618f7a0ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark UI/Free/64 Light 2.png using Guid(91db8970c28d4a344beff5618f7a0ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fe3e5f47bfe2c8af76090a09557ec72') in 0.012509 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Dark UI/Free/Lock.png
-  artifactKey: Guid(f9e4c141412ca6345963f9ece84aae0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark UI/Free/Lock.png using Guid(f9e4c141412ca6345963f9ece84aae0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44ae4095f3edeaf7c545f375398a3ffa') in 0.011111 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Dark UI/Free/Missions.png
-  artifactKey: Guid(b52130bb79a23344aa8c335cecb91eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark UI/Free/Missions.png using Guid(b52130bb79a23344aa8c335cecb91eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18154c9930e502368360d9699d20d642') in 0.012594 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Dark UI/Free/Right BTN.png
-  artifactKey: Guid(9dbc314d5e9a24d459a014d90696eb18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark UI/Free/Right BTN.png using Guid(9dbc314d5e9a24d459a014d90696eb18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aea4c449d1085ae6381814e936d508c7') in 0.013821 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Dark UI/Free/Star.png
-  artifactKey: Guid(58077e7d7c1f69e448677d19dddcbc9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark UI/Free/Star.png using Guid(58077e7d7c1f69e448677d19dddcbc9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '922844319425bf3cc0a1761c74433ea3') in 0.011793 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Dark UI/Free/World.png
-  artifactKey: Guid(cb0be92a1645a7c48a26aa4a8ebdb7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark UI/Free/World.png using Guid(cb0be92a1645a7c48a26aa4a8ebdb7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35646d7b6062950820958952a215af9c') in 0.011840 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Dark UI/Free/Down Arrow.png
-  artifactKey: Guid(4fa7a2c5ad85feb4991c2ddc865d25c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark UI/Free/Down Arrow.png using Guid(4fa7a2c5ad85feb4991c2ddc865d25c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6879e1a2960fc2b8d554c86100a7580f') in 0.012291 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/Dark UI/Free/Icon Sets.png
-  artifactKey: Guid(7747227fc69607f46833ce90b8776f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark UI/Free/Icon Sets.png using Guid(7747227fc69607f46833ce90b8776f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8abb2fef22dce28c313dd839b1086377') in 0.011796 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Dark UI/Free/BTN_Line_4PX_Large.png
-  artifactKey: Guid(c5c79f69909c16942b803f137f3ca0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark UI/Free/BTN_Line_4PX_Large.png using Guid(c5c79f69909c16942b803f137f3ca0eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a83a46aa4c325ef2ceb012ddb485dc68') in 0.010803 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Dark UI/Free/Info.png
-  artifactKey: Guid(c0d66557e6e886446b2af17220906a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark UI/Free/Info.png using Guid(c0d66557e6e886446b2af17220906a63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '606238836673a9ff290e12f27940cd5a') in 0.012153 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Dark UI/Free/BTN_Line_4PX_Small.png
-  artifactKey: Guid(a2d6a7e9df0789d4eaf8dbbac47eb1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark UI/Free/BTN_Line_4PX_Small.png using Guid(a2d6a7e9df0789d4eaf8dbbac47eb1f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac3e5848515b614b23cd294f06a2193f') in 0.013986 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Dark UI/Free/ButtonLargeRound.png
-  artifactKey: Guid(ac9e02ea18781ab459dd5feca42c0db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark UI/Free/ButtonLargeRound.png using Guid(ac9e02ea18781ab459dd5feca42c0db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc0c5965f4f47dc397f1f2baeb06d32') in 0.012633 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Dark UI/Free/Up BTN.png
-  artifactKey: Guid(156c51bba7cc9d24496e86f11d08bbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark UI/Free/Up BTN.png using Guid(156c51bba7cc9d24496e86f11d08bbaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '520a0e2dc984dee5e77643773ef9e59f') in 0.011069 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Dark UI/Free/Messages.png
-  artifactKey: Guid(dd8c6245ee19b2345ba3c0ce722a32c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark UI/Free/Messages.png using Guid(dd8c6245ee19b2345ba3c0ce722a32c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b9d2441dabe9a2790b5597550b9200a') in 0.010332 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Dark UI/Free/BTN_A3.png
-  artifactKey: Guid(864f00a7055893d45b093ac179e35237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark UI/Free/BTN_A3.png using Guid(864f00a7055893d45b093ac179e35237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '500d6d426ed8766989d796000ceeee6d') in 0.065126 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Dark UI/Free/Heart.png
-  artifactKey: Guid(cfad8ef0b5f68ac46bd02b3156b377a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark UI/Free/Heart.png using Guid(cfad8ef0b5f68ac46bd02b3156b377a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ce5ae47376b5cd4ddc3ad3579818396') in 0.011464 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Dark UI/Free/InputField.png
-  artifactKey: Guid(6cbf273c77eba1a448f3c04ff4292030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark UI/Free/InputField.png using Guid(6cbf273c77eba1a448f3c04ff4292030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83a098aa6c1b04d10aa525d684b41340') in 0.010196 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Dark UI/Free/Up Arrow.png
-  artifactKey: Guid(bdfcd00e719df654886a535178587f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark UI/Free/Up Arrow.png using Guid(bdfcd00e719df654886a535178587f29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4caf80be9e9df48e194b9cc7908254ef') in 0.010936 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 5.596261 seconds.
-  path: Assets/Dark UI/Prefabs Buttons/Content 1.prefab
-  artifactKey: Guid(61925a4a4e99004479415255739c736d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark UI/Prefabs Buttons/Content 1.prefab using Guid(61925a4a4e99004479415255739c736d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a1e4d96d2ec85fe75e6ecd17b2573c3') in 0.013693 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 43
-========================================================================
-Received Import Request.
-  Time since last request: 0.004842 seconds.
-  path: Assets/Dark UI/Prefabs Buttons/Messages Button.prefab
-  artifactKey: Guid(931fec1e23bc2ee40a548c3ee04bfff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark UI/Prefabs Buttons/Messages Button.prefab using Guid(931fec1e23bc2ee40a548c3ee04bfff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bcd397b646daa587f77a55667bec676') in 0.001729 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 6.737028 seconds.
-  path: Assets/Dark UI/Prefabs Panel/Lose.prefab
-  artifactKey: Guid(4ff6657e846bbad48913cd9657429b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark UI/Prefabs Panel/Lose.prefab using Guid(4ff6657e846bbad48913cd9657429b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c091b93c9273289c18eec3b8ea86bde') in 0.002809 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 69
-========================================================================
-Received Import Request.
-  Time since last request: 0.004641 seconds.
-  path: Assets/Dark UI/Prefabs Panel/My Info Panel.prefab
-  artifactKey: Guid(ba3a1aee54ab6804abce9e7e68ce679f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark UI/Prefabs Panel/My Info Panel.prefab using Guid(ba3a1aee54ab6804abce9e7e68ce679f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeb416a035f703e71214ff5e29242063') in 0.006913 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 143
-========================================================================
-Received Import Request.
-  Time since last request: 0.004350 seconds.
-  path: Assets/Dark UI/Prefabs Panel/Settings.prefab
-  artifactKey: Guid(f9388a690e3af3a4eb91e6679ea0affd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Dark UI/Prefabs Panel/Settings.prefab using Guid(f9388a690e3af3a4eb91e6679ea0affd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c08ea9bdd18419b4db8039c204c1015') in 0.005575 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 147
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 387688.164932 seconds.
+  path: Assets/Dark UI/Free
+  artifactKey: Guid(ed4641cfe264b2a4d85131149cf11d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Free using Guid(ed4641cfe264b2a4d85131149cf11d14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ba050682d66686b7255efd367d6b5d') in 0.001607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
