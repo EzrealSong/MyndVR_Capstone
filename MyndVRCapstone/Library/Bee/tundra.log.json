@@ -593,27 +593,3 @@
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm","enqueuedNodeIndex":482,"enqueueingNodeAnnotation":"Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)","enqueueingNodeIndex":461}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"WriteText Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm.rsp","enqueuedNodeIndex":481,"enqueueingNodeAnnotation":"MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll.mvfrm","enqueueingNodeIndex":482}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb","enqueuedNodeIndex":594,"enqueueingNodeAnnotation":"ScriptAssemblies","enqueueingNodeIndex":6}
-{"msg":"newNode","annotation":"WriteText Library/Bee/artifacts/1900b0aE.dag/UIEffect_Demo.dll.mvfrm.rsp","index":232}
-{"msg":"newNode","annotation":"WriteText Library/Bee/artifacts/1900b0aE.dag/UIEffect_Demo.UnityAdditionalFile.txt","index":228}
-{"msg":"newNode","annotation":"WriteText Library/Bee/artifacts/1900b0aE.dag/UIEffect_Demo.rsp2","index":230}
-{"msg":"newNode","annotation":"WriteText Library/Bee/artifacts/1900b0aE.dag/UIEffect_Demo.rsp","index":229}
-{"msg":"runNodeAction","annotation":"WriteText Library/Bee/artifacts/1900b0aE.dag/UIEffect_Demo.dll.mvfrm.rsp","displayName":"Writing UIEffect_Demo.dll.mvfrm.rsp","index":232}
-{"msg":"runNodeAction","annotation":"WriteText Library/Bee/artifacts/1900b0aE.dag/UIEffect_Demo.UnityAdditionalFile.txt","displayName":"Writing UIEffect_Demo.UnityAdditionalFile.txt","index":228}
-{"msg":"runNodeAction","annotation":"WriteText Library/Bee/artifacts/1900b0aE.dag/UIEffect_Demo.rsp2","displayName":"Writing UIEffect_Demo.rsp2","index":230}
-{"msg":"noderesult","processed_node_count":318,"number_of_nodes_ever_queued":594,"annotation":"WriteText Library/Bee/artifacts/1900b0aE.dag/UIEffect_Demo.dll.mvfrm.rsp","index":232,"exitcode":0,"outputfile":"Library\\Bee\\artifacts\\1900b0aE.dag\\UIEffect_Demo.dll.mvfrm.rsp"}
-{"msg":"runNodeAction","annotation":"WriteText Library/Bee/artifacts/1900b0aE.dag/UIEffect_Demo.rsp","displayName":"Writing UIEffect_Demo.rsp","index":229}
-{"msg":"noderesult","processed_node_count":319,"number_of_nodes_ever_queued":594,"annotation":"WriteText Library/Bee/artifacts/1900b0aE.dag/UIEffect_Demo.rsp2","index":230,"exitcode":0,"outputfile":"Library\\Bee\\artifacts\\1900b0aE.dag\\UIEffect_Demo.rsp2"}
-{"msg":"noderesult","processed_node_count":320,"number_of_nodes_ever_queued":594,"annotation":"WriteText Library/Bee/artifacts/1900b0aE.dag/UIEffect_Demo.UnityAdditionalFile.txt","index":228,"exitcode":0,"outputfile":"Library\\Bee\\artifacts\\1900b0aE.dag\\UIEffect_Demo.UnityAdditionalFile.txt"}
-{"msg":"noderesult","processed_node_count":321,"number_of_nodes_ever_queued":594,"annotation":"WriteText Library/Bee/artifacts/1900b0aE.dag/UIEffect_Demo.rsp","index":229,"exitcode":0,"outputfile":"Library\\Bee\\artifacts\\1900b0aE.dag\\UIEffect_Demo.rsp"}
-{"msg":"newNode","annotation":"MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/UIEffect_Demo.dll.mvfrm","index":233}
-{"msg":"runNodeAction","annotation":"MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/UIEffect_Demo.dll.mvfrm","displayName":"MovedFromExtractorCombine UIEffect_Demo.dll","index":233}
-{"msg":"noderesult","processed_node_count":589,"number_of_nodes_ever_queued":594,"annotation":"MovedFromExtractorCombine Library/Bee/artifacts/1900b0aE.dag/UIEffect_Demo.dll.mvfrm","index":233,"exitcode":0,"outputfile":"Library\\Bee\\artifacts\\1900b0aE.dag\\UIEffect_Demo.dll.mvfrm"}
-{"msg":"newNode","annotation":"Csc Library/Bee/artifacts/1900b0aE.dag/UIEffect_Demo.dll (+2 others)","index":231}
-{"msg":"runNodeAction","annotation":"Csc Library/Bee/artifacts/1900b0aE.dag/UIEffect_Demo.dll (+2 others)","displayName":"Csc UIEffect_Demo","index":231}
-{"msg":"noderesult","processed_node_count":590,"number_of_nodes_ever_queued":594,"annotation":"Csc Library/Bee/artifacts/1900b0aE.dag/UIEffect_Demo.dll (+2 others)","index":231,"exitcode":0,"outputfile":"Library\\Bee\\artifacts\\1900b0aE.dag\\UIEffect_Demo.dll"}
-{"msg":"newNode","annotation":"CopyFiles Library/ScriptAssemblies/UIEffect_Demo.dll","index":525}
-{"msg":"runNodeAction","annotation":"CopyFiles Library/ScriptAssemblies/UIEffect_Demo.dll","displayName":"Copying UIEffect_Demo.dll","index":525}
-{"msg":"newNode","annotation":"CopyFiles Library/ScriptAssemblies/UIEffect_Demo.pdb","index":526}
-{"msg":"runNodeAction","annotation":"CopyFiles Library/ScriptAssemblies/UIEffect_Demo.pdb","displayName":"Copying UIEffect_Demo.pdb","index":526}
-{"msg":"noderesult","processed_node_count":591,"number_of_nodes_ever_queued":594,"annotation":"CopyFiles Library/ScriptAssemblies/UIEffect_Demo.dll","index":525,"exitcode":0,"outputfile":"Library\\ScriptAssemblies\\UIEffect_Demo.dll"}
-{"msg":"noderesult","processed_node_count":591,"number_of_nodes_ever_queued":594,"annotation":"CopyFiles Library/ScriptAssemblies/UIEffect_Demo.pdb","index":526,"exitcode":0,"outputfile":"Library\\ScriptAssemblies\\UIEffect_Demo.pdb"}
