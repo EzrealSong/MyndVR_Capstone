@@ -383,6 +383,7 @@
 -analyzer:"F:/Unity/2022.3.0f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Bowling_Level_Assets/Scripts/BowlingBall.cs"
 "Assets/GameMenuScripts/GameMenuManager.cs"
+"Assets/GameMenuScripts/GameSetting.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"
