@@ -1,2 +1,1 @@
-# LogIn_page
- login page for players and testers
+# MyndVR_Capstone
