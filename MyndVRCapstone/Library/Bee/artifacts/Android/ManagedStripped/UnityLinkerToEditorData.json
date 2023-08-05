@@ -243,6 +243,7 @@
           {
             "name": "LineRenderer",
             "scenes": [
+              "Assets/Scenes/bowling.unity",
               "Assets/Scenes/Game Menu.unity"
             ],
             "dependencyType": 0,
@@ -421,6 +422,7 @@
           {
             "name": "SortingGroup",
             "scenes": [
+              "Assets/Scenes/bowling.unity",
               "Assets/Scenes/Game Menu.unity"
             ],
             "dependencyType": 0,
@@ -784,8 +786,7 @@
           {
             "name": "SphereCollider",
             "scenes": [
-              "Assets/Scenes/bowling.unity",
-              "Assets/Scenes/Game Menu.unity"
+              "Assets/Scenes/bowling.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1037,7 +1038,6 @@
           {
             "name": "Font",
             "scenes": [
-              "Assets/Scenes/bowling.unity",
               "Assets/Scenes/Game Menu.unity"
             ],
             "dependencyType": 0,
