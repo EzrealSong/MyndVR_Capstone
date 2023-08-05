@@ -29,7 +29,7 @@ public class BowlingBall : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyUp(KeyCode.Space))                                                               //force forward
+        if(Input.GetKeyUp(KeyCode.X))                                                               //force forward //Change "SPACE" to "X"
         GetComponent<Rigidbody>().AddForce(new Vector3(0,0,force));
         if(Input.GetKeyUp(KeyCode.LeftArrow))                                                           //left force
         GetComponent<Rigidbody>().AddForce(new Vector3(1,0,0), ForceMode.Impulse);

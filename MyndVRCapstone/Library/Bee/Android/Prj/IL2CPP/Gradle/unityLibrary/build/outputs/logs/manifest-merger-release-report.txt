@@ -86,17 +86,17 @@ ADDED from E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\A
 activity#com.unity3d.player.UnityPlayerActivity
 ADDED from E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-23:16
 	android:screenOrientation
-		ADDED from E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:111-147
+		ADDED from E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:111-148
 	android:launchMode
-		ADDED from E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:148-179
+		ADDED from E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:149-180
 	android:hardwareAccelerated
-		ADDED from E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:397-432
+		ADDED from E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:398-433
 	android:exported
-		ADDED from E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:433-456
+		ADDED from E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:434-457
 	android:resizeableActivity
-		ADDED from E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:362-396
+		ADDED from E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:363-397
 	android:configChanges
-		ADDED from E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:180-361
+		ADDED from E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:181-362
 	android:theme
 		ADDED from E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:69-110
 	android:name
