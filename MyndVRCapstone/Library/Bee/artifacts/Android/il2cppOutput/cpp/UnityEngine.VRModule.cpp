@@ -54,6 +54,9 @@ struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
 struct XRDevice_tD076A68EFE413B3EEEEA362BE0364A488B58F194  : public RuntimeObject
 {
 };
+struct XRSettings_t783533FF87B79D6D0C6A47FA8EC9B17EC0820D97  : public RuntimeObject
+{
+};
 struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
 {
 	bool ___m_value;
@@ -61,6 +64,10 @@ struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22
 struct IntPtr_t 
 {
 	void* ___m_value;
+};
+struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
+{
+	float ___m_value;
 };
 struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
 {
@@ -194,6 +201,40 @@ inline void Action_1_Invoke_m690438AAE38F9762172E3AE0A33D0B42ACD35790_inline (Ac
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float XRSettings_get_occlusionMaskScale_mFA46FF99DD385D5D88247C356DA2B454B4C8132D (const RuntimeMethod* method) 
+{
+	typedef float (*XRSettings_get_occlusionMaskScale_mFA46FF99DD385D5D88247C356DA2B454B4C8132D_ftn) ();
+	static XRSettings_get_occlusionMaskScale_mFA46FF99DD385D5D88247C356DA2B454B4C8132D_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (XRSettings_get_occlusionMaskScale_mFA46FF99DD385D5D88247C356DA2B454B4C8132D_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.XR.XRSettings::get_occlusionMaskScale()");
+	float icallRetVal = _il2cpp_icall_func();
+	return icallRetVal;
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void XRSettings_set_occlusionMaskScale_mFB321295E98DE1A01268FABCCB167CC2DCD8157E (float ___0_value, const RuntimeMethod* method) 
+{
+	typedef void (*XRSettings_set_occlusionMaskScale_mFB321295E98DE1A01268FABCCB167CC2DCD8157E_ftn) (float);
+	static XRSettings_set_occlusionMaskScale_mFB321295E98DE1A01268FABCCB167CC2DCD8157E_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (XRSettings_set_occlusionMaskScale_mFB321295E98DE1A01268FABCCB167CC2DCD8157E_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.XR.XRSettings::set_occlusionMaskScale(System.Single)");
+	_il2cpp_icall_func(___0_value);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t XRSettings_get_stereoRenderingMode_mD66918C11E2216B1F8FA76934F79D5F85BC303FC (const RuntimeMethod* method) 
+{
+	typedef int32_t (*XRSettings_get_stereoRenderingMode_mD66918C11E2216B1F8FA76934F79D5F85BC303FC_ftn) ();
+	static XRSettings_get_stereoRenderingMode_mD66918C11E2216B1F8FA76934F79D5F85BC303FC_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (XRSettings_get_stereoRenderingMode_mD66918C11E2216B1F8FA76934F79D5F85BC303FC_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.XR.XRSettings::get_stereoRenderingMode()");
+	int32_t icallRetVal = _il2cpp_icall_func();
+	return icallRetVal;
+}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

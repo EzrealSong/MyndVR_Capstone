@@ -7,7 +7,7 @@ dependencies {
 android {
     ndkPath "F:/2022.3.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK"
 
-    compileSdkVersion 32
+    compileSdkVersion 31
     buildToolsVersion '32.0.0'
 
     compileOptions {
@@ -16,8 +16,8 @@ android {
     }
 
     defaultConfig {
-        minSdkVersion 24
-        targetSdkVersion 32
+        minSdkVersion 25
+        targetSdkVersion 31
         applicationId 'com.DefaultCompany.MyndVRCapstone'
         ndk {
             abiFilters 'arm64-v8a'

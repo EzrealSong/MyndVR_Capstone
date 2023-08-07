@@ -6,8 +6,8 @@
     android:versionName="0.1" >
 
     <uses-sdk
-        android:minSdkVersion="24"
-        android:targetSdkVersion="32" />
+        android:minSdkVersion="25"
+        android:targetSdkVersion="31" />
 
     <supports-screens
         android:anyDensity="true"
@@ -18,10 +18,7 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
 
-    <uses-feature android:glEsVersion="0x00030000" />
-    <uses-feature
-        android:name="android.hardware.vulkan.version"
-        android:required="false" />
+    <uses-feature android:glEsVersion="0x00030002" />
     <uses-feature
         android:name="android.hardware.touchscreen"
         android:required="false" />
@@ -33,15 +30,33 @@
         android:required="false" />
 
     <uses-permission android:name="org.khronos.openxr.permission.OPENXR" />
-
-    <queries>
-        <provider android:authorities="org.khronos.openxr.runtime_broker;org.khronos.openxr.system_runtime_broker" />
-    </queries>
+    <uses-permission android:name="org.khronos.openxr.permission.OPENXR_SYSTEM" />
+    <uses-permission android:name="org.khronos.openxr.permission.OPENXR" />
+    <uses-permission android:name="org.khronos.openxr.permission.OPENXR_SYSTEM" />
+    <uses-permission android:name="org.khronos.openxr.permission.OPENXR" />
+    <uses-permission android:name="org.khronos.openxr.permission.OPENXR_SYSTEM" />
+    <uses-permission android:name="org.khronos.openxr.permission.OPENXR" />
+    <uses-permission android:name="org.khronos.openxr.permission.OPENXR_SYSTEM" />
+    <uses-permission android:name="org.khronos.openxr.permission.OPENXR" />
+    <uses-permission android:name="org.khronos.openxr.permission.OPENXR_SYSTEM" />
+    <uses-permission android:name="org.khronos.openxr.permission.OPENXR" />
+    <uses-permission android:name="org.khronos.openxr.permission.OPENXR_SYSTEM" />
+    <uses-permission android:name="org.khronos.openxr.permission.OPENXR" />
+    <uses-permission android:name="org.khronos.openxr.permission.OPENXR_SYSTEM" />
+    <uses-permission android:name="org.khronos.openxr.permission.OPENXR" />
+    <uses-permission android:name="org.khronos.openxr.permission.OPENXR_SYSTEM" />
+    <uses-permission android:name="org.khronos.openxr.permission.OPENXR" />
+    <uses-permission android:name="org.khronos.openxr.permission.OPENXR_SYSTEM" />
+    <uses-permission android:name="org.khronos.openxr.permission.OPENXR" />
+    <uses-permission android:name="org.khronos.openxr.permission.OPENXR_SYSTEM" />
+    <uses-permission android:name="vive.wave.vr.oem.data.OEMDataRead" />
+    <uses-permission android:name="vive.wave.vr.oem.data.OEMDataWrite" />
 
     <application
         android:extractNativeLibs="true"
         android:icon="@mipmap/app_icon"
-        android:label="@string/app_name" >
+        android:label="@string/app_name"
+        android:theme="@style/Theme.WaveVR.Black" >
         <meta-data
             android:name="unity.splash-mode"
             android:value="0" />
@@ -62,26 +77,106 @@
             android:value="true" />
 
         <activity
-            android:name="com.unity3d.player.UnityPlayerActivity"
+            android:name="com.htc.vr.unity.WVRUnityVRActivity"
             android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+            android:enableVrMode="@string/wvr_vr_mode_component"
             android:exported="true"
             android:hardwareAccelerated="false"
+            android:label="@string/app_name"
             android:launchMode="singleTask"
             android:resizeableActivity="false"
-            android:screenOrientation="landscape"
-            android:theme="@style/UnityThemeSelector" >
+            android:screenOrientation="landscape" >
             <intent-filter>
                 <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="com.htc.intent.category.VRAPP" />
 
                 <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="org.khronos.openxr.intent.category.IMMERSIVE_HMD" />
+                <category android:name="org.khronos.openxr.intent.category.IMMERSIVE_HMD" />
+                <category android:name="org.khronos.openxr.intent.category.IMMERSIVE_HMD" />
+                <category android:name="org.khronos.openxr.intent.category.IMMERSIVE_HMD" />
+                <category android:name="org.khronos.openxr.intent.category.IMMERSIVE_HMD" />
+                <category android:name="org.khronos.openxr.intent.category.IMMERSIVE_HMD" />
+                <category android:name="org.khronos.openxr.intent.category.IMMERSIVE_HMD" />
+                <category android:name="org.khronos.openxr.intent.category.IMMERSIVE_HMD" />
+                <category android:name="org.khronos.openxr.intent.category.IMMERSIVE_HMD" />
+                <category android:name="org.khronos.openxr.intent.category.IMMERSIVE_HMD" />
             </intent-filter>
 
             <meta-data
                 android:name="unityplayer.UnityActivity"
                 android:value="true" />
             <meta-data
+                android:name="unityplayer.SkipPermissionsDialog"
+                android:value="true" />
+            <meta-data
                 android:name="notch_support"
                 android:value="true" />
+        </activity>
+
+        <meta-data
+            android:name="com.htc.ViveWaveAndroid.SdkVersion"
+            android:value="5.3.1-r.2" />
+        <meta-data
+            android:name="com.htc.vr.content.UnityVersion"
+            android:value="2022.3.0f1" />
+        <meta-data
+            android:name="com.htc.ViveWaveAndroid.SdkVersion"
+            android:value="5.3.1-r.2" />
+        <meta-data
+            android:name="com.htc.vr.content.UnityVersion"
+            android:value="2022.3.0f1" />
+        <meta-data
+            android:name="com.htc.ViveWaveAndroid.SdkVersion"
+            android:value="5.3.1-r.2" />
+        <meta-data
+            android:name="com.htc.vr.content.UnityVersion"
+            android:value="2022.3.0f1" />
+        <meta-data
+            android:name="com.htc.ViveWaveAndroid.SdkVersion"
+            android:value="5.3.1-r.2" />
+        <meta-data
+            android:name="com.htc.vr.content.UnityVersion"
+            android:value="2022.3.0f1" />
+        <meta-data
+            android:name="com.htc.ViveWaveAndroid.SdkVersion"
+            android:value="5.3.1-r.2" />
+        <meta-data
+            android:name="com.htc.vr.content.UnityVersion"
+            android:value="2022.3.0f1" />
+        <meta-data
+            android:name="com.htc.ViveWaveAndroid.SdkVersion"
+            android:value="5.3.1-r.2" />
+        <meta-data
+            android:name="com.htc.vr.content.UnityVersion"
+            android:value="2022.3.0f1" />
+        <meta-data
+            android:name="com.htc.ViveWaveAndroid.SdkVersion"
+            android:value="5.3.1-r.2" />
+        <meta-data
+            android:name="com.htc.vr.content.UnityVersion"
+            android:value="2022.3.0f1" />
+        <meta-data
+            android:name="com.htc.ViveWaveAndroid.SdkVersion"
+            android:value="5.3.1-r.2" />
+        <meta-data
+            android:name="com.htc.vr.content.UnityVersion"
+            android:value="2022.3.0f1" />
+        <meta-data
+            android:name="com.htc.ViveWaveAndroid.SdkVersion"
+            android:value="5.3.1-r.2" />
+        <meta-data
+            android:name="com.htc.vr.content.UnityVersion"
+            android:value="2022.3.0f1" />
+        <meta-data
+            android:name="com.htc.ViveWaveAndroid.SdkVersion"
+            android:value="5.3.1-r.2" />
+        <meta-data
+            android:name="com.htc.vr.content.UnityVersion"
+            android:value="2022.3.0f1" />
+
+        <activity android:name="com.unity3d.player.UnityPlayerActivity" >
         </activity>
     </application>
 
