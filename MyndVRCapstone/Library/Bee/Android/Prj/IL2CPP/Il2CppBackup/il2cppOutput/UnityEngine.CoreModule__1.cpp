@@ -19792,6 +19792,14 @@ IL2CPP_EXTERN_C  void RangeInt__ctor_m3CB91E79C7B5AED97E564581025B2F66778B7CBE_A
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeInitializeOnLoadMethodAttribute__ctor_m11E2CC84855B5C6E95A279E1A6D2342506CD9DCA (RuntimeInitializeOnLoadMethodAttribute_tF56641E762D06665C4D609560CC7EB4F9249042C* __this, const RuntimeMethod* method) 
+{
+	{
+		PreserveAttribute__ctor_mF9E65066D9317F56C6F4AE274A1E2D55D6A62F96(__this, NULL);
+		RuntimeInitializeOnLoadMethodAttribute_set_loadType_mCB29F9D9D69AB012FB797AB433AD3CFCE696AF10(__this, 0, NULL);
+		return;
+	}
+}
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeInitializeOnLoadMethodAttribute__ctor_mA563B1C8896C6490F88C060E13950DB600577352 (RuntimeInitializeOnLoadMethodAttribute_tF56641E762D06665C4D609560CC7EB4F9249042C* __this, int32_t ___0_loadType, const RuntimeMethod* method) 
 {
 	{

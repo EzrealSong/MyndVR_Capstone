@@ -139,8 +139,7 @@
           {
             "name": "Cubemap",
             "scenes": [
-              "Assets/Scenes/bowling.unity",
-              "Assets/Scenes/Game Menu.unity"
+              "Assets/Scenes/bowling.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -737,7 +736,8 @@
           {
             "name": "BoxCollider",
             "scenes": [
-              "Assets/Scenes/bowling.unity"
+              "Assets/Scenes/bowling.unity",
+              "Assets/Scenes/Game Menu.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -750,7 +750,10 @@
           },
           {
             "name": "CharacterController",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/bowling.unity",
+              "Assets/Scenes/Game Menu.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -786,7 +789,8 @@
           {
             "name": "SphereCollider",
             "scenes": [
-              "Assets/Scenes/bowling.unity"
+              "Assets/Scenes/bowling.unity",
+              "Assets/Scenes/Game Menu.unity"
             ],
             "dependencyType": 0,
             "icon": null

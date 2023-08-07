@@ -12,5 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/bowling.unity
     guid: 6ac8195554599894fbcb5a9e75e3b85c
   m_configObjects:
+    com.htc.upm.wave.xrsdk.xrsettings: {fileID: 11400000, guid: 7f69387155b6bda42afecb247b23dc88, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: f4ebffef80508bb408e64038c9bd83a2, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 28c0081c40ed24b4a83ac6a17b02fdf7, type: 2}

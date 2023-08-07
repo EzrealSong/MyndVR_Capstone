@@ -20,13 +20,5 @@ public class GameMenuManager : MonoBehaviour
         SceneManager.LoadScene("bowling");  
     }  
     
-    // public void OnButtonClick()
-    // {
-    //     _title.text = "Your new text is here";
-    // }
-
-    // void Update()
-    // {
-
-    // }
+    
 }

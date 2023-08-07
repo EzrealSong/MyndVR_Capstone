@@ -6,9 +6,9 @@
     maven="Gradle:launcher:"
     gradle="7.1.2"
     buildFolder="build"
-    bootClassPath="F:\2022.3.0f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\platforms\android-32\android.jar;F:\2022.3.0f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\build-tools\32.0.0\core-lambda-stubs.jar"
+    bootClassPath="F:\2022.3.0f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\platforms\android-31\android.jar;F:\2022.3.0f1\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\build-tools\32.0.0\core-lambda-stubs.jar"
     javaSourceLevel="11"
-    compileTarget="android-32"
+    compileTarget="android-31"
     neverShrinking="true">
   <lintOptions
       absolutePaths="true"
