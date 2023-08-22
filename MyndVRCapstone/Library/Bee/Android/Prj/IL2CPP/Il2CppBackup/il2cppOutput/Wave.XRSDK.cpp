@@ -17307,7 +17307,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaveXRSpectatorCameraHandle_CheckTexture
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_3 = __this->___renderTexture;
 		NullCheck(L_3);
 		int32_t L_4;
-		L_4 = VirtualFuncInvoker0< int32_t >::Invoke(4, L_3);
+		L_4 = VirtualFuncInvoker0< int32_t >::Invoke(5, L_3);
 		RenderParameters_tE69D38B2140A288AC9358FE43E11C72FCB745918 L_5 = V_0;
 		int32_t L_6 = L_5.___width;
 		if ((!(((uint32_t)L_4) == ((uint32_t)L_6))))
@@ -17319,7 +17319,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaveXRSpectatorCameraHandle_CheckTexture
 		RenderTexture_tBA90C4C3AD9EECCFDDCC632D97C29FAB80D60D27* L_7 = __this->___renderTexture;
 		NullCheck(L_7);
 		int32_t L_8;
-		L_8 = VirtualFuncInvoker0< int32_t >::Invoke(6, L_7);
+		L_8 = VirtualFuncInvoker0< int32_t >::Invoke(7, L_7);
 		RenderParameters_tE69D38B2140A288AC9358FE43E11C72FCB745918 L_9 = V_0;
 		int32_t L_10 = L_9.___height;
 		G_B4_0 = ((((int32_t)((((int32_t)L_8) == ((int32_t)L_10))? 1 : 0)) == ((int32_t)0))? 1 : 0);

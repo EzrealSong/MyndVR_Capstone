@@ -21067,7 +21067,7 @@ IL_000d:
 	{
 		NullCheck(G_B2_0);
 		RuntimeObject* L_2;
-		L_2 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(5, G_B2_0);
+		L_2 = VirtualFuncInvoker0< RuntimeObject* >::Invoke(6, G_B2_0);
 		G_B3_0 = L_2;
 	}
 

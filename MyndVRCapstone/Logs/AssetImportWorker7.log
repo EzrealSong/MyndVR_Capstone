@@ -15,7 +15,7 @@ E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone
 -logFile
 Logs/AssetImportWorker7.log
 -srvPort
-53474
+52091
 Successfully changed project path to: E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone
 E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,10 @@ E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [38588] Host "[IP] 10.218.108.230 [Port] 0 [Flags] 2 [Guid] 1104103746 [EditorId] 1104103746 [Version] 1048832 [Id] WindowsEditor(7,EN6169321W) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Unable to join player connection multicast group (err: 10013).
+Player connection [21788] Host "[IP] 10.218.108.230 [Port] 0 [Flags] 2 [Guid] 110084043 [EditorId] 110084043 [Version] 1048832 [Id] WindowsEditor(7,EN6169321W) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Player connection [38588] Host "[IP] 10.218.108.230 [Port] 0 [Flags] 2 [Guid] 1104103746 [EditorId] 1104103746 [Version] 1048832 [Id] WindowsEditor(7,EN6169321W) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
-
-Refreshing native plugins compatible for Editor in 59.39 ms, found 35 plugins.
+Refreshing native plugins compatible for Editor in 3358.06 ms, found 35 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.0f1 (fb119bb0b476)
 [Subsystems] Discovering subsystems at path F:/2022.3.0f1/Editor/Data/Resources/UnitySubsystems
@@ -69,47 +68,47 @@ Initialize mono
 Mono path[0] = 'F:/2022.3.0f1/Editor/Data/Managed'
 Mono path[1] = 'F:/2022.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'F:/2022.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56356
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56676
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: F:/2022.3.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: F:/2022.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004571 seconds.
-- Loaded All Assemblies, in  0.352 seconds
+Registered in 0.319634 seconds.
+- Loaded All Assemblies, in  6.625 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 1079 ms
+Android Extension - Scanning For ADB Devices 1214 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.420 seconds
-Domain Reload Profiling: 1772ms
-	BeginReloadAssembly (104ms)
+- Finished resetting the current domain, in  1.688 seconds
+Domain Reload Profiling: 8314ms
+	BeginReloadAssembly (4488ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (35ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (411ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (51ms)
-	LoadAllAssembliesAndSetupDomain (150ms)
-		LoadAssemblies (103ms)
+	initialDomainReloadingComplete (369ms)
+	LoadAllAssembliesAndSetupDomain (1345ms)
+		LoadAssemblies (4488ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (146ms)
-			TypeCache.Refresh (145ms)
-				TypeCache.ScanAssembly (131ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
+		AnalyzeDomain (1341ms)
+			TypeCache.Refresh (1340ms)
+				TypeCache.ScanAssembly (1065ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1421ms)
+	FinalizeReload (1689ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1361ms)
+		SetupLoadedEditorAssemblies (1620ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1195ms)
+			InitializePlatformSupportModulesInManaged (1446ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
 			ProcessInitializeOnLoadAttributes (103ms)
-			ProcessInitializeOnLoadMethodAttributes (57ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -119,8 +118,8 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.827 seconds
-Refreshing native plugins compatible for Editor in 20.37 ms, found 35 plugins.
+- Loaded All Assemblies, in  4.734 seconds
+Refreshing native plugins compatible for Editor in 22.28 ms, found 35 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
@@ -292,47 +291,47 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.754 seconds
-Domain Reload Profiling: 1581ms
+- Finished resetting the current domain, in  0.823 seconds
+Domain Reload Profiling: 5556ms
 	BeginReloadAssembly (149ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (36ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (39ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (591ms)
-		LoadAssemblies (308ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (4493ms)
+		LoadAssemblies (3842ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (361ms)
-			TypeCache.Refresh (327ms)
-				TypeCache.ScanAssembly (309ms)
-			ScanForSourceGeneratedMonoScriptInfo (26ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (755ms)
+		AnalyzeDomain (727ms)
+			TypeCache.Refresh (681ms)
+				TypeCache.ScanAssembly (620ms)
+			ScanForSourceGeneratedMonoScriptInfo (33ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (824ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (566ms)
+		SetupLoadedEditorAssemblies (625ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (24ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (74ms)
-			ProcessInitializeOnLoadAttributes (404ms)
-			ProcessInitializeOnLoadMethodAttributes (53ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (411ms)
+			ProcessInitializeOnLoadMethodAttributes (103ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 31.22 ms, found 35 plugins.
+		AwakeInstancesAfterBackupRestoration (14ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 24.72 ms, found 35 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4456 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 97 unused Assets / (85.3 KB). Loaded Objects now: 4929.
-Memory consumption went from 175.5 MB to 175.4 MB.
-Total: 4.964900 ms (FindLiveObjects: 0.506400 ms CreateObjectMapping: 0.433000 ms MarkObjects: 3.805500 ms  DeleteObjects: 0.217900 ms)
+Unloading 6241 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 127 unused Assets / (93.9 KB). Loaded Objects now: 6708.
+Memory consumption went from 252.9 MB to 252.8 MB.
+Total: 5.706400 ms (FindLiveObjects: 0.691600 ms CreateObjectMapping: 0.656300 ms MarkObjects: 4.095000 ms  DeleteObjects: 0.262600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -342,632 +341,225 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/StartScreen.cs: c25a7394b998e40e369a8aa240604b98 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/ASEFakeInspector.cs: 16ee6c7c6e951e6f6a68131271ddde1b -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1094256.710499 seconds.
-  path: Assets/Simple Garage/Materials/_16.mat
-  artifactKey: Guid(e442faa0dbf483c4ca6d09db3a5156c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Materials/_16.mat using Guid(e442faa0dbf483c4ca6d09db3a5156c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0133d508620423f60d7479390af39845') in 0.123837 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Simple Garage/Materials/_Black_.mat
-  artifactKey: Guid(6bb0646f945fbe54f8d856b346e6c2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Materials/_Black_.mat using Guid(6bb0646f945fbe54f8d856b346e6c2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '276f5b156acca160827542574a14bdcf') in 0.066232 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.786 seconds
-Refreshing native plugins compatible for Editor in 20.54 ms, found 35 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Wave.XR.ViveWaveEyeGaze ctor()
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Wave.XR.ViveWaveEyeGaze:DEBUG (string) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveEyeGaze.cs:55)
-Wave.XR.ViveWaveEyeGaze:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveEyeGaze.cs:65)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveEyeGaze.cs Line: 55)
-
-Wave.XR.ViveWaveEyeGaze Initialize() RegisterLayout with interface Eye Gaze
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Wave.XR.ViveWaveEyeGaze:DEBUG (string) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveEyeGaze.cs:55)
-Wave.XR.ViveWaveEyeGaze:Initialize () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveEyeGaze.cs:73)
-Wave.XR.ViveWaveEyeGaze:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveEyeGaze.cs:66)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveEyeGaze.cs Line: 55)
-
-Wave.XR.ViveWaveEyeGaze Initialize() Removes a ViveWaveEyeGaze device.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Wave.XR.ViveWaveEyeGaze:DEBUG (string) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveEyeGaze.cs:55)
-Wave.XR.ViveWaveEyeGaze:Initialize () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveEyeGaze.cs:83)
-Wave.XR.ViveWaveEyeGaze:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveEyeGaze.cs:66)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveEyeGaze.cs Line: 55)
-
-Wave.XR.ViveWaveEyeGaze Initialize() Adds a ViveWaveEyeGaze device.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Wave.XR.ViveWaveEyeGaze:DEBUG (string) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveEyeGaze.cs:55)
-Wave.XR.ViveWaveEyeGaze:Initialize () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveEyeGaze.cs:88)
-Wave.XR.ViveWaveEyeGaze:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveEyeGaze.cs:66)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveEyeGaze.cs Line: 55)
-
-Wave.XR.ViveWaveController InitializeInPlayer() WVR_CR_Left_001
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Wave.XR.ViveWaveController:DEBUG (string) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveController.cs:33)
-Wave.XR.ViveWaveController:InitializeInPlayer () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveController.cs:54)
-Wave.XR.ViveWaveController:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveController.cs:47)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveController.cs Line: 33)
-
-Wave.XR.ViveWaveController InitializeInPlayer() WVR_CR_Right_001
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Wave.XR.ViveWaveController:DEBUG (string) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveController.cs:33)
-Wave.XR.ViveWaveController:InitializeInPlayer () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveController.cs:62)
-Wave.XR.ViveWaveController:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveController.cs:47)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveController.cs Line: 33)
-
-Wave.XR.ViveWaveHMD InitializeInPlayer()
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Wave.XR.ViveWaveHMD:DEBUG (string) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveHMD.cs:33)
-Wave.XR.ViveWaveHMD:InitializeInPlayer () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveHMD.cs:55)
-Wave.XR.ViveWaveHMD:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveHMD.cs:48)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveHMD.cs Line: 33)
-
-Wave.XR.ViveWaveWristTracker Initialize() RegisterLayout with interface Wrist Tracker
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Wave.XR.ViveWaveWristTracker:DEBUG (System.Text.StringBuilder) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:72)
-Wave.XR.ViveWaveWristTracker:Initialize () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:97)
-Wave.XR.ViveWaveWristTracker:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:89)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs Line: 72)
-
-Wave.XR.ViveWaveWristTracker FinishSetup() deviceId: 0, IsLeft: False, interfaceName: Wrist Tracker, product: Wave Tracker0, serial: HTC-211012-Tracker0
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Wave.XR.ViveWaveWristTracker:DEBUG (System.Text.StringBuilder) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:72)
-Wave.XR.ViveWaveWristTracker:FinishSetup () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:157)
-UnityEngine.InputSystem.InputControl:CallFinishSetupRecursive () (at ./Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/Controls/InputControl.cs:1064)
-UnityEngine.InputSystem.Layouts.InputDeviceBuilder:Setup (UnityEngine.InputSystem.Utilities.InternedString,UnityEngine.InputSystem.Utilities.InternedString,UnityEngine.InputSystem.Layouts.InputDeviceDescription) (at ./Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/Devices/InputDeviceBuilder.cs:60)
-UnityEngine.InputSystem.InputDevice:Build<UnityEngine.InputSystem.InputDevice> (string,string,UnityEngine.InputSystem.Layouts.InputDeviceDescription,bool) (at ./Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/Devices/InputDevice.cs:955)
-UnityEngine.InputSystem.InputManager:AddDevice (UnityEngine.InputSystem.Utilities.InternedString,int,string,UnityEngine.InputSystem.Layouts.InputDeviceDescription,UnityEngine.InputSystem.InputDevice/DeviceFlags,UnityEngine.InputSystem.Utilities.InternedString) (at ./Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/InputManager.cs:1062)
-UnityEngine.InputSystem.InputManager:RestoreDeviceFromSavedState (UnityEngine.InputSystem.InputManager/DeviceState&,UnityEngine.InputSystem.Utilities.InternedString) (at ./Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/InputManager.cs:3839)
-UnityEngine.InputSystem.InputManager:AddAvailableDevicesMatchingDescription (UnityEngine.InputSystem.Layouts.InputDeviceMatcher,UnityEngine.InputSystem.Utilities.InternedString) (at ./Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/InputManager.cs:694)
-UnityEngine.InputSystem.InputManager:RegisterControlLayoutMatcher (string,UnityEngine.InputSystem.Layouts.InputDeviceMatcher) (at ./Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/InputManager.cs:605)
-UnityEngine.InputSystem.InputSystem:RegisterLayout (System.Type,string,System.Nullable`1<UnityEngine.InputSystem.Layouts.InputDeviceMatcher>) (at ./Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/InputSystem.cs:242)
-Wave.XR.ViveWaveWristTracker:Initialize () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:98)
-Wave.XR.ViveWaveWristTracker:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:89)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs Line: 72)
-
-Wave.XR.ViveWaveWristTracker FinishSetup() deviceId: 0, IsLeft: True, interfaceName: Wrist Tracker, product: Wave Tracker1, serial: HTC-211012-Tracker1
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Wave.XR.ViveWaveWristTracker:DEBUG (System.Text.StringBuilder) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:72)
-Wave.XR.ViveWaveWristTracker:FinishSetup () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:157)
-UnityEngine.InputSystem.InputControl:CallFinishSetupRecursive () (at ./Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/Controls/InputControl.cs:1064)
-UnityEngine.InputSystem.Layouts.InputDeviceBuilder:Setup (UnityEngine.InputSystem.Utilities.InternedString,UnityEngine.InputSystem.Utilities.InternedString,UnityEngine.InputSystem.Layouts.InputDeviceDescription) (at ./Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/Devices/InputDeviceBuilder.cs:60)
-UnityEngine.InputSystem.InputDevice:Build<UnityEngine.InputSystem.InputDevice> (string,string,UnityEngine.InputSystem.Layouts.InputDeviceDescription,bool) (at ./Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/Devices/InputDevice.cs:955)
-UnityEngine.InputSystem.InputManager:AddDevice (UnityEngine.InputSystem.Utilities.InternedString,int,string,UnityEngine.InputSystem.Layouts.InputDeviceDescription,UnityEngine.InputSystem.InputDevice/DeviceFlags,UnityEngine.InputSystem.Utilities.InternedString) (at ./Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/InputManager.cs:1062)
-UnityEngine.InputSystem.InputManager:RestoreDeviceFromSavedState (UnityEngine.InputSystem.InputManager/DeviceState&,UnityEngine.InputSystem.Utilities.InternedString) (at ./Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/InputManager.cs:3839)
-UnityEngine.InputSystem.InputManager:AddAvailableDevicesMatchingDescription (UnityEngine.InputSystem.Layouts.InputDeviceMatcher,UnityEngine.InputSystem.Utilities.InternedString) (at ./Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/InputManager.cs:694)
-UnityEngine.InputSystem.InputManager:RegisterControlLayoutMatcher (string,UnityEngine.InputSystem.Layouts.InputDeviceMatcher) (at ./Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/InputManager.cs:605)
-UnityEngine.InputSystem.InputSystem:RegisterLayout (System.Type,string,System.Nullable`1<UnityEngine.InputSystem.Layouts.InputDeviceMatcher>) (at ./Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/InputSystem.cs:242)
-Wave.XR.ViveWaveWristTracker:Initialize () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:98)
-Wave.XR.ViveWaveWristTracker:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:89)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs Line: 72)
-
-Wave.XR.ViveWaveWristTracker Initialize() Removes a ViveWaveWristTracker device.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Wave.XR.ViveWaveWristTracker:DEBUG (System.Text.StringBuilder) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:72)
-Wave.XR.ViveWaveWristTracker:Initialize () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:108)
-Wave.XR.ViveWaveWristTracker:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:89)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs Line: 72)
-
-Wave.XR.ViveWaveWristTracker Initialize() Removes a ViveWaveWristTracker device.
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Wave.XR.ViveWaveWristTracker:DEBUG (System.Text.StringBuilder) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:72)
-Wave.XR.ViveWaveWristTracker:Initialize () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:108)
-Wave.XR.ViveWaveWristTracker:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:89)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs Line: 72)
-
-Wave.XR.ViveWaveWristTracker Initialize() Adds right ViveWaveWristTracker device Wave Tracker0
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Wave.XR.ViveWaveWristTracker:DEBUG (System.Text.StringBuilder) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:72)
-Wave.XR.ViveWaveWristTracker:Initialize () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:114)
-Wave.XR.ViveWaveWristTracker:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:89)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs Line: 72)
-
-Wave.XR.ViveWaveWristTracker FinishSetup() deviceId: 0, IsLeft: False, interfaceName: Wrist Tracker, product: Wave Tracker0, serial: HTC-211012-Tracker0
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Wave.XR.ViveWaveWristTracker:DEBUG (System.Text.StringBuilder) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:72)
-Wave.XR.ViveWaveWristTracker:FinishSetup () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:157)
-UnityEngine.InputSystem.InputControl:CallFinishSetupRecursive () (at ./Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/Controls/InputControl.cs:1064)
-UnityEngine.InputSystem.Layouts.InputDeviceBuilder:Setup (UnityEngine.InputSystem.Utilities.InternedString,UnityEngine.InputSystem.Utilities.InternedString,UnityEngine.InputSystem.Layouts.InputDeviceDescription) (at ./Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/Devices/InputDeviceBuilder.cs:60)
-UnityEngine.InputSystem.InputDevice:Build<UnityEngine.InputSystem.InputDevice> (string,string,UnityEngine.InputSystem.Layouts.InputDeviceDescription,bool) (at ./Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/Devices/InputDevice.cs:955)
-UnityEngine.InputSystem.InputManager:AddDevice (UnityEngine.InputSystem.Utilities.InternedString,int,string,UnityEngine.InputSystem.Layouts.InputDeviceDescription,UnityEngine.InputSystem.InputDevice/DeviceFlags,UnityEngine.InputSystem.Utilities.InternedString) (at ./Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/InputManager.cs:1062)
-UnityEngine.InputSystem.InputManager:AddDevice (UnityEngine.InputSystem.Layouts.InputDeviceDescription,bool,string,int,UnityEngine.InputSystem.InputDevice/DeviceFlags) (at ./Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/InputManager.cs:1222)
-UnityEngine.InputSystem.InputManager:AddDevice (UnityEngine.InputSystem.Layouts.InputDeviceDescription) (at ./Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/InputManager.cs:1195)
-UnityEngine.InputSystem.InputSystem:AddDevice (UnityEngine.InputSystem.Layouts.InputDeviceDescription) (at ./Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/InputSystem.cs:1491)
-Wave.XR.ViveWaveWristTracker:Initialize () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:115)
-Wave.XR.ViveWaveWristTracker:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:89)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs Line: 72)
-
-Wave.XR.ViveWaveWristTracker Initialize() Adds left ViveWaveWristTracker device Wave Tracker1
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Wave.XR.ViveWaveWristTracker:DEBUG (System.Text.StringBuilder) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:72)
-Wave.XR.ViveWaveWristTracker:Initialize () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:119)
-Wave.XR.ViveWaveWristTracker:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:89)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs Line: 72)
-
-Wave.XR.ViveWaveWristTracker FinishSetup() deviceId: 0, IsLeft: True, interfaceName: Wrist Tracker, product: Wave Tracker1, serial: HTC-211012-Tracker1
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Wave.XR.ViveWaveWristTracker:DEBUG (System.Text.StringBuilder) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:72)
-Wave.XR.ViveWaveWristTracker:FinishSetup () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:157)
-UnityEngine.InputSystem.InputControl:CallFinishSetupRecursive () (at ./Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/Controls/InputControl.cs:1064)
-UnityEngine.InputSystem.Layouts.InputDeviceBuilder:Setup (UnityEngine.InputSystem.Utilities.InternedString,UnityEngine.InputSystem.Utilities.InternedString,UnityEngine.InputSystem.Layouts.InputDeviceDescription) (at ./Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/Devices/InputDeviceBuilder.cs:60)
-UnityEngine.InputSystem.InputDevice:Build<UnityEngine.InputSystem.InputDevice> (string,string,UnityEngine.InputSystem.Layouts.InputDeviceDescription,bool) (at ./Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/Devices/InputDevice.cs:955)
-UnityEngine.InputSystem.InputManager:AddDevice (UnityEngine.InputSystem.Utilities.InternedString,int,string,UnityEngine.InputSystem.Layouts.InputDeviceDescription,UnityEngine.InputSystem.InputDevice/DeviceFlags,UnityEngine.InputSystem.Utilities.InternedString) (at ./Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/InputManager.cs:1062)
-UnityEngine.InputSystem.InputManager:AddDevice (UnityEngine.InputSystem.Layouts.InputDeviceDescription,bool,string,int,UnityEngine.InputSystem.InputDevice/DeviceFlags) (at ./Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/InputManager.cs:1222)
-UnityEngine.InputSystem.InputManager:AddDevice (UnityEngine.InputSystem.Layouts.InputDeviceDescription) (at ./Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/InputManager.cs:1195)
-UnityEngine.InputSystem.InputSystem:AddDevice (UnityEngine.InputSystem.Layouts.InputDeviceDescription) (at ./Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/InputSystem.cs:1491)
-Wave.XR.ViveWaveWristTracker:Initialize () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:120)
-Wave.XR.ViveWaveWristTracker:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:89)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs Line: 72)
-
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.092 seconds
-Domain Reload Profiling: 1876ms
-	BeginReloadAssembly (167ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (56ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (537ms)
-		LoadAssemblies (295ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (311ms)
-			TypeCache.Refresh (303ms)
-				TypeCache.ScanAssembly (289ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (1092ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (466ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (27ms)
-			SetLoadedEditorAssemblies (6ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (74ms)
-			ProcessInitializeOnLoadAttributes (321ms)
-			ProcessInitializeOnLoadMethodAttributes (36ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 20.28 ms, found 35 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4399 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 75 unused Assets / (59.4 KB). Loaded Objects now: 4973.
-Memory consumption went from 167.9 MB to 167.8 MB.
-Total: 5.305800 ms (FindLiveObjects: 0.562500 ms CreateObjectMapping: 0.399600 ms MarkObjects: 4.218300 ms  DeleteObjects: 0.124300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/StartScreen.cs: c25a7394b998e40e369a8aa240604b98 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/ASEFakeInspector.cs: 16ee6c7c6e951e6f6a68131271ddde1b -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 28.54 ms, found 35 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (3.0 KB). Loaded Objects now: 4973.
-Memory consumption went from 100.1 MB to 100.1 MB.
-Total: 4.578400 ms (FindLiveObjects: 0.505500 ms CreateObjectMapping: 0.310200 ms MarkObjects: 3.728300 ms  DeleteObjects: 0.032900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/StartScreen.cs: c25a7394b998e40e369a8aa240604b98 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/ASEFakeInspector.cs: 16ee6c7c6e951e6f6a68131271ddde1b -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 22.41 ms, found 35 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (3.0 KB). Loaded Objects now: 4973.
-Memory consumption went from 99.7 MB to 99.7 MB.
-Total: 5.333900 ms (FindLiveObjects: 0.507800 ms CreateObjectMapping: 0.361100 ms MarkObjects: 4.435900 ms  DeleteObjects: 0.027900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/StartScreen.cs: c25a7394b998e40e369a8aa240604b98 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/ASEFakeInspector.cs: 16ee6c7c6e951e6f6a68131271ddde1b -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 23.79 ms, found 35 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (3.0 KB). Loaded Objects now: 4973.
-Memory consumption went from 99.7 MB to 99.7 MB.
-Total: 6.205200 ms (FindLiveObjects: 0.495500 ms CreateObjectMapping: 0.394700 ms MarkObjects: 5.280700 ms  DeleteObjects: 0.033000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/StartScreen.cs: c25a7394b998e40e369a8aa240604b98 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/ASEFakeInspector.cs: 16ee6c7c6e951e6f6a68131271ddde1b -> 
-========================================================================
-Received Import Request.
-  Time since last request: 997.617621 seconds.
-  path: Assets/XR/Loaders/WaveXRLoader.asset
-  artifactKey: Guid(c7a6e596d34881f479c22aadd30c1291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XR/Loaders/WaveXRLoader.asset using Guid(c7a6e596d34881f479c22aadd30c1291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a23452f2a64048fbdbcf89b5a9ad18cb') in 0.017469 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 21.529008 seconds.
-  path: Assets/XRI/Settings/Resources/XRDeviceSimulatorSettings.asset
-  artifactKey: Guid(c39135256c3409841aca4900a05dcb47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XRI/Settings/Resources/XRDeviceSimulatorSettings.asset using Guid(c39135256c3409841aca4900a05dcb47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1ef37ac3f39f12087e665a37bffbb0f') in 0.002245 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 85.820588 seconds.
+  Time since last request: 1084217.325866 seconds.
   path: Assets/Simple Garage/Textures/2K-false_ceiling_normal.png
   artifactKey: Guid(b722543030734cb4893dea1471a6b4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Textures/2K-false_ceiling_normal.png using Guid(b722543030734cb4893dea1471a6b4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d5c8aadc00822fdf24f1fa5d5be6207') in 0.104628 seconds
+Start importing Assets/Simple Garage/Textures/2K-false_ceiling_normal.png using Guid(b722543030734cb4893dea1471a6b4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'def69de3f0e3da02171f7ae93c163a62') in 0.066036 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.350934 seconds.
+  Time since last request: 0.292602 seconds.
   path: Assets/Simple Garage/Textures/2K-tiling_44_basecolor.png
   artifactKey: Guid(a5c584959a4953447bb7631623619f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Textures/2K-tiling_44_basecolor.png using Guid(a5c584959a4953447bb7631623619f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee8c8eabcb8966e72e216dadd47c4235') in 0.071121 seconds
+Start importing Assets/Simple Garage/Textures/2K-tiling_44_basecolor.png using Guid(a5c584959a4953447bb7631623619f4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad4ba41a3c49140ba47896fd8e60f789') in 0.049856 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.189243 seconds.
-  path: Assets/Simple Garage/Textures/2K-tiling_44_roughness.png
-  artifactKey: Guid(f32f380e31cbc1f4bb18fe358f9d7315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Textures/2K-tiling_44_roughness.png using Guid(f32f380e31cbc1f4bb18fe358f9d7315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fac2aacd85bc8b685b1f83c51def1b42') in 0.093190 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000607 seconds.
-  path: Assets/Simple Garage/Textures/Terrazzo.png
-  artifactKey: Guid(3b8dd48fdd398a141b8fe014292db441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Textures/Terrazzo.png using Guid(3b8dd48fdd398a141b8fe014292db441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43f13a01a34449a45f2d8837739004a2') in 0.032580 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Simple Garage/Textures/Exterior_Exterior_pbr_specular.png
-  artifactKey: Guid(aeae90d8d76af8c4da8118058de49520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Textures/Exterior_Exterior_pbr_specular.png using Guid(aeae90d8d76af8c4da8118058de49520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b6601b3fae5dc0f9730035e5c79860') in 0.305416 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Simple Garage/Textures/garage_door_height.png
-  artifactKey: Guid(cdc6a1ae452302f4dacba447db6677e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Textures/garage_door_height.png using Guid(cdc6a1ae452302f4dacba447db6677e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9b130c254119ebdf23a3bffaa88a966') in 0.055356 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Simple Garage/Textures/Metal_Aluminum_Anodized.png
-  artifactKey: Guid(669beda05f29a5f47a3349915f0b6e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Textures/Metal_Aluminum_Anodized.png using Guid(669beda05f29a5f47a3349915f0b6e85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01fcc850320b4aebea258d9cc5643a23') in 0.019446 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Simple Garage/Textures/worn_metal4_Normal-ogl.png
-  artifactKey: Guid(644cba5b908db5b40a39622776460a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Textures/worn_metal4_Normal-ogl.png using Guid(644cba5b908db5b40a39622776460a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e9a9d9db5517c49cf2ad0803ed127e7') in 0.066548 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Simple Garage/Textures/Wood062_2K_Normal.png
-  artifactKey: Guid(7a3a1d641869b6b43966a3dcdde6ea4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Textures/Wood062_2K_Normal.png using Guid(7a3a1d641869b6b43966a3dcdde6ea4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f73187a7654fb3f9c2649f82e7b7ceef') in 0.076851 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Simple Garage/Textures/Exteriour albedo.png
-  artifactKey: Guid(6a91e09a1179eaf438b4b8b99f793784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Textures/Exteriour albedo.png using Guid(6a91e09a1179eaf438b4b8b99f793784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee1d780d36f2bc3272e9990f0c08cb74') in 0.049424 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Simple Garage/Textures/Exteriour roughness.png
-  artifactKey: Guid(71892ab5c081f8248a9a463e2661e0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Textures/Exteriour roughness.png using Guid(71892ab5c081f8248a9a463e2661e0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a8844319a0f7685fb93c9342f5a8c47') in 0.033161 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Simple Garage/Textures/worn_metal4_albedo.png
-  artifactKey: Guid(d1107d3f0e84d734d99c4e30a1e3b3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Textures/worn_metal4_albedo.png using Guid(d1107d3f0e84d734d99c4e30a1e3b3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b92178d04b6c3df526f3fb71ba5dfa9') in 0.055085 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Simple Garage/Textures/worn_metal4_Height.png
-  artifactKey: Guid(e584040eeea7c104bba4f7f17d32ab07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Textures/worn_metal4_Height.png using Guid(e584040eeea7c104bba4f7f17d32ab07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab1e5372e4efb6c9c0dab18e30ee3b61') in 0.052863 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Simple Garage/Textures/Camouflage suitcase albedo.png
-  artifactKey: Guid(00f64738e909cc340b96918c1d840cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Textures/Camouflage suitcase albedo.png using Guid(00f64738e909cc340b96918c1d840cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '844f01423fe8b520ed98734de3955bf0') in 0.024098 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Simple Garage/Textures/Small stool normal.png
-  artifactKey: Guid(7511d22632d758540a3dd9ef3019ee15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Textures/Small stool normal.png using Guid(7511d22632d758540a3dd9ef3019ee15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76a4c62b0997931630a7b9f05a3331d2') in 0.032906 seconds
+  Time since last request: 0.000025 seconds.
+  path: Assets/Dark UI/Free/32.png
+  artifactKey: Guid(dcdc43f7a0ad67b4ab3e3db38233dfae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Free/32.png using Guid(dcdc43f7a0ad67b4ab3e3db38233dfae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05266ab5c8de511dd9078b2180a99d9d') in 0.003770 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000028 seconds.
-  path: Assets/Simple Garage/Textures/Exterior_Exterior_pbr_roughness.png
-  artifactKey: Guid(49548c62973cfa748874c29585b0d0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Textures/Exterior_Exterior_pbr_roughness.png using Guid(49548c62973cfa748874c29585b0d0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b9f80c18e7663370286a224254231f9') in 0.091828 seconds
+  path: Assets/Simple Garage/Textures/2K-false_ceiling_roughness.png
+  artifactKey: Guid(a97c31b855888cf46b5ac18a602e4bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Textures/2K-false_ceiling_roughness.png using Guid(a97c31b855888cf46b5ac18a602e4bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72708d5ee1bd3f62ebe3643c4883dc7a') in 0.036081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.302134 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_16_icon.png
+  artifactKey: Guid(90bf3b6cc6fc7e847bb8487bbd0bd593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_16_icon.png using Guid(90bf3b6cc6fc7e847bb8487bbd0bd593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97126e21ac79a6e59a33ccbf8903cf16') in 0.001746 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Simple Garage/Textures/Wood062_2K_Roughness.png
-  artifactKey: Guid(e81b3a66e988ff44eb91e79750ecee80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Textures/Wood062_2K_Roughness.png using Guid(e81b3a66e988ff44eb91e79750ecee80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '504ea2e6e667c3cb1a32e19a13440803') in 0.052482 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Simple Garage/Textures/Carpet albedo.png
-  artifactKey: Guid(9f016cfac9eabb142933f7be87bc3d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Textures/Carpet albedo.png using Guid(9f016cfac9eabb142933f7be87bc3d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61ee68c3c37ed869de4de94563a4ed36') in 0.028099 seconds
+  Time since last request: 0.000017 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_16_icon.png
+  artifactKey: Guid(4acdf06b2f9989b408e4f32cc163c5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_16_icon.png using Guid(4acdf06b2f9989b408e4f32cc163c5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b71e78bee29d3a5c3b3c9018106fda9') in 0.002234 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000020 seconds.
-  path: Assets/Simple Garage/Textures/Garage door normal.png
-  artifactKey: Guid(dd22aac45f9ffb944b147a6210418e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Textures/Garage door normal.png using Guid(dd22aac45f9ffb944b147a6210418e3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f166f042e3f07b71c634966eed4ca81') in 0.030642 seconds
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_16_icon.png
+  artifactKey: Guid(0546b648f23703d4fb811aeb72a5b306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_16_icon.png using Guid(0546b648f23703d4fb811aeb72a5b306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ada97ba67f544723f1fab58b1239f50f') in 0.001693 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000114 seconds.
-  path: Assets/Simple Garage/Textures/garage_door_normal.png
-  artifactKey: Guid(9b89c1688b91ec7409d38d6806612ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Textures/garage_door_normal.png using Guid(9b89c1688b91ec7409d38d6806612ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb6192e16576d318fa3e14e6ee024be1') in 0.036484 seconds
+  Time since last request: 31.226556 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_10_icon.png
+  artifactKey: Guid(366d5d6e913111346b1e486c841206aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_10_icon.png using Guid(366d5d6e913111346b1e486c841206aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a66a6b82d0ee61fd5e2941cd0e71f06f') in 0.002030 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Simple Garage/Textures/radialspec.png
-  artifactKey: Guid(d44d8b4576d5ff34f94d9f019ed95898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Textures/radialspec.png using Guid(d44d8b4576d5ff34f94d9f019ed95898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed335df4727f6782ec5a96e7b3321b20') in 0.031164 seconds
+  Time since last request: 0.000019 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_10_icon.png
+  artifactKey: Guid(8fd9d5b902b13a24daf7557b4c3b1deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_10_icon.png using Guid(8fd9d5b902b13a24daf7557b4c3b1deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b90296d37be66a70b447f168a9618d4a') in 0.002170 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Simple Garage/Textures/Exterior_Exterior_pbr_diffuse.png
-  artifactKey: Guid(fe29145816a7ddf43b20b846e2ee670b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Textures/Exterior_Exterior_pbr_diffuse.png using Guid(fe29145816a7ddf43b20b846e2ee670b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '215c746ddc849647dfa022d3cb1103d3') in 0.090439 seconds
+  Time since last request: 12.597171 seconds.
+  path: Assets/Dark UI/Free/128 Light 2.png
+  artifactKey: Guid(4c5a0d6878b96be4f9f82216b59eca51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Free/128 Light 2.png using Guid(4c5a0d6878b96be4f9f82216b59eca51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2020dec897b896785468b659e1d0ae4a') in 0.002452 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Simple Garage/Textures/2K-false_ceiling_roughness.png
-  artifactKey: Guid(a97c31b855888cf46b5ac18a602e4bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Textures/2K-false_ceiling_roughness.png using Guid(a97c31b855888cf46b5ac18a602e4bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfe491310030169a9ce4a6be0673076a') in 0.054250 seconds
+  Time since last request: 0.326663 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_18_icon.png
+  artifactKey: Guid(76bcd1846ed6b0a4f9d48ba3a22345a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_18_icon.png using Guid(76bcd1846ed6b0a4f9d48ba3a22345a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f5749ee89feb98df410766f28e0ce20') in 0.002386 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Simple Garage/Textures/worn_metal4_Roughness.png
-  artifactKey: Guid(a982b623844870943abb867e6ffa05d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Textures/worn_metal4_Roughness.png using Guid(a982b623844870943abb867e6ffa05d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fca2d9151f88138e5a2973ce41614df5') in 0.046352 seconds
+  Time since last request: 0.000020 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_08_icon.png
+  artifactKey: Guid(13b3092aeaff2cf48b3ae35c43526bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_08_icon.png using Guid(13b3092aeaff2cf48b3ae35c43526bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '962ab34cbd4ca1cdfa5103031cd70480') in 0.001804 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Simple Garage/Textures/Small stool albedo.png
-  artifactKey: Guid(c0a9ab617620b634ca9efd88cd0f8bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Garage/Textures/Small stool albedo.png using Guid(c0a9ab617620b634ca9efd88cd0f8bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaf3d3f92f7e3a16bbb8c42a75d3fe1a') in 0.019420 seconds
+  Time since last request: 10.028738 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/BlueBtn_06_icon.png
+  artifactKey: Guid(79bd9866ed9ad1e4397416dadd6dfc1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/BlueBtn_06_icon.png using Guid(79bd9866ed9ad1e4397416dadd6dfc1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b966e831c925ff0ab27832c30995f528') in 0.001881 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 11.980619 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Prefabs/UI Sample.prefab
-  artifactKey: Guid(fd28f23af44f73f4a95e33435872ad15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Prefabs/UI Sample.prefab using Guid(fd28f23af44f73f4a95e33435872ad15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d8a402e0236fdec307ccc53c1d4f881') in 0.023028 seconds
+  Time since last request: 15.670333 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/OrangeBtn_15_icon.png
+  artifactKey: Guid(606bf536c6b7202449d2b875b7053fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/OrangeBtn_15_icon.png using Guid(606bf536c6b7202449d2b875b7053fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff9495c0f278c6baca86df9f2815fed') in 0.001950 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 70
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 10.949771 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/OrangeBtn_11_icon.png
+  artifactKey: Guid(42480efd78c21d34d809daa5ce9e0355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/OrangeBtn_11_icon.png using Guid(42480efd78c21d34d809daa5ce9e0355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '300aa5fb5d6c2f9f697086e163114de7') in 0.001831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_11_icon.png
+  artifactKey: Guid(f95e3aac701618a448f7c0957ca13bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_11_icon.png using Guid(f95e3aac701618a448f7c0957ca13bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03b431f5ac30a05568c7b1b7e4e4cf2b') in 0.001834 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.807887 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_07_icon.png
+  artifactKey: Guid(4e41e3869081d1a4a82e94b6dcdf846d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_07_icon.png using Guid(4e41e3869081d1a4a82e94b6dcdf846d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f01a904251378a467c6890d8e93a58b6') in 0.002504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_07_icon.png
+  artifactKey: Guid(cf5f57083bd359046a017e8458f507cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_07_icon.png using Guid(cf5f57083bd359046a017e8458f507cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9d4a91442e85e6d7b226cef967935a6') in 0.002231 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 26.816212 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/secondarytabclose.png
+  artifactKey: Guid(03cefa94d5aa9d74993fb2138af9d607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/secondarytabclose.png using Guid(03cefa94d5aa9d74993fb2138af9d607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9008011d36498fec87e96555d98ddc67') in 0.001733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 34.871822 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_02_icon.png
+  artifactKey: Guid(65adb47937f0759478c87e3d05cd52ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_02_icon.png using Guid(65adb47937f0759478c87e3d05cd52ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eae59e32a56074c3e22be169882924c6') in 0.002188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 27.533255 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/personal/actionTreeBackgroundWithoutBorder.png
+  artifactKey: Guid(cf632ed80bf1f46c980de6b1b8b903ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/personal/actionTreeBackgroundWithoutBorder.png using Guid(cf632ed80bf1f46c980de6b1b8b903ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '113089f18b56a796557ab2f6a7d3c41c') in 0.001393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 52.439583 seconds.
+  path: Assets/Simple Garage/Textures/Wood059_2K_Color_bake.png
+  artifactKey: Guid(707ed106c9d49644db4a10bd5c260448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Textures/Wood059_2K_Color_bake.png using Guid(707ed106c9d49644db4a10bd5c260448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47a6ffe9189a007de22ab38dcc3f86f9') in 0.042751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 71.533983 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconoutofsync.png
+  artifactKey: Guid(0e80bd0b4a8196f46acf73711b9505ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconoutofsync.png using Guid(0e80bd0b4a8196f46acf73711b9505ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abaa8632c324f308ab515022d4aa9e1d') in 0.001608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.321926 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconoutofsync@2x.png
+  artifactKey: Guid(f82dfc5fc3c5a8f4080a3550427019c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconoutofsync@2x.png using Guid(f82dfc5fc3c5a8f4080a3550427019c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '322b5f5499e515fdc80ee15c2064f578') in 0.001670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 14.947467 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/Timeline-Marker-Warning-Overlay.png
+  artifactKey: Guid(945f4ecec6df62244b9ebcc363833642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Icons/Timeline-Marker-Warning-Overlay.png using Guid(945f4ecec6df62244b9ebcc363833642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e796c2c581956d45d486dced2c2b3030') in 0.001546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Packages/com.htc.upm.wave.xrsdk/Runtime/Textures/WaveViveLogoFlat.png
+  artifactKey: Guid(5bd3098035f59374094ee1cdcfb1c8f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.htc.upm.wave.xrsdk/Runtime/Textures/WaveViveLogoFlat.png using Guid(5bd3098035f59374094ee1cdcfb1c8f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76bf09d6782ee32205543ecd952a6877') in 0.003741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Shared/TimelineWarning.png
+  artifactKey: Guid(1732e542f535d374bbfa7565fc78414e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Shared/TimelineWarning.png using Guid(1732e542f535d374bbfa7565fc78414e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a03d010a49df84cb32678861491538a6') in 0.001677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server

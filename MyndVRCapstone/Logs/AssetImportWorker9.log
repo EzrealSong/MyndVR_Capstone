@@ -15,7 +15,7 @@ E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone
 -logFile
 Logs/AssetImportWorker9.log
 -srvPort
-53474
+52091
 Successfully changed project path to: E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone
 E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,10 @@ E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [42572] Host "[IP] 10.218.108.230 [Port] 0 [Flags] 2 [Guid] 2799229488 [EditorId] 2799229488 [Version] 1048832 [Id] WindowsEditor(7,EN6169321W) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Unable to join player connection multicast group (err: 10013).
+Player connection [35320] Host "[IP] 10.218.108.230 [Port] 0 [Flags] 2 [Guid] 698120726 [EditorId] 698120726 [Version] 1048832 [Id] WindowsEditor(7,EN6169321W) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Player connection [42572] Host "[IP] 10.218.108.230 [Port] 0 [Flags] 2 [Guid] 2799229488 [EditorId] 2799229488 [Version] 1048832 [Id] WindowsEditor(7,EN6169321W) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
-
-Refreshing native plugins compatible for Editor in 73.39 ms, found 35 plugins.
+Refreshing native plugins compatible for Editor in 43.31 ms, found 35 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.0f1 (fb119bb0b476)
 [Subsystems] Discovering subsystems at path F:/2022.3.0f1/Editor/Data/Resources/UnitySubsystems
@@ -69,47 +68,47 @@ Initialize mono
 Mono path[0] = 'F:/2022.3.0f1/Editor/Data/Managed'
 Mono path[1] = 'F:/2022.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'F:/2022.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56852
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56720
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: F:/2022.3.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: F:/2022.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007010 seconds.
-- Loaded All Assemblies, in  0.494 seconds
+Registered in 0.005049 seconds.
+- Loaded All Assemblies, in  0.349 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 1070 ms
+Android Extension - Scanning For ADB Devices 902 ms
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.432 seconds
-Domain Reload Profiling: 1926ms
-	BeginReloadAssembly (146ms)
+- Finished resetting the current domain, in  1.252 seconds
+Domain Reload Profiling: 1602ms
+	BeginReloadAssembly (96ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (63ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (75ms)
-	LoadAllAssembliesAndSetupDomain (197ms)
-		LoadAssemblies (147ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (154ms)
+		LoadAssemblies (95ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (192ms)
-			TypeCache.Refresh (191ms)
-				TypeCache.ScanAssembly (175ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
+		AnalyzeDomain (150ms)
+			TypeCache.Refresh (149ms)
+				TypeCache.ScanAssembly (135ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (1433ms)
+	FinalizeReload (1253ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1366ms)
+		SetupLoadedEditorAssemblies (1186ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1187ms)
+			InitializePlatformSupportModulesInManaged (1017ms)
 			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (111ms)
-			ProcessInitializeOnLoadMethodAttributes (61ms)
+			ProcessInitializeOnLoadAttributes (103ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -119,8 +118,8 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.873 seconds
-Refreshing native plugins compatible for Editor in 20.70 ms, found 35 plugins.
+- Loaded All Assemblies, in  0.914 seconds
+Refreshing native plugins compatible for Editor in 23.58 ms, found 35 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
@@ -292,47 +291,47 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.729 seconds
-Domain Reload Profiling: 1602ms
-	BeginReloadAssembly (150ms)
+- Finished resetting the current domain, in  0.766 seconds
+Domain Reload Profiling: 1679ms
+	BeginReloadAssembly (143ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (29ms)
-	RebuildCommonClasses (35ms)
+	RebuildCommonClasses (36ms)
 	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (638ms)
-		LoadAssemblies (330ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (680ms)
+		LoadAssemblies (339ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (386ms)
-			TypeCache.Refresh (349ms)
-				TypeCache.ScanAssembly (332ms)
-			ScanForSourceGeneratedMonoScriptInfo (29ms)
-			ResolveRequiredComponents (7ms)
-	FinalizeReload (729ms)
+		AnalyzeDomain (412ms)
+			TypeCache.Refresh (365ms)
+				TypeCache.ScanAssembly (347ms)
+			ScanForSourceGeneratedMonoScriptInfo (34ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (766ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (538ms)
+		SetupLoadedEditorAssemblies (585ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (22ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (73ms)
-			ProcessInitializeOnLoadAttributes (386ms)
-			ProcessInitializeOnLoadMethodAttributes (49ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (383ms)
+			ProcessInitializeOnLoadMethodAttributes (94ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (11ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Refreshing native plugins compatible for Editor in 22.23 ms, found 35 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 22.59 ms, found 35 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4456 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 97 unused Assets / (85.4 KB). Loaded Objects now: 4929.
-Memory consumption went from 175.6 MB to 175.5 MB.
-Total: 5.149300 ms (FindLiveObjects: 0.497800 ms CreateObjectMapping: 0.367000 ms MarkObjects: 4.059300 ms  DeleteObjects: 0.223400 ms)
+Unloading 6241 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 127 unused Assets / (93.9 KB). Loaded Objects now: 6708.
+Memory consumption went from 252.9 MB to 252.8 MB.
+Total: 5.967300 ms (FindLiveObjects: 0.669200 ms CreateObjectMapping: 0.695700 ms MarkObjects: 4.345800 ms  DeleteObjects: 0.255100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -342,27 +341,161 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/StartScreen.cs: c25a7394b998e40e369a8aa240604b98 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/ASEFakeInspector.cs: 16ee6c7c6e951e6f6a68131271ddde1b -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1095376.010440 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Prefabs/Interactables Sample.prefab
-  artifactKey: Guid(6821e1b7f44d8c44b8a2ba02f37309d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Prefabs/Interactables Sample.prefab using Guid(6821e1b7f44d8c44b8a2ba02f37309d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e2322e979d49161031ebf3f84a458d7') in 0.342086 seconds
+  Time since last request: 1084251.385970 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_10_icon.png
+  artifactKey: Guid(e8bb37a6731b80946ba35966ac3872f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_10_icon.png using Guid(e8bb37a6731b80946ba35966ac3872f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d284099caf09899eaea2f68403c93a') in 0.021069 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 127
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 6.403528 seconds.
-  path: Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Prefabs/Interactables/Interaction Affordance.prefab
-  artifactKey: Guid(eb9104ef66b7305468adb3697fdeed5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Prefabs/Interactables/Interaction Affordance.prefab using Guid(eb9104ef66b7305468adb3697fdeed5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e14304ef34be15d129e84500e8f8af7') in 0.002972 seconds
+  Time since last request: 12.590605 seconds.
+  path: Assets/Dark UI/Free/128 Light.png
+  artifactKey: Guid(240ae01ad665c6d4798249cbec763ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Free/128 Light.png using Guid(240ae01ad665c6d4798249cbec763ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee1cf3db35395408661313f4efe10d0') in 0.003661 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.323929 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_08_icon.png
+  artifactKey: Guid(c9552c08f792aec418c890c316c1b5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/GreenBtn_08_icon.png using Guid(c9552c08f792aec418c890c316c1b5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '203d2a52665d83ae3f5793f722e35579') in 0.001979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.914959 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/OrangeBtn_08_icon.png
+  artifactKey: Guid(e545538ff22a5eb44a5f805734d98355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/OrangeBtn_08_icon.png using Guid(e545538ff22a5eb44a5f805734d98355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18e5afb70cacff3e1ee2a94e8aaceca8') in 0.002100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.094658 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_08_icon.png
+  artifactKey: Guid(99807a918a26533419851e596d8632c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_08_icon.png using Guid(99807a918a26533419851e596d8632c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0cc8547cb0d7a950702c0617dcda1e2') in 0.002086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.401259 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/YellowBtn_18_icon.PNG
+  artifactKey: Guid(f43e9db314fb883439b6a6f49f034e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/YellowBtn_18_icon.PNG using Guid(f43e9db314fb883439b6a6f49f034e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e166124f8fbf6614c0f06328f5abd62') in 0.002020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 8.590503 seconds.
+  path: Assets/Dark UI/Free/64 Light 2.png
+  artifactKey: Guid(91db8970c28d4a344beff5618f7a0ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Free/64 Light 2.png using Guid(91db8970c28d4a344beff5618f7a0ca3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d0a598b8a78590049db74faf46f79c') in 0.002351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_06_icon.png
+  artifactKey: Guid(70602b135a0bc06469b4914534a89ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_06_icon.png using Guid(70602b135a0bc06469b4914534a89ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43e76b8ea79cfc6d15804eceaf377757') in 0.001862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.523240 seconds.
+  path: Assets/Simple Garage/Textures/Wood062_2K_Roughness.png
+  artifactKey: Guid(e81b3a66e988ff44eb91e79750ecee80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Textures/Wood062_2K_Roughness.png using Guid(e81b3a66e988ff44eb91e79750ecee80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '178298958fe784ef1a1f8e9544827edd') in 0.063572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 14.062430 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_15_icon.png
+  artifactKey: Guid(abe4e19546f3cf046878a0d115876abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_15_icon.png using Guid(abe4e19546f3cf046878a0d115876abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73897a8c1507f3a7e63d6ccdedb2f1f5') in 0.002111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/YellowBtn_15_icon.PNG
+  artifactKey: Guid(95138bce549278848b204c032f350f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/YellowBtn_15_icon.PNG using Guid(95138bce549278848b204c032f350f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '148d9d53fb9a212f57ccdb47cb500c4c') in 0.002019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 10.938143 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_11_icon.png
+  artifactKey: Guid(43752907bbb8e094fa3d9ec5340f7249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/IndigoBtn_11_icon.png using Guid(43752907bbb8e094fa3d9ec5340f7249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f93c9fafbb5e78cd2cb8ff61024f5b26') in 0.002168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/YellowBtn_11_icon.PNG
+  artifactKey: Guid(806bf7b80e3b49846adf5a2e6d0ee3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/YellowBtn_11_icon.PNG using Guid(806bf7b80e3b49846adf5a2e6d0ee3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe3e6a313b3728d3b77292bf36da9db') in 0.001932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.807868 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/BlueBtn_17_icon.png
+  artifactKey: Guid(43c7d4f8611402f45b8eacef1d375fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/BlueBtn_17_icon.png using Guid(43c7d4f8611402f45b8eacef1d375fa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8027eddf1de863745bd15d23e5a64ef') in 0.002634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/OrangeBtn_07_icon.png
+  artifactKey: Guid(35dc87f045324c547b5689c4190d4769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/OrangeBtn_07_icon.png using Guid(35dc87f045324c547b5689c4190d4769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eda7cdc158ad45fdeda94760ad710a0') in 0.002061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 26.818516 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_secondarytabclosehover@2x.png
+  artifactKey: Guid(9aa4348290784b2468144a97eb15d8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_secondarytabclosehover@2x.png using Guid(9aa4348290784b2468144a97eb15d8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f939267bfaf53535b3adc1359a746fd6') in 0.001754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 34.871854 seconds.
+  path: Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_01_icon.PNG
+  artifactKey: Guid(dbfa69b022dc5ad4f85cb221452f07d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FutureAgeGameUI_Free/Sprites/icons/RedBtn_01_icon.PNG using Guid(dbfa69b022dc5ad4f85cb221452f07d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68a6e228f25a8da23cab1eeb4442678c') in 0.002391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 27.533659 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/pro/actionTreeBackgroundWithoutBorder.png
+  artifactKey: Guid(943deaaee9c9347e0a455aa208526c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/AssetEditor/Resources/pro/actionTreeBackgroundWithoutBorder.png using Guid(943deaaee9c9347e0a455aa208526c42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efb2a5230bd812d3fd778c15a5ca6294') in 0.001347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 52.439629 seconds.
+  path: Assets/Simple Garage/Textures/Wood.003 roughness.png
+  artifactKey: Guid(6b921c1eded1af946b41bf43c7a6fcfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Textures/Wood.003 roughness.png using Guid(6b921c1eded1af946b41bf43c7a6fcfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86aeffb890fe5d83d60abfe48f2ff1db') in 0.011804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server
