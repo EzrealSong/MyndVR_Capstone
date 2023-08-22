@@ -1,0 +1,471 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.0f1 (fb119bb0b476) revision 16454043'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Enterprise' Language: 'en' Physical Memory: 65234 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+F:\2022.3.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker15
+-projectPath
+E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone
+-logFile
+Logs/AssetImportWorker15.log
+-srvPort
+52091
+Successfully changed project path to: E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone
+E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Unable to join player connection multicast group (err: 10013).
+Player connection [33932] Host "[IP] 10.218.108.230 [Port] 0 [Flags] 2 [Guid] 1299246169 [EditorId] 1299246169 [Version] 1048832 [Id] WindowsEditor(7,EN6169321W) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 51.34 ms, found 35 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.0f1 (fb119bb0b476)
+[Subsystems] Discovering subsystems at path F:/2022.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA Quadro RTX 5000 (ID=0x1eb0)
+    Vendor:   NVIDIA
+    VRAM:     16170 MB
+    Driver:   27.21.14.5148
+Initialize mono
+Mono path[0] = 'F:/2022.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'F:/2022.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'F:/2022.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56976
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: F:/2022.3.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: F:/2022.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005149 seconds.
+- Loaded All Assemblies, in  0.341 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 933 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.281 seconds
+Domain Reload Profiling: 1622ms
+	BeginReloadAssembly (92ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (150ms)
+		LoadAssemblies (92ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (146ms)
+			TypeCache.Refresh (145ms)
+				TypeCache.ScanAssembly (132ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1281ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1220ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1047ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (110ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.937 seconds
+Refreshing native plugins compatible for Editor in 23.10 ms, found 35 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Wave.XR.ViveWaveEyeGaze ctor()
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Wave.XR.ViveWaveEyeGaze:DEBUG (string) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveEyeGaze.cs:55)
+Wave.XR.ViveWaveEyeGaze:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveEyeGaze.cs:65)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveEyeGaze.cs Line: 55)
+
+Wave.XR.ViveWaveEyeGaze Initialize() RegisterLayout with interface Eye Gaze
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Wave.XR.ViveWaveEyeGaze:DEBUG (string) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveEyeGaze.cs:55)
+Wave.XR.ViveWaveEyeGaze:Initialize () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveEyeGaze.cs:73)
+Wave.XR.ViveWaveEyeGaze:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveEyeGaze.cs:66)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveEyeGaze.cs Line: 55)
+
+Wave.XR.ViveWaveEyeGaze Initialize() Adds a ViveWaveEyeGaze device.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Wave.XR.ViveWaveEyeGaze:DEBUG (string) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveEyeGaze.cs:55)
+Wave.XR.ViveWaveEyeGaze:Initialize () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveEyeGaze.cs:88)
+Wave.XR.ViveWaveEyeGaze:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveEyeGaze.cs:66)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveEyeGaze.cs Line: 55)
+
+Wave.XR.ViveWaveController InitializeInPlayer() WVR_CR_Left_001
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Wave.XR.ViveWaveController:DEBUG (string) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveController.cs:33)
+Wave.XR.ViveWaveController:InitializeInPlayer () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveController.cs:54)
+Wave.XR.ViveWaveController:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveController.cs:47)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveController.cs Line: 33)
+
+Wave.XR.ViveWaveController InitializeInPlayer() WVR_CR_Right_001
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Wave.XR.ViveWaveController:DEBUG (string) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveController.cs:33)
+Wave.XR.ViveWaveController:InitializeInPlayer () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveController.cs:62)
+Wave.XR.ViveWaveController:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveController.cs:47)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveController.cs Line: 33)
+
+Wave.XR.ViveWaveHMD InitializeInPlayer()
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Wave.XR.ViveWaveHMD:DEBUG (string) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveHMD.cs:33)
+Wave.XR.ViveWaveHMD:InitializeInPlayer () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveHMD.cs:55)
+Wave.XR.ViveWaveHMD:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveHMD.cs:48)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveHMD.cs Line: 33)
+
+Wave.XR.ViveWaveWristTracker Initialize() RegisterLayout with interface Wrist Tracker
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Wave.XR.ViveWaveWristTracker:DEBUG (System.Text.StringBuilder) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:72)
+Wave.XR.ViveWaveWristTracker:Initialize () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:97)
+Wave.XR.ViveWaveWristTracker:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:89)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs Line: 72)
+
+Wave.XR.ViveWaveWristTracker Initialize() Adds right ViveWaveWristTracker device Wave Tracker0
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Wave.XR.ViveWaveWristTracker:DEBUG (System.Text.StringBuilder) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:72)
+Wave.XR.ViveWaveWristTracker:Initialize () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:114)
+Wave.XR.ViveWaveWristTracker:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:89)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs Line: 72)
+
+Wave.XR.ViveWaveWristTracker FinishSetup() deviceId: 0, IsLeft: False, interfaceName: Wrist Tracker, product: Wave Tracker0, serial: HTC-211012-Tracker0
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Wave.XR.ViveWaveWristTracker:DEBUG (System.Text.StringBuilder) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:72)
+Wave.XR.ViveWaveWristTracker:FinishSetup () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:157)
+UnityEngine.InputSystem.InputControl:CallFinishSetupRecursive () (at ./Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/Controls/InputControl.cs:1064)
+UnityEngine.InputSystem.Layouts.InputDeviceBuilder:Setup (UnityEngine.InputSystem.Utilities.InternedString,UnityEngine.InputSystem.Utilities.InternedString,UnityEngine.InputSystem.Layouts.InputDeviceDescription) (at ./Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/Devices/InputDeviceBuilder.cs:60)
+UnityEngine.InputSystem.InputDevice:Build<UnityEngine.InputSystem.InputDevice> (string,string,UnityEngine.InputSystem.Layouts.InputDeviceDescription,bool) (at ./Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/Devices/InputDevice.cs:955)
+UnityEngine.InputSystem.InputManager:AddDevice (UnityEngine.InputSystem.Utilities.InternedString,int,string,UnityEngine.InputSystem.Layouts.InputDeviceDescription,UnityEngine.InputSystem.InputDevice/DeviceFlags,UnityEngine.InputSystem.Utilities.InternedString) (at ./Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/InputManager.cs:1062)
+UnityEngine.InputSystem.InputManager:AddDevice (UnityEngine.InputSystem.Layouts.InputDeviceDescription,bool,string,int,UnityEngine.InputSystem.InputDevice/DeviceFlags) (at ./Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/InputManager.cs:1222)
+UnityEngine.InputSystem.InputManager:AddDevice (UnityEngine.InputSystem.Layouts.InputDeviceDescription) (at ./Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/InputManager.cs:1195)
+UnityEngine.InputSystem.InputSystem:AddDevice (UnityEngine.InputSystem.Layouts.InputDeviceDescription) (at ./Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/InputSystem.cs:1491)
+Wave.XR.ViveWaveWristTracker:Initialize () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:115)
+Wave.XR.ViveWaveWristTracker:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:89)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs Line: 72)
+
+Wave.XR.ViveWaveWristTracker Initialize() Adds left ViveWaveWristTracker device Wave Tracker1
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Wave.XR.ViveWaveWristTracker:DEBUG (System.Text.StringBuilder) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:72)
+Wave.XR.ViveWaveWristTracker:Initialize () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:119)
+Wave.XR.ViveWaveWristTracker:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:89)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs Line: 72)
+
+Wave.XR.ViveWaveWristTracker FinishSetup() deviceId: 0, IsLeft: True, interfaceName: Wrist Tracker, product: Wave Tracker1, serial: HTC-211012-Tracker1
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Wave.XR.ViveWaveWristTracker:DEBUG (System.Text.StringBuilder) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:72)
+Wave.XR.ViveWaveWristTracker:FinishSetup () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:157)
+UnityEngine.InputSystem.InputControl:CallFinishSetupRecursive () (at ./Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/Controls/InputControl.cs:1064)
+UnityEngine.InputSystem.Layouts.InputDeviceBuilder:Setup (UnityEngine.InputSystem.Utilities.InternedString,UnityEngine.InputSystem.Utilities.InternedString,UnityEngine.InputSystem.Layouts.InputDeviceDescription) (at ./Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/Devices/InputDeviceBuilder.cs:60)
+UnityEngine.InputSystem.InputDevice:Build<UnityEngine.InputSystem.InputDevice> (string,string,UnityEngine.InputSystem.Layouts.InputDeviceDescription,bool) (at ./Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/Devices/InputDevice.cs:955)
+UnityEngine.InputSystem.InputManager:AddDevice (UnityEngine.InputSystem.Utilities.InternedString,int,string,UnityEngine.InputSystem.Layouts.InputDeviceDescription,UnityEngine.InputSystem.InputDevice/DeviceFlags,UnityEngine.InputSystem.Utilities.InternedString) (at ./Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/InputManager.cs:1062)
+UnityEngine.InputSystem.InputManager:AddDevice (UnityEngine.InputSystem.Layouts.InputDeviceDescription,bool,string,int,UnityEngine.InputSystem.InputDevice/DeviceFlags) (at ./Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/InputManager.cs:1222)
+UnityEngine.InputSystem.InputManager:AddDevice (UnityEngine.InputSystem.Layouts.InputDeviceDescription) (at ./Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/InputManager.cs:1195)
+UnityEngine.InputSystem.InputSystem:AddDevice (UnityEngine.InputSystem.Layouts.InputDeviceDescription) (at ./Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/InputSystem.cs:1491)
+Wave.XR.ViveWaveWristTracker:Initialize () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:120)
+Wave.XR.ViveWaveWristTracker:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:89)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs Line: 72)
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.773 seconds
+Domain Reload Profiling: 1710ms
+	BeginReloadAssembly (145ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (705ms)
+		LoadAssemblies (350ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (426ms)
+			TypeCache.Refresh (379ms)
+				TypeCache.ScanAssembly (361ms)
+			ScanForSourceGeneratedMonoScriptInfo (34ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (774ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (585ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (385ms)
+			ProcessInitializeOnLoadMethodAttributes (92ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 22.96 ms, found 35 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6241 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 127 unused Assets / (93.9 KB). Loaded Objects now: 6708.
+Memory consumption went from 252.9 MB to 252.8 MB.
+Total: 5.974600 ms (FindLiveObjects: 0.776700 ms CreateObjectMapping: 0.710800 ms MarkObjects: 4.237200 ms  DeleteObjects: 0.248700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1084947.724617 seconds.
+  path: Assets/Simple Garage/Textures/Carpet albedo.png
+  artifactKey: Guid(9f016cfac9eabb142933f7be87bc3d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Textures/Carpet albedo.png using Guid(9f016cfac9eabb142933f7be87bc3d1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '613dff66318605fcdf991b317f207eed') in 0.023768 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.006256 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/ChevronUp.png
+  artifactKey: Guid(a9fe7c3d19af4432b9ae2a5172f4ea72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/ChevronUp.png using Guid(a9fe7c3d19af4432b9ae2a5172f4ea72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aa09858498366b7f7890a4d2cb2afc8') in 0.001775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 98.266203 seconds.
+  path: Assets/Dark UI/Free/World.png
+  artifactKey: Guid(cb0be92a1645a7c48a26aa4a8ebdb7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Free/World.png using Guid(cb0be92a1645a7c48a26aa4a8ebdb7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85e9011a361b39983c34bfd2fbd7f34e') in 0.002861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Simple Garage/Textures/worn_metal4_Height.png
+  artifactKey: Guid(e584040eeea7c104bba4f7f17d32ab07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Textures/worn_metal4_Height.png using Guid(e584040eeea7c104bba4f7f17d32ab07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f84a7578f9c561f364ee9ff9c6d86d82') in 0.036273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Simple Garage/Textures/worn_metal4_Roughness.png
+  artifactKey: Guid(a982b623844870943abb867e6ffa05d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Textures/worn_metal4_Roughness.png using Guid(a982b623844870943abb867e6ffa05d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78a0bde726f6260a4446040cf6cf8a38') in 0.038083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 269.325105 seconds.
+  path: Assets/Simple Garage/Textures/Exteriour roughness.png
+  artifactKey: Guid(71892ab5c081f8248a9a463e2661e0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Textures/Exteriour roughness.png using Guid(71892ab5c081f8248a9a463e2661e0b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c45f41ebcf1ece8afffba9464e400e') in 0.025889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Simple Garage/Textures/Exteriour normal.png
+  artifactKey: Guid(0df21e7141892e748b8aa77d1b03e858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Textures/Exteriour normal.png using Guid(0df21e7141892e748b8aa77d1b03e858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a83f0380c80d6c4f64fb02238736e92d') in 0.016203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.340861 seconds.
+  path: Assets/Simple Garage/Textures/Exterior_Exterior_pbr_roughness.png
+  artifactKey: Guid(49548c62973cfa748874c29585b0d0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Textures/Exterior_Exterior_pbr_roughness.png using Guid(49548c62973cfa748874c29585b0d0a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '387475bf7687db9f6b1d170c546deed7') in 0.115694 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.138931 seconds.
+  path: Assets/Simple Garage/Textures/Exterior_Exterior_pbr_diffuse.png
+  artifactKey: Guid(fe29145816a7ddf43b20b846e2ee670b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Textures/Exterior_Exterior_pbr_diffuse.png using Guid(fe29145816a7ddf43b20b846e2ee670b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0439803333bee8b7a68860377f38e5f1') in 0.210004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.230981 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Sprites/DropCap Numbers.psd
+  artifactKey: Guid(fd09957580ac4326916010f1f260975b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Sprites/DropCap Numbers.psd using Guid(fd09957580ac4326916010f1f260975b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94c29ed7b1e277a63ab29ddfe61a7f11') in 0.006389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.021422 seconds.
+  path: Assets/Dark UI/Free/Divider.png
+  artifactKey: Guid(3e33bda025a5e1d4eae51ae3933d9954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dark UI/Free/Divider.png using Guid(3e33bda025a5e1d4eae51ae3933d9954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ce9eccb222074af6f91612bc961459') in 0.002193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Dpad@2x.png
+  artifactKey: Guid(5806833d077654e5784b7cbf3e722f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Dpad@2x.png using Guid(5806833d077654e5784b7cbf3e722f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8512e1c5b0c7a5e333c2eb7fa66f39a3') in 0.001639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Dpad.png
+  artifactKey: Guid(e76f0489d4db34a2fbc3532e07f2848a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Dpad.png using Guid(e76f0489d4db34a2fbc3532e07f2848a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cfa785493355b3cb22f9ff26b865518') in 0.001754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Dpad@4x.png
+  artifactKey: Guid(d7073cfe15a1a48bfb7ff59225052484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.inputsystem/InputSystem/Editor/Icons/Dpad@4x.png using Guid(d7073cfe15a1a48bfb7ff59225052484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99ecb3e3f696614a032fc5571e8d2634') in 0.001687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Simple Garage/Textures/et_nonslip_vrusty_s.png
+  artifactKey: Guid(7e352a2c8ff40c84d9446f55e6256368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Simple Garage/Textures/et_nonslip_vrusty_s.png using Guid(7e352a2c8ff40c84d9446f55e6256368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5586ea1cbcf4bf4ad03f6ada0ff68db3') in 0.003986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

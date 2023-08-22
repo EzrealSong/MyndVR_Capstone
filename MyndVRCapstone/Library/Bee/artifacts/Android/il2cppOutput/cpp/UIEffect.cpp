@@ -6019,11 +6019,11 @@ IL_0034:
 		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_7 = V_1;
 		NullCheck(L_7);
 		int32_t L_8;
-		L_8 = VirtualFuncInvoker0< int32_t >::Invoke(4, L_7);
+		L_8 = VirtualFuncInvoker0< int32_t >::Invoke(5, L_7);
 		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_9 = V_1;
 		NullCheck(L_9);
 		int32_t L_10;
-		L_10 = VirtualFuncInvoker0< int32_t >::Invoke(6, L_9);
+		L_10 = VirtualFuncInvoker0< int32_t >::Invoke(7, L_9);
 		G_B6_0 = ((float)(((float)L_8)/((float)L_10)));
 	}
 
@@ -11898,11 +11898,11 @@ IL_0034:
 		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_7 = V_1;
 		NullCheck(L_7);
 		int32_t L_8;
-		L_8 = VirtualFuncInvoker0< int32_t >::Invoke(4, L_7);
+		L_8 = VirtualFuncInvoker0< int32_t >::Invoke(5, L_7);
 		Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* L_9 = V_1;
 		NullCheck(L_9);
 		int32_t L_10;
-		L_10 = VirtualFuncInvoker0< int32_t >::Invoke(6, L_9);
+		L_10 = VirtualFuncInvoker0< int32_t >::Invoke(7, L_9);
 		G_B6_0 = ((float)(((float)L_8)/((float)L_10)));
 	}
 
