@@ -228,10 +228,10 @@ m_ResolvedPackages:
     - 5.0.3-r.5
     - 5.1.0-r.15
     - 5.1.1-r.4
-    - 5.2.0-r.4
     - 5.2.0-r.8
     - 5.2.1-r.1
     - 5.3.1-r.2
+    - 5.3.2-r.4
     compatible:
     - 4.0.0-r.28
     - 4.0.0-r.39
@@ -246,10 +246,10 @@ m_ResolvedPackages:
     - 5.0.3-r.5
     - 5.1.0-r.15
     - 5.1.1-r.4
-    - 5.2.0-r.4
     - 5.2.0-r.8
     - 5.2.1-r.1
     - 5.3.1-r.2
+    - 5.3.2-r.4
     recommended: 
     deprecated: []
   dependencies:
@@ -1247,6 +1247,7 @@ m_ResolvedPackages:
     - 2.4.0
     - 2.4.1
     - 2.4.3
+    - 2.5.0
     compatible:
     - 2.3.2
     - 2.4.0-pre.1
@@ -1254,6 +1255,7 @@ m_ResolvedPackages:
     - 2.4.0
     - 2.4.1
     - 2.4.3
+    - 2.5.0
     recommended: 2.3.2
     deprecated: []
   dependencies:
@@ -3647,11 +3649,13 @@ m_ResolvedPackages:
     - 1.6.1
     - 1.6.3
     - 1.7.0
+    - 1.8.0-pre.1
     compatible:
     - 1.5.1
     - 1.6.1
     - 1.6.3
     - 1.7.0
+    - 1.8.0-pre.1
     recommended: 1.5.1
     deprecated: []
   dependencies:
@@ -3819,6 +3823,7 @@ m_ResolvedPackages:
     - 2.3.0-pre.1
     - 2.4.0-exp.1
     - 2.4.0-exp.2
+    - 2.4.0-exp.3
     compatible:
     - 2.2.1
     - 2.2.2
@@ -3826,6 +3831,7 @@ m_ResolvedPackages:
     - 2.3.0-pre.1
     - 2.4.0-exp.1
     - 2.4.0-exp.2
+    - 2.4.0-exp.3
     recommended: 2.2.3
     deprecated: []
   dependencies:
@@ -4454,10 +4460,12 @@ m_ResolvedPackages:
     - 2.0.17
     - 2.0.18
     - 2.0.20
+    - 2.0.21
     compatible:
     - 2.0.18
     - 2.0.20
-    recommended: 2.0.20
+    - 2.0.21
+    recommended: 2.0.21
     deprecated: []
   dependencies:
   - name: com.unity.test-framework
@@ -4558,11 +4566,13 @@ m_ResolvedPackages:
     - 3.0.21
     - 3.0.22
     - 3.0.24
+    - 3.0.25
     compatible:
     - 3.0.21
     - 3.0.22
     - 3.0.24
-    recommended: 3.0.24
+    - 3.0.25
+    recommended: 3.0.25
     deprecated: []
   dependencies:
   - name: com.unity.ext.nunit
@@ -5047,13 +5057,28 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: General search window for use in the Editor. First target use is for
     GraphView node search.
   status: 0
   errors: []
   versions:
     all:
+    - 4.0.0-preview
+    - 4.0.0
+    - 4.0.7-preview
+    - 4.0.7
+    - 4.0.8-preview
+    - 4.0.9
+    - 4.1.0-preview
+    - 4.1.0
+    - 4.2.0
+    - 4.3.0
+    - 4.3.1
+    - 4.3.2
+    - 4.6.0-preview
+    - 4.7.0-preview
+    - 4.9.1
     - 4.9.2
     compatible:
     - 4.9.2
@@ -5072,9 +5097,9 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637831252240000000
   documentationUrl: 
   hasRepository: 1
   repository:
