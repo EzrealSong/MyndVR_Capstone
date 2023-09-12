@@ -56,19 +56,6 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name=":wvr_unity_plugin_2022:@aar"
-      jars="C:\Users\ssong56\.gradle\caches\transforms-3\53be29dfa9276004ab20406d94da89e8\transformed\wvr_unity_plugin_2022\jars\classes.jar"
-      resolved=":wvr_unity_plugin_2022:"
-      folder="C:\Users\ssong56\.gradle\caches\transforms-3\53be29dfa9276004ab20406d94da89e8\transformed\wvr_unity_plugin_2022"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
       name=":vr.client.abi:@aar"
       jars="C:\Users\ssong56\.gradle\caches\transforms-3\a5eae514e5daf4bca77df4ee4fb6703b\transformed\vr.client.abi\jars\classes.jar"
       resolved=":vr.client.abi:"
@@ -86,6 +73,19 @@
       jars="C:\Users\ssong56\.gradle\caches\transforms-3\e9657d53c591f3ab6a2b92c0b4afec62\transformed\wvr_permission_client\jars\classes.jar"
       resolved=":wvr_permission_client:"
       folder="C:\Users\ssong56\.gradle\caches\transforms-3\e9657d53c591f3ab6a2b92c0b4afec62\transformed\wvr_permission_client"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name=":wvr_unity_plugin_2022:@aar"
+      jars="C:\Users\ssong56\.gradle\caches\transforms-3\53be29dfa9276004ab20406d94da89e8\transformed\wvr_unity_plugin_2022\jars\classes.jar"
+      resolved=":wvr_unity_plugin_2022:"
+      folder="C:\Users\ssong56\.gradle\caches\transforms-3\53be29dfa9276004ab20406d94da89e8\transformed\wvr_unity_plugin_2022"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
