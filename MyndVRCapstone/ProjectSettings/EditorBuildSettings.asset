@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Game Menu.unity
     guid: acd7eac9d2328374f8c2c36e4fda0308
   - enabled: 1
-    path: Assets/Scenes/bowling.unity
+    path: Assets/Scenes/Easy.unity
     guid: 6ac8195554599894fbcb5a9e75e3b85c
   m_configObjects:
     com.htc.upm.wave.xrsdk.xrsettings: {fileID: 11400000, guid: 7f69387155b6bda42afecb247b23dc88, type: 2}
