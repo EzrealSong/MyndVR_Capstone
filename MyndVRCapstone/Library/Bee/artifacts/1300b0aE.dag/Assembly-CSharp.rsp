@@ -405,6 +405,7 @@
 "Assets/CustomUI/BowlingScoreManager.cs"
 "Assets/GameMenuScripts/GameMenuManager.cs"
 "Assets/GameMenuScripts/GameSetting.cs"
+"Assets/Script_file/Login_verification.cs"
 "Assets/Sounds/OnClickSFX.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
