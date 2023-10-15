@@ -948,7 +948,7 @@ MonoBehaviour:
   usernameInput: {fileID: 655582943}
   passwordInput: {fileID: 1001307745}
   loginButton: {fileID: 267131266}
-  RegisterButton: {fileID: 925576200}
+  goToRegisterButton: {fileID: 925576200}
 --- !u!114 &1210988270
 MonoBehaviour:
   m_ObjectHideFlags: 0
