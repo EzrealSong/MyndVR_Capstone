@@ -5,94 +5,65 @@ using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-using System.Xml;
 
 public class Register : MonoBehaviour
 {
+
     public InputField usernameInput;
     public InputField passwordInput;
-    public Toggle isAdminToggle; // Add a toggle for admin access
     public Button registerButton;
-    public Button loginButton;
+    public Button goToLoginButton;
 
-    private string credentialsPath;
-    private XmlDocument xmlDoc;
+    ArrayList credentials;
 
-    private void Start()
+    // Start is called before the first frame update
+    void Start()
     {
-        registerButton.onClick.AddListener(WriteStuffToXML);
-        loginButton.onClick.AddListener(GoToLoginScene);
+        registerButton.onClick.AddListener(writeStuffToFile);
+        goToLoginButton.onClick.AddListener(goToLoginScene);
 
-        credentialsPath = Application.dataPath + "/credentials.xml";
-
-        if (File.Exists(credentialsPath))
+        if (File.Exists(Application.dataPath + "/credentials.txt"))
         {
-            xmlDoc = new XmlDocument();
-            xmlDoc.Load(credentialsPath);
+            credentials = new ArrayList(File.ReadAllLines(Application.dataPath + "/credentials.txt"));
         }
         else
         {
-            xmlDoc = new XmlDocument();
-            XmlDeclaration xmlDeclaration = xmlDoc.CreateXmlDeclaration("1.0", "UTF-8", null);
-            xmlDoc.AppendChild(xmlDeclaration);
-
-            XmlNode root = xmlDoc.CreateElement("Credentials");
-            xmlDoc.AppendChild(root);
-
-            xmlDoc.Save(credentialsPath);
+            File.WriteAllText(Application.dataPath + "/credentials.txt", "");
         }
+
     }
 
-    private void GoToLoginScene()
+    void goToLoginScene()
     {
         SceneManager.LoadScene("Login");
     }
 
-    private void WriteStuffToXML()
-    {
-        string username = usernameInput.text;
-        string password = passwordInput.text;
-        string role = isAdminToggle.isOn ? "admin" : "user";
 
-        if (IsUsernameExists(username))
+    void writeStuffToFile()
+    {
+        bool isExists = false;
+
+        credentials = new ArrayList(File.ReadAllLines(Application.dataPath + "/credentials.txt"));
+        foreach (var i in credentials)
         {
-            Debug.Log($"Username '{username}' already exists");
+            if (i.ToString().Contains(usernameInput.text))
+            {
+                isExists = true;
+                break;
+            }
+        }
+
+        if (isExists)
+        {
+            Debug.Log($"Username '{usernameInput.text}' already exists");
         }
         else
         {
-            XmlNode credentialsNode = xmlDoc.SelectSingleNode("Credentials");
-            XmlNode userNode = xmlDoc.CreateElement("User");
-
-            XmlNode usernameNode = xmlDoc.CreateElement("Username");
-            usernameNode.InnerText = username;
-
-            XmlNode passwordNode = xmlDoc.CreateElement("Password");
-            passwordNode.InnerText = password;
-
-            XmlNode roleNode = xmlDoc.CreateElement("Role");
-            roleNode.InnerText = role;
-
-            userNode.AppendChild(usernameNode);
-            userNode.AppendChild(passwordNode);
-            userNode.AppendChild(roleNode);
-
-            credentialsNode.AppendChild(userNode);
-
-            xmlDoc.Save(credentialsPath);
+            credentials.Add(usernameInput.text + ":" + passwordInput.text);
+            File.WriteAllLines(Application.dataPath + "/credentials.txt", (String[])credentials.ToArray(typeof(string)));
             Debug.Log("Account Registered");
         }
     }
 
-    private bool IsUsernameExists(string username)
-    {
-        XmlNodeList userNodes = xmlDoc.SelectNodes("//User/Username");
-        foreach (XmlNode node in userNodes)
-        {
-            if (node.InnerText == username)
-            {
-                return true;
-            }
-        }
-        return false;
-    }
+
 }

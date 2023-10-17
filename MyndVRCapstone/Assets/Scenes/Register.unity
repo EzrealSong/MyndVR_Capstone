@@ -1507,7 +1507,7 @@ MonoBehaviour:
   usernameInput: {fileID: 858814825}
   passwordInput: {fileID: 1342786418}
   registerButton: {fileID: 1553934067}
-  LoginButton: {fileID: 1571710671}
+  goToLoginButton: {fileID: 1571710671}
 --- !u!1 &1794620945
 GameObject:
   m_ObjectHideFlags: 0
