@@ -8,9 +8,9 @@ using UnityEngine.SceneManagement;
 
 public class Register : MonoBehaviour
 {
-
     public InputField usernameInput;
     public InputField passwordInput;
+    public Toggle toggleInput;
     public Button registerButton;
     public Button goToLoginButton;
 
@@ -19,34 +19,33 @@ public class Register : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        registerButton.onClick.AddListener(writeStuffToFile);
-        goToLoginButton.onClick.AddListener(goToLoginScene);
+        registerButton.onClick.AddListener(WriteStuffToFile);
+        goToLoginButton.onClick.AddListener(GoToLoginScene);
 
-        if (File.Exists(Application.dataPath + "/credentials.txt"))
+        if (File.Exists("Assets/Script_file/credentials.txt"))
         {
-            credentials = new ArrayList(File.ReadAllLines(Application.dataPath + "/credentials.txt"));
+            credentials = new ArrayList(File.ReadAllLines("Assets/Script_file/credentials.txt"));
         }
         else
         {
-            File.WriteAllText(Application.dataPath + "/credentials.txt", "");
+            File.WriteAllText("Assets/Script_file/credentials.txt", "");
         }
-
     }
 
-    void goToLoginScene()
+    void GoToLoginScene()
     {
         SceneManager.LoadScene("Login");
     }
 
-
-    void writeStuffToFile()
+    void WriteStuffToFile()
     {
         bool isExists = false;
 
-        credentials = new ArrayList(File.ReadAllLines(Application.dataPath + "/credentials.txt"));
-        foreach (var i in credentials)
+        credentials = new ArrayList(File.ReadAllLines("Assets/Script_file/credentials.txt"));
+        foreach (var line in credentials)
         {
-            if (i.ToString().Contains(usernameInput.text))
+            string[] parts = line.ToString().Split(':');
+            if (parts.Length == 3 && parts[0] == usernameInput.text)
             {
                 isExists = true;
                 break;
@@ -59,11 +58,10 @@ public class Register : MonoBehaviour
         }
         else
         {
-            credentials.Add(usernameInput.text + ":" + passwordInput.text);
-            File.WriteAllLines(Application.dataPath + "/credentials.txt", (String[])credentials.ToArray(typeof(string)));
+            string toggleState = toggleInput.isOn ? "true" : "false";
+            credentials.Add($"{usernameInput.text}:{passwordInput.text}:{toggleState}");
+            File.WriteAllLines("Assets/Script_file/credentials.txt", (string[])credentials.ToArray(typeof(string)));
             Debug.Log("Account Registered");
         }
     }
-
-
 }

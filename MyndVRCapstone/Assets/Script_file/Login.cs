@@ -5,7 +5,6 @@ using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-using UnityEditor.SearchService;
 
 public class Login : MonoBehaviour
 {
@@ -41,40 +40,48 @@ public class Login : MonoBehaviour
     {
         bool isExists = false;
 
-        credentials = new ArrayList(File.ReadAllLines(Application.dataPath + "/credentials.txt"));
+        credentials = new ArrayList(File.ReadAllLines("Assets/Script_file/credentials.txt"));
 
         foreach (var i in credentials)
         {
             string line = i.ToString();
-            //Debug.Log(line);
-            //Debug.Log(line.Substring(11));
-            //substring 0-indexof(:) - indexof(:)+1 - i.length-1
-            if (i.ToString().Substring(0, i.ToString().IndexOf(":")).Equals(usernameInput.text) &&
-                i.ToString().Substring(i.ToString().IndexOf(":") + 1).Equals(passwordInput.text))
+            string[] parts = line.Split(':');
+            if (parts.Length == 3 && parts[0].Equals(usernameInput.text) && parts[1].Equals(passwordInput.text))
             {
                 isExists = true;
+                bool toggleState = bool.Parse(parts[2]); // Parse the toggle state from the stored data
+                loadSceneBasedOnToggle(toggleState);
                 break;
             }
         }
 
-        if (isExists)
-        {
-            Debug.Log($"Logging in '{usernameInput.text}'");
-            loadWelcomeScreen();
-        }
-        else
+        if (!isExists)
         {
             Debug.Log("Incorrect credentials");
         }
     }
+
+    void loadSceneBasedOnToggle(bool toggleState)
+    {
+        if (toggleState)
+        {
+            //for admin page
+            Debug.Log("Loading scene based on toggle: Scene A");
+            SceneManager.LoadScene("Drill");
+        }
+        else
+        {
+            //for user page
+            Debug.Log("Loading scene based on toggle: Scene B");
+            SceneManager.LoadScene("Drill");
+        }
+    }
+
 
     void moveToRegister()
     {
         SceneManager.LoadScene("Register");
     }
 
-    void loadWelcomeScreen()
-    {
-        SceneManager.LoadScene("Drill");
-    }
+ 
 }

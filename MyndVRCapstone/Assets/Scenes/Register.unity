@@ -1506,6 +1506,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   usernameInput: {fileID: 858814825}
   passwordInput: {fileID: 1342786418}
+  toggleInput: {fileID: 565265601}
   registerButton: {fileID: 1553934067}
   goToLoginButton: {fileID: 1571710671}
 --- !u!1 &1794620945
