@@ -848,3 +848,9 @@ MyndVRCapstone/Temp/workerlic
 MyndVRCapstone/UserSettings/EditorUserSettings.asset
 MyndVRCapstone/Library/ArtifactDB
 MyndVRCapstone/Library/ArtifactDB
+*.aar
+MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/local_aar_for_lint/release/out.aar
+MyndVRCapstone/Library/Bee/artifacts/Android/d8kzr/libil2cpp.so
+MyndVRCapstone/Library/Bee/artifacts/Android/il2cppOutput/build/arm64-v8a/libil2cpp.dbg.so
+MyndVRCapstone/Library/Bee/artifacts/objcopy_5lmi/libil2cpp.dbg.so
+MyndVRCapstone/Library/PackageCache/com.unity.burst@1.8.4/.Runtime/libburst-llvm-14.dylib

@@ -17,16 +17,8 @@ public class GameMenuManager : MonoBehaviour
 
     
     public void StartGame() {  
-        SceneManager.LoadScene("bowling");  
+        SceneManager.LoadScene(selectedGameMode);  
     }  
     
-    // public void OnButtonClick()
-    // {
-    //     _title.text = "Your new text is here";
-    // }
-
-    // void Update()
-    // {
-
-    // }
+    
 }
