@@ -1,0 +1,31 @@
+<dependencies>
+  <compile
+      roots="E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release">
+    <dependency
+        name="E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release"
+        simpleName="Gradle:unityLibrary"/>
+  </compile>
+  <package
+      roots="E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release,__local_aars__:E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar,:wvr_ime_client:@aar,:wvr.common.utils:@aar,:wvr_client:@aar,:wvr_unity_plugin_2022:@aar,:vr.client.abi:@aar,:wvr_permission_client:@aar,E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary:xrmanifest.androidlib::release">
+    <dependency
+        name="E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary::release"
+        simpleName="Gradle:unityLibrary"/>
+    <dependency
+        name="__local_aars__:E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\libs\unity-classes.jar:unspecified@jar"/>
+    <dependency
+        name=":wvr_ime_client:@aar"/>
+    <dependency
+        name=":wvr.common.utils:@aar"/>
+    <dependency
+        name=":wvr_client:@aar"/>
+    <dependency
+        name=":wvr_unity_plugin_2022:@aar"/>
+    <dependency
+        name=":vr.client.abi:@aar"/>
+    <dependency
+        name=":wvr_permission_client:@aar"/>
+    <dependency
+        name="E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle@@:unityLibrary:xrmanifest.androidlib::release"
+        simpleName="Gradle.unityLibrary:xrmanifest.androidlib"/>
+  </package>
+</dependencies>
