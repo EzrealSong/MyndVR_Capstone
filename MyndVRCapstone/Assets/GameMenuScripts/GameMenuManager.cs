@@ -19,6 +19,12 @@ public class GameMenuManager : MonoBehaviour
     public void StartGame() {  
         SceneManager.LoadScene(selectedGameMode);  
     }  
+
+    public void QuitGame()
+    {
+        Application.Quit();
+        Debug.Log("Game is exiting");
+    }
     
     
 }
