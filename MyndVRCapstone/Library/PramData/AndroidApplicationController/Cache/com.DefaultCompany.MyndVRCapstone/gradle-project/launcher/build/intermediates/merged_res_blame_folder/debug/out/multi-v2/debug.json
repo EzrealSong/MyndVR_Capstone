@@ -1,0 +1,173 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\CSE485\\GitHub Project\\MyndVR_Capstone\\MyndVRCapstone\\Library\\PramData\\AndroidApplicationController\\Cache\\com.DefaultCompany.MyndVRCapstone\\gradle-project\\launcher\\build\\intermediates\\merged_res\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\ssong56\\.gradle\\caches\\transforms-3\\cfed61aec35cbf53e282f9667d838803\\transformed\\wvr_client\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,19",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,190,1152",
+                        "endLines": "2,18,27",
+                        "endColumns": "134,8,8",
+                        "endOffsets": "185,1147,1693"
+                    },
+                    "to": {
+                        "startLines": "13,14,32",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "700,835,1897",
+                        "endLines": "13,29,40",
+                        "endColumns": "134,8,8",
+                        "endOffsets": "830,1792,2438"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ssong56\\.gradle\\caches\\transforms-3\\e9657d53c591f3ab6a2b92c0b4afec62\\transformed\\wvr_permission_client\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,151,215",
+                        "endColumns": "95,63,63",
+                        "endOffsets": "146,210,274"
+                    },
+                    "to": {
+                        "startLines": "10,11,12",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "476,572,636",
+                        "endColumns": "95,63,63",
+                        "endOffsets": "567,631,695"
+                    }
+                },
+                {
+                    "source": "E:\\CSE485\\GitHub Project\\MyndVR_Capstone\\MyndVRCapstone\\Library\\PramData\\AndroidApplicationController\\Cache\\com.DefaultCompany.MyndVRCapstone\\gradle-project\\launcher\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "2,2",
+                        "startOffsets": "55,106",
+                        "endColumns": "49,65",
+                        "endOffsets": "102,169"
+                    },
+                    "to": {
+                        "startLines": "8,9",
+                        "startColumns": "4,4",
+                        "startOffsets": "356,408",
+                        "endColumns": "51,67",
+                        "endOffsets": "403,471"
+                    }
+                },
+                {
+                    "source": "E:\\CSE485\\GitHub Project\\MyndVR_Capstone\\MyndVRCapstone\\Library\\PramData\\AndroidApplicationController\\Cache\\com.DefaultCompany.MyndVRCapstone\\gradle-project\\unityLibrary\\build\\intermediates\\packaged_res\\debug\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,10,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,101,158,214,263,309,356,456,594",
+                        "endLines": "2,3,4,5,6,7,9,12,16",
+                        "endColumns": "45,56,55,48,45,46,8,8,8",
+                        "endOffsets": "96,153,209,258,304,351,451,589,816"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,30,41,44",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,101,158,214,263,309,1797,2443,2581",
+                        "endLines": "2,3,4,5,6,7,31,43,47",
+                        "endColumns": "45,56,55,48,45,46,8,8,8",
+                        "endOffsets": "96,153,209,258,304,351,1892,2576,2803"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "E:\\CSE485\\GitHub Project\\MyndVR_Capstone\\MyndVRCapstone\\Library\\PramData\\AndroidApplicationController\\Cache\\com.DefaultCompany.MyndVRCapstone\\gradle-project\\launcher\\build\\intermediates\\merged_res\\debug\\values-v30_values-v30.arsc.flat",
+            "map": [
+                {
+                    "source": "E:\\CSE485\\GitHub Project\\MyndVR_Capstone\\MyndVRCapstone\\Library\\PramData\\AndroidApplicationController\\Cache\\com.DefaultCompany.MyndVRCapstone\\gradle-project\\unityLibrary\\build\\intermediates\\packaged_res\\debug\\values-v30\\values-v30.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,129,201,266,325",
+                        "endColumns": "73,71,64,58,60",
+                        "endOffsets": "124,196,261,320,381"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "E:\\CSE485\\GitHub Project\\MyndVR_Capstone\\MyndVRCapstone\\Library\\PramData\\AndroidApplicationController\\Cache\\com.DefaultCompany.MyndVRCapstone\\gradle-project\\launcher\\build\\intermediates\\merged_res\\debug\\values-v21_values-v21.arsc.flat",
+            "map": [
+                {
+                    "source": "E:\\CSE485\\GitHub Project\\MyndVR_Capstone\\MyndVRCapstone\\Library\\PramData\\AndroidApplicationController\\Cache\\com.DefaultCompany.MyndVRCapstone\\gradle-project\\unityLibrary\\build\\intermediates\\packaged_res\\debug\\values-v21\\values-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "3",
+                        "endColumns": "8",
+                        "endOffsets": "154"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "E:\\CSE485\\GitHub Project\\MyndVR_Capstone\\MyndVRCapstone\\Library\\PramData\\AndroidApplicationController\\Cache\\com.DefaultCompany.MyndVRCapstone\\gradle-project\\launcher\\build\\intermediates\\merged_res\\debug\\values-zh-rCN_values-zh-rCN.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\ssong56\\.gradle\\caches\\transforms-3\\e9657d53c591f3ab6a2b92c0b4afec62\\transformed\\wvr_permission_client\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,115,179",
+                        "endColumns": "59,63,47",
+                        "endOffsets": "110,174,222"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "E:\\CSE485\\GitHub Project\\MyndVR_Capstone\\MyndVRCapstone\\Library\\PramData\\AndroidApplicationController\\Cache\\com.DefaultCompany.MyndVRCapstone\\gradle-project\\launcher\\build\\intermediates\\merged_res\\debug\\values-zh-rHK_values-zh-rHK.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\ssong56\\.gradle\\caches\\transforms-3\\e9657d53c591f3ab6a2b92c0b4afec62\\transformed\\wvr_permission_client\\res\\values-zh-rHK\\values-zh-rHK.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,115,179",
+                        "endColumns": "59,63,47",
+                        "endOffsets": "110,174,222"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "E:\\CSE485\\GitHub Project\\MyndVR_Capstone\\MyndVRCapstone\\Library\\PramData\\AndroidApplicationController\\Cache\\com.DefaultCompany.MyndVRCapstone\\gradle-project\\launcher\\build\\intermediates\\merged_res\\debug\\values-zh-rTW_values-zh-rTW.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\ssong56\\.gradle\\caches\\transforms-3\\e9657d53c591f3ab6a2b92c0b4afec62\\transformed\\wvr_permission_client\\res\\values-zh-rTW\\values-zh-rTW.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,115,179",
+                        "endColumns": "59,63,47",
+                        "endOffsets": "110,174,222"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "E:\\CSE485\\GitHub Project\\MyndVR_Capstone\\MyndVRCapstone\\Library\\PramData\\AndroidApplicationController\\Cache\\com.DefaultCompany.MyndVRCapstone\\gradle-project\\launcher\\build\\intermediates\\merged_res\\debug\\values-v28_values-v28.arsc.flat",
+            "map": [
+                {
+                    "source": "E:\\CSE485\\GitHub Project\\MyndVR_Capstone\\MyndVRCapstone\\Library\\PramData\\AndroidApplicationController\\Cache\\com.DefaultCompany.MyndVRCapstone\\gradle-project\\unityLibrary\\build\\intermediates\\packaged_res\\debug\\values-v28\\values-v28.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "8",
+                        "endOffsets": "229"
+                    }
+                }
+            ]
+        }
+    ]
+}
