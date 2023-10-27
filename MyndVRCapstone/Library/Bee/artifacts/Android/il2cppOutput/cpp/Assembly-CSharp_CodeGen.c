@@ -60,6 +60,8 @@ extern void U3CStartU3Ed__4_MoveNext_mF689BF83350416D2071533C92042BF12AC52F0C0 (
 extern void U3CStartU3Ed__4_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mA3CCB9B113B234F43186B26439E10AD6609DD565 (void);
 extern void U3CStartU3Ed__4_System_Collections_IEnumerator_Reset_m3EF23BF40634D4262D8A2AE3DB14140FEFB4BF52 (void);
 extern void U3CStartU3Ed__4_System_Collections_IEnumerator_get_Current_mB1C119A46A09AD8F0D4DE964F6B335BE2A460FAA (void);
+extern void RigidbodyVelocityController_Update_mCCD21B299ACAE3C739F54C8266CBD6B055D45264 (void);
+extern void RigidbodyVelocityController__ctor_m188C70D37FA60DDDB9280964B7E6AA0D52C22D38 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
 extern void TMP_DigitValidator_Validate_m786CF8A4D85EB9E1BE8785A58007F8796991BDB9 (void);
@@ -312,7 +314,7 @@ extern void U3CWarpTextU3Ed__8_MoveNext_mCE7A826C5E4854C2C509C77BD18F5A9B6D691B0
 extern void U3CWarpTextU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD80368E9B7E259311C03E406B75161ED6F7618E3 (void);
 extern void U3CWarpTextU3Ed__8_System_Collections_IEnumerator_Reset_m07746C332D2D8CE5DEA59873C26F2FAD4B369B42 (void);
 extern void U3CWarpTextU3Ed__8_System_Collections_IEnumerator_get_Current_m71D7F84D9DEF63BEC6B44866515DDCF35B142A19 (void);
-static Il2CppMethodPointer s_methodPointers[300] = 
+static Il2CppMethodPointer s_methodPointers[302] = 
 {
 	BowlingBall_Start_mCD51629F87FFB0C5BBCAB713C6C9E5686BA81ADB,
 	BowlingBall_Update_mBC5F3024CD7EF6AB1706773725B272B2F8FDF08E,
@@ -362,6 +364,8 @@ static Il2CppMethodPointer s_methodPointers[300] =
 	U3CStartU3Ed__4_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mA3CCB9B113B234F43186B26439E10AD6609DD565,
 	U3CStartU3Ed__4_System_Collections_IEnumerator_Reset_m3EF23BF40634D4262D8A2AE3DB14140FEFB4BF52,
 	U3CStartU3Ed__4_System_Collections_IEnumerator_get_Current_mB1C119A46A09AD8F0D4DE964F6B335BE2A460FAA,
+	RigidbodyVelocityController_Update_mCCD21B299ACAE3C739F54C8266CBD6B055D45264,
+	RigidbodyVelocityController__ctor_m188C70D37FA60DDDB9280964B7E6AA0D52C22D38,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 	TMP_DigitValidator_Validate_m786CF8A4D85EB9E1BE8785A58007F8796991BDB9,
@@ -615,7 +619,7 @@ static Il2CppMethodPointer s_methodPointers[300] =
 	U3CWarpTextU3Ed__8_System_Collections_IEnumerator_Reset_m07746C332D2D8CE5DEA59873C26F2FAD4B369B42,
 	U3CWarpTextU3Ed__8_System_Collections_IEnumerator_get_Current_m71D7F84D9DEF63BEC6B44866515DDCF35B142A19,
 };
-static const int32_t s_InvokerIndices[300] = 
+static const int32_t s_InvokerIndices[302] = 
 {
 	8339,
 	8339,
@@ -665,6 +669,8 @@ static const int32_t s_InvokerIndices[300] =
 	8198,
 	8339,
 	8198,
+	8339,
+	8339,
 	14803,
 	8339,
 	1596,
@@ -922,7 +928,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	300,
+	302,
 	s_methodPointers,
 	0,
 	NULL,
