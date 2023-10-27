@@ -851,6 +851,14 @@
             "icon": null
           },
           {
+            "name": "PhysicMaterial",
+            "scenes": [
+              "Assets/Scenes/Easy.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
             "name": "PhysicsManager",
             "scenes": [],
             "dependencyType": 1,
