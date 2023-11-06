@@ -1,0 +1,695 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.0f1 (fb119bb0b476) revision 16454043'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Enterprise' Language: 'en' Physical Memory: 65234 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+F:\2022.3.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker11
+-projectPath
+E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone
+-logFile
+Logs/AssetImportWorker11.log
+-srvPort
+59035
+Successfully changed project path to: E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone
+E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [19652] Host "[IP] 10.218.108.230 [Port] 0 [Flags] 2 [Guid] 3066238899 [EditorId] 3066238899 [Version] 1048832 [Id] WindowsEditor(7,EN6169321W) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [19652] Host "[IP] 10.218.108.230 [Port] 0 [Flags] 2 [Guid] 3066238899 [EditorId] 3066238899 [Version] 1048832 [Id] WindowsEditor(7,EN6169321W) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 46.76 ms, found 36 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.0f1 (fb119bb0b476)
+[Subsystems] Discovering subsystems at path F:/2022.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA Quadro RTX 5000 (ID=0x1eb0)
+    Vendor:   NVIDIA
+    VRAM:     16161 MB
+    Driver:   31.0.15.3758
+Initialize mono
+Mono path[0] = 'F:/2022.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'F:/2022.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'F:/2022.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56520
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: F:/2022.3.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: F:/2022.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004932 seconds.
+- Loaded All Assemblies, in  0.345 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 903 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.245 seconds
+Domain Reload Profiling: 1589ms
+	BeginReloadAssembly (94ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (151ms)
+		LoadAssemblies (93ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (147ms)
+			TypeCache.Refresh (146ms)
+				TypeCache.ScanAssembly (133ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1245ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1184ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1017ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (106ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.914 seconds
+Refreshing native plugins compatible for Editor in 24.87 ms, found 36 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Wave.XR.ViveWaveEyeGaze ctor()
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Wave.XR.ViveWaveEyeGaze:DEBUG (string) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveEyeGaze.cs:55)
+Wave.XR.ViveWaveEyeGaze:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveEyeGaze.cs:65)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveEyeGaze.cs Line: 55)
+
+Wave.XR.ViveWaveEyeGaze Initialize() RegisterLayout with interface Eye Gaze
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Wave.XR.ViveWaveEyeGaze:DEBUG (string) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveEyeGaze.cs:55)
+Wave.XR.ViveWaveEyeGaze:Initialize () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveEyeGaze.cs:73)
+Wave.XR.ViveWaveEyeGaze:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveEyeGaze.cs:66)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveEyeGaze.cs Line: 55)
+
+Wave.XR.ViveWaveEyeGaze Initialize() Adds a ViveWaveEyeGaze device.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Wave.XR.ViveWaveEyeGaze:DEBUG (string) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveEyeGaze.cs:55)
+Wave.XR.ViveWaveEyeGaze:Initialize () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveEyeGaze.cs:88)
+Wave.XR.ViveWaveEyeGaze:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveEyeGaze.cs:66)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveEyeGaze.cs Line: 55)
+
+Wave.XR.ViveWaveController InitializeInPlayer() WVR_CR_Left_001
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Wave.XR.ViveWaveController:DEBUG (string) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveController.cs:33)
+Wave.XR.ViveWaveController:InitializeInPlayer () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveController.cs:54)
+Wave.XR.ViveWaveController:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveController.cs:47)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveController.cs Line: 33)
+
+Wave.XR.ViveWaveController InitializeInPlayer() WVR_CR_Right_001
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Wave.XR.ViveWaveController:DEBUG (string) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveController.cs:33)
+Wave.XR.ViveWaveController:InitializeInPlayer () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveController.cs:62)
+Wave.XR.ViveWaveController:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveController.cs:47)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveController.cs Line: 33)
+
+Wave.XR.ViveWaveHMD InitializeInPlayer()
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Wave.XR.ViveWaveHMD:DEBUG (string) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveHMD.cs:33)
+Wave.XR.ViveWaveHMD:InitializeInPlayer () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveHMD.cs:55)
+Wave.XR.ViveWaveHMD:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveHMD.cs:48)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveHMD.cs Line: 33)
+
+Wave.XR.ViveWaveWristTracker Initialize() RegisterLayout with interface Wrist Tracker
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Wave.XR.ViveWaveWristTracker:DEBUG (System.Text.StringBuilder) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:72)
+Wave.XR.ViveWaveWristTracker:Initialize () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:97)
+Wave.XR.ViveWaveWristTracker:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:89)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs Line: 72)
+
+Wave.XR.ViveWaveWristTracker Initialize() Adds right ViveWaveWristTracker device Wave Tracker0
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Wave.XR.ViveWaveWristTracker:DEBUG (System.Text.StringBuilder) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:72)
+Wave.XR.ViveWaveWristTracker:Initialize () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:114)
+Wave.XR.ViveWaveWristTracker:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:89)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs Line: 72)
+
+Wave.XR.ViveWaveWristTracker FinishSetup() deviceId: 0, IsLeft: False, interfaceName: Wrist Tracker, product: Wave Tracker0, serial: HTC-211012-Tracker0
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Wave.XR.ViveWaveWristTracker:DEBUG (System.Text.StringBuilder) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:72)
+Wave.XR.ViveWaveWristTracker:FinishSetup () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:157)
+UnityEngine.InputSystem.InputControl:CallFinishSetupRecursive () (at ./Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/Controls/InputControl.cs:1064)
+UnityEngine.InputSystem.Layouts.InputDeviceBuilder:Setup (UnityEngine.InputSystem.Utilities.InternedString,UnityEngine.InputSystem.Utilities.InternedString,UnityEngine.InputSystem.Layouts.InputDeviceDescription) (at ./Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/Devices/InputDeviceBuilder.cs:60)
+UnityEngine.InputSystem.InputDevice:Build<UnityEngine.InputSystem.InputDevice> (string,string,UnityEngine.InputSystem.Layouts.InputDeviceDescription,bool) (at ./Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/Devices/InputDevice.cs:955)
+UnityEngine.InputSystem.InputManager:AddDevice (UnityEngine.InputSystem.Utilities.InternedString,int,string,UnityEngine.InputSystem.Layouts.InputDeviceDescription,UnityEngine.InputSystem.InputDevice/DeviceFlags,UnityEngine.InputSystem.Utilities.InternedString) (at ./Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/InputManager.cs:1062)
+UnityEngine.InputSystem.InputManager:AddDevice (UnityEngine.InputSystem.Layouts.InputDeviceDescription,bool,string,int,UnityEngine.InputSystem.InputDevice/DeviceFlags) (at ./Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/InputManager.cs:1222)
+UnityEngine.InputSystem.InputManager:AddDevice (UnityEngine.InputSystem.Layouts.InputDeviceDescription) (at ./Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/InputManager.cs:1195)
+UnityEngine.InputSystem.InputSystem:AddDevice (UnityEngine.InputSystem.Layouts.InputDeviceDescription) (at ./Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/InputSystem.cs:1491)
+Wave.XR.ViveWaveWristTracker:Initialize () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:115)
+Wave.XR.ViveWaveWristTracker:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:89)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs Line: 72)
+
+Wave.XR.ViveWaveWristTracker Initialize() Adds left ViveWaveWristTracker device Wave Tracker1
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Wave.XR.ViveWaveWristTracker:DEBUG (System.Text.StringBuilder) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:72)
+Wave.XR.ViveWaveWristTracker:Initialize () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:119)
+Wave.XR.ViveWaveWristTracker:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:89)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs Line: 72)
+
+Wave.XR.ViveWaveWristTracker FinishSetup() deviceId: 0, IsLeft: True, interfaceName: Wrist Tracker, product: Wave Tracker1, serial: HTC-211012-Tracker1
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Wave.XR.ViveWaveWristTracker:DEBUG (System.Text.StringBuilder) (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:72)
+Wave.XR.ViveWaveWristTracker:FinishSetup () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:157)
+UnityEngine.InputSystem.InputControl:CallFinishSetupRecursive () (at ./Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/Controls/InputControl.cs:1064)
+UnityEngine.InputSystem.Layouts.InputDeviceBuilder:Setup (UnityEngine.InputSystem.Utilities.InternedString,UnityEngine.InputSystem.Utilities.InternedString,UnityEngine.InputSystem.Layouts.InputDeviceDescription) (at ./Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/Devices/InputDeviceBuilder.cs:60)
+UnityEngine.InputSystem.InputDevice:Build<UnityEngine.InputSystem.InputDevice> (string,string,UnityEngine.InputSystem.Layouts.InputDeviceDescription,bool) (at ./Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/Devices/InputDevice.cs:955)
+UnityEngine.InputSystem.InputManager:AddDevice (UnityEngine.InputSystem.Utilities.InternedString,int,string,UnityEngine.InputSystem.Layouts.InputDeviceDescription,UnityEngine.InputSystem.InputDevice/DeviceFlags,UnityEngine.InputSystem.Utilities.InternedString) (at ./Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/InputManager.cs:1062)
+UnityEngine.InputSystem.InputManager:AddDevice (UnityEngine.InputSystem.Layouts.InputDeviceDescription,bool,string,int,UnityEngine.InputSystem.InputDevice/DeviceFlags) (at ./Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/InputManager.cs:1222)
+UnityEngine.InputSystem.InputManager:AddDevice (UnityEngine.InputSystem.Layouts.InputDeviceDescription) (at ./Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/InputManager.cs:1195)
+UnityEngine.InputSystem.InputSystem:AddDevice (UnityEngine.InputSystem.Layouts.InputDeviceDescription) (at ./Library/PackageCache/com.unity.inputsystem@1.5.1/InputSystem/InputSystem.cs:1491)
+Wave.XR.ViveWaveWristTracker:Initialize () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:120)
+Wave.XR.ViveWaveWristTracker:.cctor () (at ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs:89)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.htc.upm.wave.xrsdk@5.3.1-r.2/Runtime/ViveWaveWristTracker.cs Line: 72)
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.788 seconds
+Domain Reload Profiling: 1702ms
+	BeginReloadAssembly (139ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (687ms)
+		LoadAssemblies (339ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (417ms)
+			TypeCache.Refresh (370ms)
+				TypeCache.ScanAssembly (352ms)
+			ScanForSourceGeneratedMonoScriptInfo (34ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (789ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (602ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (398ms)
+			ProcessInitializeOnLoadMethodAttributes (96ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 25.33 ms, found 36 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6275 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 135 unused Assets / (95.5 KB). Loaded Objects now: 6742.
+Memory consumption went from 255.0 MB to 254.9 MB.
+Total: 6.303500 ms (FindLiveObjects: 0.793600 ms CreateObjectMapping: 0.866500 ms MarkObjects: 4.358500 ms  DeleteObjects: 0.283400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 28.12 ms, found 36 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 unused Assets / (5.5 KB). Loaded Objects now: 6742.
+Memory consumption went from 129.7 MB to 129.7 MB.
+Total: 5.687300 ms (FindLiveObjects: 0.738000 ms CreateObjectMapping: 0.734600 ms MarkObjects: 4.172100 ms  DeleteObjects: 0.041200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 403810.186938 seconds.
+  path: Assets/Bowling_Level_Assets/Assets/Bowling - interior and props/Bowling - interior and props/models/Materials/back_sistem.mat
+  artifactKey: Guid(2be3f477c72f1f94494c44b9bca9f767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bowling_Level_Assets/Assets/Bowling - interior and props/Bowling - interior and props/models/Materials/back_sistem.mat using Guid(2be3f477c72f1f94494c44b9bca9f767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceaf329069176834b61067ea06ac9c99') in 0.012000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.071870 seconds.
+  path: Assets/Bowling_Level_Assets/Assets/Bowling - interior and props/Bowling - interior and props/models/Materials/back_sistem_dif.mat
+  artifactKey: Guid(1750d6c2056a04849bb0c4bd1b2c84a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bowling_Level_Assets/Assets/Bowling - interior and props/Bowling - interior and props/models/Materials/back_sistem_dif.mat using Guid(1750d6c2056a04849bb0c4bd1b2c84a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f6037819f0d03b5d42d9933fd1fbfe5') in 0.013579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.069814 seconds.
+  path: Assets/Bowling_Level_Assets/Assets/Bowling - interior and props/Bowling - interior and props/models/Materials/back_sistem_lowMat.mat
+  artifactKey: Guid(3bad0836f8db1da4986ecc0f4114b0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bowling_Level_Assets/Assets/Bowling - interior and props/Bowling - interior and props/models/Materials/back_sistem_lowMat.mat using Guid(3bad0836f8db1da4986ecc0f4114b0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18af19ae68ed9fc66a4c47fa634b07a9') in 0.001336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Bowling_Level_Assets/Assets/Bowling - interior and props/Bowling - interior and props/models/Materials/black_metal.mat
+  artifactKey: Guid(ab196ddfbd06f9f468fc522f62d9f143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bowling_Level_Assets/Assets/Bowling - interior and props/Bowling - interior and props/models/Materials/black_metal.mat using Guid(ab196ddfbd06f9f468fc522f62d9f143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9332e1d40a62ea3368eb0385c16ba99') in 0.001373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Bowling_Level_Assets/Assets/Bowling - interior and props/Bowling - interior and props/models/Materials/floor.mat
+  artifactKey: Guid(9005da9fd79fa6a43ab94c25cd1f8afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bowling_Level_Assets/Assets/Bowling - interior and props/Bowling - interior and props/models/Materials/floor.mat using Guid(9005da9fd79fa6a43ab94c25cd1f8afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21e4893a55f3c0a707b521ca36c9b29e') in 0.001352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Bowling_Level_Assets/Assets/Bowling - interior and props/Bowling - interior and props/models/Materials/light.mat
+  artifactKey: Guid(f8d9729c7d5507a4da14a357776ced06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bowling_Level_Assets/Assets/Bowling - interior and props/Bowling - interior and props/models/Materials/light.mat using Guid(f8d9729c7d5507a4da14a357776ced06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe40f3e1ba8ebb3d9796de21d0f15dd2') in 0.001274 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Bowling_Level_Assets/Assets/Bowling - interior and props/Bowling - interior and props/models/Materials/jelob.mat
+  artifactKey: Guid(3b50f45c85527e24ab360872bdb5ed83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bowling_Level_Assets/Assets/Bowling - interior and props/Bowling - interior and props/models/Materials/jelob.mat using Guid(3b50f45c85527e24ab360872bdb5ed83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b358042649572235f6e6b032f2b3c341') in 0.001153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.018433 seconds.
+  path: Assets/Bowling_Level_Assets/Assets/Bowling - interior and props/Bowling - interior and props/models/Materials/no_entry.mat
+  artifactKey: Guid(47e9ce7fc9b54d146b24bae42a9464ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bowling_Level_Assets/Assets/Bowling - interior and props/Bowling - interior and props/models/Materials/no_entry.mat using Guid(47e9ce7fc9b54d146b24bae42a9464ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c83d635e74a8c3c13bcae75a28dc834') in 0.001388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002086 seconds.
+  path: Assets/Bowling_Level_Assets/Assets/Bowling - interior and props/Bowling - interior and props/models/Materials/no_entry_dif.mat
+  artifactKey: Guid(702ae3e2f0360634b92afe5dba07d6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bowling_Level_Assets/Assets/Bowling - interior and props/Bowling - interior and props/models/Materials/no_entry_dif.mat using Guid(702ae3e2f0360634b92afe5dba07d6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52f72add985844849ed3771d1460a0d2') in 0.001540 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001890 seconds.
+  path: Assets/Bowling_Level_Assets/Assets/Bowling - interior and props/Bowling - interior and props/models/Materials/puphick.mat
+  artifactKey: Guid(5b43fb3d8a8bc7f408d9791f5bd5f7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bowling_Level_Assets/Assets/Bowling - interior and props/Bowling - interior and props/models/Materials/puphick.mat using Guid(5b43fb3d8a8bc7f408d9791f5bd5f7ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdef7d0248dbb53da2c4ca539eecf0ac') in 0.001309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Bowling_Level_Assets/Assets/Bowling - interior and props/Bowling - interior and props/models/Materials/puphick_blue_dif.mat
+  artifactKey: Guid(e9567170b440fb44298f3db3966cd252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bowling_Level_Assets/Assets/Bowling - interior and props/Bowling - interior and props/models/Materials/puphick_blue_dif.mat using Guid(e9567170b440fb44298f3db3966cd252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ca349886830cccf4bcd5970b8fcb968') in 0.001385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.050240 seconds.
+  path: Assets/Bowling_Level_Assets/Assets/Bowling - interior and props/Bowling - interior and props/models/Materials/puphick_dif.mat
+  artifactKey: Guid(6f9792ac03afd664ab78c57a835bf7cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bowling_Level_Assets/Assets/Bowling - interior and props/Bowling - interior and props/models/Materials/puphick_dif.mat using Guid(6f9792ac03afd664ab78c57a835bf7cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '343e74fd6b418b3f1f527b090580caf2') in 0.001679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.033182 seconds.
+  path: Assets/Bowling_Level_Assets/Assets/Bowling - interior and props/Bowling - interior and props/models/Materials/rail.mat
+  artifactKey: Guid(ef14f9ff87a847447b6246ecbb5e5f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bowling_Level_Assets/Assets/Bowling - interior and props/Bowling - interior and props/models/Materials/rail.mat using Guid(ef14f9ff87a847447b6246ecbb5e5f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a77afe3d6fa5e17499c02088feed2357') in 0.001451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.061747 seconds.
+  path: Assets/Bowling_Level_Assets/Assets/Bowling - interior and props/Bowling - interior and props/models/Materials/rail_lowMat.mat
+  artifactKey: Guid(163667a2c1f77f6478ff00bc12eb30a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bowling_Level_Assets/Assets/Bowling - interior and props/Bowling - interior and props/models/Materials/rail_lowMat.mat using Guid(163667a2c1f77f6478ff00bc12eb30a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1285d56ccfdb18589ba3fd2c887f702') in 0.001344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.056127 seconds.
+  path: Assets/Bowling_Level_Assets/Assets/Bowling - interior and props/Bowling - interior and props/models/Materials/sphere_6_dif.mat
+  artifactKey: Guid(835eddd7495b79b43b9a2f8cc98ae91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bowling_Level_Assets/Assets/Bowling - interior and props/Bowling - interior and props/models/Materials/sphere_6_dif.mat using Guid(835eddd7495b79b43b9a2f8cc98ae91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0978ffd630d4549e529e8f43454ebc2') in 0.001451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002232 seconds.
+  path: Assets/Bowling_Level_Assets/Assets/Bowling - interior and props/Bowling - interior and props/models/Materials/sphere_7_dif.mat
+  artifactKey: Guid(7c019031632b3954bb872a28d401d49c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bowling_Level_Assets/Assets/Bowling - interior and props/Bowling - interior and props/models/Materials/sphere_7_dif.mat using Guid(7c019031632b3954bb872a28d401d49c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28179b67fe79c28ef92ea1f15932d038') in 0.001448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001581 seconds.
+  path: Assets/Bowling_Level_Assets/Assets/Bowling - interior and props/Bowling - interior and props/models/Materials/sphere_8_dif.mat
+  artifactKey: Guid(32051fa7565090d42b7c6cb34a3542fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bowling_Level_Assets/Assets/Bowling - interior and props/Bowling - interior and props/models/Materials/sphere_8_dif.mat using Guid(32051fa7565090d42b7c6cb34a3542fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33cf088069f43e8bbad57ec2b0d989f9') in 0.001705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.006891 seconds.
+  path: Assets/Bowling_Level_Assets/Assets/Bowling - interior and props/Bowling - interior and props/models/Materials/sphere_10_dif.mat
+  artifactKey: Guid(f46b022b9a0457242865687cdd5d0336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bowling_Level_Assets/Assets/Bowling - interior and props/Bowling - interior and props/models/Materials/sphere_10_dif.mat using Guid(f46b022b9a0457242865687cdd5d0336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3281541eee4c3d0336ab50aaefa1cda') in 0.001318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.040143 seconds.
+  path: Assets/Bowling_Level_Assets/Assets/Bowling - interior and props/Bowling - interior and props/models/Materials/sphere_11_dif.mat
+  artifactKey: Guid(dba7d562d78f7ff4094206e04470b8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bowling_Level_Assets/Assets/Bowling - interior and props/Bowling - interior and props/models/Materials/sphere_11_dif.mat using Guid(dba7d562d78f7ff4094206e04470b8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c0a847825305d59fcc0a8552c57a6cb') in 0.001434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.093495 seconds.
+  path: Assets/Bowling_Level_Assets/Assets/Bowling - interior and props/Bowling - interior and props/models/Materials/sphere_15_dif.mat
+  artifactKey: Guid(aedfab6778a55154f958e5474f0785eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bowling_Level_Assets/Assets/Bowling - interior and props/Bowling - interior and props/models/Materials/sphere_15_dif.mat using Guid(aedfab6778a55154f958e5474f0785eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7773571777994a7fcc19884f435cb75f') in 0.001775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.015429 seconds.
+  path: Assets/Bowling_Level_Assets/Assets/Bowling - interior and props/Bowling - interior and props/models/Materials/sphere_16_dif.mat
+  artifactKey: Guid(c36e4b3697501ac4693a8da54dbc8356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bowling_Level_Assets/Assets/Bowling - interior and props/Bowling - interior and props/models/Materials/sphere_16_dif.mat using Guid(c36e4b3697501ac4693a8da54dbc8356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78dffa9c9d27ccef2f23fe8446ba6a37') in 0.001420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.029244 seconds.
+  path: Assets/Bowling_Level_Assets/Assets/Bowling - interior and props/Bowling - interior and props/models/Materials/sphere_low002Mat.mat
+  artifactKey: Guid(ff512f811c1d2a646b1c018665304d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bowling_Level_Assets/Assets/Bowling - interior and props/Bowling - interior and props/models/Materials/sphere_low002Mat.mat using Guid(ff512f811c1d2a646b1c018665304d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44d56a956023c26b4ac6741bd6dca4eb') in 0.001551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.002917 seconds.
+  path: Assets/Bowling_Level_Assets/Assets/Bowling - interior and props/Bowling - interior and props/models/Materials/sphere_low003Mat.mat
+  artifactKey: Guid(9b103f555ede37947b16f9259204dc6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bowling_Level_Assets/Assets/Bowling - interior and props/Bowling - interior and props/models/Materials/sphere_low003Mat.mat using Guid(9b103f555ede37947b16f9259204dc6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '079de024d47c30c6c75f63b49542acf3') in 0.001269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.022127 seconds.
+  path: Assets/Bowling_Level_Assets/Assets/Bowling - interior and props/Bowling - interior and props/models/Materials/sphere_low004Mat.mat
+  artifactKey: Guid(63d47683f0c3459418eee1e527b2b68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bowling_Level_Assets/Assets/Bowling - interior and props/Bowling - interior and props/models/Materials/sphere_low004Mat.mat using Guid(63d47683f0c3459418eee1e527b2b68b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9541b5c5a827b01dcbd38d9e801431d6') in 0.001376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.025073 seconds.
+  path: Assets/Bowling_Level_Assets/Assets/Bowling - interior and props/Bowling - interior and props/models/Materials/sphere_low005Mat.mat
+  artifactKey: Guid(8c553817d5ae8b7439993180e5195802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bowling_Level_Assets/Assets/Bowling - interior and props/Bowling - interior and props/models/Materials/sphere_low005Mat.mat using Guid(8c553817d5ae8b7439993180e5195802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01009a4d71cd7510b1b0396146b423f0') in 0.001709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 30.091272 seconds.
+  path: Assets/Scenes/Game Menu.unity
+  artifactKey: Guid(acd7eac9d2328374f8c2c36e4fda0308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game Menu.unity using Guid(acd7eac9d2328374f8c2c36e4fda0308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cbd47b9d643e8af7885237c6093746e') in 0.000841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 27.43 ms, found 36 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 unused Assets / (5.5 KB). Loaded Objects now: 6743.
+Memory consumption went from 128.8 MB to 128.8 MB.
+Total: 6.718700 ms (FindLiveObjects: 0.683200 ms CreateObjectMapping: 0.622000 ms MarkObjects: 5.375300 ms  DeleteObjects: 0.036400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 156.712607 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.3.2/Hands Interaction Demo/Runtime/Models/Primitives
+  artifactKey: Guid(7a06a8ab6416c4c4ba584cb0cdc219d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.3.2/Hands Interaction Demo/Runtime/Models/Primitives using Guid(7a06a8ab6416c4c4ba584cb0cdc219d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0464b97be3ec6add2808ea72e71d2bce') in 0.008133 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 32.757428 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.3.2/Hands Interaction Demo/Runtime/Models/Primitives/Cone.fbx
+  artifactKey: Guid(30ab630b2b7264c1c85cca8ce81b06c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.3.2/Hands Interaction Demo/Runtime/Models/Primitives/Cone.fbx using Guid(30ab630b2b7264c1c85cca8ce81b06c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eb29735ad1c31e4c8dd5c4da94f50b3') in 0.002772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.3.2/Hands Interaction Demo/Runtime/Models/Primitives/Cylinder.fbx
+  artifactKey: Guid(bf65382e5e6d14e7f8140e4204ce07e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.3.2/Hands Interaction Demo/Runtime/Models/Primitives/Cylinder.fbx using Guid(bf65382e5e6d14e7f8140e4204ce07e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef775c31a7a033328bd6ba678bb3b6ec') in 0.001876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 28.131372 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Prefabs/UI_2D/ModalSingleButton.prefab
+  artifactKey: Guid(c24a7635b5761984d81cf6c4aac26e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Prefabs/UI_2D/ModalSingleButton.prefab using Guid(c24a7635b5761984d81cf6c4aac26e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7960556c90384ab555e5e16ef8aea10') in 0.016320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 4.140135 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Prefabs/Complete XR Origin Set Up.prefab
+  artifactKey: Guid(895f6f3c2d334633b5800312285058d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.3.2/Starter Assets/Prefabs/Complete XR Origin Set Up.prefab using Guid(895f6f3c2d334633b5800312285058d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92534c5037d473a8c87a80a2217ca4a8') in 0.041469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 286
+========================================================================
+Received Import Request.
+  Time since last request: 35.110924 seconds.
+  path: Assets/Scenes/Easy.unity
+  artifactKey: Guid(6ac8195554599894fbcb5a9e75e3b85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Easy.unity using Guid(6ac8195554599894fbcb5a9e75e3b85c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '946c16d4fc6d8cb745a165ce379525bd') in 0.000842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 28.43 ms, found 36 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4 unused Assets / (7.0 KB). Loaded Objects now: 6748.
+Memory consumption went from 129.9 MB to 129.9 MB.
+Total: 7.380200 ms (FindLiveObjects: 0.777000 ms CreateObjectMapping: 0.990700 ms MarkObjects: 5.553500 ms  DeleteObjects: 0.057600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 302.712320 seconds.
+  path: Assets/Scenes/Game Menu.unity
+  artifactKey: Guid(acd7eac9d2328374f8c2c36e4fda0308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game Menu.unity using Guid(acd7eac9d2328374f8c2c36e4fda0308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f6c6f0b2412c785e358d5bce19b446') in 0.009285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 25.66 ms, found 36 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2 unused Assets / (5.4 KB). Loaded Objects now: 6748.
+Memory consumption went from 129.9 MB to 129.9 MB.
+Total: 6.993500 ms (FindLiveObjects: 0.703700 ms CreateObjectMapping: 0.708000 ms MarkObjects: 5.540900 ms  DeleteObjects: 0.039300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
