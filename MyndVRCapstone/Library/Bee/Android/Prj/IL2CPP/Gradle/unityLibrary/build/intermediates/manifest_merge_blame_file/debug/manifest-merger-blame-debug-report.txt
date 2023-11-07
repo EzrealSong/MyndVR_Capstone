@@ -36,354 +36,389 @@
 21-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:81-105
 22
 23    <uses-permission android:name="org.khronos.openxr.permission.OPENXR" />
-23-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:47:3-74
-23-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:47:20-71
+23-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:50:3-74
+23-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:50:20-71
 24    <uses-permission android:name="org.khronos.openxr.permission.OPENXR_SYSTEM" />
-24-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:48:3-81
-24-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:48:20-78
+24-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:51:3-81
+24-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:51:20-78
 25
 26    <uses-feature
-26-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:49:3-84
+26-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:52:3-84
 27        android:name="wave.feature.handtracking"
-27-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:49:17-57
+27-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:52:17-57
 28        android:required="true" />
-28-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:49:58-81
+28-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:52:58-81
 29    <uses-feature
-29-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:50:3-79
+29-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:53:3-79
 30        android:name="wave.feature.tracker"
-30-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:50:17-52
+30-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:53:17-52
 31        android:required="true" />
-31-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:50:53-76
+31-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:53:53-76
 32
 33    <uses-permission android:name="org.khronos.openxr.permission.OPENXR" />
-33-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:47:3-74
-33-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:47:20-71
+33-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:50:3-74
+33-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:50:20-71
 34    <uses-permission android:name="org.khronos.openxr.permission.OPENXR_SYSTEM" />
-34-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:48:3-81
-34-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:48:20-78
+34-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:51:3-81
+34-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:51:20-78
 35
 36    <uses-feature
-36-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:49:3-84
+36-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:52:3-84
 37        android:name="wave.feature.handtracking"
-37-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:49:17-57
+37-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:52:17-57
 38        android:required="true" />
-38-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:49:58-81
+38-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:52:58-81
 39    <uses-feature
-39-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:50:3-79
+39-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:53:3-79
 40        android:name="wave.feature.tracker"
-40-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:50:17-52
+40-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:53:17-52
 41        android:required="true" />
-41-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:50:53-76
+41-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:53:53-76
 42
 43    <uses-permission android:name="org.khronos.openxr.permission.OPENXR" />
-43-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:47:3-74
-43-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:47:20-71
+43-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:50:3-74
+43-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:50:20-71
 44    <uses-permission android:name="org.khronos.openxr.permission.OPENXR_SYSTEM" />
-44-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:48:3-81
-44-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:48:20-78
+44-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:51:3-81
+44-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:51:20-78
 45
 46    <uses-feature
-46-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:49:3-84
+46-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:52:3-84
 47        android:name="wave.feature.handtracking"
-47-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:49:17-57
+47-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:52:17-57
 48        android:required="true" />
-48-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:49:58-81
+48-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:52:58-81
 49    <uses-feature
-49-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:50:3-79
+49-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:53:3-79
 50        android:name="wave.feature.tracker"
-50-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:50:17-52
+50-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:53:17-52
 51        android:required="true" />
-51-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:50:53-76
+51-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:53:53-76
 52
 53    <uses-permission android:name="org.khronos.openxr.permission.OPENXR" />
-53-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:47:3-74
-53-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:47:20-71
+53-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:50:3-74
+53-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:50:20-71
 54    <uses-permission android:name="org.khronos.openxr.permission.OPENXR_SYSTEM" />
-54-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:48:3-81
-54-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:48:20-78
+54-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:51:3-81
+54-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:51:20-78
 55
 56    <uses-feature
-56-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:49:3-84
+56-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:52:3-84
 57        android:name="wave.feature.handtracking"
-57-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:49:17-57
+57-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:52:17-57
 58        android:required="true" />
-58-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:49:58-81
+58-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:52:58-81
 59    <uses-feature
-59-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:50:3-79
+59-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:53:3-79
 60        android:name="wave.feature.tracker"
-60-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:50:17-52
+60-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:53:17-52
 61        android:required="true" />
-61-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:50:53-76
+61-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:53:53-76
 62
 63    <uses-permission android:name="org.khronos.openxr.permission.OPENXR" />
-63-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:47:3-74
-63-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:47:20-71
+63-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:50:3-74
+63-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:50:20-71
 64    <uses-permission android:name="org.khronos.openxr.permission.OPENXR_SYSTEM" />
-64-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:48:3-81
-64-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:48:20-78
+64-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:51:3-81
+64-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:51:20-78
 65
 66    <uses-feature
-66-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:49:3-84
+66-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:52:3-84
 67        android:name="wave.feature.handtracking"
-67-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:49:17-57
+67-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:52:17-57
 68        android:required="true" />
-68-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:49:58-81
+68-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:52:58-81
 69    <uses-feature
-69-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:50:3-79
+69-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:53:3-79
 70        android:name="wave.feature.tracker"
-70-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:50:17-52
+70-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:53:17-52
 71        android:required="true" />
-71-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:50:53-76
+71-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:53:53-76
 72
 73    <uses-permission android:name="org.khronos.openxr.permission.OPENXR" />
-73-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:47:3-74
-73-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:47:20-71
+73-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:50:3-74
+73-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:50:20-71
 74    <uses-permission android:name="org.khronos.openxr.permission.OPENXR_SYSTEM" />
-74-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:48:3-81
-74-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:48:20-78
+74-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:51:3-81
+74-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:51:20-78
 75
 76    <uses-feature
-76-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:49:3-84
+76-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:52:3-84
 77        android:name="wave.feature.handtracking"
-77-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:49:17-57
+77-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:52:17-57
 78        android:required="true" />
-78-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:49:58-81
+78-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:52:58-81
 79    <uses-feature
-79-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:50:3-79
+79-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:53:3-79
 80        android:name="wave.feature.tracker"
-80-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:50:17-52
+80-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:53:17-52
 81        android:required="true" />
-81-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:50:53-76
+81-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:53:53-76
 82
 83    <uses-permission android:name="org.khronos.openxr.permission.OPENXR" />
-83-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:47:3-74
-83-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:47:20-71
+83-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:50:3-74
+83-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:50:20-71
 84    <uses-permission android:name="org.khronos.openxr.permission.OPENXR_SYSTEM" />
-84-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:48:3-81
-84-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:48:20-78
+84-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:51:3-81
+84-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:51:20-78
 85
 86    <uses-feature
-86-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:49:3-84
+86-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:52:3-84
 87        android:name="wave.feature.handtracking"
-87-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:49:17-57
+87-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:52:17-57
 88        android:required="true" />
-88-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:49:58-81
+88-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:52:58-81
 89    <uses-feature
-89-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:50:3-79
+89-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:53:3-79
 90        android:name="wave.feature.tracker"
-90-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:50:17-52
+90-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:53:17-52
 91        android:required="true" />
-91-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:50:53-76
+91-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:53:53-76
 92
-93    <application
-93-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:3-46:17
-94        android:extractNativeLibs="true"
-94-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:153-185
-95        android:icon="@mipmap/app_icon"
-95-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:16-47
-96        android:label="@string/app_name"
-96-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:48-80
-97        android:theme="@style/Theme.WaveVR.Black"
-97-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:81-122
-98        tools:replace="android:theme" >
-98-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:123-152
-99        <meta-data
-99-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:5-69
-100            android:name="unity.splash-mode"
-100-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:16-48
-101            android:value="0" />
-101-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:49-66
-102        <meta-data
-102-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:5-74
-103            android:name="unity.splash-enable"
-103-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:16-50
-104            android:value="True" />
-104-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:51-71
-105        <meta-data
-105-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:5-78
-106            android:name="unity.launch-fullscreen"
-106-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:16-54
-107            android:value="True" />
-107-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:55-75
-108        <meta-data
-108-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:5-84
-109            android:name="unity.allow-resizable-window"
-109-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:16-59
-110            android:value="False" />
-110-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:60-81
-111        <meta-data
-111-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:5-81
-112            android:name="notch.config"
-112-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:16-43
-113            android:value="portrait|landscape" />
-113-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:44-78
-114        <meta-data
-114-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-84
-115            android:name="unity.auto-report-fully-drawn"
-115-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-60
-116            android:value="true" />
-116-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:61-81
-117
-118        <activity
-118-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-31:16
-119            android:name="com.htc.vr.unity.WVRUnityVRActivity"
-119-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:15-65
-120            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
-120-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:99-280
-121            android:enableVrMode="@string/wvr_vr_mode_component"
-121-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:281-333
-122            android:exported="true"
-122-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:475-498
-123            android:hardwareAccelerated="false"
-123-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:439-474
-124            android:label="@string/app_name"
-124-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:66-98
-125            android:launchMode="singleTask"
-125-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:372-403
-126            android:resizeableActivity="false"
-126-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:404-438
-127            android:screenOrientation="landscape" >
-127-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:334-371
-128            <intent-filter>
-128-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:7-27:23
-129                <category android:name="android.intent.category.LAUNCHER" />
-129-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:9-69
-129-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:19-66
-130                <category android:name="com.htc.intent.category.VRAPP" />
-130-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:9-66
-130-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:19-63
-131
-132                <action android:name="android.intent.action.MAIN" />
-132-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:9-61
-132-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:17-58
-133
-134                <category android:name="org.khronos.openxr.intent.category.IMMERSIVE_HMD" />
-134-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:9-85
-134-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:19-82
-135                <category android:name="org.khronos.openxr.intent.category.IMMERSIVE_HMD" />
-135-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:9-85
-135-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:19-82
-136                <category android:name="org.khronos.openxr.intent.category.IMMERSIVE_HMD" />
-136-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:9-85
-136-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:19-82
-137                <category android:name="org.khronos.openxr.intent.category.IMMERSIVE_HMD" />
-137-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:9-85
-137-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:19-82
-138                <category android:name="org.khronos.openxr.intent.category.IMMERSIVE_HMD" />
-138-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:9-85
-138-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:19-82
-139                <category android:name="org.khronos.openxr.intent.category.IMMERSIVE_HMD" />
-139-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:9-85
-139-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:19-82
-140                <category android:name="org.khronos.openxr.intent.category.IMMERSIVE_HMD" />
-140-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:9-85
-140-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:19-82
-141            </intent-filter>
-142
-143            <meta-data
-143-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:7-82
-144                android:name="unityplayer.UnityActivity"
-144-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:18-58
-145                android:value="true" />
-145-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:59-79
-146            <meta-data
-146-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:7-90
-147                android:name="unityplayer.SkipPermissionsDialog"
-147-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:18-66
-148                android:value="true" />
-148-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:67-87
-149            <meta-data
-149-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:7-70
-150                android:name="notch_support"
-150-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:18-46
-151                android:value="true" />
-151-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:47-67
-152        </activity>
+93    <uses-permission android:name="org.khronos.openxr.permission.OPENXR" />
+93-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:50:3-74
+93-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:50:20-71
+94    <uses-permission android:name="org.khronos.openxr.permission.OPENXR_SYSTEM" />
+94-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:51:3-81
+94-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:51:20-78
+95
+96    <uses-feature
+96-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:52:3-84
+97        android:name="wave.feature.handtracking"
+97-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:52:17-57
+98        android:required="true" />
+98-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:52:58-81
+99    <uses-feature
+99-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:53:3-79
+100        android:name="wave.feature.tracker"
+100-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:53:17-52
+101        android:required="true" />
+101-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:53:53-76
+102
+103    <application
+103-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:3-49:17
+104        android:extractNativeLibs="true"
+104-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:153-185
+105        android:icon="@mipmap/app_icon"
+105-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:16-47
+106        android:label="@string/app_name"
+106-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:48-80
+107        android:theme="@style/Theme.WaveVR.Black"
+107-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:81-122
+108        tools:replace="android:theme" >
+108-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:123-152
+109        <meta-data
+109-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:5-69
+110            android:name="unity.splash-mode"
+110-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:16-48
+111            android:value="0" />
+111-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:49-66
+112        <meta-data
+112-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:5-74
+113            android:name="unity.splash-enable"
+113-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:16-50
+114            android:value="True" />
+114-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:51-71
+115        <meta-data
+115-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:5-78
+116            android:name="unity.launch-fullscreen"
+116-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:16-54
+117            android:value="True" />
+117-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:55-75
+118        <meta-data
+118-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:5-84
+119            android:name="unity.allow-resizable-window"
+119-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:16-59
+120            android:value="False" />
+120-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:60-81
+121        <meta-data
+121-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:5-81
+122            android:name="notch.config"
+122-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:16-43
+123            android:value="portrait|landscape" />
+123-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:44-78
+124        <meta-data
+124-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-84
+125            android:name="unity.auto-report-fully-drawn"
+125-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-60
+126            android:value="true" />
+126-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:61-81
+127
+128        <activity
+128-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-32:16
+129            android:name="com.htc.vr.unity.WVRUnityVRActivity"
+129-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:15-65
+130            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+130-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:99-280
+131            android:enableVrMode="@string/wvr_vr_mode_component"
+131-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:281-333
+132            android:exported="true"
+132-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:475-498
+133            android:hardwareAccelerated="false"
+133-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:439-474
+134            android:label="@string/app_name"
+134-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:66-98
+135            android:launchMode="singleTask"
+135-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:372-403
+136            android:resizeableActivity="false"
+136-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:404-438
+137            android:screenOrientation="landscape" >
+137-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:334-371
+138            <intent-filter>
+138-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:7-28:23
+139                <category android:name="android.intent.category.LAUNCHER" />
+139-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:9-69
+139-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:19-66
+140                <category android:name="com.htc.intent.category.VRAPP" />
+140-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:9-66
+140-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:19-63
+141
+142                <action android:name="android.intent.action.MAIN" />
+142-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:9-61
+142-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:17-58
+143
+144                <category android:name="org.khronos.openxr.intent.category.IMMERSIVE_HMD" />
+144-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:9-85
+144-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:19-82
+145                <category android:name="org.khronos.openxr.intent.category.IMMERSIVE_HMD" />
+145-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:9-85
+145-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:19-82
+146                <category android:name="org.khronos.openxr.intent.category.IMMERSIVE_HMD" />
+146-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:9-85
+146-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:19-82
+147                <category android:name="org.khronos.openxr.intent.category.IMMERSIVE_HMD" />
+147-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:9-85
+147-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:19-82
+148                <category android:name="org.khronos.openxr.intent.category.IMMERSIVE_HMD" />
+148-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:9-85
+148-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:19-82
+149                <category android:name="org.khronos.openxr.intent.category.IMMERSIVE_HMD" />
+149-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:9-85
+149-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:19-82
+150                <category android:name="org.khronos.openxr.intent.category.IMMERSIVE_HMD" />
+150-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:9-85
+150-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:19-82
+151                <category android:name="org.khronos.openxr.intent.category.IMMERSIVE_HMD" />
+151-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:9-85
+151-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:19-82
+152            </intent-filter>
 153
-154        <meta-data
-154-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:5-94
-155            android:name="com.htc.ViveWaveAndroid.SdkVersion"
-155-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:16-65
-156            android:value="5.3.1-r.2" />
-156-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:66-91
-157        <meta-data
-157-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:5-92
-158            android:name="com.htc.vr.content.UnityVersion"
-158-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:16-62
-159            android:value="2022.3.0f1" />
-159-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:63-89
-160        <meta-data
-160-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:5-94
-161            android:name="com.htc.ViveWaveAndroid.SdkVersion"
-161-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:16-65
-162            android:value="5.3.1-r.2" />
-162-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:66-91
-163        <meta-data
-163-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:5-92
-164            android:name="com.htc.vr.content.UnityVersion"
-164-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:16-62
-165            android:value="2022.3.0f1" />
-165-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:63-89
-166        <meta-data
-166-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:5-94
-167            android:name="com.htc.ViveWaveAndroid.SdkVersion"
-167-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:16-65
-168            android:value="5.3.1-r.2" />
-168-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:66-91
-169        <meta-data
-169-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:5-92
-170            android:name="com.htc.vr.content.UnityVersion"
-170-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:16-62
-171            android:value="2022.3.0f1" />
-171-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:63-89
-172        <meta-data
-172-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:5-94
-173            android:name="com.htc.ViveWaveAndroid.SdkVersion"
-173-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:16-65
-174            android:value="5.3.1-r.2" />
-174-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:66-91
-175        <meta-data
-175-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:5-92
-176            android:name="com.htc.vr.content.UnityVersion"
-176-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:16-62
-177            android:value="2022.3.0f1" />
-177-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:63-89
-178        <meta-data
-178-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:5-94
-179            android:name="com.htc.ViveWaveAndroid.SdkVersion"
-179-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:16-65
-180            android:value="5.3.1-r.2" />
-180-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:66-91
-181        <meta-data
-181-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:5-92
-182            android:name="com.htc.vr.content.UnityVersion"
-182-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:16-62
-183            android:value="2022.3.0f1" />
-183-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:63-89
-184        <meta-data
-184-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:5-94
-185            android:name="com.htc.ViveWaveAndroid.SdkVersion"
-185-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:16-65
-186            android:value="5.3.1-r.2" />
-186-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:66-91
-187        <meta-data
-187-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:5-92
-188            android:name="com.htc.vr.content.UnityVersion"
-188-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:16-62
-189            android:value="2022.3.0f1" />
-189-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:63-89
-190        <meta-data
-190-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:5-94
-191            android:name="com.htc.ViveWaveAndroid.SdkVersion"
-191-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:16-65
-192            android:value="5.3.1-r.2" />
-192-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:66-91
-193        <meta-data
-193-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:5-92
-194            android:name="com.htc.vr.content.UnityVersion"
-194-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:16-62
-195            android:value="2022.3.0f1" />
-195-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:63-89
-196    </application>
-197
-198</manifest>
+154            <meta-data
+154-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:7-82
+155                android:name="unityplayer.UnityActivity"
+155-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:18-58
+156                android:value="true" />
+156-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:59-79
+157            <meta-data
+157-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:7-90
+158                android:name="unityplayer.SkipPermissionsDialog"
+158-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:18-66
+159                android:value="true" />
+159-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:67-87
+160            <meta-data
+160-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:7-70
+161                android:name="notch_support"
+161-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:18-46
+162                android:value="true" />
+162-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:47-67
+163        </activity>
+164
+165        <meta-data
+165-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:5-94
+166            android:name="com.htc.ViveWaveAndroid.SdkVersion"
+166-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:16-65
+167            android:value="5.3.1-r.2" />
+167-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:66-91
+168        <meta-data
+168-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:5-92
+169            android:name="com.htc.vr.content.UnityVersion"
+169-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:16-62
+170            android:value="2022.3.0f1" />
+170-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:63-89
+171        <meta-data
+171-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:5-94
+172            android:name="com.htc.ViveWaveAndroid.SdkVersion"
+172-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:16-65
+173            android:value="5.3.1-r.2" />
+173-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:66-91
+174        <meta-data
+174-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:5-92
+175            android:name="com.htc.vr.content.UnityVersion"
+175-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:16-62
+176            android:value="2022.3.0f1" />
+176-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:63-89
+177        <meta-data
+177-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:5-94
+178            android:name="com.htc.ViveWaveAndroid.SdkVersion"
+178-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:16-65
+179            android:value="5.3.1-r.2" />
+179-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:66-91
+180        <meta-data
+180-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:5-92
+181            android:name="com.htc.vr.content.UnityVersion"
+181-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:16-62
+182            android:value="2022.3.0f1" />
+182-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:63-89
+183        <meta-data
+183-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:5-94
+184            android:name="com.htc.ViveWaveAndroid.SdkVersion"
+184-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:16-65
+185            android:value="5.3.1-r.2" />
+185-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:66-91
+186        <meta-data
+186-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:5-92
+187            android:name="com.htc.vr.content.UnityVersion"
+187-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:16-62
+188            android:value="2022.3.0f1" />
+188-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:63-89
+189        <meta-data
+189-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:5-94
+190            android:name="com.htc.ViveWaveAndroid.SdkVersion"
+190-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:16-65
+191            android:value="5.3.1-r.2" />
+191-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:66-91
+192        <meta-data
+192-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:5-92
+193            android:name="com.htc.vr.content.UnityVersion"
+193-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:16-62
+194            android:value="2022.3.0f1" />
+194-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:63-89
+195        <meta-data
+195-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:5-94
+196            android:name="com.htc.ViveWaveAndroid.SdkVersion"
+196-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:16-65
+197            android:value="5.3.1-r.2" />
+197-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:66-91
+198        <meta-data
+198-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:5-92
+199            android:name="com.htc.vr.content.UnityVersion"
+199-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:16-62
+200            android:value="2022.3.0f1" />
+200-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:63-89
+201        <meta-data
+201-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:5-94
+202            android:name="com.htc.ViveWaveAndroid.SdkVersion"
+202-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:16-65
+203            android:value="5.3.1-r.2" />
+203-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:66-91
+204        <meta-data
+204-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:5-92
+205            android:name="com.htc.vr.content.UnityVersion"
+205-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:16-62
+206            android:value="2022.3.0f1" />
+206-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:63-89
+207        <meta-data
+207-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:5-94
+208            android:name="com.htc.ViveWaveAndroid.SdkVersion"
+208-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:16-65
+209            android:value="5.3.1-r.2" />
+209-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:66-91
+210        <meta-data
+210-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:5-92
+211            android:name="com.htc.vr.content.UnityVersion"
+211-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:16-62
+212            android:value="2022.3.0f1" />
+212-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:63-89
+213    </application>
+214
+215</manifest>

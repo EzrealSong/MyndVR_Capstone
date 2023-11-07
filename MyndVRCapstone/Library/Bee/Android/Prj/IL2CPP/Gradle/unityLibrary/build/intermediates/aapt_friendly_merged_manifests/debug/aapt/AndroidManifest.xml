@@ -90,6 +90,16 @@
         android:name="wave.feature.tracker"
         android:required="true" />
 
+    <uses-permission android:name="org.khronos.openxr.permission.OPENXR" />
+    <uses-permission android:name="org.khronos.openxr.permission.OPENXR_SYSTEM" />
+
+    <uses-feature
+        android:name="wave.feature.handtracking"
+        android:required="true" />
+    <uses-feature
+        android:name="wave.feature.tracker"
+        android:required="true" />
+
     <application
         android:extractNativeLibs="true"
         android:icon="@mipmap/app_icon"
@@ -138,6 +148,7 @@
                 <category android:name="org.khronos.openxr.intent.category.IMMERSIVE_HMD" />
                 <category android:name="org.khronos.openxr.intent.category.IMMERSIVE_HMD" />
                 <category android:name="org.khronos.openxr.intent.category.IMMERSIVE_HMD" />
+                <category android:name="org.khronos.openxr.intent.category.IMMERSIVE_HMD" />
             </intent-filter>
 
             <meta-data
@@ -151,6 +162,12 @@
                 android:value="true" />
         </activity>
 
+        <meta-data
+            android:name="com.htc.ViveWaveAndroid.SdkVersion"
+            android:value="5.3.1-r.2" />
+        <meta-data
+            android:name="com.htc.vr.content.UnityVersion"
+            android:value="2022.3.0f1" />
         <meta-data
             android:name="com.htc.ViveWaveAndroid.SdkVersion"
             android:value="5.3.1-r.2" />
