@@ -3316,6 +3316,10 @@ PrefabInstance:
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 1462202937}
+    - target: {fileID: 1102350729671829600, guid: 715080bbb2b6ef44b90a3bc3fda94e75, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2240469009949797534, guid: 715080bbb2b6ef44b90a3bc3fda94e75, type: 3}
       propertyPath: m_RequestedTrackingOriginMode
       value: 2

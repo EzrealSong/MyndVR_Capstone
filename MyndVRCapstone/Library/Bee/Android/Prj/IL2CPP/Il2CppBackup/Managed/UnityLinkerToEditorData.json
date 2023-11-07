@@ -473,7 +473,9 @@
           },
           {
             "name": "SkinnedMeshRenderer",
-            "scenes": [],
+            "scenes": [
+              "Assets/Scenes/Easy.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
