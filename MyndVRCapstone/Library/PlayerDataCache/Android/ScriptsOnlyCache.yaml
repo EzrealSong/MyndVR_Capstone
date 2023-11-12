@@ -75,8 +75,6 @@ ScriptsOnlyBuild:
     - TMPro.TextMeshProUGUI
     Unity.XR.CoreUtils.dll:
     - Unity.XR.CoreUtils.XROrigin
-    Unity.XR.Hands.Samples.VisualizerSample.dll:
-    - UnityEngine.XR.Hands.Samples.VisualizerSample.HandVisualizer
     Unity.XR.Hands.dll:
     - UnityEngine.XR.Hands.OpenXR.HandTracking
     - UnityEngine.XR.Hands.OpenXR.MetaHandTrackingAim
@@ -85,8 +83,6 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.Interaction.Toolkit.InteractionLayerSettings
     Unity.XR.Interaction.Toolkit.Editor.dll:
     - UnityEditor.XR.Interaction.Toolkit.XRInteractionEditorSettings
-    Unity.XR.Interaction.Toolkit.Samples.Hands.dll:
-    - UnityEngine.XR.Interaction.Toolkit.Samples.Hands.HandsAndControllersManager
     Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll:
     - UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.ActionBasedControllerManager
     - UnityEngine.XR.Interaction.Toolkit.Samples.StarterAssets.DynamicMoveProvider
@@ -626,8 +622,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 19054}
     - Class: 114
-      Script: {instanceID: 19306}
-    - Class: 114
       Script: {instanceID: 20240}
     - Class: 114
       Script: {instanceID: 21018}
@@ -666,8 +660,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 25174}
     - Class: 114
-      Script: {instanceID: 25378}
-    - Class: 114
       Script: {instanceID: 25426}
     - Class: 114
       Script: {instanceID: 25944}
@@ -684,8 +676,6 @@ ScriptsOnlyBuild:
     - Class: 134
       Script: {instanceID: 0}
     - Class: 135
-      Script: {instanceID: 0}
-    - Class: 137
       Script: {instanceID: 0}
     - Class: 143
       Script: {instanceID: 0}
@@ -850,6 +840,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 23964}
     - Class: 114
       Script: {instanceID: 24138}
+    - Class: 114
+      Script: {instanceID: 24526}
     - Class: 114
       Script: {instanceID: 24736}
     - Class: 114
@@ -3710,4 +3702,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Login.unity
   - Assets/Scenes/Register.unity
   - Assets/Scenes/Drill.unity
-  playerPath: C:/Users/ssong56/Desktop/MyndVR/BowlingGame_0.3.2.apk
+  playerPath: C:/Users/ssong56/Desktop/MyndVR/BowlingGame_0.43.apk
