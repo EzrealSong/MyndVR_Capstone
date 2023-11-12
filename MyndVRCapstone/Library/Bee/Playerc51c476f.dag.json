@@ -1230,7 +1230,8 @@
         1222,
         1223,
         1224,
-        1225
+        1225,
+        1226
       ],
       "OverwriteOutputs": false,
       "DebugActionIndex": 0
@@ -1777,6 +1778,18 @@
       "DebugActionIndex": 15
     },
     {
+      "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/wvr_unity_plugin_2022.aar",
+      "DisplayName": "Copying wvr_unity_plugin_2022.aar",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/Plugins/Android/wvr_unity_plugin_2022.aar"
+      ],
+      "Outputs": [
+        "E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/wvr_unity_plugin_2022.aar"
+      ],
+      "DebugActionIndex": 16
+    },
+    {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/wvr_client.aar",
       "DisplayName": "Copying wvr_client.aar",
       "ActionType": "CopyFiles",
@@ -1786,7 +1799,7 @@
       "Outputs": [
         "E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/wvr_client.aar"
       ],
-      "DebugActionIndex": 16
+      "DebugActionIndex": 17
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libUnityOpenXR.so",
@@ -1798,7 +1811,7 @@
       "Outputs": [
         "E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libUnityOpenXR.so"
       ],
-      "DebugActionIndex": 17
+      "DebugActionIndex": 18
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libUnityOpenXRHands.so",
@@ -1810,7 +1823,7 @@
       "Outputs": [
         "E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libUnityOpenXRHands.so"
       ],
-      "DebugActionIndex": 18
+      "DebugActionIndex": 19
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libc++_shared.so",
@@ -1822,7 +1835,7 @@
       "Outputs": [
         "E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libc++_shared.so"
       ],
-      "DebugActionIndex": 19
+      "DebugActionIndex": 20
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/vr.client.abi.aar",
@@ -1834,7 +1847,7 @@
       "Outputs": [
         "E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/vr.client.abi.aar"
       ],
-      "DebugActionIndex": 20
+      "DebugActionIndex": 21
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libwvrunityxr.so",
@@ -1846,7 +1859,7 @@
       "Outputs": [
         "E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libwvrunityxr.so"
       ],
-      "DebugActionIndex": 21
+      "DebugActionIndex": 22
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libGfxWXRUnity.so",
@@ -1858,7 +1871,7 @@
       "Outputs": [
         "E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libGfxWXRUnity.so"
       ],
-      "DebugActionIndex": 22
+      "DebugActionIndex": 23
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/wvr_permission_client.aar",
@@ -1869,18 +1882,6 @@
       ],
       "Outputs": [
         "E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/wvr_permission_client.aar"
-      ],
-      "DebugActionIndex": 23
-    },
-    {
-      "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/wvr_unity_plugin_2022.aar",
-      "DisplayName": "Copying wvr_unity_plugin_2022.aar",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Assets/Plugins/Android/wvr_unity_plugin_2022.aar"
-      ],
-      "Outputs": [
-        "E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/wvr_unity_plugin_2022.aar"
       ],
       "DebugActionIndex": 24
     },
@@ -25588,6 +25589,21 @@
       "DebugActionIndex": 1072
     },
     {
+      "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/icallsummary.txt",
+      "DisplayName": "Copying icallsummary.txt",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/Android/ManagedStripped/icallsummary.txt"
+      ],
+      "Outputs": [
+        "E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/icallsummary.txt"
+      ],
+      "ToBuildDependencies": [
+        26
+      ],
+      "DebugActionIndex": 1073
+    },
+    {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Mono.Security.dll",
       "DisplayName": "Copying Mono.Security.dll",
       "ActionType": "CopyFiles",
@@ -25600,7 +25616,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1073
+      "DebugActionIndex": 1074
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/mscorlib.dll",
@@ -25615,7 +25631,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1074
+      "DebugActionIndex": 1075
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Configuration.dll",
@@ -25630,7 +25646,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1075
+      "DebugActionIndex": 1076
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Core.dll",
@@ -25645,7 +25661,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1076
+      "DebugActionIndex": 1077
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.dll",
@@ -25660,7 +25676,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1077
+      "DebugActionIndex": 1078
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/System.Xml.dll",
@@ -25675,7 +25691,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1078
+      "DebugActionIndex": 1079
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UIEffect.dll",
@@ -25690,7 +25706,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1079
+      "DebugActionIndex": 1080
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UIEffect.pdb",
@@ -25705,7 +25721,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1080
+      "DebugActionIndex": 1081
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UIEffect_Demo.dll",
@@ -25720,7 +25736,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1081
+      "DebugActionIndex": 1082
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UIEffect_Demo.pdb",
@@ -25735,7 +25751,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1082
+      "DebugActionIndex": 1083
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Burst.dll",
@@ -25750,7 +25766,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1083
+      "DebugActionIndex": 1084
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Burst.pdb",
@@ -25765,7 +25781,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1084
+      "DebugActionIndex": 1085
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Burst.Unsafe.dll",
@@ -25780,7 +25796,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1085
+      "DebugActionIndex": 1086
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.InputSystem.dll",
@@ -25795,7 +25811,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1086
+      "DebugActionIndex": 1087
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.InputSystem.pdb",
@@ -25810,7 +25826,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1087
+      "DebugActionIndex": 1088
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Mathematics.dll",
@@ -25825,7 +25841,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1088
+      "DebugActionIndex": 1089
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.Mathematics.pdb",
@@ -25840,7 +25856,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1089
+      "DebugActionIndex": 1090
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll",
@@ -25855,7 +25871,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1090
+      "DebugActionIndex": 1091
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.pdb",
@@ -25870,7 +25886,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1091
+      "DebugActionIndex": 1092
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.RenderPipelines.Core.Runtime.dll",
@@ -25885,7 +25901,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1092
+      "DebugActionIndex": 1093
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.RenderPipelines.Core.Runtime.pdb",
@@ -25900,7 +25916,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1093
+      "DebugActionIndex": 1094
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.RenderPipelines.Universal.Runtime.dll",
@@ -25915,7 +25931,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1094
+      "DebugActionIndex": 1095
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.RenderPipelines.Universal.Runtime.pdb",
@@ -25930,7 +25946,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1095
+      "DebugActionIndex": 1096
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.TextMeshPro.dll",
@@ -25945,7 +25961,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1096
+      "DebugActionIndex": 1097
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.TextMeshPro.pdb",
@@ -25960,7 +25976,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1097
+      "DebugActionIndex": 1098
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.CoreUtils.dll",
@@ -25975,7 +25991,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1098
+      "DebugActionIndex": 1099
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.CoreUtils.pdb",
@@ -25990,7 +26006,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1099
+      "DebugActionIndex": 1100
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.Hands.dll",
@@ -26005,7 +26021,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1100
+      "DebugActionIndex": 1101
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.Hands.pdb",
@@ -26020,7 +26036,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1101
+      "DebugActionIndex": 1102
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.Hands.Samples.VisualizerSample.dll",
@@ -26035,7 +26051,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1102
+      "DebugActionIndex": 1103
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.Hands.Samples.VisualizerSample.pdb",
@@ -26050,7 +26066,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1103
+      "DebugActionIndex": 1104
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.Interaction.Toolkit.dll",
@@ -26065,7 +26081,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1104
+      "DebugActionIndex": 1105
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.Interaction.Toolkit.pdb",
@@ -26080,7 +26096,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1105
+      "DebugActionIndex": 1106
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.Interaction.Toolkit.Samples.Hands.dll",
@@ -26095,7 +26111,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1106
+      "DebugActionIndex": 1107
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.Interaction.Toolkit.Samples.Hands.pdb",
@@ -26110,7 +26126,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1107
+      "DebugActionIndex": 1108
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll",
@@ -26125,7 +26141,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1108
+      "DebugActionIndex": 1109
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.pdb",
@@ -26140,7 +26156,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1109
+      "DebugActionIndex": 1110
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.Management.dll",
@@ -26155,7 +26171,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1110
+      "DebugActionIndex": 1111
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.Management.pdb",
@@ -26170,7 +26186,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1111
+      "DebugActionIndex": 1112
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.OpenXR.dll",
@@ -26185,7 +26201,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1112
+      "DebugActionIndex": 1113
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.dll",
@@ -26200,7 +26216,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1113
+      "DebugActionIndex": 1114
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.OpenXR.Features.ConformanceAutomation.pdb",
@@ -26215,7 +26231,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1114
+      "DebugActionIndex": 1115
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.OpenXR.Features.MetaQuestSupport.dll",
@@ -26230,7 +26246,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1115
+      "DebugActionIndex": 1116
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.OpenXR.Features.MetaQuestSupport.pdb",
@@ -26245,7 +26261,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1116
+      "DebugActionIndex": 1117
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.OpenXR.Features.MockRuntime.dll",
@@ -26260,7 +26276,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1117
+      "DebugActionIndex": 1118
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.OpenXR.Features.MockRuntime.pdb",
@@ -26275,7 +26291,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1118
+      "DebugActionIndex": 1119
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.dll",
@@ -26290,7 +26306,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1119
+      "DebugActionIndex": 1120
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.OpenXR.Features.OculusQuestSupport.pdb",
@@ -26305,7 +26321,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1120
+      "DebugActionIndex": 1121
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.dll",
@@ -26320,7 +26336,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1121
+      "DebugActionIndex": 1122
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.OpenXR.Features.RuntimeDebugger.pdb",
@@ -26335,7 +26351,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1122
+      "DebugActionIndex": 1123
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Unity.XR.OpenXR.pdb",
@@ -26350,7 +26366,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1123
+      "DebugActionIndex": 1124
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AndroidJNIModule.dll",
@@ -26365,7 +26381,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1124
+      "DebugActionIndex": 1125
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AndroidJNIModule.pdb",
@@ -26380,7 +26396,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1125
+      "DebugActionIndex": 1126
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AnimationModule.dll",
@@ -26395,7 +26411,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1126
+      "DebugActionIndex": 1127
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AnimationModule.pdb",
@@ -26410,7 +26426,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1127
+      "DebugActionIndex": 1128
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AudioModule.dll",
@@ -26425,7 +26441,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1128
+      "DebugActionIndex": 1129
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.AudioModule.pdb",
@@ -26440,7 +26456,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1129
+      "DebugActionIndex": 1130
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.CoreModule.dll",
@@ -26455,7 +26471,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1130
+      "DebugActionIndex": 1131
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.CoreModule.pdb",
@@ -26470,7 +26486,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1131
+      "DebugActionIndex": 1132
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.dll",
@@ -26485,7 +26501,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1132
+      "DebugActionIndex": 1133
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.GridModule.dll",
@@ -26500,7 +26516,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1133
+      "DebugActionIndex": 1134
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.GridModule.pdb",
@@ -26515,7 +26531,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1134
+      "DebugActionIndex": 1135
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.IMGUIModule.dll",
@@ -26530,7 +26546,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1135
+      "DebugActionIndex": 1136
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.IMGUIModule.pdb",
@@ -26545,7 +26561,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1136
+      "DebugActionIndex": 1137
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.InputLegacyModule.dll",
@@ -26560,7 +26576,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1137
+      "DebugActionIndex": 1138
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.InputLegacyModule.pdb",
@@ -26575,7 +26591,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1138
+      "DebugActionIndex": 1139
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.InputModule.dll",
@@ -26590,7 +26606,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1139
+      "DebugActionIndex": 1140
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.InputModule.pdb",
@@ -26605,7 +26621,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1140
+      "DebugActionIndex": 1141
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.JSONSerializeModule.dll",
@@ -26620,7 +26636,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1141
+      "DebugActionIndex": 1142
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.JSONSerializeModule.pdb",
@@ -26635,7 +26651,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1142
+      "DebugActionIndex": 1143
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.pdb",
@@ -26650,7 +26666,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1143
+      "DebugActionIndex": 1144
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Physics2DModule.dll",
@@ -26665,7 +26681,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1144
+      "DebugActionIndex": 1145
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.Physics2DModule.pdb",
@@ -26680,7 +26696,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1145
+      "DebugActionIndex": 1146
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.PhysicsModule.dll",
@@ -26695,7 +26711,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1146
+      "DebugActionIndex": 1147
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.PhysicsModule.pdb",
@@ -26710,7 +26726,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1147
+      "DebugActionIndex": 1148
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.PropertiesModule.dll",
@@ -26725,7 +26741,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1148
+      "DebugActionIndex": 1149
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.PropertiesModule.pdb",
@@ -26740,7 +26756,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1149
+      "DebugActionIndex": 1150
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SharedInternalsModule.dll",
@@ -26755,7 +26771,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1150
+      "DebugActionIndex": 1151
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SharedInternalsModule.pdb",
@@ -26770,7 +26786,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1151
+      "DebugActionIndex": 1152
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SpatialTracking.dll",
@@ -26785,7 +26801,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1152
+      "DebugActionIndex": 1153
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SpatialTracking.pdb",
@@ -26800,7 +26816,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1153
+      "DebugActionIndex": 1154
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SpriteShapeModule.dll",
@@ -26815,7 +26831,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1154
+      "DebugActionIndex": 1155
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SpriteShapeModule.pdb",
@@ -26830,7 +26846,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1155
+      "DebugActionIndex": 1156
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SubsystemsModule.dll",
@@ -26845,7 +26861,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1156
+      "DebugActionIndex": 1157
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.SubsystemsModule.pdb",
@@ -26860,7 +26876,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1157
+      "DebugActionIndex": 1158
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextCoreFontEngineModule.dll",
@@ -26875,7 +26891,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1158
+      "DebugActionIndex": 1159
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextCoreFontEngineModule.pdb",
@@ -26890,7 +26906,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1159
+      "DebugActionIndex": 1160
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextCoreTextEngineModule.dll",
@@ -26905,7 +26921,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1160
+      "DebugActionIndex": 1161
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextCoreTextEngineModule.pdb",
@@ -26920,7 +26936,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1161
+      "DebugActionIndex": 1162
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextRenderingModule.dll",
@@ -26935,7 +26951,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1162
+      "DebugActionIndex": 1163
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TextRenderingModule.pdb",
@@ -26950,7 +26966,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1163
+      "DebugActionIndex": 1164
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TilemapModule.dll",
@@ -26965,7 +26981,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1164
+      "DebugActionIndex": 1165
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.TilemapModule.pdb",
@@ -26980,7 +26996,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1165
+      "DebugActionIndex": 1166
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UI.dll",
@@ -26995,7 +27011,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1166
+      "DebugActionIndex": 1167
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UI.pdb",
@@ -27010,7 +27026,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1167
+      "DebugActionIndex": 1168
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UIElementsModule.dll",
@@ -27025,7 +27041,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1168
+      "DebugActionIndex": 1169
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UIElementsModule.pdb",
@@ -27040,7 +27056,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1169
+      "DebugActionIndex": 1170
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UIModule.dll",
@@ -27055,7 +27071,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1170
+      "DebugActionIndex": 1171
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UIModule.pdb",
@@ -27070,7 +27086,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1171
+      "DebugActionIndex": 1172
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UnityAnalyticsModule.dll",
@@ -27085,7 +27101,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1172
+      "DebugActionIndex": 1173
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UnityAnalyticsModule.pdb",
@@ -27100,7 +27116,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1173
+      "DebugActionIndex": 1174
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UnityWebRequestModule.dll",
@@ -27115,7 +27131,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1174
+      "DebugActionIndex": 1175
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.UnityWebRequestModule.pdb",
@@ -27130,7 +27146,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1175
+      "DebugActionIndex": 1176
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.VFXModule.dll",
@@ -27145,7 +27161,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1176
+      "DebugActionIndex": 1177
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.VFXModule.pdb",
@@ -27160,7 +27176,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1177
+      "DebugActionIndex": 1178
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.VRModule.dll",
@@ -27175,7 +27191,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1178
+      "DebugActionIndex": 1179
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.VRModule.pdb",
@@ -27190,7 +27206,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1179
+      "DebugActionIndex": 1180
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.XRModule.dll",
@@ -27205,7 +27221,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1180
+      "DebugActionIndex": 1181
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityEngine.XRModule.pdb",
@@ -27220,7 +27236,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1181
+      "DebugActionIndex": 1182
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/UnityLinkerToEditorData.json",
@@ -27235,7 +27251,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1182
+      "DebugActionIndex": 1183
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Wave.OpenXR.dll",
@@ -27250,7 +27266,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1183
+      "DebugActionIndex": 1184
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Wave.OpenXR.pdb",
@@ -27265,7 +27281,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1184
+      "DebugActionIndex": 1185
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Wave.XRSDK.dll",
@@ -27280,7 +27296,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1185
+      "DebugActionIndex": 1186
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Il2CppBackup/Managed/Wave.XRSDK.pdb",
@@ -27295,7 +27311,7 @@
       "ToBuildDependencies": [
         26
       ],
-      "DebugActionIndex": 1186
+      "DebugActionIndex": 1187
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity default resources",
@@ -27307,20 +27323,20 @@
       "Outputs": [
         "E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity default resources"
       ],
-      "DebugActionIndex": 1187
+      "DebugActionIndex": 1188
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/build.gradle_n4z7.info",
       "DisplayName": "Writing build.gradle_n4z7.info",
       "ActionType": "WriteFile",
       "PayloadOffset": 270801,
-      "PayloadLength": 5116,
+      "PayloadLength": 5115,
       "PayloadDebugContentSnippet": "{\"AndroidPlayerBuildProgram.Ac",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/build.gradle_n4z7.info"
       ],
-      "DebugActionIndex": 1188
+      "DebugActionIndex": 1189
     },
     {
       "Annotation": "ActionGenerateProjectFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/build.gradle (+8 others)",
@@ -27356,12 +27372,12 @@
         "E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/gradle/wrapper/gradle-wrapper.properties"
       ],
       "ToBuildDependencies": [
-        1188
+        1189
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1189
+      "DebugActionIndex": 1190
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/java/com/unity3d/player/UnityPlayerActivity.java",
@@ -27373,7 +27389,7 @@
       "Outputs": [
         "E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/java/com/unity3d/player/UnityPlayerActivity.java"
       ],
-      "DebugActionIndex": 1190
+      "DebugActionIndex": 1191
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/unity-classes.jar",
@@ -27385,7 +27401,7 @@
       "Outputs": [
         "E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/unity-classes.jar"
       ],
-      "DebugActionIndex": 1191
+      "DebugActionIndex": 1192
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/ids.xml",
@@ -27397,7 +27413,7 @@
       "Outputs": [
         "E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/ids.xml"
       ],
-      "DebugActionIndex": 1192
+      "DebugActionIndex": 1193
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v21/styles.xml",
@@ -27409,7 +27425,7 @@
       "Outputs": [
         "E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v21/styles.xml"
       ],
-      "DebugActionIndex": 1193
+      "DebugActionIndex": 1194
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v28/styles.xml",
@@ -27421,7 +27437,7 @@
       "Outputs": [
         "E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v28/styles.xml"
       ],
-      "DebugActionIndex": 1194
+      "DebugActionIndex": 1195
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/styles.xml",
@@ -27433,20 +27449,20 @@
       "Outputs": [
         "E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/styles.xml"
       ],
-      "DebugActionIndex": 1195
+      "DebugActionIndex": 1196
     },
     {
       "Annotation": "WriteText E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values/strings.xml",
       "DisplayName": "Writing strings.xml",
       "ActionType": "WriteFile",
-      "PayloadOffset": 276083,
+      "PayloadOffset": 276082,
       "PayloadLength": 183,
       "PayloadDebugContentSnippet": "<?xml version=\"1.0\" encoding=\"",
       "Inputs": [],
       "Outputs": [
         "E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/values/strings.xml"
       ],
-      "DebugActionIndex": 1196
+      "DebugActionIndex": 1197
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v30/freeformwindow.xml",
@@ -27458,7 +27474,7 @@
       "Outputs": [
         "E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values-v30/freeformwindow.xml"
       ],
-      "DebugActionIndex": 1197
+      "DebugActionIndex": 1198
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/freeformwindow.xml",
@@ -27470,7 +27486,7 @@
       "Outputs": [
         "E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/res/values/freeformwindow.xml"
       ],
-      "DebugActionIndex": 1198
+      "DebugActionIndex": 1199
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon.xml",
@@ -27482,7 +27498,7 @@
       "Outputs": [
         "E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon.xml"
       ],
-      "DebugActionIndex": 1199
+      "DebugActionIndex": 1200
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon_round.xml",
@@ -27494,7 +27510,7 @@
       "Outputs": [
         "E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-anydpi-v26/app_icon_round.xml"
       ],
-      "DebugActionIndex": 1200
+      "DebugActionIndex": 1201
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/app_icon.png",
@@ -27506,7 +27522,7 @@
       "Outputs": [
         "E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/app_icon.png"
       ],
-      "DebugActionIndex": 1201
+      "DebugActionIndex": 1202
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_background.png",
@@ -27518,7 +27534,7 @@
       "Outputs": [
         "E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_background.png"
       ],
-      "DebugActionIndex": 1202
+      "DebugActionIndex": 1203
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_foreground.png",
@@ -27530,7 +27546,7 @@
       "Outputs": [
         "E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/launcher/src/main/res/mipmap-mdpi/ic_launcher_foreground.png"
       ],
-      "DebugActionIndex": 1203
+      "DebugActionIndex": 1204
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libmain.so",
@@ -27542,7 +27558,7 @@
       "Outputs": [
         "E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libmain.so"
       ],
-      "DebugActionIndex": 1204
+      "DebugActionIndex": 1205
     },
     {
       "Annotation": "SourceBuildPlayerFiles",
@@ -27550,27 +27566,27 @@
       "Inputs": [],
       "Outputs": [],
       "ToBuildDependencies": [
-        1204,
-        1217,
+        1205,
         1218,
         1219,
-        1220
+        1220,
+        1221
       ],
       "OverwriteOutputs": false,
-      "DebugActionIndex": 1205
+      "DebugActionIndex": 1206
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/LauncherManifestDiag.txt_zvqu.info",
       "DisplayName": "Writing LauncherManifestDiag.txt_zvqu.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 276368,
+      "PayloadOffset": 276367,
       "PayloadLength": 13560,
       "PayloadDebugContentSnippet": "{\"AndroidPlayerBuildProgram.Ac",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/LauncherManifestDiag.txt_zvqu.info"
       ],
-      "DebugActionIndex": 1206
+      "DebugActionIndex": 1207
     },
     {
       "Annotation": "Generate Manifests Library/Bee/artifacts/Android/Manifest/LauncherManifestDiag.txt (+3 others)",
@@ -27718,25 +27734,25 @@
         144,
         146,
         148,
-        1206
+        1207
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1207
+      "DebugActionIndex": 1208
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/UnityClassRegistration.cpp_l48a.info",
       "DisplayName": "Writing UnityClassRegistration.cpp_l48a.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 290032,
+      "PayloadOffset": 290031,
       "PayloadLength": 1248,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Cl",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/UnityClassRegistration.cpp_l48a.info"
       ],
-      "DebugActionIndex": 1208
+      "DebugActionIndex": 1209
     },
     {
       "Annotation": "ClassRegistrationGenerator E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/artifacts/Android/il2cppOutput/UnityClassRegistration.cpp",
@@ -27787,12 +27803,12 @@
       ],
       "ToBuildDependencies": [
         26,
-        1208
+        1209
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1209
+      "DebugActionIndex": 1210
     },
     {
       "Annotation": "Compile UnityClassRegistration Library/Bee/artifacts/Android/libunity/arm64-v8a/UnityClassRegistration.o",
@@ -27807,11 +27823,11 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/UnityClassRegistration.o"
       ],
       "ToBuildDependencies": [
-        1209
+        1210
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1210
+      "DebugActionIndex": 1211
     },
     {
       "Annotation": "ICallRegistrationGenerator E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/artifacts/Android/il2cppOutput/UnityICallRegistration.cpp",
@@ -27854,7 +27870,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1211
+      "DebugActionIndex": 1212
     },
     {
       "Annotation": "Compile UnityICallRegistration Library/Bee/artifacts/Android/libunity/arm64-v8a/UnityICallRegistration.o",
@@ -27869,11 +27885,11 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/UnityICallRegistration.o"
       ],
       "ToBuildDependencies": [
-        1211
+        1212
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1212
+      "DebugActionIndex": 1213
     },
     {
       "Annotation": "Link libunity Library/Bee/artifacts/Android/libunity/arm64-v8a/unstripped/libunity.so",
@@ -27891,12 +27907,12 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/unstripped/libunity.so"
       ],
       "ToBuildDependencies": [
-        1210,
-        1212
+        1211,
+        1213
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1213
+      "DebugActionIndex": 1214
     },
     {
       "Annotation": "Generate Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.dbg.so from Library/Bee/artifacts/Android/libunity/arm64-v8a/unstripped/libunity.so Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.dbg.so",
@@ -27910,11 +27926,11 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.dbg.so"
       ],
       "ToBuildDependencies": [
-        1213
+        1214
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1214
+      "DebugActionIndex": 1215
     },
     {
       "Annotation": "Generate Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.sym.so from Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.dbg.so Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.sym.so",
@@ -27928,11 +27944,11 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/libunity.sym.so"
       ],
       "ToBuildDependencies": [
-        1214
+        1215
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1215
+      "DebugActionIndex": 1216
     },
     {
       "Annotation": "Stripping Library/Bee/artifacts/Android/libunity/arm64-v8a/unstripped/libunity.so -> Library/Bee/artifacts/Android/libunity/arm64-v8a/stripped/libunity.so Library/Bee/artifacts/Android/libunity/arm64-v8a/stripped/libunity.so",
@@ -27946,11 +27962,11 @@
         "Library/Bee/artifacts/Android/libunity/arm64-v8a/stripped/libunity.so"
       ],
       "ToBuildDependencies": [
-        1213
+        1214
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1216
+      "DebugActionIndex": 1217
     },
     {
       "Annotation": "Adding note Library/Bee/artifacts/Android/libunity/arm64-v8a/stripped/libunity.so -> E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libunity.so E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libunity.so",
@@ -27966,12 +27982,12 @@
         "E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libunity.so"
       ],
       "ToBuildDependencies": [
-        1215,
-        1216
+        1216,
+        1217
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1217
+      "DebugActionIndex": 1218
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/arm64-v8a/libmain.so",
@@ -27983,7 +27999,7 @@
       "Outputs": [
         "E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/arm64-v8a/libmain.so"
       ],
-      "DebugActionIndex": 1218
+      "DebugActionIndex": 1219
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/arm64-v8a/libil2cpp.so",
@@ -27998,7 +28014,7 @@
       "ToBuildDependencies": [
         704
       ],
-      "DebugActionIndex": 1219
+      "DebugActionIndex": 1220
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/arm64-v8a/libunity.so",
@@ -28011,9 +28027,9 @@
         "E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/symbols/arm64-v8a/libunity.so"
       ],
       "ToBuildDependencies": [
-        1215
+        1216
       ],
-      "DebugActionIndex": 1220
+      "DebugActionIndex": 1221
     },
     {
       "Annotation": "7z E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/symbols.zip",
@@ -28029,27 +28045,27 @@
         "E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/symbols.zip"
       ],
       "ToBuildDependencies": [
-        1218,
         1219,
-        1220
+        1220,
+        1221
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1221
+      "DebugActionIndex": 1222
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/unity_app_guid_478x.info",
       "DisplayName": "Writing unity_app_guid_478x.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 291372,
+      "PayloadOffset": 291371,
       "PayloadLength": 1349,
       "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/unity_app_guid_478x.info"
       ],
-      "DebugActionIndex": 1222
+      "DebugActionIndex": 1223
     },
     {
       "Annotation": "GuidGenerator E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid",
@@ -28083,25 +28099,25 @@
       "ToBuildDependencies": [
         7,
         151,
-        1222
+        1223
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1223
+      "DebugActionIndex": 1224
     },
     {
       "Annotation": "WriteText E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/resources/META-INF/com.android.games.engine.build_fingerprint",
       "DisplayName": "Writing com.android.games.engine.build_fingerprint",
       "ActionType": "WriteFile",
-      "PayloadOffset": 292930,
+      "PayloadOffset": 292929,
       "PayloadLength": 71,
       "PayloadDebugContentSnippet": "2022.3.0f1;IL2CPP;Development;",
       "Inputs": [],
       "Outputs": [
         "E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/resources/META-INF/com.android.games.engine.build_fingerprint"
       ],
-      "DebugActionIndex": 1224
+      "DebugActionIndex": 1225
     },
     {
       "Annotation": "Player",
@@ -28672,7 +28688,7 @@
         1185,
         1186,
         1187,
-        1189,
+        1188,
         1190,
         1191,
         1192,
@@ -28688,17 +28704,18 @@
         1202,
         1203,
         1204,
-        1207,
-        1217,
+        1205,
+        1208,
         1218,
         1219,
         1220,
         1221,
-        1223,
-        1224
+        1222,
+        1224,
+        1225
       ],
       "OverwriteOutputs": false,
-      "DebugActionIndex": 1225
+      "DebugActionIndex": 1226
     }
   ],
   "FileSignatures": [
@@ -29274,8 +29291,8 @@
   ],
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "SourceBuildPlayerFiles": 1205,
-          "Player": 1225
+          "SourceBuildPlayerFiles": 1206,
+          "Player": 1226
         }
 ,  "DefaultNodes": [
     0
