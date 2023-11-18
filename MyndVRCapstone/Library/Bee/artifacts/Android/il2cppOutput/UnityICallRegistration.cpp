@@ -2306,6 +2306,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_GameObject_get_layer();
 		Register_UnityEngine_GameObject_get_layer();
 
+		//System.String UnityEngine.GameObject::get_tag()
+		void Register_UnityEngine_GameObject_get_tag();
+		Register_UnityEngine_GameObject_get_tag();
+
 		//System.UInt64 UnityEngine.GameObject::get_sceneCullingMask()
 		void Register_UnityEngine_GameObject_get_sceneCullingMask();
 		Register_UnityEngine_GameObject_get_sceneCullingMask();
