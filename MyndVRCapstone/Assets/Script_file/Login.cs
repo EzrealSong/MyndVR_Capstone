@@ -1,6 +1,5 @@
 using System;
 using System.Collections;
-using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
@@ -8,7 +7,6 @@ using UnityEngine.SceneManagement;
 
 public class Login : MonoBehaviour
 {
-
     public InputField usernameInput;
     public InputField passwordInput;
     public Button loginButton;
@@ -19,38 +17,32 @@ public class Login : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        loginButton.onClick.AddListener(login);
-        goToRegisterButton.onClick.AddListener(moveToRegister);
+        loginButton.onClick.AddListener(LoginUser);
+        goToRegisterButton.onClick.AddListener(MoveToRegister);
 
-        if (File.Exists(Application.dataPath + "/credentials.txt"))
+        if (File.Exists("Assets/Script_file/credentials.txt"))
         {
-            credentials = new ArrayList(File.ReadAllLines(Application.dataPath + "/credentials.txt"));
+            credentials = new ArrayList(File.ReadAllLines("Assets/Script_file/credentials.txt"));
         }
         else
         {
             Debug.Log("Credential file doesn't exist");
         }
-
     }
 
-
-
-    // Update is called once per frame
-    void login()
+    void LoginUser()
     {
         bool isExists = false;
-
-        credentials = new ArrayList(File.ReadAllLines("Assets/Script_file/credentials.txt"));
 
         foreach (var i in credentials)
         {
             string line = i.ToString();
             string[] parts = line.Split(':');
-            if (parts.Length == 3 && parts[0].Equals(usernameInput.text) && parts[1].Equals(passwordInput.text))
+            if (parts.Length == 6 && parts[0].Equals(usernameInput.text) && parts[1].Equals(passwordInput.text))
             {
                 isExists = true;
-                bool toggleState = bool.Parse(parts[2]); // Parse the toggle state from the stored data
-                loadSceneBasedOnToggle(toggleState);
+                bool toggleState = bool.Parse(parts[5]); // Parse the toggle state from the stored data
+                LoadSceneBasedOnToggle(toggleState);
                 break;
             }
         }
@@ -61,27 +53,24 @@ public class Login : MonoBehaviour
         }
     }
 
-    void loadSceneBasedOnToggle(bool toggleState)
+    void LoadSceneBasedOnToggle(bool toggleState)
     {
         if (toggleState)
         {
-            //for admin page
+            // for admin page
             Debug.Log("Loading scene based on toggle: Scene A");
-            SceneManager.LoadScene("Drill");
+            SceneManager.LoadScene("Drill"); // Change to the correct scene name for the admin page
         }
         else
         {
-            //for user page
+            // for user page
             Debug.Log("Loading scene based on toggle: Scene B");
-            SceneManager.LoadScene("Drill");
+            SceneManager.LoadScene("Drill"); // Change to the correct scene name for the user page
         }
     }
 
-
-    void moveToRegister()
+    void MoveToRegister()
     {
         SceneManager.LoadScene("Register");
     }
-
- 
 }
