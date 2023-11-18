@@ -851,6 +851,14 @@
             "icon": null
           },
           {
+            "name": "PhysicMaterial",
+            "scenes": [
+              "Assets/Scenes/Easy.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
             "name": "PhysicsManager",
             "scenes": [],
             "dependencyType": 1,
@@ -1134,6 +1142,7 @@
           {
             "name": "Font",
             "scenes": [
+              "Assets/Scenes/Easy.unity",
               "Assets/Scenes/Game Menu.unity",
               "Assets/Scenes/Login.unity",
               "Assets/Scenes/Register.unity"

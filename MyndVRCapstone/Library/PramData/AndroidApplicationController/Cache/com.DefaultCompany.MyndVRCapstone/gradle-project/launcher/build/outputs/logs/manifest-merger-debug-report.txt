@@ -4,11 +4,11 @@ ADDED from E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramD
 INJECTED from E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\launcher\src\main\AndroidManifest.xml:2:1-5:12
 INJECTED from E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\launcher\src\main\AndroidManifest.xml:2:1-5:12
 INJECTED from E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\launcher\src\main\AndroidManifest.xml:2:1-5:12
-MERGED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-179:12
+MERGED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-96:12
 MERGED from [:wvr_ime_client:] C:\Users\ssong56\.gradle\caches\transforms-3\85fbc6fa822e401100e2da54d3c73f89\transformed\wvr_ime_client\AndroidManifest.xml:2:1-9:12
-MERGED from [:wvr_unity_plugin_2022:] C:\Users\ssong56\.gradle\caches\transforms-3\53be29dfa9276004ab20406d94da89e8\transformed\wvr_unity_plugin_2022\AndroidManifest.xml:2:1-12:12
 MERGED from [:wvr.common.utils:] C:\Users\ssong56\.gradle\caches\transforms-3\fceaa395d07a8f61e81a1fc29f5c4c32\transformed\wvr.common.utils\AndroidManifest.xml:2:1-9:12
 MERGED from [:wvr_client:] C:\Users\ssong56\.gradle\caches\transforms-3\cfed61aec35cbf53e282f9667d838803\transformed\wvr_client\AndroidManifest.xml:2:1-15:12
+MERGED from [:wvr_unity_plugin_2022:] C:\Users\ssong56\.gradle\caches\transforms-3\53be29dfa9276004ab20406d94da89e8\transformed\wvr_unity_plugin_2022\AndroidManifest.xml:2:1-12:12
 MERGED from [:vr.client.abi:] C:\Users\ssong56\.gradle\caches\transforms-3\a5eae514e5daf4bca77df4ee4fb6703b\transformed\vr.client.abi\AndroidManifest.xml:2:1-9:12
 MERGED from [:wvr_permission_client:] C:\Users\ssong56\.gradle\caches\transforms-3\e9657d53c591f3ab6a2b92c0b4afec62\transformed\wvr_permission_client\AndroidManifest.xml:2:1-9:12
 MERGED from [:unityLibrary:xrmanifest.androidlib] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-14:12
@@ -35,23 +35,23 @@ INJECTED from E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\Pr
 		ADDED from E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\launcher\src\main\AndroidManifest.xml:2:161-201
 application
 ADDED from E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\launcher\src\main\AndroidManifest.xml:3:3-83
-MERGED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:46:5-177:19
-MERGED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:46:5-177:19
+MERGED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:33:5-94:19
+MERGED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:33:5-94:19
 MERGED from [:wvr_client:] C:\Users\ssong56\.gradle\caches\transforms-3\cfed61aec35cbf53e282f9667d838803\transformed\wvr_client\AndroidManifest.xml:10:5-13:19
 MERGED from [:wvr_client:] C:\Users\ssong56\.gradle\caches\transforms-3\cfed61aec35cbf53e282f9667d838803\transformed\wvr_client\AndroidManifest.xml:10:5-13:19
 MERGED from [:unityLibrary:xrmanifest.androidlib] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-12:19
 MERGED from [:unityLibrary:xrmanifest.androidlib] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-12:19
 	android:extractNativeLibs
-		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:47:9-41
+		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:9-41
 	android:label
 		ADDED from E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\launcher\src\main\AndroidManifest.xml:3:16-48
 	android:icon
 		ADDED from E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\launcher\src\main\AndroidManifest.xml:3:49-80
 	android:theme
-		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:50:9-50
+		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:37:9-50
 		REJECTED from [:wvr_client:] C:\Users\ssong56\.gradle\caches\transforms-3\cfed61aec35cbf53e282f9667d838803\transformed\wvr_client\AndroidManifest.xml:11:9-50
 	tools:replace
-		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:51:9-38
+		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:38:9-38
 supports-screens
 ADDED from E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\launcher\src\main\AndroidManifest.xml:4:3-163
 	android:largeScreens
@@ -72,12 +72,12 @@ MERGED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapst
 MERGED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:6:5-8:41
 MERGED from [:wvr_ime_client:] C:\Users\ssong56\.gradle\caches\transforms-3\85fbc6fa822e401100e2da54d3c73f89\transformed\wvr_ime_client\AndroidManifest.xml:5:5-7:41
 MERGED from [:wvr_ime_client:] C:\Users\ssong56\.gradle\caches\transforms-3\85fbc6fa822e401100e2da54d3c73f89\transformed\wvr_ime_client\AndroidManifest.xml:5:5-7:41
-MERGED from [:wvr_unity_plugin_2022:] C:\Users\ssong56\.gradle\caches\transforms-3\53be29dfa9276004ab20406d94da89e8\transformed\wvr_unity_plugin_2022\AndroidManifest.xml:5:5-7:41
-MERGED from [:wvr_unity_plugin_2022:] C:\Users\ssong56\.gradle\caches\transforms-3\53be29dfa9276004ab20406d94da89e8\transformed\wvr_unity_plugin_2022\AndroidManifest.xml:5:5-7:41
 MERGED from [:wvr.common.utils:] C:\Users\ssong56\.gradle\caches\transforms-3\fceaa395d07a8f61e81a1fc29f5c4c32\transformed\wvr.common.utils\AndroidManifest.xml:5:5-7:41
 MERGED from [:wvr.common.utils:] C:\Users\ssong56\.gradle\caches\transforms-3\fceaa395d07a8f61e81a1fc29f5c4c32\transformed\wvr.common.utils\AndroidManifest.xml:5:5-7:41
 MERGED from [:wvr_client:] C:\Users\ssong56\.gradle\caches\transforms-3\cfed61aec35cbf53e282f9667d838803\transformed\wvr_client\AndroidManifest.xml:6:5-8:41
 MERGED from [:wvr_client:] C:\Users\ssong56\.gradle\caches\transforms-3\cfed61aec35cbf53e282f9667d838803\transformed\wvr_client\AndroidManifest.xml:6:5-8:41
+MERGED from [:wvr_unity_plugin_2022:] C:\Users\ssong56\.gradle\caches\transforms-3\53be29dfa9276004ab20406d94da89e8\transformed\wvr_unity_plugin_2022\AndroidManifest.xml:5:5-7:41
+MERGED from [:wvr_unity_plugin_2022:] C:\Users\ssong56\.gradle\caches\transforms-3\53be29dfa9276004ab20406d94da89e8\transformed\wvr_unity_plugin_2022\AndroidManifest.xml:5:5-7:41
 MERGED from [:vr.client.abi:] C:\Users\ssong56\.gradle\caches\transforms-3\a5eae514e5daf4bca77df4ee4fb6703b\transformed\vr.client.abi\AndroidManifest.xml:5:5-7:41
 MERGED from [:vr.client.abi:] C:\Users\ssong56\.gradle\caches\transforms-3\a5eae514e5daf4bca77df4ee4fb6703b\transformed\vr.client.abi\AndroidManifest.xml:5:5-7:41
 MERGED from [:wvr_permission_client:] C:\Users\ssong56\.gradle\caches\transforms-3\e9657d53c591f3ab6a2b92c0b4afec62\transformed\wvr_permission_client\AndroidManifest.xml:5:5-7:41
@@ -128,110 +128,122 @@ uses-permission#org.khronos.openxr.permission.OPENXR_SYSTEM
 ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:5-83
 	android:name
 		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:22-80
+uses-feature#wave.feature.handtracking
+ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:5-28:35
+	android:required
+		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:9-32
+	android:name
+		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:9-49
+uses-feature#wave.feature.tracker
+ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:5-31:35
+	android:required
+		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:31:9-32
+	android:name
+		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:9-44
 meta-data#unity.splash-mode
-ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:52:9-54:33
+ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:39:9-41:33
 	android:value
-		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:54:13-30
+		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:41:13-30
 	android:name
-		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:53:13-45
+		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:40:13-45
 meta-data#unity.splash-enable
-ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:55:9-57:36
+ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:42:9-44:36
 	android:value
-		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:57:13-33
+		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:44:13-33
 	android:name
-		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:56:13-47
+		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:43:13-47
 meta-data#unity.launch-fullscreen
-ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:58:9-60:36
+ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:45:9-47:36
 	android:value
-		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:60:13-33
+		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:47:13-33
 	android:name
-		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:59:13-51
+		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:46:13-51
 meta-data#unity.allow-resizable-window
-ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:61:9-63:37
+ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:48:9-50:37
 	android:value
-		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:63:13-34
+		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:50:13-34
 	android:name
-		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:62:13-56
+		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:49:13-56
 meta-data#notch.config
-ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:64:9-66:50
+ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:51:9-53:50
 	android:value
-		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:66:13-47
+		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:53:13-47
 	android:name
-		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:65:13-40
+		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:52:13-40
 meta-data#unity.auto-report-fully-drawn
-ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:67:9-69:36
+ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:54:9-56:36
 	android:value
-		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:69:13-33
+		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:56:13-33
 	android:name
-		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:68:13-57
+		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:55:13-57
 activity#com.htc.vr.unity.WVRUnityVRActivity
-ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:71:9-109:20
+ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:58:9-86:20
 	android:screenOrientation
-		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:80:13-50
+		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:67:13-50
 	android:label
-		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:77:13-45
+		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:64:13-45
 	android:enableVrMode
-		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:74:13-65
+		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:61:13-65
 	android:launchMode
-		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:78:13-44
+		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:65:13-44
 	android:hardwareAccelerated
-		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:76:13-48
+		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:63:13-48
 	android:exported
-		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:75:13-36
+		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:62:13-36
 	android:resizeableActivity
-		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:79:13-47
+		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:66:13-47
 	android:configChanges
-		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:73:13-194
+		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:60:13-194
 	android:name
-		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:72:13-63
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER+category:name:com.htc.intent.category.VRAPP+category:name:org.khronos.openxr.intent.category.IMMERSIVE_HMD+category:name:org.khronos.openxr.intent.category.IMMERSIVE_HMD+category:name:org.khronos.openxr.intent.category.IMMERSIVE_HMD+category:name:org.khronos.openxr.intent.category.IMMERSIVE_HMD+category:name:org.khronos.openxr.intent.category.IMMERSIVE_HMD+category:name:org.khronos.openxr.intent.category.IMMERSIVE_HMD+category:name:org.khronos.openxr.intent.category.IMMERSIVE_HMD+category:name:org.khronos.openxr.intent.category.IMMERSIVE_HMD+category:name:org.khronos.openxr.intent.category.IMMERSIVE_HMD+category:name:org.khronos.openxr.intent.category.IMMERSIVE_HMD+category:name:org.khronos.openxr.intent.category.IMMERSIVE_HMD
-ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:81:13-98:29
+		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:59:13-63
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER+category:name:com.htc.intent.category.VRAPP+category:name:org.khronos.openxr.intent.category.IMMERSIVE_HMD
+ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:68:13-75:29
 category#android.intent.category.LAUNCHER
-ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:82:17-77
+ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:69:17-77
 	android:name
-		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:82:27-74
+		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:69:27-74
 category#com.htc.intent.category.VRAPP
-ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:83:17-74
+ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:70:17-74
 	android:name
-		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:83:27-71
+		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:70:27-71
 action#android.intent.action.MAIN
-ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:85:17-69
+ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:72:17-69
 	android:name
-		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:85:25-66
+		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:72:25-66
 category#org.khronos.openxr.intent.category.IMMERSIVE_HMD
-ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:87:17-93
+ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:74:17-93
 	android:name
-		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:87:27-90
+		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:74:27-90
 meta-data#unityplayer.UnityActivity
-ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:100:13-102:40
+ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:77:13-79:40
 	android:value
-		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:102:17-37
+		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:79:17-37
 	android:name
-		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:101:17-57
+		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:78:17-57
 meta-data#unityplayer.SkipPermissionsDialog
-ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:103:13-105:40
+ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:80:13-82:40
 	android:value
-		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:105:17-37
+		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:82:17-37
 	android:name
-		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:104:17-65
+		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:81:17-65
 meta-data#notch_support
-ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:106:13-108:40
+ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:83:13-85:40
 	android:value
-		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:108:17-37
+		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:85:17-37
 	android:name
-		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:107:17-45
+		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:84:17-45
 meta-data#com.htc.ViveWaveAndroid.SdkVersion
-ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:111:9-113:41
+ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:88:9-90:41
 	android:value
-		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:113:13-38
+		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:90:13-38
 	android:name
-		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:112:13-62
+		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:89:13-62
 meta-data#com.htc.vr.content.UnityVersion
-ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:114:9-116:42
+ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:91:9-93:42
 	android:value
-		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:116:13-39
+		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:93:13-39
 	android:name
-		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:115:13-59
+		ADDED from [:unityLibrary] E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:92:13-59
 uses-permission#vive.wave.vr.oem.data.OEMDataRead
 ADDED from [:wvr_unity_plugin_2022:] C:\Users\ssong56\.gradle\caches\transforms-3\53be29dfa9276004ab20406d94da89e8\transformed\wvr_unity_plugin_2022\AndroidManifest.xml:9:5-73
 	android:name
