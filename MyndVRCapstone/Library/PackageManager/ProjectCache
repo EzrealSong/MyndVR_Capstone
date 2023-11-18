@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638348261111218052
+      ticks: 638358615072068144
     m_Hash: 317355526
   m_LockFileStatus:
     m_FilePath: E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638348261111983620
+      ticks: 638358615073153289
     m_Hash: 3322821831
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -3772,12 +3772,14 @@ m_ResolvedPackages:
     - 1.6.3
     - 1.7.0
     - 1.8.0-pre.1
+    - 1.8.0-pre.2
     compatible:
     - 1.5.1
     - 1.6.1
     - 1.6.3
     - 1.7.0
     - 1.8.0-pre.1
+    - 1.8.0-pre.2
     recommended: 1.5.1
     deprecated: []
   dependencies:
@@ -4147,12 +4149,14 @@ m_ResolvedPackages:
     - 1.8.7
     - 1.8.8
     - 1.8.9
+    - 1.8.10
     compatible:
     - 1.8.4
     - 1.8.7
     - 1.8.8
     - 1.8.9
-    recommended: 1.8.9
+    - 1.8.10
+    recommended: 1.8.10
     deprecated: []
   dependencies:
   - name: com.unity.mathematics

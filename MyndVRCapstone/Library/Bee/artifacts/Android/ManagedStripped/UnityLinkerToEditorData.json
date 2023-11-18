@@ -1142,6 +1142,7 @@
           {
             "name": "Font",
             "scenes": [
+              "Assets/Scenes/Easy.unity",
               "Assets/Scenes/Game Menu.unity",
               "Assets/Scenes/Login.unity",
               "Assets/Scenes/Register.unity"
