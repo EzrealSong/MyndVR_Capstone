@@ -2,8 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.DefaultCompany.MyndVRCapstone"
     android:installLocation="preferExternal"
-    android:versionCode="3"
-    android:versionName=".4" >
+    android:versionCode="1"
+    android:versionName="0.1" >
 
     <uses-sdk
         android:minSdkVersion="25"
@@ -31,134 +31,28 @@
 
     <uses-permission android:name="org.khronos.openxr.permission.OPENXR" />
     <uses-permission android:name="org.khronos.openxr.permission.OPENXR_SYSTEM" />
-
-    <uses-feature
-        android:name="wave.feature.handtracking"
-        android:required="true" />
-    <uses-feature
-        android:name="wave.feature.tracker"
-        android:required="true" />
-
     <uses-permission android:name="org.khronos.openxr.permission.OPENXR" />
     <uses-permission android:name="org.khronos.openxr.permission.OPENXR_SYSTEM" />
-
-    <uses-feature
-        android:name="wave.feature.handtracking"
-        android:required="true" />
-    <uses-feature
-        android:name="wave.feature.tracker"
-        android:required="true" />
-
     <uses-permission android:name="org.khronos.openxr.permission.OPENXR" />
     <uses-permission android:name="org.khronos.openxr.permission.OPENXR_SYSTEM" />
-
-    <uses-feature
-        android:name="wave.feature.handtracking"
-        android:required="true" />
-    <uses-feature
-        android:name="wave.feature.tracker"
-        android:required="true" />
-
     <uses-permission android:name="org.khronos.openxr.permission.OPENXR" />
     <uses-permission android:name="org.khronos.openxr.permission.OPENXR_SYSTEM" />
-
-    <uses-feature
-        android:name="wave.feature.handtracking"
-        android:required="true" />
-    <uses-feature
-        android:name="wave.feature.tracker"
-        android:required="true" />
-
     <uses-permission android:name="org.khronos.openxr.permission.OPENXR" />
     <uses-permission android:name="org.khronos.openxr.permission.OPENXR_SYSTEM" />
-
-    <uses-feature
-        android:name="wave.feature.handtracking"
-        android:required="true" />
-    <uses-feature
-        android:name="wave.feature.tracker"
-        android:required="true" />
-
     <uses-permission android:name="org.khronos.openxr.permission.OPENXR" />
     <uses-permission android:name="org.khronos.openxr.permission.OPENXR_SYSTEM" />
-
-    <uses-feature
-        android:name="wave.feature.handtracking"
-        android:required="true" />
-    <uses-feature
-        android:name="wave.feature.tracker"
-        android:required="true" />
-
     <uses-permission android:name="org.khronos.openxr.permission.OPENXR" />
     <uses-permission android:name="org.khronos.openxr.permission.OPENXR_SYSTEM" />
-
-    <uses-feature
-        android:name="wave.feature.handtracking"
-        android:required="true" />
-    <uses-feature
-        android:name="wave.feature.tracker"
-        android:required="true" />
-
     <uses-permission android:name="org.khronos.openxr.permission.OPENXR" />
     <uses-permission android:name="org.khronos.openxr.permission.OPENXR_SYSTEM" />
-
-    <uses-feature
-        android:name="wave.feature.handtracking"
-        android:required="true" />
-    <uses-feature
-        android:name="wave.feature.tracker"
-        android:required="true" />
-
     <uses-permission android:name="org.khronos.openxr.permission.OPENXR" />
     <uses-permission android:name="org.khronos.openxr.permission.OPENXR_SYSTEM" />
-
-    <uses-feature
-        android:name="wave.feature.handtracking"
-        android:required="true" />
-    <uses-feature
-        android:name="wave.feature.tracker"
-        android:required="true" />
-
     <uses-permission android:name="org.khronos.openxr.permission.OPENXR" />
     <uses-permission android:name="org.khronos.openxr.permission.OPENXR_SYSTEM" />
-
-    <uses-feature
-        android:name="wave.feature.handtracking"
-        android:required="true" />
-    <uses-feature
-        android:name="wave.feature.tracker"
-        android:required="true" />
-
     <uses-permission android:name="org.khronos.openxr.permission.OPENXR" />
     <uses-permission android:name="org.khronos.openxr.permission.OPENXR_SYSTEM" />
-
-    <uses-feature
-        android:name="wave.feature.handtracking"
-        android:required="true" />
-    <uses-feature
-        android:name="wave.feature.tracker"
-        android:required="true" />
-
     <uses-permission android:name="org.khronos.openxr.permission.OPENXR" />
     <uses-permission android:name="org.khronos.openxr.permission.OPENXR_SYSTEM" />
-
-    <uses-feature
-        android:name="wave.feature.handtracking"
-        android:required="true" />
-    <uses-feature
-        android:name="wave.feature.tracker"
-        android:required="true" />
-
-    <uses-permission android:name="org.khronos.openxr.permission.OPENXR" />
-    <uses-permission android:name="org.khronos.openxr.permission.OPENXR_SYSTEM" />
-
-    <uses-feature
-        android:name="wave.feature.handtracking"
-        android:required="true" />
-    <uses-feature
-        android:name="wave.feature.tracker"
-        android:required="true" />
-
     <uses-permission android:name="vive.wave.vr.oem.data.OEMDataRead" />
     <uses-permission android:name="vive.wave.vr.oem.data.OEMDataWrite" />
 
@@ -215,7 +109,6 @@
                 <category android:name="org.khronos.openxr.intent.category.IMMERSIVE_HMD" />
                 <category android:name="org.khronos.openxr.intent.category.IMMERSIVE_HMD" />
                 <category android:name="org.khronos.openxr.intent.category.IMMERSIVE_HMD" />
-                <category android:name="org.khronos.openxr.intent.category.IMMERSIVE_HMD" />
             </intent-filter>
 
             <meta-data
@@ -229,12 +122,6 @@
                 android:value="true" />
         </activity>
 
-        <meta-data
-            android:name="com.htc.ViveWaveAndroid.SdkVersion"
-            android:value="5.3.1-r.2" />
-        <meta-data
-            android:name="com.htc.vr.content.UnityVersion"
-            android:value="2022.3.0f1" />
         <meta-data
             android:name="com.htc.ViveWaveAndroid.SdkVersion"
             android:value="5.3.1-r.2" />

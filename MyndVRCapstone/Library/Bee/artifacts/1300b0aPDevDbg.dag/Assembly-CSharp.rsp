@@ -326,10 +326,7 @@
 -r:"Library/Bee/artifacts/1300b0aPDevDbg.dag/Unity.VisualScripting.Flow.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aPDevDbg.dag/Unity.VisualScripting.State.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aPDevDbg.dag/Unity.XR.CoreUtils.ref.dll"
--r:"Library/Bee/artifacts/1300b0aPDevDbg.dag/Unity.XR.Hands.ref.dll"
--r:"Library/Bee/artifacts/1300b0aPDevDbg.dag/Unity.XR.Hands.Samples.VisualizerSample.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aPDevDbg.dag/Unity.XR.Interaction.Toolkit.ref.dll"
--r:"Library/Bee/artifacts/1300b0aPDevDbg.dag/Unity.XR.Interaction.Toolkit.Samples.Hands.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aPDevDbg.dag/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aPDevDbg.dag/Unity.XR.Management.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aPDevDbg.dag/Unity.XR.OpenXR.Features.ConformanceAutomation.ref.dll"
@@ -345,9 +342,12 @@
 -analyzer:"F:/2022.3.0f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Bowling_Level_Assets/Scripts/BowlingBall.cs"
 "Assets/CustomUI/BowlingScoreManager.cs"
+"Assets/FarlandSkies/Demo/Scripts/Player/FPSWalkerEnhanced.cs"
+"Assets/FarlandSkies/Demo/Scripts/Player/SmoothMouseLook.cs"
+"Assets/FarlandSkies/Demo/Scripts/Skybox/SkyboxChanger.cs"
+"Assets/FarlandSkies/Demo/Scripts/Skybox/SkyboxRotator.cs"
 "Assets/GameMenuScripts/GameMenuManager.cs"
 "Assets/GameMenuScripts/GameSetting.cs"
-"Assets/GameScripts/GameControler.cs"
 "Assets/Script_file/Login.cs"
 "Assets/Script_file/Register.cs"
 "Assets/Sounds/OnClickSFX.cs"
@@ -385,7 +385,6 @@
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs"
-"Assets/VIVEController/RigitBodyVelocityController.cs"
 -langversion:9.0
 
 /deterministic

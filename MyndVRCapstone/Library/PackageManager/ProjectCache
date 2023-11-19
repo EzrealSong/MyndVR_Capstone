@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638358615072068144
-    m_Hash: 317355526
+      ticks: 638359475777188048
+    m_Hash: 470964709
   m_LockFileStatus:
     m_FilePath: E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638358615073153289
-    m_Hash: 3322821831
+      ticks: 638359475777231312
+    m_Hash: 2598352258
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -1194,110 +1194,6 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.8.0
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-- packageId: com.unity.xr.hands@1.1.0
-  testable: 0
-  isDirectDependency: 1
-  version: 1.1.0
-  source: 1
-  resolvedPath: E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone\Library\PackageCache\com.unity.xr.hands@1.1.0
-  assetPath: Packages/com.unity.xr.hands
-  name: com.unity.xr.hands
-  displayName: XR Hands
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: asset
-  description: Surfaces the cross-platform subsystem API for hand-tracking. Implementations
-    of providers will be found in the package for that platform.
-  status: 0
-  errors: []
-  versions:
-    all:
-    - 1.0.0-pre.2
-    - 1.1.0-pre.2
-    - 1.1.0-pre.3
-    - 1.1.0
-    - 1.2.0
-    - 1.2.1
-    - 1.3.0
-    compatible:
-    - 1.1.0
-    - 1.2.0
-    - 1.2.1
-    - 1.3.0
-    recommended: 1.1.0
-    deprecated: []
-  dependencies:
-  - name: com.unity.inputsystem
-    version: 1.4.3
-  - name: com.unity.modules.xr
-    version: 1.0.0
-  - name: com.unity.xr.core-utils
-    version: 2.0.0
-  - name: com.unity.xr.management
-    version: 4.0.1
-  resolvedDependencies:
-  - name: com.unity.inputsystem
-    version: 1.5.1
-  - name: com.unity.modules.uielements
-    version: 1.0.0
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.modules.xr
-    version: 1.0.0
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.modules.subsystems
-    version: 1.0.0
-  - name: com.unity.xr.core-utils
-    version: 2.2.1
-  - name: com.unity.xr.management
-    version: 4.4.0
-  - name: com.unity.modules.vr
-    version: 1.0.0
-  - name: com.unity.xr.legacyinputhelpers
-    version: 2.1.10
-  keywords:
-  - xr
-  - vr
-  - virtual
-  - reality
-  - hand
-  - tracking
-  - hands
-  - subsystem
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 0
-  isAssetStorePackage: 0
-  datePublishedTicks: 638150163390000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.xr.hands@1.1/manual/index.html
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.xr.hands.git
-    revision: 4cabf8b9828ca84256a180af37950cd5c5a0e5dd
-    path: 
-  unityLifecycle:
-    version: 1.1.0
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -5006,6 +4902,7 @@ m_ResolvedPackages:
     - 1.3.7
     - 1.3.8
     - 1.3.9
+    - 1.4.0
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
@@ -5021,6 +4918,7 @@ m_ResolvedPackages:
     - 1.3.7
     - 1.3.8
     - 1.3.9
+    - 1.4.0
     - 2.0.1-exp.1
     - 2.0.1-exp.2
     - 2.0.1-pre.12
