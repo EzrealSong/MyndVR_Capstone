@@ -405,6 +405,7 @@
 "Assets/CustomUI/BowlingScoreManager.cs"
 "Assets/GameMenuScripts/GameMenuManager.cs"
 "Assets/GameMenuScripts/GameSetting.cs"
+"Assets/Script_file/GameData.cs"
 "Assets/Script_file/Login.cs"
 "Assets/Script_file/Register.cs"
 "Assets/Sounds/OnClickSFX.cs"
