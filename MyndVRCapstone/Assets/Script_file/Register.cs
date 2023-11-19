@@ -1,4 +1,4 @@
-using System;
+Ôªøusing System;
 using System.Collections;
 using System.IO;
 using UnityEngine;
@@ -6,6 +6,7 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using System.Collections.Generic;
 using UnityEditor;
+using TMPro;
 
 [System.Serializable]
 public class UserCredentials
@@ -16,6 +17,9 @@ public class UserCredentials
     public string height;
     public string gender;
     public bool toggleState;
+
+    
+
 }
 
 public class Register : MonoBehaviour
@@ -28,7 +32,9 @@ public class Register : MonoBehaviour
     public Toggle toggleInput;
     public Button registerButton;
     public Button goToLoginButton;
-    public Text errorMessageText;
+    bool anyInputEmpty = true;
+    public TMP_Text errorText;
+    public InputField[] inputFields;
 
     // The list to store all user credentials
     List<UserCredentials> allCredentials;
@@ -36,6 +42,17 @@ public class Register : MonoBehaviour
 
     void Start()
     {
+        //if (inputFields == null || inputFields.Length == 0 || errorText == null)
+        //{
+        //    Debug.LogError("Please assign Input Fields and Error Text in the Inspector.");
+        //    return;
+        //}
+
+        //// Ê≥®ÂÜåËæìÂÖ•Â≠óÊÆµÁöÑÁõëÂê¨Âô®
+        //foreach (var inputField in inputFields)
+        //{
+        //    inputField.onValueChanged.AddListener(delegate { OnInputChange(); });
+        //}
 
         registerButton.onClick.AddListener(WriteStuffToFile);
         goToLoginButton.onClick.AddListener(GoToLoginScene);
@@ -65,19 +82,48 @@ public class Register : MonoBehaviour
     void GoToLoginScene()
     {
         SceneManager.LoadScene("Login");
-    }
-    void ShowErrorDialog(string errorMessage)
-    {
-        // ¥£•‹µ¯µ°™∫º–√D°B§∫Æe©MΩT©w´ˆ∂s™∫º–≈“
-        string title = "Error";
-        string okButton = "Ok";
 
-        // ≈„•‹¥£•‹µ¯µ°
-        EditorUtility.DisplayDialog(title, errorMessage, okButton);
     }
+
+    //private void OnInputChange()
+    //{
+    //    // Ê£ÄÊü•ÊØè‰∏™ËæìÂÖ•Â≠óÊÆµÊòØÂê¶‰∏∫Á©∫
+        
+    //    foreach (var inputField in inputFields)
+    //    {
+    //        if (string.IsNullOrEmpty(inputField.text))
+    //        {
+    //            anyInputEmpty = true;
+    //            break;
+    //        }
+    //        else
+    //        {
+    //            anyInputEmpty = false;
+    //        }
+    //    }
+
+    //    // Êõ¥Êñ∞ÈîôËØØÊñáÊú¨
+    //    if (anyInputEmpty)
+    //    {
+    //        errorText.text = "Empty Input detected, please fill all information.";
+    //    }
+    //    else
+    //    {
+    //        errorText.text = "";
+    //        WriteStuffToFile();
+    //    }
+    //}
+
+
+
     void WriteStuffToFile()
     {
         bool isExists = false;
+        //if(anyInputEmpty == true)
+        //{
+        //    OnInputChange();
+        //}
+
         credentials = new ArrayList(File.ReadAllLines("Assets/Script_file/credentials.txt"));
         foreach (var line in credentials)
         {
@@ -85,7 +131,7 @@ public class Register : MonoBehaviour
             if (parts.Length == 3 && parts[0] == usernameInput.text)  // Change to nameInput.text
             {
                 isExists = true;
-                ShowErrorDialog($"Username '{usernameInput.text}' already exists in credentials.txt");
+                errorText.text = "User already exists in credentials.txt";
                 return;
             }
         }
@@ -93,14 +139,14 @@ public class Register : MonoBehaviour
         if (string.IsNullOrEmpty(nameInput.text))
         {
             // Display an error message for empty name
-            ShowErrorDialog("Information cannot be empty");
+            errorText.text = "Information cannot be empty";
             return;
         }
 
         if (isExists)
         {
-            Debug.Log($"Username '{usernameInput.text}' already exists");
-            ClearErrorMessage();
+            errorText.text = "User already exists";
+           
             return;
         }
         else
@@ -112,7 +158,7 @@ public class Register : MonoBehaviour
 
             credentials.Add($"{usernameInput.text}:{passwordInput.text}:{name}:{height}:{gender}:{toggleState}");
             File.WriteAllLines("Assets/Script_file/credentials.txt", (string[])credentials.ToArray(typeof(string)));
-            Debug.Log("Data Registered");
+            errorText.text = "Data Registered";
             SceneManager.LoadScene("Login");
         }
 
@@ -121,7 +167,7 @@ public class Register : MonoBehaviour
             if (cred.username == usernameInput.text)
             {
                 isExists = true;
-                Debug.Log($"Username '{usernameInput.text}' already exists. Removing existing data.");
+                errorText.text = "Data already exists. Removing existing data.";
                 // Optionally, you can update the existing user data here if needed.
                 break;
             }
@@ -158,15 +204,9 @@ public class Register : MonoBehaviour
         else
         {
             // Optionally, handle the case when the username already exists.
-            ShowErrorDialog($"Username '{usernameInput.text}' already exists. Data not registered.");
+            //ShowErrorDialog($"Username '{usernameInput.text}' already exists. Data not registered.");
             Debug.Log($"Username '{usernameInput.text}' already exists. Data not registered.");
         }
     }
     
-
-    // Method to clear error messages on the UI
-    void ClearErrorMessage()
-    {
-        errorMessageText.text = "";
-    }
 }

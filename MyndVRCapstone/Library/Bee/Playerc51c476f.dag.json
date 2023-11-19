@@ -1203,7 +1203,8 @@
         1195,
         1196,
         1197,
-        1198
+        1198,
+        1199
       ],
       "OverwriteOutputs": false,
       "DebugActionIndex": 0
@@ -1245,26 +1246,26 @@
       "DebugActionIndex": 3
     },
     {
-      "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/sharedassets0.resource",
-      "DisplayName": "Copying sharedassets0.resource",
+      "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/sharedassets2.resource",
+      "DisplayName": "Copying sharedassets2.resource",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "Library/PlayerDataCache/Android/Data/sharedassets0.resource"
+        "Library/PlayerDataCache/Android/Data/sharedassets2.resource"
       ],
       "Outputs": [
-        "E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/sharedassets0.resource"
+        "E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/sharedassets2.resource"
       ],
       "DebugActionIndex": 4
     },
     {
-      "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/sharedassets1.resource",
-      "DisplayName": "Copying sharedassets1.resource",
+      "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/sharedassets3.resource",
+      "DisplayName": "Copying sharedassets3.resource",
       "ActionType": "CopyFiles",
       "Inputs": [
-        "Library/PlayerDataCache/Android/Data/sharedassets1.resource"
+        "Library/PlayerDataCache/Android/Data/sharedassets3.resource"
       ],
       "Outputs": [
-        "E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/sharedassets1.resource"
+        "E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/sharedassets3.resource"
       ],
       "DebugActionIndex": 5
     },
@@ -1291,8 +1292,8 @@
         "Library/PlayerDataCache/Android/Data/data.unity3d",
         "Library/PlayerDataCache/Android/Data/RuntimeInitializeOnLoads.json",
         "Library/PlayerDataCache/Android/Data/ScriptingAssemblies.json",
-        "Library/PlayerDataCache/Android/Data/sharedassets0.resource",
-        "Library/PlayerDataCache/Android/Data/sharedassets1.resource",
+        "Library/PlayerDataCache/Android/Data/sharedassets2.resource",
+        "Library/PlayerDataCache/Android/Data/sharedassets3.resource",
         "F:/2022.3.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.AIModule.dll",
         "F:/2022.3.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.ARModule.dll",
         "F:/2022.3.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Managed/UnityEngine.AccessibilityModule.dll",
@@ -27418,17 +27419,30 @@
       "DebugActionIndex": 1194
     },
     {
+      "Annotation": "WriteText E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/pram-shadow-files",
+      "DisplayName": "Writing pram-shadow-files",
+      "ActionType": "WriteFile",
+      "PayloadOffset": 282982,
+      "PayloadLength": 209,
+      "PayloadDebugContentSnippet": "unityLibrary/src/main/assets/b",
+      "Inputs": [],
+      "Outputs": [
+        "E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/pram-shadow-files"
+      ],
+      "DebugActionIndex": 1195
+    },
+    {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/unity_app_guid_478x.info",
       "DisplayName": "Writing unity_app_guid_478x.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 282931,
+      "PayloadOffset": 283283,
       "PayloadLength": 1349,
       "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/unity_app_guid_478x.info"
       ],
-      "DebugActionIndex": 1195
+      "DebugActionIndex": 1196
     },
     {
       "Annotation": "GuidGenerator E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid",
@@ -27438,8 +27452,8 @@
         "Library/PlayerDataCache/Android/Data/data.unity3d",
         "Library/PlayerDataCache/Android/Data/RuntimeInitializeOnLoads.json",
         "Library/PlayerDataCache/Android/Data/ScriptingAssemblies.json",
-        "Library/PlayerDataCache/Android/Data/sharedassets0.resource",
-        "Library/PlayerDataCache/Android/Data/sharedassets1.resource",
+        "Library/PlayerDataCache/Android/Data/sharedassets2.resource",
+        "Library/PlayerDataCache/Android/Data/sharedassets3.resource",
         "Library/Bee/artifacts/Android/boot.config",
         "Temp/StagingArea/Data/UnitySubsystems/UnityOpenXR/UnitySubsystemsManifest.json",
         "Temp/StagingArea/Data/UnitySubsystems/wvrunityxr/UnitySubsystemsManifest.json",
@@ -27462,25 +27476,25 @@
       "ToBuildDependencies": [
         7,
         144,
-        1195
+        1196
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1196
+      "DebugActionIndex": 1197
     },
     {
       "Annotation": "WriteText E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/resources/META-INF/com.android.games.engine.build_fingerprint",
       "DisplayName": "Writing com.android.games.engine.build_fingerprint",
       "ActionType": "WriteFile",
-      "PayloadOffset": 284489,
+      "PayloadOffset": 284841,
       "PayloadLength": 71,
       "PayloadDebugContentSnippet": "2022.3.0f1;IL2CPP;Development;",
       "Inputs": [],
       "Outputs": [
         "E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/resources/META-INF/com.android.games.engine.build_fingerprint"
       ],
-      "DebugActionIndex": 1197
+      "DebugActionIndex": 1198
     },
     {
       "Annotation": "Player",
@@ -28056,11 +28070,12 @@
         1192,
         1193,
         1194,
-        1196,
-        1197
+        1195,
+        1197,
+        1198
       ],
       "OverwriteOutputs": false,
-      "DebugActionIndex": 1198
+      "DebugActionIndex": 1199
     }
   ],
   "FileSignatures": [
@@ -28634,7 +28649,7 @@
         "NamedNodes": {
           "all_tundra_nodes": 0,
           "SourceBuildPlayerFiles": 1178,
-          "Player": 1198
+          "Player": 1199
         }
 ,  "DefaultNodes": [
     0

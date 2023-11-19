@@ -4,6 +4,7 @@ using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class Login : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class Login : MonoBehaviour
     public InputField passwordInput;
     public Button loginButton;
     public Button goToRegisterButton;
+    public TMP_Text errorText;
 
     ArrayList credentials;
 
@@ -26,7 +28,7 @@ public class Login : MonoBehaviour
         }
         else
         {
-            Debug.Log("Credential file doesn't exist");
+            errorText.text = "Credential file doesn't exist";
         }
     }
 
@@ -49,7 +51,7 @@ public class Login : MonoBehaviour
 
         if (!isExists)
         {
-            Debug.Log("Incorrect credentials");
+            errorText.text = "Incorrect credentials";
         }
     }
 
@@ -59,13 +61,13 @@ public class Login : MonoBehaviour
         {
             // for admin page
             Debug.Log("Loading scene based on toggle: Scene A");
-            SceneManager.LoadScene("Drill"); // Change to the correct scene name for the admin page
+            SceneManager.LoadScene("Game Menu"); // Change to the correct scene name for the admin page
         }
         else
         {
             // for user page
             Debug.Log("Loading scene based on toggle: Scene B");
-            SceneManager.LoadScene("Drill"); // Change to the correct scene name for the user page
+            SceneManager.LoadScene("Game Menu"); // Change to the correct scene name for the user page
         }
     }
 

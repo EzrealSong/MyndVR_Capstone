@@ -1026,10 +1026,6 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_Application_get_runInBackground();
 		Register_UnityEngine_Application_get_runInBackground();
 
-		//System.String UnityEngine.Application::get_dataPath()
-		void Register_UnityEngine_Application_get_dataPath();
-		Register_UnityEngine_Application_get_dataPath();
-
 		//System.String UnityEngine.Application::get_productName()
 		void Register_UnityEngine_Application_get_productName();
 		Register_UnityEngine_Application_get_productName();
@@ -1694,9 +1690,21 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_CharacterController_get_isGrounded();
 		Register_UnityEngine_CharacterController_get_isGrounded();
 
+		//System.Single UnityEngine.CharacterController::get_height()
+		void Register_UnityEngine_CharacterController_get_height();
+		Register_UnityEngine_CharacterController_get_height();
+
+		//System.Single UnityEngine.CharacterController::get_radius()
+		void Register_UnityEngine_CharacterController_get_radius();
+		Register_UnityEngine_CharacterController_get_radius();
+
 		//System.Single UnityEngine.CharacterController::get_skinWidth()
 		void Register_UnityEngine_CharacterController_get_skinWidth();
 		Register_UnityEngine_CharacterController_get_skinWidth();
+
+		//System.Single UnityEngine.CharacterController::get_slopeLimit()
+		void Register_UnityEngine_CharacterController_get_slopeLimit();
+		Register_UnityEngine_CharacterController_get_slopeLimit();
 
 		//System.Void UnityEngine.CharacterController::set_center_Injected(UnityEngine.Vector3&)
 		void Register_UnityEngine_CharacterController_set_center_Injected();
@@ -2305,6 +2313,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Int32 UnityEngine.GameObject::get_layer()
 		void Register_UnityEngine_GameObject_get_layer();
 		Register_UnityEngine_GameObject_get_layer();
+
+		//System.String UnityEngine.GameObject::get_tag()
+		void Register_UnityEngine_GameObject_get_tag();
+		Register_UnityEngine_GameObject_get_tag();
 
 		//System.UInt64 UnityEngine.GameObject::get_sceneCullingMask()
 		void Register_UnityEngine_GameObject_get_sceneCullingMask();
@@ -4946,6 +4958,10 @@ void RegisterAllStrippedInternalCalls()
 		void Register_UnityEngine_RenderSettings_get_subtractiveShadowColor_Injected();
 		Register_UnityEngine_RenderSettings_get_subtractiveShadowColor_Injected();
 
+		//System.Void UnityEngine.RenderSettings::set_skybox(UnityEngine.Material)
+		void Register_UnityEngine_RenderSettings_set_skybox();
+		Register_UnityEngine_RenderSettings_set_skybox();
+
 		//UnityEngine.Light UnityEngine.RenderSettings::get_sun()
 		void Register_UnityEngine_RenderSettings_get_sun();
 		Register_UnityEngine_RenderSettings_get_sun();
@@ -5193,6 +5209,10 @@ void RegisterAllStrippedInternalCalls()
 		//System.Void UnityEngine.Rigidbody::set_drag(System.Single)
 		void Register_UnityEngine_Rigidbody_set_drag();
 		Register_UnityEngine_Rigidbody_set_drag();
+
+		//System.Void UnityEngine.Rigidbody::set_freezeRotation(System.Boolean)
+		void Register_UnityEngine_Rigidbody_set_freezeRotation();
+		Register_UnityEngine_Rigidbody_set_freezeRotation();
 
 		//System.Void UnityEngine.Rigidbody::set_isKinematic(System.Boolean)
 		void Register_UnityEngine_Rigidbody_set_isKinematic();
@@ -6497,6 +6517,10 @@ void RegisterAllStrippedInternalCalls()
 	//End Registrations for type : UnityEngine.UnityLogWriter
 
 	//Start Registrations for type : UnityEngine.Vector3
+
+		//System.Void UnityEngine.Vector3::OrthoNormalize2(UnityEngine.Vector3&,UnityEngine.Vector3&)
+		void Register_UnityEngine_Vector3_OrthoNormalize2();
+		Register_UnityEngine_Vector3_OrthoNormalize2();
 
 		//System.Void UnityEngine.Vector3::Slerp_Injected(UnityEngine.Vector3&,UnityEngine.Vector3&,System.Single,UnityEngine.Vector3&)
 		void Register_UnityEngine_Vector3_Slerp_Injected();

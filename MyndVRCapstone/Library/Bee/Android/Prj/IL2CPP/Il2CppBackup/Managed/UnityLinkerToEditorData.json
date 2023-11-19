@@ -277,7 +277,9 @@
             "scenes": [
               "Assets/Scenes/Drill.unity",
               "Assets/Scenes/Easy.unity",
-              "Assets/Scenes/Game Menu.unity"
+              "Assets/Scenes/Game Menu.unity",
+              "Assets/Scenes/Login.unity",
+              "Assets/Scenes/Register.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -305,7 +307,9 @@
             "scenes": [
               "Assets/Scenes/Drill.unity",
               "Assets/Scenes/Easy.unity",
-              "Assets/Scenes/Game Menu.unity"
+              "Assets/Scenes/Game Menu.unity",
+              "Assets/Scenes/Login.unity",
+              "Assets/Scenes/Register.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -315,7 +319,9 @@
             "scenes": [
               "Assets/Scenes/Drill.unity",
               "Assets/Scenes/Easy.unity",
-              "Assets/Scenes/Game Menu.unity"
+              "Assets/Scenes/Game Menu.unity",
+              "Assets/Scenes/Login.unity",
+              "Assets/Scenes/Register.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -325,7 +331,9 @@
             "scenes": [
               "Assets/Scenes/Drill.unity",
               "Assets/Scenes/Easy.unity",
-              "Assets/Scenes/Game Menu.unity"
+              "Assets/Scenes/Game Menu.unity",
+              "Assets/Scenes/Login.unity",
+              "Assets/Scenes/Register.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -488,7 +496,9 @@
             "scenes": [
               "Assets/Scenes/Drill.unity",
               "Assets/Scenes/Easy.unity",
-              "Assets/Scenes/Game Menu.unity"
+              "Assets/Scenes/Game Menu.unity",
+              "Assets/Scenes/Login.unity",
+              "Assets/Scenes/Register.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -813,7 +823,9 @@
             "scenes": [
               "Assets/Scenes/Drill.unity",
               "Assets/Scenes/Easy.unity",
-              "Assets/Scenes/Game Menu.unity"
+              "Assets/Scenes/Game Menu.unity",
+              "Assets/Scenes/Login.unity",
+              "Assets/Scenes/Register.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -829,7 +841,9 @@
             "scenes": [
               "Assets/Scenes/Drill.unity",
               "Assets/Scenes/Easy.unity",
-              "Assets/Scenes/Game Menu.unity"
+              "Assets/Scenes/Game Menu.unity",
+              "Assets/Scenes/Login.unity",
+              "Assets/Scenes/Register.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -845,7 +859,9 @@
             "scenes": [
               "Assets/Scenes/Drill.unity",
               "Assets/Scenes/Easy.unity",
-              "Assets/Scenes/Game Menu.unity"
+              "Assets/Scenes/Game Menu.unity",
+              "Assets/Scenes/Login.unity",
+              "Assets/Scenes/Register.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -870,7 +886,9 @@
             "scenes": [
               "Assets/Scenes/Drill.unity",
               "Assets/Scenes/Easy.unity",
-              "Assets/Scenes/Game Menu.unity"
+              "Assets/Scenes/Game Menu.unity",
+              "Assets/Scenes/Login.unity",
+              "Assets/Scenes/Register.unity"
             ],
             "dependencyType": 0,
             "icon": null
