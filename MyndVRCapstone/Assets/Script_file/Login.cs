@@ -19,6 +19,7 @@ public class Login : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        errorText.text = "";
         loginButton.onClick.AddListener(LoginUser);
         goToRegisterButton.onClick.AddListener(MoveToRegister);
 
@@ -26,13 +27,10 @@ public class Login : MonoBehaviour
         {
             credentials = new ArrayList(File.ReadAllLines("Assets/Script_file/credentials.txt"));
         }
-        else
-        {
-            errorText.text = "Credential file doesn't exist";
-        }
+        
     }
 
-    void LoginUser()
+    public void LoginUser()
     {
         bool isExists = false;
 
@@ -71,7 +69,7 @@ public class Login : MonoBehaviour
         }
     }
 
-    void MoveToRegister()
+    public void MoveToRegister()
     {
         SceneManager.LoadScene("Register");
     }

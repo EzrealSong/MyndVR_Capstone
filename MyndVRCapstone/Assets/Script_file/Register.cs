@@ -79,44 +79,14 @@ public class Register : MonoBehaviour
 
 
 
-    void GoToLoginScene()
+    public void GoToLoginScene()
     {
         SceneManager.LoadScene("Login");
 
     }
 
-    //private void OnInputChange()
-    //{
-    //    // 检查每个输入字段是否为空
-        
-    //    foreach (var inputField in inputFields)
-    //    {
-    //        if (string.IsNullOrEmpty(inputField.text))
-    //        {
-    //            anyInputEmpty = true;
-    //            break;
-    //        }
-    //        else
-    //        {
-    //            anyInputEmpty = false;
-    //        }
-    //    }
 
-    //    // 更新错误文本
-    //    if (anyInputEmpty)
-    //    {
-    //        errorText.text = "Empty Input detected, please fill all information.";
-    //    }
-    //    else
-    //    {
-    //        errorText.text = "";
-    //        WriteStuffToFile();
-    //    }
-    //}
-
-
-
-    void WriteStuffToFile()
+    public void WriteStuffToFile()
     {
         bool isExists = false;
         //if(anyInputEmpty == true)
