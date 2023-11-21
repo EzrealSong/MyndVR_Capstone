@@ -14,6 +14,8 @@ public class Login : MonoBehaviour
     public Button goToRegisterButton;
     public TMP_Text errorText;
 
+
+
     ArrayList credentials;
 
     // Start is called before the first frame update
@@ -22,13 +24,17 @@ public class Login : MonoBehaviour
         errorText.text = "";
         loginButton.onClick.AddListener(LoginUser);
         goToRegisterButton.onClick.AddListener(MoveToRegister);
+        
 
         if (File.Exists("Assets/Script_file/credentials.txt"))
         {
             credentials = new ArrayList(File.ReadAllLines("Assets/Script_file/credentials.txt"));
         }
-        
+
+        OpenKeyboard();
+
     }
+
 
     public void LoginUser()
     {
@@ -72,5 +78,15 @@ public class Login : MonoBehaviour
     public void MoveToRegister()
     {
         SceneManager.LoadScene("Register");
+    }
+
+    public void SkipBtn()
+    {
+        SceneManager.LoadScene("Game Menu");
+    }
+
+    public void OpenKeyboard()
+    {
+        TouchScreenKeyboard.Open("");
     }
 }

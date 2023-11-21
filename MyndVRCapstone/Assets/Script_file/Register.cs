@@ -17,8 +17,8 @@ public class UserCredentials
     public string height;
     public string gender;
     public bool toggleState;
+ 
 
-    
 
 }
 
@@ -42,17 +42,7 @@ public class Register : MonoBehaviour
 
     void Start()
     {
-        //if (inputFields == null || inputFields.Length == 0 || errorText == null)
-        //{
-        //    Debug.LogError("Please assign Input Fields and Error Text in the Inspector.");
-        //    return;
-        //}
-
-        //// 注册输入字段的监听器
-        //foreach (var inputField in inputFields)
-        //{
-        //    inputField.onValueChanged.AddListener(delegate { OnInputChange(); });
-        //}
+        
 
         registerButton.onClick.AddListener(WriteStuffToFile);
         goToLoginButton.onClick.AddListener(GoToLoginScene);
@@ -75,6 +65,8 @@ public class Register : MonoBehaviour
         {
             File.WriteAllText("Assets/Script_file/credentials.txt", "");
         }
+
+        OpenKeyboard();
     }
 
 
@@ -177,6 +169,13 @@ public class Register : MonoBehaviour
             //ShowErrorDialog($"Username '{usernameInput.text}' already exists. Data not registered.");
             Debug.Log($"Username '{usernameInput.text}' already exists. Data not registered.");
         }
+
+
     }
-    
+
+    public void OpenKeyboard()
+    {
+        TouchScreenKeyboard.Open("");
+    }
+
 }
