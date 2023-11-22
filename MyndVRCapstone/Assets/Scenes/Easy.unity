@@ -2556,7 +2556,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 124477775}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 7c628f82b0963eb43a79a7de4227b145, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -13269,9 +13269,15 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: eb6d60a80ae6f4d459f6afc756595e40, type: 3}
       insertIndex: -1
       addedObject: {fileID: 703154814}
+    - targetCorrespondingSourceObject: {fileID: 100012, guid: eb6d60a80ae6f4d459f6afc756595e40, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1170245216}
     - targetCorrespondingSourceObject: {fileID: 100002, guid: eb6d60a80ae6f4d459f6afc756595e40, type: 3}
       insertIndex: -1
       addedObject: {fileID: 703154812}
+    - targetCorrespondingSourceObject: {fileID: 100002, guid: eb6d60a80ae6f4d459f6afc756595e40, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 703154815}
     - targetCorrespondingSourceObject: {fileID: 100006, guid: eb6d60a80ae6f4d459f6afc756595e40, type: 3}
       insertIndex: -1
       addedObject: {fileID: 703154811}
@@ -13390,6 +13396,27 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300002, guid: eb6d60a80ae6f4d459f6afc756595e40, type: 3}
+--- !u!65 &703154815
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 703154809}
+  m_Material: {fileID: 13400000, guid: 7c628f82b0963eb43a79a7de4227b145, type: 2}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 38.499996, y: 0.068372324, z: 22.970001}
+  m_Center: {x: 0, y: -0.036813848, z: -11.485001}
 --- !u!1 &711091875 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1158043677934162, guid: 65131a491e6f84745b442f5d300b7805, type: 3}
@@ -17441,7 +17468,7 @@ MonoBehaviour:
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 1
-  m_MovementType: 2
+  m_MovementType: 0
   m_VelocityDamping: 1
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1
@@ -17455,32 +17482,41 @@ MonoBehaviour:
   m_SmoothRotationAmount: 5
   m_TightenRotation: 0.5
   m_ThrowOnDetach: 1
-  m_ThrowSmoothingDuration: 3
+  m_ThrowSmoothingDuration: 10
   m_ThrowSmoothingCurve:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
+      time: 0.025001526
+      value: 1.019577
+      inSlope: -0.011614668
+      outSlope: -0.011614668
       tangentMode: 34
       weightedMode: 0
       inWeight: 0
-      outWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.49167073
+      value: 1.0141568
+      inSlope: -0.019732185
+      outSlope: -0.019732185
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
     - serializedVersion: 3
       time: 1
       value: 1
-      inSlope: 0
-      outSlope: 0
+      inSlope: -0.027849702
+      outSlope: -0.027849702
       tangentMode: 34
       weightedMode: 0
-      inWeight: 0
+      inWeight: 0.33333334
       outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  m_ThrowVelocityScale: 2
+  m_ThrowVelocityScale: 5
   m_ThrowAngularVelocityScale: 1
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
@@ -17497,7 +17533,7 @@ Rigidbody:
   m_GameObject: {fileID: 921684204}
   serializedVersion: 4
   m_Mass: 5
-  m_Drag: 0
+  m_Drag: 0.01
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -18513,7 +18549,7 @@ MonoBehaviour:
   m_SnapToColliderVolume: 1
   m_ReinitializeDynamicAttachEverySingleGrab: 1
   m_AttachEaseInTime: 1
-  m_MovementType: 2
+  m_MovementType: 0
   m_VelocityDamping: 1
   m_VelocityScale: 1
   m_AngularVelocityDamping: 1
@@ -18527,33 +18563,33 @@ MonoBehaviour:
   m_SmoothRotationAmount: 5
   m_TightenRotation: 0.5
   m_ThrowOnDetach: 1
-  m_ThrowSmoothingDuration: 3
+  m_ThrowSmoothingDuration: 15
   m_ThrowSmoothingCurve:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
+      time: -0.0041656494
+      value: 1.0172119
+      inSlope: -0.017140513
+      outSlope: -0.017140513
       tangentMode: 34
       weightedMode: 0
       inWeight: 0
-      outWeight: 0
+      outWeight: 0.33333334
     - serializedVersion: 3
       time: 1
       value: 1
-      inSlope: 0
-      outSlope: 0
+      inSlope: -0.017140513
+      outSlope: -0.017140513
       tangentMode: 34
       weightedMode: 0
-      inWeight: 0
+      inWeight: 0.33333334
       outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  m_ThrowVelocityScale: 2
-  m_ThrowAngularVelocityScale: 1
+  m_ThrowVelocityScale: 3
+  m_ThrowAngularVelocityScale: 2
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
   m_AttachPointCompatibilityMode: 0
@@ -18568,8 +18604,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 953905542}
   serializedVersion: 4
-  m_Mass: 5
-  m_Drag: 0
+  m_Mass: 3
+  m_Drag: 0.01
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -20676,19 +20712,19 @@ MonoBehaviour:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 1
+      value: 0.99539185
       inSlope: 0
       outSlope: 0
-      tangentMode: 34
+      tangentMode: 0
       weightedMode: 0
       inWeight: 0
       outWeight: 0
     - serializedVersion: 3
-      time: 1
-      value: 1
+      time: 1.734909
+      value: 0.0046157837
       inSlope: 0
       outSlope: 0
-      tangentMode: 34
+      tangentMode: 0
       weightedMode: 0
       inWeight: 0
       outWeight: 0
@@ -20711,7 +20747,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1085571370}
   serializedVersion: 4
-  m_Mass: 7
+  m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -22061,19 +22097,19 @@ MonoBehaviour:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 1
+      value: 0
       inSlope: 0
       outSlope: 0
-      tangentMode: 34
+      tangentMode: 0
       weightedMode: 0
       inWeight: 0
       outWeight: 0
     - serializedVersion: 3
       time: 1
       value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 34
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
       weightedMode: 0
       inWeight: 0
       outWeight: 0
@@ -22096,7 +22132,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1156959828}
   serializedVersion: 4
-  m_Mass: 7
+  m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -22194,6 +22230,33 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4645591741945584, guid: b258e1fb4c8ad2a4c921734d1c168565, type: 3}
   m_PrefabInstance: {fileID: 1165758670}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1170245212 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100012, guid: eb6d60a80ae6f4d459f6afc756595e40, type: 3}
+  m_PrefabInstance: {fileID: 703154806}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1170245216
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1170245212}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300012, guid: eb6d60a80ae6f4d459f6afc756595e40, type: 3}
 --- !u!1 &1173806470 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1294628679033046, guid: 65131a491e6f84745b442f5d300b7805, type: 3}
@@ -23016,7 +23079,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1194802322}
   serializedVersion: 4
-  m_Mass: 7
+  m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -26226,7 +26289,7 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1365129899}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 7c628f82b0963eb43a79a7de4227b145, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -30450,27 +30513,27 @@ MonoBehaviour:
   m_SmoothRotationAmount: 5
   m_TightenRotation: 0.5
   m_ThrowOnDetach: 1
-  m_ThrowSmoothingDuration: 3
+  m_ThrowSmoothingDuration: 5
   m_ThrowSmoothingCurve:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
+      time: 0.0083351135
+      value: 1.025238
+      inSlope: -0.025450166
+      outSlope: -0.025450166
       tangentMode: 34
       weightedMode: 0
       inWeight: 0
-      outWeight: 0
+      outWeight: 0.33333334
     - serializedVersion: 3
       time: 1
       value: 1
-      inSlope: 0
-      outSlope: 0
+      inSlope: -0.025450166
+      outSlope: -0.025450166
       tangentMode: 34
       weightedMode: 0
-      inWeight: 0
+      inWeight: 0.33333334
       outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
@@ -30491,8 +30554,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1552028287}
   serializedVersion: 4
-  m_Mass: 5
-  m_Drag: 0
+  m_Mass: 8
+  m_Drag: 0.01
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}

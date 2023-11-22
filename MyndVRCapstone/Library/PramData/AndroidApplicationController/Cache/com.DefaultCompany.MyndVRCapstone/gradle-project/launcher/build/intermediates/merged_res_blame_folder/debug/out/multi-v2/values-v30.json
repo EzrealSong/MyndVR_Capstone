@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\CSE485\\GitHub Project\\MyndVR_Capstone\\MyndVRCapstone\\Library\\PramData\\AndroidApplicationController\\Cache\\com.DefaultCompany.MyndVRCapstone\\gradle-project\\launcher\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v30\\values-v30.xml",
+            "outputFile": "E:\\CSE485\\GitHub Project\\MyndVR_Capstone\\MyndVR_Capstone\\MyndVRCapstone\\Library\\PramData\\AndroidApplicationController\\Cache\\com.DefaultCompany.MyndVRCapstone\\gradle-project\\launcher\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v30\\values-v30.xml",
             "map": [
                 {
-                    "source": "E:\\CSE485\\GitHub Project\\MyndVR_Capstone\\MyndVRCapstone\\Library\\PramData\\AndroidApplicationController\\Cache\\com.DefaultCompany.MyndVRCapstone\\gradle-project\\unityLibrary\\build\\intermediates\\packaged_res\\debug\\values-v30\\values-v30.xml",
+                    "source": "E:\\CSE485\\GitHub Project\\MyndVR_Capstone\\MyndVR_Capstone\\MyndVRCapstone\\Library\\PramData\\AndroidApplicationController\\Cache\\com.DefaultCompany.MyndVRCapstone\\gradle-project\\unityLibrary\\build\\intermediates\\packaged_res\\debug\\values-v30\\values-v30.xml",
                     "from": {
                         "startLines": "2,3,4,5,6",
                         "startColumns": "4,4,4,4,4",

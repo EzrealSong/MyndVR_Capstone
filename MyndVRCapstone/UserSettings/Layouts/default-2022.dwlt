@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 3440
     height: 1349
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Inspector
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -121,7 +121,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 24
+  controlID: 72
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -620,9 +620,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 5.443073, y: -1.8318825, z: 3.1899066}
+    m_Target: {x: 5.637021, y: -0.5014875, z: 5.9387636}
     speed: 2
-    m_Value: {x: 5.443073, y: -1.8318825, z: 3.1899066}
+    m_Value: {x: 5.637021, y: -0.5014875, z: 5.9387636}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -660,7 +660,7 @@ MonoBehaviour:
       m_Fade:
         m_Target: 0
         speed: 2
-        m_Value: 0
+        m_Value: 1
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
@@ -668,13 +668,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.021826267, y: 0.95157146, z: -0.29908133, w: 0.07061311}
+    m_Target: {x: 0.12481005, y: 0.8669028, z: -0.27267307, w: 0.39870915}
     speed: 2
-    m_Value: {x: 0.022718864, y: 0.95116496, z: -0.29895464, w: 0.0734528}
+    m_Value: {x: 0.12396559, y: 0.8679139, z: -0.27298927, w: 0.39602396}
   m_Size:
-    m_Target: 4.030795
+    m_Target: 1.6532049
     speed: 2
-    m_Value: 4.030795
+    m_Value: 1.7311046
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -692,7 +692,7 @@ MonoBehaviour:
     m_FarClip: 10000
     m_DynamicClip: 1
     m_OcclusionCulling: 0
-  m_LastSceneViewRotation: {x: -0.02452026, y: 0.70439976, z: -0.024263538, w: -0.7090576}
+  m_LastSceneViewRotation: {x: 0.0032880707, y: 0.99532276, z: -0.0883438, w: 0.043830838}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -836,9 +836,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 1062f9ffd862f9ffa475f9ff0e84f9fffe84f9ffdc85f9fffe86f9ff4eb3faff2024fcffe024fcffc837fcff0446fcfff446fcffd247fcfff048fcffbad6feff1ad8feffded8feffb822ffff663effff243fffff0852ffff9260ffff7e61ffff5862ffff7263ffffaaf6ffff20fbffff547e0000967e00001eb0000084bd0000c8be0000dec100002aff0000b20801000c0b0100ac0c0100
+      m_SelectedIDs: 485b0200
+      m_LastClickedID: 154440
+      m_ExpandedIDs: 80c4faff82c4fafff487fbffb488fbff809bfbffeaa9fbffdaaafbffb8abfbffd6acfbff4eaafcff0eabfcfff6bdfcff60ccfcff50cdfcff2ecefcff4ccffcff74cffdff9ad6fdff524a0100022102001c320200b85b0200
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -907,7 +907,7 @@ MonoBehaviour:
     m_SceneHandles: 
     m_ShowAllHits: 0
     m_SkipHidden: 0
-    m_SearchArea: 0
+    m_SearchArea: 1
     m_Folders:
     - Assets/Scenes
     m_Globs: []
@@ -919,14 +919,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Scenes
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVRCapstone
+  m_LastProjectPath: E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 427d0000
-    m_LastClickedID: 32066
-    m_ExpandedIDs: 00000000627c0000807d00008c7d0000f67e000000850000028500000485000000ca9a3bffffff7f
+    m_SelectedIDs: 28420000
+    m_LastClickedID: 16936
+    m_ExpandedIDs: 00000000c0410000f441000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -954,7 +954,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000627c0000
+    m_ExpandedIDs: 00000000c0410000f4410000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
