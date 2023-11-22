@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\CSE485\\GitHub Project\\MyndVR_Capstone\\MyndVRCapstone\\Library\\PramData\\AndroidApplicationController\\Cache\\com.DefaultCompany.MyndVRCapstone\\gradle-project\\launcher\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rHK\\values-zh-rHK.xml",
+            "outputFile": "E:\\CSE485\\GitHub Project\\MyndVR_Capstone\\MyndVR_Capstone\\MyndVRCapstone\\Library\\PramData\\AndroidApplicationController\\Cache\\com.DefaultCompany.MyndVRCapstone\\gradle-project\\launcher\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rHK\\values-zh-rHK.xml",
             "map": [
                 {
                     "source": "C:\\Users\\ssong56\\.gradle\\caches\\transforms-3\\e9657d53c591f3ab6a2b92c0b4afec62\\transformed\\wvr_permission_client\\res\\values-zh-rHK\\values-zh-rHK.xml",
