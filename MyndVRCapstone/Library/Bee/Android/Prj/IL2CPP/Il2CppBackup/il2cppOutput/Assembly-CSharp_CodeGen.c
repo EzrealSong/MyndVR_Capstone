@@ -45,6 +45,8 @@ extern void GameSetting_ResetButton_m6EEEEE972EB7F3BED4B27F20109BBE9C32466D63 (v
 extern void GameSetting_Start_m6AC64B57B652BEA1EF64C4922E008B34F3E34FE7 (void);
 extern void GameSetting_OnBrightnessSliderChanged_mB5817C43A471DF8669F9BACC2B7E78F81B555391 (void);
 extern void GameSetting__ctor_m7D12A802C58B1D15D5CFF99CDCF75628CAD64950 (void);
+extern void ExitMode_QuitBtn_mC2D51199865D71F5A6B4CD73CF5E7B5630DEF5C0 (void);
+extern void ExitMode__ctor_m9EBA740D5FB75B7EE23DB08F8BE2006AF3AAE1CA (void);
 extern void GameControler_Start_m618275EFFB19FC29D8A77F67E7F499A029D9E4C1 (void);
 extern void GameControler_Update_mA336F3F662823BB39CC1653726578EFCE453BA67 (void);
 extern void GameControler_OnCollisionEnter_mCEC0BFD309D5996E4424C977A97C7BD67447D580 (void);
@@ -340,7 +342,7 @@ extern void U3CWarpTextU3Ed__8_MoveNext_mCE7A826C5E4854C2C509C77BD18F5A9B6D691B0
 extern void U3CWarpTextU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD80368E9B7E259311C03E406B75161ED6F7618E3 (void);
 extern void U3CWarpTextU3Ed__8_System_Collections_IEnumerator_Reset_m07746C332D2D8CE5DEA59873C26F2FAD4B369B42 (void);
 extern void U3CWarpTextU3Ed__8_System_Collections_IEnumerator_get_Current_m71D7F84D9DEF63BEC6B44866515DDCF35B142A19 (void);
-static Il2CppMethodPointer s_methodPointers[328] = 
+static Il2CppMethodPointer s_methodPointers[330] = 
 {
 	BowlingScoreManager_StartNewGame_mE3E81B3E874B1899A2314EDB38439DE4F68D340F,
 	BowlingScoreManager_CalculateScoreForTurn_mD8BDC91028EEF5AB1DA19BF3A509C1177B259D93,
@@ -375,6 +377,8 @@ static Il2CppMethodPointer s_methodPointers[328] =
 	GameSetting_Start_m6AC64B57B652BEA1EF64C4922E008B34F3E34FE7,
 	GameSetting_OnBrightnessSliderChanged_mB5817C43A471DF8669F9BACC2B7E78F81B555391,
 	GameSetting__ctor_m7D12A802C58B1D15D5CFF99CDCF75628CAD64950,
+	ExitMode_QuitBtn_mC2D51199865D71F5A6B4CD73CF5E7B5630DEF5C0,
+	ExitMode__ctor_m9EBA740D5FB75B7EE23DB08F8BE2006AF3AAE1CA,
 	GameControler_Start_m618275EFFB19FC29D8A77F67E7F499A029D9E4C1,
 	GameControler_Update_mA336F3F662823BB39CC1653726578EFCE453BA67,
 	GameControler_OnCollisionEnter_mCEC0BFD309D5996E4424C977A97C7BD67447D580,
@@ -671,7 +675,7 @@ static Il2CppMethodPointer s_methodPointers[328] =
 	U3CWarpTextU3Ed__8_System_Collections_IEnumerator_Reset_m07746C332D2D8CE5DEA59873C26F2FAD4B369B42,
 	U3CWarpTextU3Ed__8_System_Collections_IEnumerator_get_Current_m71D7F84D9DEF63BEC6B44866515DDCF35B142A19,
 };
-static const int32_t s_InvokerIndices[328] = 
+static const int32_t s_InvokerIndices[330] = 
 {
 	6511,
 	6472,
@@ -705,6 +709,8 @@ static const int32_t s_InvokerIndices[328] =
 	8337,
 	8337,
 	6568,
+	8337,
+	8337,
 	8337,
 	8337,
 	8337,
@@ -1006,7 +1012,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	328,
+	330,
 	s_methodPointers,
 	0,
 	NULL,

@@ -408,6 +408,7 @@
 "Assets/FarlandSkies/Demo/Scripts/Skybox/SkyboxRotator.cs"
 "Assets/GameMenuScripts/GameMenuManager.cs"
 "Assets/GameMenuScripts/GameSetting.cs"
+"Assets/Script_file/ExitMode.cs"
 "Assets/Script_file/GameControler.cs"
 "Assets/Script_file/GameData.cs"
 "Assets/Script_file/Login.cs"
