@@ -36,341 +36,215 @@
 21-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:7:81-105
 22
 23    <uses-permission android:name="org.khronos.openxr.permission.OPENXR" />
-23-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:59:3-74
-23-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:59:20-71
+23-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:41:3-74
+23-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:41:20-71
 24    <uses-permission android:name="org.khronos.openxr.permission.OPENXR_SYSTEM" />
-24-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:60:3-81
-24-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:60:20-78
+24-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:42:3-81
+24-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:42:20-78
 25    <uses-permission android:name="org.khronos.openxr.permission.OPENXR" />
-25-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:59:3-74
-25-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:59:20-71
+25-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:41:3-74
+25-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:41:20-71
 26    <uses-permission android:name="org.khronos.openxr.permission.OPENXR_SYSTEM" />
-26-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:60:3-81
-26-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:60:20-78
+26-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:42:3-81
+26-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:42:20-78
 27    <uses-permission android:name="org.khronos.openxr.permission.OPENXR" />
-27-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:59:3-74
-27-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:59:20-71
+27-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:41:3-74
+27-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:41:20-71
 28    <uses-permission android:name="org.khronos.openxr.permission.OPENXR_SYSTEM" />
-28-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:60:3-81
-28-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:60:20-78
+28-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:42:3-81
+28-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:42:20-78
 29    <uses-permission android:name="org.khronos.openxr.permission.OPENXR" />
-29-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:59:3-74
-29-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:59:20-71
+29-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:41:3-74
+29-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:41:20-71
 30    <uses-permission android:name="org.khronos.openxr.permission.OPENXR_SYSTEM" />
-30-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:60:3-81
-30-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:60:20-78
+30-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:42:3-81
+30-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:42:20-78
 31    <uses-permission android:name="org.khronos.openxr.permission.OPENXR" />
-31-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:59:3-74
-31-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:59:20-71
+31-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:41:3-74
+31-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:41:20-71
 32    <uses-permission android:name="org.khronos.openxr.permission.OPENXR_SYSTEM" />
-32-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:60:3-81
-32-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:60:20-78
-33    <uses-permission android:name="org.khronos.openxr.permission.OPENXR" />
-33-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:59:3-74
-33-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:59:20-71
-34    <uses-permission android:name="org.khronos.openxr.permission.OPENXR_SYSTEM" />
-34-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:60:3-81
-34-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:60:20-78
-35    <uses-permission android:name="org.khronos.openxr.permission.OPENXR" />
-35-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:59:3-74
-35-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:59:20-71
-36    <uses-permission android:name="org.khronos.openxr.permission.OPENXR_SYSTEM" />
-36-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:60:3-81
-36-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:60:20-78
-37    <uses-permission android:name="org.khronos.openxr.permission.OPENXR" />
-37-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:59:3-74
-37-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:59:20-71
-38    <uses-permission android:name="org.khronos.openxr.permission.OPENXR_SYSTEM" />
-38-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:60:3-81
-38-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:60:20-78
-39    <uses-permission android:name="org.khronos.openxr.permission.OPENXR" />
-39-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:59:3-74
-39-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:59:20-71
-40    <uses-permission android:name="org.khronos.openxr.permission.OPENXR_SYSTEM" />
-40-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:60:3-81
-40-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:60:20-78
-41    <uses-permission android:name="org.khronos.openxr.permission.OPENXR" />
-41-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:59:3-74
-41-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:59:20-71
-42    <uses-permission android:name="org.khronos.openxr.permission.OPENXR_SYSTEM" />
-42-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:60:3-81
-42-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:60:20-78
-43    <uses-permission android:name="org.khronos.openxr.permission.OPENXR" />
-43-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:59:3-74
-43-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:59:20-71
-44    <uses-permission android:name="org.khronos.openxr.permission.OPENXR_SYSTEM" />
-44-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:60:3-81
-44-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:60:20-78
-45
-46    <application
-46-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:8:3-58:17
-47        android:extractNativeLibs="true"
-47-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:8:153-185
-48        android:icon="@mipmap/app_icon"
-48-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:8:16-47
-49        android:label="@string/app_name"
-49-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:8:48-80
-50        android:theme="@style/Theme.WaveVR.Black"
-50-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:8:81-122
-51        tools:replace="android:theme" >
-51-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:8:123-152
+32-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:42:3-81
+32-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:42:20-78
+33
+34    <application
+34-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:8:3-40:17
+35        android:extractNativeLibs="true"
+35-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:8:153-185
+36        android:icon="@mipmap/app_icon"
+36-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:8:16-47
+37        android:label="@string/app_name"
+37-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:8:48-80
+38        android:theme="@style/Theme.WaveVR.Black"
+38-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:8:81-122
+39        tools:replace="android:theme" >
+39-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:8:123-152
+40        <meta-data
+40-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:9:5-69
+41            android:name="unity.splash-mode"
+41-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:9:16-48
+42            android:value="0" />
+42-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:9:49-66
+43        <meta-data
+43-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:10:5-74
+44            android:name="unity.splash-enable"
+44-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:10:16-50
+45            android:value="True" />
+45-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:10:51-71
+46        <meta-data
+46-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:11:5-78
+47            android:name="unity.launch-fullscreen"
+47-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:11:16-54
+48            android:value="True" />
+48-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:11:55-75
+49        <meta-data
+49-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:12:5-84
+50            android:name="unity.allow-resizable-window"
+50-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:12:16-59
+51            android:value="False" />
+51-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:12:60-81
 52        <meta-data
-52-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:9:5-69
-53            android:name="unity.splash-mode"
-53-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:9:16-48
-54            android:value="0" />
-54-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:9:49-66
+52-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:13:5-81
+53            android:name="notch.config"
+53-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:13:16-43
+54            android:value="portrait|landscape" />
+54-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:13:44-78
 55        <meta-data
-55-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:10:5-74
-56            android:name="unity.splash-enable"
-56-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:10:16-50
-57            android:value="True" />
-57-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:10:51-71
-58        <meta-data
-58-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:11:5-78
-59            android:name="unity.launch-fullscreen"
-59-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:11:16-54
-60            android:value="True" />
-60-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:11:55-75
-61        <meta-data
-61-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:12:5-84
-62            android:name="unity.allow-resizable-window"
-62-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:12:16-59
-63            android:value="False" />
-63-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:12:60-81
-64        <meta-data
-64-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:13:5-81
-65            android:name="notch.config"
-65-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:13:16-43
-66            android:value="portrait|landscape" />
-66-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:13:44-78
-67        <meta-data
-67-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:14:5-84
-68            android:name="unity.auto-report-fully-drawn"
-68-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:14:16-60
-69            android:value="true" />
-69-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:14:61-81
-70
-71        <activity
-71-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:15:5-35:16
-72            android:name="com.htc.vr.unity.WVRUnityVRActivity"
-72-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:15:15-65
-73            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
-73-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:15:99-280
-74            android:enableVrMode="@string/wvr_vr_mode_component"
-74-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:15:281-333
-75            android:exported="true"
-75-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:15:475-498
-76            android:hardwareAccelerated="false"
-76-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:15:439-474
-77            android:label="@string/app_name"
-77-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:15:66-98
-78            android:launchMode="singleTask"
-78-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:15:372-403
-79            android:resizeableActivity="false"
-79-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:15:404-438
-80            android:screenOrientation="landscape" >
-80-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:15:334-371
-81            <intent-filter>
-81-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:16:7-31:23
-82                <category android:name="android.intent.category.LAUNCHER" />
-82-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:17:9-69
-82-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:17:19-66
-83                <category android:name="com.htc.intent.category.VRAPP" />
-83-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:18:9-66
-83-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:18:19-63
-84
-85                <action android:name="android.intent.action.MAIN" />
-85-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:19:9-61
-85-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:19:17-58
-86
-87                <category android:name="org.khronos.openxr.intent.category.IMMERSIVE_HMD" />
-87-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:20:9-85
-87-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:20:19-82
-88                <category android:name="org.khronos.openxr.intent.category.IMMERSIVE_HMD" />
-88-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:20:9-85
-88-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:20:19-82
-89                <category android:name="org.khronos.openxr.intent.category.IMMERSIVE_HMD" />
-89-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:20:9-85
-89-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:20:19-82
-90                <category android:name="org.khronos.openxr.intent.category.IMMERSIVE_HMD" />
-90-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:20:9-85
-90-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:20:19-82
-91                <category android:name="org.khronos.openxr.intent.category.IMMERSIVE_HMD" />
-91-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:20:9-85
-91-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:20:19-82
-92                <category android:name="org.khronos.openxr.intent.category.IMMERSIVE_HMD" />
-92-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:20:9-85
-92-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:20:19-82
-93                <category android:name="org.khronos.openxr.intent.category.IMMERSIVE_HMD" />
-93-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:20:9-85
-93-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:20:19-82
-94                <category android:name="org.khronos.openxr.intent.category.IMMERSIVE_HMD" />
-94-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:20:9-85
-94-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:20:19-82
-95                <category android:name="org.khronos.openxr.intent.category.IMMERSIVE_HMD" />
-95-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:20:9-85
-95-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:20:19-82
-96                <category android:name="org.khronos.openxr.intent.category.IMMERSIVE_HMD" />
-96-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:20:9-85
-96-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:20:19-82
-97                <category android:name="org.khronos.openxr.intent.category.IMMERSIVE_HMD" />
-97-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:20:9-85
-97-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:20:19-82
-98            </intent-filter>
-99
-100            <meta-data
-100-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:32:7-82
-101                android:name="unityplayer.UnityActivity"
-101-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:32:18-58
-102                android:value="true" />
-102-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:32:59-79
-103            <meta-data
-103-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:33:7-90
-104                android:name="unityplayer.SkipPermissionsDialog"
-104-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:33:18-66
-105                android:value="true" />
-105-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:33:67-87
-106            <meta-data
-106-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:34:7-70
-107                android:name="notch_support"
-107-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:34:18-46
-108                android:value="true" />
-108-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:34:47-67
-109        </activity>
-110
+55-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:14:5-84
+56            android:name="unity.auto-report-fully-drawn"
+56-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:14:16-60
+57            android:value="true" />
+57-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:14:61-81
+58
+59        <activity
+59-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:15:5-29:16
+60            android:name="com.htc.vr.unity.WVRUnityVRActivity"
+60-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:15:15-65
+61            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+61-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:15:99-280
+62            android:enableVrMode="@string/wvr_vr_mode_component"
+62-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:15:281-333
+63            android:exported="true"
+63-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:15:475-498
+64            android:hardwareAccelerated="false"
+64-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:15:439-474
+65            android:label="@string/app_name"
+65-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:15:66-98
+66            android:launchMode="singleTask"
+66-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:15:372-403
+67            android:resizeableActivity="false"
+67-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:15:404-438
+68            android:screenOrientation="landscape" >
+68-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:15:334-371
+69            <intent-filter>
+69-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:16:7-25:23
+70                <category android:name="android.intent.category.LAUNCHER" />
+70-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:17:9-69
+70-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:17:19-66
+71                <category android:name="com.htc.intent.category.VRAPP" />
+71-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:18:9-66
+71-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:18:19-63
+72
+73                <action android:name="android.intent.action.MAIN" />
+73-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:19:9-61
+73-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:19:17-58
+74
+75                <category android:name="org.khronos.openxr.intent.category.IMMERSIVE_HMD" />
+75-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:20:9-85
+75-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:20:19-82
+76                <category android:name="org.khronos.openxr.intent.category.IMMERSIVE_HMD" />
+76-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:20:9-85
+76-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:20:19-82
+77                <category android:name="org.khronos.openxr.intent.category.IMMERSIVE_HMD" />
+77-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:20:9-85
+77-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:20:19-82
+78                <category android:name="org.khronos.openxr.intent.category.IMMERSIVE_HMD" />
+78-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:20:9-85
+78-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:20:19-82
+79                <category android:name="org.khronos.openxr.intent.category.IMMERSIVE_HMD" />
+79-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:20:9-85
+79-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:20:19-82
+80            </intent-filter>
+81
+82            <meta-data
+82-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:26:7-82
+83                android:name="unityplayer.UnityActivity"
+83-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:26:18-58
+84                android:value="true" />
+84-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:26:59-79
+85            <meta-data
+85-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:27:7-90
+86                android:name="unityplayer.SkipPermissionsDialog"
+86-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:27:18-66
+87                android:value="true" />
+87-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:27:67-87
+88            <meta-data
+88-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:28:7-70
+89                android:name="notch_support"
+89-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:28:18-46
+90                android:value="true" />
+90-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:28:47-67
+91        </activity>
+92
+93        <meta-data
+93-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:30:5-94
+94            android:name="com.htc.ViveWaveAndroid.SdkVersion"
+94-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:30:16-65
+95            android:value="5.3.1-r.2" />
+95-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:30:66-91
+96        <meta-data
+96-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:31:5-92
+97            android:name="com.htc.vr.content.UnityVersion"
+97-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:31:16-62
+98            android:value="2022.3.0f1" />
+98-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:31:63-89
+99        <meta-data
+99-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:30:5-94
+100            android:name="com.htc.ViveWaveAndroid.SdkVersion"
+100-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:30:16-65
+101            android:value="5.3.1-r.2" />
+101-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:30:66-91
+102        <meta-data
+102-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:31:5-92
+103            android:name="com.htc.vr.content.UnityVersion"
+103-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:31:16-62
+104            android:value="2022.3.0f1" />
+104-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:31:63-89
+105        <meta-data
+105-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:30:5-94
+106            android:name="com.htc.ViveWaveAndroid.SdkVersion"
+106-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:30:16-65
+107            android:value="5.3.1-r.2" />
+107-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:30:66-91
+108        <meta-data
+108-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:31:5-92
+109            android:name="com.htc.vr.content.UnityVersion"
+109-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:31:16-62
+110            android:value="2022.3.0f1" />
+110-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:31:63-89
 111        <meta-data
-111-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:36:5-94
+111-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:30:5-94
 112            android:name="com.htc.ViveWaveAndroid.SdkVersion"
-112-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:36:16-65
+112-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:30:16-65
 113            android:value="5.3.1-r.2" />
-113-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:36:66-91
+113-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:30:66-91
 114        <meta-data
-114-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:37:5-92
+114-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:31:5-92
 115            android:name="com.htc.vr.content.UnityVersion"
-115-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:37:16-62
+115-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:31:16-62
 116            android:value="2022.3.0f1" />
-116-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:37:63-89
+116-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:31:63-89
 117        <meta-data
-117-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:36:5-94
+117-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:30:5-94
 118            android:name="com.htc.ViveWaveAndroid.SdkVersion"
-118-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:36:16-65
+118-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:30:16-65
 119            android:value="5.3.1-r.2" />
-119-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:36:66-91
+119-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:30:66-91
 120        <meta-data
-120-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:37:5-92
+120-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:31:5-92
 121            android:name="com.htc.vr.content.UnityVersion"
-121-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:37:16-62
+121-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:31:16-62
 122            android:value="2022.3.0f1" />
-122-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:37:63-89
-123        <meta-data
-123-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:36:5-94
-124            android:name="com.htc.ViveWaveAndroid.SdkVersion"
-124-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:36:16-65
-125            android:value="5.3.1-r.2" />
-125-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:36:66-91
-126        <meta-data
-126-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:37:5-92
-127            android:name="com.htc.vr.content.UnityVersion"
-127-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:37:16-62
-128            android:value="2022.3.0f1" />
-128-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:37:63-89
-129        <meta-data
-129-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:36:5-94
-130            android:name="com.htc.ViveWaveAndroid.SdkVersion"
-130-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:36:16-65
-131            android:value="5.3.1-r.2" />
-131-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:36:66-91
-132        <meta-data
-132-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:37:5-92
-133            android:name="com.htc.vr.content.UnityVersion"
-133-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:37:16-62
-134            android:value="2022.3.0f1" />
-134-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:37:63-89
-135        <meta-data
-135-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:36:5-94
-136            android:name="com.htc.ViveWaveAndroid.SdkVersion"
-136-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:36:16-65
-137            android:value="5.3.1-r.2" />
-137-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:36:66-91
-138        <meta-data
-138-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:37:5-92
-139            android:name="com.htc.vr.content.UnityVersion"
-139-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:37:16-62
-140            android:value="2022.3.0f1" />
-140-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:37:63-89
-141        <meta-data
-141-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:36:5-94
-142            android:name="com.htc.ViveWaveAndroid.SdkVersion"
-142-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:36:16-65
-143            android:value="5.3.1-r.2" />
-143-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:36:66-91
-144        <meta-data
-144-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:37:5-92
-145            android:name="com.htc.vr.content.UnityVersion"
-145-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:37:16-62
-146            android:value="2022.3.0f1" />
-146-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:37:63-89
-147        <meta-data
-147-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:36:5-94
-148            android:name="com.htc.ViveWaveAndroid.SdkVersion"
-148-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:36:16-65
-149            android:value="5.3.1-r.2" />
-149-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:36:66-91
-150        <meta-data
-150-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:37:5-92
-151            android:name="com.htc.vr.content.UnityVersion"
-151-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:37:16-62
-152            android:value="2022.3.0f1" />
-152-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:37:63-89
-153        <meta-data
-153-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:36:5-94
-154            android:name="com.htc.ViveWaveAndroid.SdkVersion"
-154-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:36:16-65
-155            android:value="5.3.1-r.2" />
-155-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:36:66-91
-156        <meta-data
-156-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:37:5-92
-157            android:name="com.htc.vr.content.UnityVersion"
-157-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:37:16-62
-158            android:value="2022.3.0f1" />
-158-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:37:63-89
-159        <meta-data
-159-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:36:5-94
-160            android:name="com.htc.ViveWaveAndroid.SdkVersion"
-160-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:36:16-65
-161            android:value="5.3.1-r.2" />
-161-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:36:66-91
-162        <meta-data
-162-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:37:5-92
-163            android:name="com.htc.vr.content.UnityVersion"
-163-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:37:16-62
-164            android:value="2022.3.0f1" />
-164-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:37:63-89
-165        <meta-data
-165-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:36:5-94
-166            android:name="com.htc.ViveWaveAndroid.SdkVersion"
-166-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:36:16-65
-167            android:value="5.3.1-r.2" />
-167-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:36:66-91
-168        <meta-data
-168-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:37:5-92
-169            android:name="com.htc.vr.content.UnityVersion"
-169-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:37:16-62
-170            android:value="2022.3.0f1" />
-170-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:37:63-89
-171        <meta-data
-171-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:36:5-94
-172            android:name="com.htc.ViveWaveAndroid.SdkVersion"
-172-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:36:16-65
-173            android:value="5.3.1-r.2" />
-173-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:36:66-91
-174        <meta-data
-174-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:37:5-92
-175            android:name="com.htc.vr.content.UnityVersion"
-175-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:37:16-62
-176            android:value="2022.3.0f1" />
-176-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:37:63-89
-177    </application>
-178
-179</manifest>
+122-->E:\CSE485\GitHub Project\MyndVR_Capstone\MyndVR_Capstone\MyndVRCapstone\Library\PramData\AndroidApplicationController\Cache\com.DefaultCompany.MyndVRCapstone\gradle-project\unityLibrary\src\main\AndroidManifest.xml:31:63-89
+123    </application>
+124
+125</manifest>
