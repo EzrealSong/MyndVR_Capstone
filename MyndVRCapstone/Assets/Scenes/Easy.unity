@@ -34150,7 +34150,7 @@ GameObject:
   - component: {fileID: 1747803721}
   - component: {fileID: 1747803720}
   m_Layer: 5
-  m_Name: PickupBall_Notice
+  m_Name: PickupBall_Notice.txt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34659,7 +34659,7 @@ GameObject:
   - component: {fileID: 1781968245}
   - component: {fileID: 1781968244}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Count.txt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

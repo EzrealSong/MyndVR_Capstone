@@ -1712,18 +1712,6 @@
       "DebugActionIndex": 12
     },
     {
-      "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/wvr_unity_plugin_2022.aar",
-      "DisplayName": "Copying wvr_unity_plugin_2022.aar",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Assets/Plugins/Android/wvr_unity_plugin_2022.aar"
-      ],
-      "Outputs": [
-        "E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/wvr_unity_plugin_2022.aar"
-      ],
-      "DebugActionIndex": 13
-    },
-    {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/AndroidManifest.xml",
       "DisplayName": "Copying AndroidManifest.xml",
       "ActionType": "CopyFiles",
@@ -1732,6 +1720,18 @@
       ],
       "Outputs": [
         "E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/xrmanifest.androidlib/AndroidManifest.xml"
+      ],
+      "DebugActionIndex": 13
+    },
+    {
+      "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/wvr_unity_plugin_2022.aar",
+      "DisplayName": "Copying wvr_unity_plugin_2022.aar",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/Plugins/Android/wvr_unity_plugin_2022.aar"
+      ],
+      "Outputs": [
+        "E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/wvr_unity_plugin_2022.aar"
       ],
       "DebugActionIndex": 14
     },

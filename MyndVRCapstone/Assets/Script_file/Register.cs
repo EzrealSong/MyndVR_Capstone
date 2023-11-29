@@ -24,17 +24,17 @@ public class UserCredentials
 
 public class Register : MonoBehaviour
 {
-    public InputField usernameInput;
-    public InputField passwordInput;
-    public InputField nameInput;
-    public InputField heightInput;
-    public InputField GenderInput;
+    public TMP_InputField usernameInput;
+    public TMP_InputField passwordInput;
+    public TMP_InputField nameInput;
+    public TMP_InputField heightInput;
+    public TMP_InputField GenderInput;
     public Toggle toggleInput;
     public Button registerButton;
     public Button goToLoginButton;
     bool anyInputEmpty = true;
     public TMP_Text errorText;
-    public InputField[] inputFields;
+    public TMP_InputField[] inputFields;
 
     // The list to store all user credentials
     List<UserCredentials> allCredentials;
