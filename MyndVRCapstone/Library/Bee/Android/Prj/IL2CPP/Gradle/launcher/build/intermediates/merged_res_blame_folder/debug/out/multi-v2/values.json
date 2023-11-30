@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\CSE485\\GitHub Project\\MyndVR_Capstone\\MyndVRCapstone\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "E:\\CSE485\\GitHub Project\\MyndVR_Capstone\\MyndVR_Capstone\\MyndVRCapstone\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
-                    "source": "E:\\CSE485\\GitHub Project\\MyndVR_Capstone\\MyndVRCapstone\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\build\\intermediates\\packaged_res\\debug\\values\\values.xml",
+                    "source": "E:\\CSE485\\GitHub Project\\MyndVR_Capstone\\MyndVR_Capstone\\MyndVRCapstone\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\unityLibrary\\build\\intermediates\\packaged_res\\debug\\values\\values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,10,13",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
@@ -59,7 +59,7 @@
                     }
                 },
                 {
-                    "source": "E:\\CSE485\\GitHub Project\\MyndVR_Capstone\\MyndVRCapstone\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\src\\main\\res\\values\\strings.xml",
+                    "source": "E:\\CSE485\\GitHub Project\\MyndVR_Capstone\\MyndVR_Capstone\\MyndVRCapstone\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\src\\main\\res\\values\\strings.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "2,2",

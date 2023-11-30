@@ -869,6 +869,7 @@
           {
             "name": "PhysicMaterial",
             "scenes": [
+              "Assets/Scenes/Drill.unity",
               "Assets/Scenes/Easy.unity"
             ],
             "dependencyType": 0,

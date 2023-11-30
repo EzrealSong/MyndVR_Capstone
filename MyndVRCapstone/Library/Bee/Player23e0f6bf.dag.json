@@ -1203,8 +1203,7 @@
         1195,
         1196,
         1197,
-        1198,
-        1199
+        1198
       ],
       "OverwriteOutputs": false,
       "DebugActionIndex": 0
@@ -1724,18 +1723,6 @@
       "DebugActionIndex": 13
     },
     {
-      "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/wvr_unity_plugin_2022.aar",
-      "DisplayName": "Copying wvr_unity_plugin_2022.aar",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Assets/Plugins/Android/wvr_unity_plugin_2022.aar"
-      ],
-      "Outputs": [
-        "E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/wvr_unity_plugin_2022.aar"
-      ],
-      "DebugActionIndex": 14
-    },
-    {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libwaveopenxr.so",
       "DisplayName": "Copying libwaveopenxr.so",
       "ActionType": "CopyFiles",
@@ -1745,7 +1732,7 @@
       "Outputs": [
         "E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/jniLibs/arm64-v8a/libwaveopenxr.so"
       ],
-      "DebugActionIndex": 15
+      "DebugActionIndex": 14
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/wvr.common.utils.aar",
@@ -1757,7 +1744,7 @@
       "Outputs": [
         "E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/wvr.common.utils.aar"
       ],
-      "DebugActionIndex": 16
+      "DebugActionIndex": 15
     },
     {
       "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/wvr_client.aar",
@@ -1768,6 +1755,18 @@
       ],
       "Outputs": [
         "E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/wvr_client.aar"
+      ],
+      "DebugActionIndex": 16
+    },
+    {
+      "Annotation": "CopyFiles E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/wvr_unity_plugin_2022.aar",
+      "DisplayName": "Copying wvr_unity_plugin_2022.aar",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Assets/Plugins/Android/wvr_unity_plugin_2022.aar"
+      ],
+      "Outputs": [
+        "E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/libs/wvr_unity_plugin_2022.aar"
       ],
       "DebugActionIndex": 17
     },
@@ -27419,30 +27418,17 @@
       "DebugActionIndex": 1194
     },
     {
-      "Annotation": "WriteText E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/pram-shadow-files",
-      "DisplayName": "Writing pram-shadow-files",
-      "ActionType": "WriteFile",
-      "PayloadOffset": 284836,
-      "PayloadLength": 209,
-      "PayloadDebugContentSnippet": "unityLibrary/src/main/assets/b",
-      "Inputs": [],
-      "Outputs": [
-        "E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/pram-shadow-files"
-      ],
-      "DebugActionIndex": 1195
-    },
-    {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/unity_app_guid_lpvg.info",
       "DisplayName": "Writing unity_app_guid_lpvg.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 285137,
+      "PayloadOffset": 284769,
       "PayloadLength": 1397,
       "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/unity_app_guid_lpvg.info"
       ],
-      "DebugActionIndex": 1196
+      "DebugActionIndex": 1195
     },
     {
       "Annotation": "GuidGenerator E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/assets/bin/Data/unity_app_guid",
@@ -27476,25 +27462,25 @@
       "ToBuildDependencies": [
         7,
         144,
-        1196
+        1195
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 1197
+      "DebugActionIndex": 1196
     },
     {
       "Annotation": "WriteText E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/resources/META-INF/com.android.games.engine.build_fingerprint",
       "DisplayName": "Writing com.android.games.engine.build_fingerprint",
       "ActionType": "WriteFile",
-      "PayloadOffset": 286759,
+      "PayloadOffset": 286391,
       "PayloadLength": 71,
       "PayloadDebugContentSnippet": "2022.3.0f1;IL2CPP;Development;",
       "Inputs": [],
       "Outputs": [
         "E:/CSE485/GitHub Project/MyndVR_Capstone/MyndVR_Capstone/MyndVRCapstone/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/src/main/resources/META-INF/com.android.games.engine.build_fingerprint"
       ],
-      "DebugActionIndex": 1198
+      "DebugActionIndex": 1197
     },
     {
       "Annotation": "Player",
@@ -28070,12 +28056,11 @@
         1192,
         1193,
         1194,
-        1195,
-        1197,
-        1198
+        1196,
+        1197
       ],
       "OverwriteOutputs": false,
-      "DebugActionIndex": 1199
+      "DebugActionIndex": 1198
     }
   ],
   "FileSignatures": [
@@ -28649,7 +28634,7 @@
         "NamedNodes": {
           "all_tundra_nodes": 0,
           "SourceBuildPlayerFiles": 1178,
-          "Player": 1199
+          "Player": 1198
         }
 ,  "DefaultNodes": [
     0

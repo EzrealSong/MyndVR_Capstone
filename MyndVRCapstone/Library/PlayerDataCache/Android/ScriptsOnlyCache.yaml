@@ -256,14 +256,8 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteGlyph
     - TMPro.TMP_Style
     - TMPro.VertexGradient
-    Unity.XR.CoreUtils:
-    - Unity.XR.CoreUtils.ColorUnityEvent
-    - Unity.XR.CoreUtils.Datums.AnimationCurveDatumProperty
     Unity.XR.Interaction.Toolkit:
     - UnityEngine.XR.Interaction.Toolkit.ActivateEvent
-    - UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.Theme.AffordanceThemeData`1[UnityEngine.Color]
-    - UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.Theme.Primitives.ColorAffordanceTheme
-    - UnityEngine.XR.Interaction.Toolkit.AffordanceSystem.Theme.Primitives.ColorAffordanceThemeDatumProperty
     - UnityEngine.XR.Interaction.Toolkit.DeactivateEvent
     - UnityEngine.XR.Interaction.Toolkit.HoverEnterEvent
     - UnityEngine.XR.Interaction.Toolkit.HoverExitEvent
@@ -461,6 +455,21 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: OnClickSFX
     methodName: playThisSound
+  - assembly: Assembly-CSharp
+    fullTypeName: OnClickSFX
+    methodName: playThisSound
+  - assembly: Assembly-CSharp
+    fullTypeName: OnClickSFX
+    methodName: playThisSound
+  - assembly: Assembly-CSharp
+    fullTypeName: OnClickSFX
+    methodName: playThisSound
+  - assembly: Assembly-CSharp
+    fullTypeName: OnClickSFX
+    methodName: playThisSound
+  - assembly: Assembly-CSharp
+    fullTypeName: OnClickSFX
+    methodName: playThisSound
   sceneClasses:
     Assets/Scenes/Drill.unity:
     - Class: 1
@@ -520,15 +529,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 16896}
     - Class: 114
-      Script: {instanceID: 17436}
-    - Class: 114
       Script: {instanceID: 19010}
     - Class: 114
       Script: {instanceID: 19046}
     - Class: 114
       Script: {instanceID: 20224}
-    - Class: 114
-      Script: {instanceID: 20958}
     - Class: 114
       Script: {instanceID: 20998}
     - Class: 114
@@ -574,16 +579,14 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 27088}
     - Class: 114
-      Script: {instanceID: 27732}
-    - Class: 114
       Script: {instanceID: 28574}
     - Class: 114
-      Script: {instanceID: 28848}
-    - Class: 114
-      Script: {instanceID: 55414}
+      Script: {instanceID: 48166}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
+      Script: {instanceID: 0}
+    - Class: 134
       Script: {instanceID: 0}
     - Class: 135
       Script: {instanceID: 0}
@@ -3987,4 +3990,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Game Menu.unity
   - Assets/Scenes/Easy.unity
   - Assets/Scenes/Drill.unity
-  playerPath: C:/Users/ssong56/Desktop/MyndVR/BowlingTest.apk
+  playerPath: C:/Users/ssong56/Desktop/MyndVR/BowlingGame_0.5.1.3.apk
