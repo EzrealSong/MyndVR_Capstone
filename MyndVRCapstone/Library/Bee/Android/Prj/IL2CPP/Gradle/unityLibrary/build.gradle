@@ -4,9 +4,9 @@ apply plugin: 'com.android.library'
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation(name: 'wvr_ime_client', ext:'aar')
+    implementation(name: 'wvr_unity_plugin_2022', ext:'aar')
     implementation(name: 'wvr.common.utils', ext:'aar')
     implementation(name: 'wvr_client', ext:'aar')
-    implementation(name: 'wvr_unity_plugin_2022', ext:'aar')
     implementation(name: 'vr.client.abi', ext:'aar')
     implementation(name: 'wvr_permission_client', ext:'aar')
     implementation project('xrmanifest.androidlib')
